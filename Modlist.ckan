@@ -1,0 +1,369 @@
+{
+    "spec_version": "v1.18",
+    "identifier": "RP-1-NathanKell-1-10-3",
+    "name": "NathanKell's RP-1 modset",
+    "abstract": "My set of installed mods for playing RP-1, with the exception of Conformal Decals (which must be installed manually from the forums) and the Kerbal Konstructs setup (which takes manual work to set up).",
+    "author": [
+        "NathanKell"
+    ],
+    "version": "2021.07.14.09.15.34",
+    "ksp_version_min": "1.10.1",
+    "ksp_version_max": "1.10.1",
+    "license": [
+        "CC-BY-NC-SA-4.0"
+    ],
+    "depends": [
+        {
+            "name": "AtmosphereAutopilot",
+            "version": "v1.5.16"
+        },
+        {
+            "name": "B9-PWings-Fork",
+            "version": "3:0.43.0.9"
+        },
+        {
+            "name": "DeadlyReentry",
+            "version": "v8.0.0"
+        },
+        {
+            "name": "DistantObject",
+            "version": "v2.0.1.1"
+        },
+        {
+            "name": "EditorExtensionsRedux",
+            "version": "3.4.2"
+        },
+        {
+            "name": "HangerExtenderExtended",
+            "version": "3.6.0"
+        },
+        {
+            "name": "KerbalAlarmClock",
+            "version": "v3.13.0.0"
+        },
+        {
+            "name": "KSCSwitcher",
+            "version": "v2.0.0.0"
+        },
+        {
+            "name": "KSPWheel",
+            "version": "1:0.16.14.33"
+        },
+        {
+            "name": "Milkyway-Skybox-SpaceEngine",
+            "version": "1.0"
+        },
+        {
+            "name": "ModularLaunchPads",
+            "version": "2.2.0.b"
+        },
+        {
+            "name": "NearFutureExploration",
+            "version": "1.1.1"
+        },
+        {
+            "name": "NearFutureSolar",
+            "version": "1.3.1"
+        },
+        {
+            "name": "PlanetShine",
+            "version": "0.2.6.3"
+        },
+        {
+            "name": "ProceduralFairings",
+            "version": "1:v6.0.1"
+        },
+        {
+            "name": "ProceduralParts",
+            "version": "v2.1.2"
+        },
+        {
+            "name": "ProceduralParts-Textures-SaturnNova",
+            "version": "1.2"
+        },
+        {
+            "name": "RCSBuildAid",
+            "version": "v1.0.3"
+        },
+        {
+            "name": "RealChute",
+            "version": "v1.4.8"
+        },
+        {
+            "name": "ReStock",
+            "version": "1.2.1"
+        },
+        {
+            "name": "ReStockPlus",
+            "version": "1.2.1"
+        },
+        {
+            "name": "RestockRigidLegs",
+            "version": "1.3.0"
+        },
+        {
+            "name": "RP-0",
+            "version": "v1.10.3.0"
+        },
+        {
+            "name": "RSS-CanaveralHD",
+            "version": "v1.0"
+        },
+        {
+            "name": "RSSDateTimeFormatter",
+            "version": "v1.10.0.0"
+        },
+        {
+            "name": "RSSVE-HR",
+            "version": "2.1.4"
+        },
+        {
+            "name": "Scatterer",
+            "version": "3:v0.0770"
+        },
+        {
+            "name": "Scatterer-sunflare",
+            "version": "3:v0.0723"
+        },
+        {
+            "name": "ShipManifest",
+            "version": "6.0.2.0"
+        },
+        {
+            "name": "TextureReplacer",
+            "version": "v4.5.1"
+        },
+        {
+            "name": "Waterfall",
+            "version": "0.6.6"
+        },
+        {
+            "name": "MandatoryRCSPartPack",
+            "version": "1.4"
+        },
+        {
+            "name": "ROEngines",
+            "version": "v1.8"
+        },
+        {
+            "name": "ROTanks",
+            "version": "v2.5"
+        },
+        {
+            "name": "ROCapsules",
+            "version": "v1.5.1.0"
+        },
+        {
+            "name": "ROSolar",
+            "version": "v1.1.1"
+        },
+        {
+            "name": "PersistentRotationUpgraded",
+            "version": "1.9.1.4"
+        },
+        {
+            "name": "KerbalRenamer",
+            "version": "v1.4.0"
+        },
+        {
+            "name": "RealAntennas",
+            "version": "v2.0"
+        },
+        {
+            "name": "TestFlight",
+            "version": "v2.1.0.0"
+        },
+        {
+            "name": "TexturesUnlimited",
+            "version": "1.5.10.25"
+        },
+        {
+            "name": "PatchManager",
+            "version": "0.0.17.2"
+        },
+        {
+            "name": "ModuleManager",
+            "version": "4.1.4"
+        },
+        {
+            "name": "RSSTextures16K",
+            "version": "v18.3"
+        },
+        {
+            "name": "KSPBurst",
+            "version": "v1.5.0.0"
+        },
+        {
+            "name": "DistantObject-default",
+            "version": "v2.0.1.1"
+        },
+        {
+            "name": "ClickThroughBlocker",
+            "version": "1:0.1.10.15"
+        },
+        {
+            "name": "ZeroMiniAVC",
+            "version": "1:1.1.0.1"
+        },
+        {
+            "name": "ToolbarController",
+            "version": "1:0.1.9.4"
+        },
+        {
+            "name": "B9PartSwitch",
+            "version": "v2.17.0"
+        },
+        {
+            "name": "StagedAnimation",
+            "version": "v2.0"
+        },
+        {
+            "name": "CommunityCategoryKit",
+            "version": "v5.2.0.0"
+        },
+        {
+            "name": "NearFutureSolar-Core",
+            "version": "1.3.1"
+        },
+        {
+            "name": "PlanetShine-Config-Default",
+            "version": "0.2.6.3"
+        },
+        {
+            "name": "RealismOverhaul",
+            "version": "v14.1.2.0"
+        },
+        {
+            "name": "AdvancedJetEngine",
+            "version": "v2.17.0"
+        },
+        {
+            "name": "FerramAerospaceResearchContinued",
+            "version": "3:0.16.0.3"
+        },
+        {
+            "name": "ModularFlightIntegrator",
+            "version": "1.2.7.0"
+        },
+        {
+            "name": "SolverEngines",
+            "version": "v3.11.0"
+        },
+        {
+            "name": "KerbalJointReinforcementContinued",
+            "version": "v3.5.2"
+        },
+        {
+            "name": "RealFuels",
+            "version": "rf-v13.1.0"
+        },
+        {
+            "name": "CommunityResourcePack",
+            "version": "1.4.2"
+        },
+        {
+            "name": "RealHeat",
+            "version": "v5.1"
+        },
+        {
+            "name": "RealPlume",
+            "version": "2:v13.3.2"
+        },
+        {
+            "name": "SmokeScreen",
+            "version": "2.8.14.0"
+        },
+        {
+            "name": "SXTContinued",
+            "version": "2:0.3.29.5"
+        },
+        {
+            "name": "FirespitterCore",
+            "version": "v7.17"
+        },
+        {
+            "name": "FirespitterResourcesConfig",
+            "version": "v7.17"
+        },
+        {
+            "name": "RetractableLiftingSurface",
+            "version": "0.2.1.1"
+        },
+        {
+            "name": "ContractConfigurator",
+            "version": "1.30.5"
+        },
+        {
+            "name": "CustomBarnKit",
+            "version": "1.1.21.0"
+        },
+        {
+            "name": "VenStockRevamp-NewParts",
+            "version": "v1.15.1"
+        },
+        {
+            "name": "VenStockRevamp-Core",
+            "version": "v1.15.1"
+        },
+        {
+            "name": "RealSolarSystem",
+            "version": "v18.1.5"
+        },
+        {
+            "name": "Kopernicus",
+            "version": "2:release-1.12.1-55"
+        },
+        {
+            "name": "DMagicOrbitalScience",
+            "version": "1.4.3"
+        },
+        {
+            "name": "DMagicScienceAnimate",
+            "version": "v0.23"
+        },
+        {
+            "name": "MagiCore",
+            "version": "1.3.2.3"
+        },
+        {
+            "name": "Kerbalism-Config-RO",
+            "version": "v1.2.1"
+        },
+        {
+            "name": "Kerbalism",
+            "version": "3.14"
+        },
+        {
+            "name": "Harmony2",
+            "version": "2.0.4.0"
+        },
+        {
+            "name": "EnvironmentalVisualEnhancements",
+            "version": "3:1.11.3.1"
+        },
+        {
+            "name": "Scatterer-config",
+            "version": "3:v0.0723"
+        },
+        {
+            "name": "ROLib",
+            "version": "v1.3.1"
+        },
+        {
+            "name": "BDAnimationModules",
+            "version": "1:v0.6.6.0"
+        },
+        {
+            "name": "SpaceTuxLibrary",
+            "version": "0.0.6"
+        },
+        {
+            "name": "MechJeb2-dev",
+            "version": "2.12.0.0-1092"
+        }
+    ],
+    "recommends": [],
+    "suggests": [],
+    "kind": "metapackage",
+    "release_date": "2021-07-14T02:15:34.5646035-07:00"
+}
