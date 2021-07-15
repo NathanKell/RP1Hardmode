@@ -507,7 +507,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 44727.595902177389
+		funds = 47045.245562288037
 	}
 	SCENARIO
 	{
@@ -612,7 +612,6 @@ GAME
 			part = proceduralNoseCone
 			part = RO-B9ProcWing-Early
 			part = ROT-RingDecoupler
-			part = taerobee.decoupler
 			part = TinyTim
 			part = conformaldecals-generic
 			part = conformaldecals-flag
@@ -643,6 +642,10 @@ GAME
 			part = RC.cone
 			part = KzProcFairingSide1.TU
 			part = SSTUBase
+			part = SSTUHollowRing.Interstage
+			part = SXTProbeGooo
+			part = SXTProbeGooo
+			part = GooExperiment
 		}
 		Tech
 		{
@@ -650,7 +653,6 @@ GAME
 			state = Available
 			cost = 1
 			part = RO-X1Cockpit
-			part = X1.Crew
 			part = RP0Nose-Cockpit
 			part = RO-X1Cockpit
 			part = RO-B9ProcWing-Supersonic
@@ -1040,8 +1042,6 @@ GAME
 		}
 		ExpParts
 		{
-			AM.MLP.MilkstoolMini3M = 1
-			AM.MLP.MilkstoolMini2S = 1
 			miniJetEngine = 1
 			SXTClyde = 1
 			fairingSize3 = 1
@@ -1068,423 +1068,6 @@ GAME
 			sepMotorSmall = 1
 			SXTSputnik = 1
 			SnubOtron = 1
-			smallRadialDecoupler = 1
-			LGLadderUtility = 1
-			SMLadderUtility = 1
-			MedLadderUtility = 1
-			LongLadder = 1
-			MedLadder = 1
-			Angledpanel = 1
-			strutCubeLarge = 1
-			strutCubeMedium = 1
-			strutCubeSmall = 1
-			InlineRCS = 1
-			SmallStripLight = 1
-			SmallPointLight = 1
-			SmallSpotLight = 1
-			X1.Tail = 1
-			X1.Body = 1
-			Bumper.Nose = 1
-			Bumper.Fin = 1
-			Bumper.Control = 1
-			Bumper.Body = 1
-			taerobee.sustainerTank.3 = 1
-			taerobee.science = 1
-			taerobee.parachute = 1
-			taerobee.nosecone = 1
-			taerobee.despin = 1
-			taerobee.control = 1
-			SXTlaunchclamp1 = 1
-			RCSBoonExt = 1
-			SXTProtonlikeNoseCone = 1
-			SXTAntenna = 1
-			SXTProbeGooo = 1
-			SXTradialWindow = 1
-			RO-VK1 = 1
-			RO-J47 = 1
-			SXTR280018WProp = 1
-			SXTR280021Prop = 1
-			SXTPWR2800 = 1
-			SXTMerlin46Prop = 1
-			SXTMerlin66prop = 1
-			SXT.Jumo213A = 1
-			SXTJ213 = 1
-			SXTTinyprop = 1
-			SXTKO211Dprop = 1
-			SXTke111 = 1
-			LMiniAircaftTail = 1
-			625mBonny = 1
-			SXTWingSmall = 1
-			SXTelevonVeryLarge = 1
-			SXTelevonLarge = 1
-			SXTelevonSmallHalf = 1
-			SXTelevonSmall = 1
-			SXTInlineAirIntake = 1
-			GearSmall = 1
-			GearFree = 1
-			GearFixed = 1
-			spotLight2 = 1
-			spotLight1 = 1
-			SquadRCSBlockHalf = 1
-			RCSBlockQuarter = 1
-			SquadRCSBlockTenth = 1
-			parachuteDrogue = 1
-			parachuteRadial = 1
-			parachuteLarge = 1
-			parachuteSingle = 1
-			RO.FASA.MercuryPodRCS = 1
-			RO.FASA.ExplorerRCS = 1
-			RO.linearRcs.tenth = 1
-			launchClamp1 = 1
-			telescopicLadderBay = 1
-			telescopicLadder = 1
-			ladder1 = 1
-			SurfAntenna = 1
-			radialDecoupler = 1
-			radialDecoupler1-2 = 1
-			trussPiece3x = 1
-			trussPiece1x = 1
-			trussAdapter = 1
-			strutOcto = 1
-			strutCube = 1
-			structuralPylon = 1
-			smallHardpoint = 1
-			structuralPanel2 = 1
-			structuralPanel1 = 1
-			structuralMiniNode = 1
-			structuralIBeam1 = 1
-			structuralIBeam3 = 1
-			structuralIBeam2 = 1
-			GooExperiment = 1
-			RO-J48 = 1
-			Decoupler.0 = 1
-			strutConnector = 1
-			RP0aerobeeSounding = 1
-			sweptWing2 = 1
-			sweptWing1 = 1
-			structuralWing4 = 1
-			structuralWing3 = 1
-			structuralWing2 = 1
-			structuralWing = 1
-			wingStrake = 1
-			elevon5 = 1
-			smallCtrlSrf = 1
-			elevon3 = 1
-			elevon2 = 1
-			StandardCtrlSrf = 1
-			delta.small = 1
-			deltaWing = 1
-			wingConnector5 = 1
-			wingConnector4 = 1
-			wingConnector3 = 1
-			wingConnector2 = 1
-			wingConnector = 1
-			winglet3 = 1
-			winglet = 1
-			R8winglet = 1
-			miniIntake = 1
-			airplaneTailB = 1
-			airplaneTail = 1
-			standardNoseCone = 1
-			rocketNoseCone.v2 = 1
-			pointyNoseConeB = 1
-			pointyNoseConeA = 1
-			CircularIntake = 1
-			basicFin = 1
-			tailfin = 1
-			sweptWing = 1
-			CanardController = 1
-			noseCone = 1
-			ROT-ToroidalTank-Separate = 1
-			ROT-ToroidalTank = 1
-			ROT-SphericalTank-Separate = 1
-			ROT-RadialTank-Separate = 1
-			ROT-RadialTank = 1
-			ROT-ServiceModule = 1
-			ROT-GenericTank = 1
-			ROT-BoosterTank-Separate = 1
-			ROE-UmbilicalTower = 1
-			ROE-LargeRadialLC = 1
-			ROE-SmallRadialLC = 1
-			ROE-MediumRadialLC = 1
-			ROE-LargeLC = 1
-			ROE-SmallLC = 1
-			ROE-MediumLC = 1
-			ROE-LargeApolloLC = 1
-			ROE-SmallApolloLC = 1
-			ROE-MediumApolloLC = 1
-			ROE-XLR43 = 1
-			ROE-XLR41 = 1
-			ROE-RD200 = 1
-			ROE-ORM65 = 1
-			ROE-RD100 = 1
-			ROE-Veronique = 1
-			restock-fairing-base-1875-1 = 1
-			restock-fairing-base-0625-1 = 1
-			restock-decoupler-radial-tiny-1 = 1
-			RO-RestockPlus-RCS-Linear-28 = 1
-			restock-rcs-single-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Triple-Angled-28 = 1
-			restock-rcs-block-triple-angled-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Triple-Angled-138 = 1
-			RO-RestockPlus-RCS-Block-Quint-28 = 1
-			restock-rcs-block-qunit-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Quint-138 = 1
-			RO-RestockPlus-RCS-Block-Quad-28 = 1
-			restock-rcs-block-quad-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Quad-Angled-28 = 1
-			restock-rcs-block-quad-angled-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Quad-138 = 1
-			RO-RestockPlus-RCS-Block-Dual-28 = 1
-			restock-rcs-block-dual-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Dual-138 = 1
-			RC.cone.double = 1
-			proceduralStructural = 1
-			RO-RFTank = 1
-			RO-RFTank-SM = 1
-			RFTank-I = 1
-			RFSM-I = 1
-			proceduralStackDecoupler = 1
-			KzThrustPlate = 1
-			KzProcFairingFuselage2 = 1
-			KzProcFairingSide2 = 1
-			KzProcFairingFuselage1 = 1
-			KzProcFairingSide1 = 1
-			KzResizableFairingBase = 1
-			KzResizableFairingBaseRing = 1
-			KzFlatBoattail = 1
-			KzFlatAdapter = 1
-			KzInterstageAdapter2 = 1
-			SSTUHollowRing.Interstage = 1
-			SSTUHollowRing = 1
-			SSTUBase.Boattail = 1
-			SSTUBase.Interstage = 1
-			RSBTrussBase.Boattail = 1
-			RSBTrussBase.Interstage = 1
-			RSBTrussBase = 1
-			RSBRibbedBase.Boattail = 1
-			RSBRibbedBase.Interstage = 1
-			RSBRibbedBase = 1
-			AM.MLP.SoyuzLaunchBase = 1
-			AM.MLP.SoyuzLaunchBaseGantry = 1
-			AM.MLP.SoyuzLaunchBaseElevator = 1
-			AM.MLP.SoyuzLaunchBaseClampArm = 1
-			AM.MLP.SoyuzLaunchBaseArmSM = 1
-			AM.MLP.SoyuzLaunchBaseArmLG = 1
-			AM.MLP.ShuttleTowerIntertankStructure = 1
-			AM.MLP.ShuttleTowerCrewArm = 1
-			AM.MLP.ShuttleTowerArmLOX = 1
-			AM.MLP.ShuttleTowerArmIntertank = 1
-			AM.MLP.ShuttleTowerArmHydrogen = 1
-			AM.MLP.SaturnLightningMastAlt = 1
-			AM.MLP.ShuttleLauncherTSM = 1
-			AM.MLP.ShuttleLauncherSRBHold = 1
-			AM.MLP.ShuttleLauncherRSS = 1
-			AM.MLP.ShuttleLauncherRSSHinge = 1
-			AM.MLP.ShuttleLauncherBaseClamp = 1
-			AM.MLP.ShuttleTowerTopSection = 1
-			AM.MLP.ShuttleTowerCrewSection = 1
-			AM.MLP.ShuttleTowerCrewFloor = 1
-			AM.MLP.ShuttleTowerMultiSection = 1
-			AM.MLP.ShuttleLauncherFSSBase = 1
-			AM.MLP.SaturnTowerTopSection = 1
-			AM.MLP.SaturnTowerSwingArm8 = 1
-			AM.MLP.SaturnTowerSwingArm7 = 1
-			AM.MLP.SaturnTowerSwingArm6 = 1
-			AM.MLP.SaturnTowerSwingArm5 = 1
-			AM.MLP.SaturnTowerSwingArm4 = 1
-			AM.MLP.SaturnTowerSwingArm3 = 1
-			AM.MLP.SaturnTowerSwingArm2 = 1
-			AM.MLP.SaturnTowerSwingArmBDB = 1
-			AM.MLP.SaturnTowerSwingArm0 = 1
-			AM.MLP.SaturnTowerSwingArmGen = 1
-			AM.MLP.SaturnTowerDamperArm = 1
-			AM.MLP.SaturnTowerCrewSection = 1
-			AM.MLP.SaturnTowerCrewFloor = 1
-			AM.MLP.SaturnTowerMultiSection = 1
-			AM.MLP.SaturnTowerBaseSquare = 1
-			AM.MLP.SaturnTowerBase = 1
-			AM.MLP.SaturnMobileLauncherClampBase = 1
-			AM.MLP.SaturnMilkstoolClamp = 1
-			AM.MLP.SaturnLightningMast = 1
-			AM.MLP.SaturnLauncherTSM = 1
-			AM.MLP.SaturnLauncherMilkstool = 1
-			AM.MLP.SaturnHammerheadCrane = 1
-			AM.MLP.SaturnTowerCrewArm = 1
-			AM.MLP.HoldArmSaturnV = 1
-			AM.MLP.HoldArmSaturnIB = 1
-			AM.MLP.VanguardServiceTower = 1
-			AM.MLP.VanguardLaunchStand = 1
-			AM.MLP.TitanIIITowerMast = 1
-			AM.MLP.TitanIIServiceTowerUmbilical2 = 1
-			AM.MLP.TitanIIServiceTowerUmbilicalGem2 = 1
-			AM.MLP.TitanIIServiceTowerUmbilical = 1
-			AM.MLP.TitanIIServiceTowerUmbilicalGem = 1
-			AM.MLP.TitanIIServiceTowerSingle = 1
-			AM.MLP.TitanIIServiceTowerModTop = 1
-			AM.MLP.TitanIIServiceTowerModSec2 = 1
-			AM.MLP.TitanIIServiceTowerModSec1 = 1
-			AM.MLP.TitanIIServiceTowerModBase = 1
-			AM.MLP.TitanIIServiceTowerMast = 1
-			AM.MLP.TitanIILaunchStand = 1
-			AM.MLP.Titan3LaunchStand = 1
-			AM.MLP.ThorServiceTowerFallback = 1
-			AM.MLP.ThorLaunchStand = 1
-			AM.MLP.LargeLaunchStand = 1
-			AM.MLP.SaturnLaunchStandPedestal = 1
-			AM.MLP.LaunchStandSmallPole = 1
-			AM.MLP.LaunchStandServiceTower4 = 1
-			AM.MLP.LaunchStandServiceTower3 = 1
-			AM.MLP.LaunchStandServiceTower2 = 1
-			AM.MLP.LaunchStandServiceTower1 = 1
-			AM.MLP.MilkstoolMini3T = 1
-			AM.MLP.MilkstoolMini3S = 1
-			AM.MLP.MilkstoolMini2T = 1
-			AM.MLP.MilkstoolMini1T = 1
-			AM.MLP.MilkstoolMini1S = 1
-			AM.MLP.MilkstoolLaunchStand3 = 1
-			AM.MLP.MilkstoolLaunchStand2 = 1
-			AM.MLP.MilkstoolLaunchStand1 = 1
-			AM.MLP.LaunchRailSmall = 1
-			AM.MLP.LaunchRailMedium = 1
-			AM.MLP.LaunchRailLarge = 1
-			AM.MLP.JupiterPetalCover = 1
-			AM.MLP.SmallLaunchStandRect = 1
-			AM.MLP.LaunchStandCrewWalkwayMercury = 1
-			AM.MLP.LaunchStandCrewElevatorMercury = 1
-			AM.MLP.LaunchStandCrewElevatorGemini = 1
-			AM.MLP.LaunchStandCrewElevatorAtlas = 1
-			AM.MLP.CrewElevatorAtlasUmbilical = 1
-			AM.MLP.AtlasUmbilicalArmCentaur = 1
-			AM.MLP.AtlasUmbilicalArmCentaur2 = 1
-			AM.MLP.AtlasUmbilicalArmCentaur1 = 1
-			AM.MLP.AtlasUmbilicalArmAgena = 1
-			AM.MLP.AtlasSepSideUmb = 1
-			AM.MLP.AtlasSepClampArm = 1
-			AM.MLP.AtlasLaunchStand = 1
-			AM.MLP.LaunchPlateSqr3 = 1
-			AM.MLP.LaunchPlateSqr2 = 1
-			AM.MLP.LaunchPlateSqr1 = 1
-			AM.MLP.LaunchPlateRnd3 = 1
-			AM.MLP.LaunchPlateRnd2 = 1
-			AM.MLP.LaunchPlateN1 = 1
-			AM.MLP.LaunchPlateFalcon9 = 1
-			AM.MLP.LaunchPlateEnergia = 1
-			AM.MLP.LaunchStandSmallUmbilical = 1
-			AM.MLP.GeneralUmbilicalDrop = 1
-			AM.MLP.GeneralUmbilicalDropLarge = 1
-			AM.MLP.GeneralUmbilicalDroopE = 1
-			AM.MLP.GeneralUmbilicalDroopD = 1
-			AM.MLP.GeneralUmbilicalDroopC = 1
-			AM.MLP.GeneralUmbilicalDroopB = 1
-			AM.MLP.GeneralUmbilicalDroopA = 1
-			AM.MLP.TestStandTower = 1
-			AM.MLP.TestStandEngine = 1
-			AM.MLP.TestStandSmall = 1
-			AM.MLP.GeneralTowerSwingArm = 1
-			AM.MLP.GeneralTowerSwingArmMedium = 1
-			AM.MLP.GeneralTowerSwingArmLarge = 1
-			AM.MLP.SmallTowerSwingArm = 1
-			AM.MLP.SmallTowerSwingArmMedium = 1
-			AM.MLP.SmallTowerSwingArmLarge = 1
-			AM.MLP.GeneralServiceTowerXLTop = 1
-			AM.MLP.GeneralServiceTowerXLSec1 = 1
-			AM.MLP.GeneralServiceTowerXLBase = 1
-			AM.MLP.SpecialServiceTowerDeltaIITop = 1
-			AM.MLP.SpecialServiceTowerDeltaIISec2 = 1
-			AM.MLP.SpecialServiceTowerDeltaIISec1 = 1
-			AM.MLP.SpecialServiceTowerDeltaIIBase = 1
-			AM.MLP.SpecialServiceTowerAtlasVTop = 1
-			AM.MLP.SpecialServiceTowerAtlasVSec2 = 1
-			AM.MLP.SpecialServiceTowerAtlasVSec1 = 1
-			AM.MLP.SpecialServiceTowerAtlasVBase = 1
-			AM.MLP.GeneralTowerDeltaII = 1
-			AM.MLP.GeneralTowerAtlasV = 1
-			AM.MLP.ShuttleTowerRodanCrewArm = 1
-			AM.MLP.GeneralStrongbackTowerSmall = 1
-			AM.MLP.GeneralStrongbackTowerMini = 1
-			AM.MLP.GeneralStrongbackTowerFull = 1
-			AM.MLP.GeneralServiceTowerSmallTop = 1
-			AM.MLP.GeneralServiceTowerSmallSec1 = 1
-			AM.MLP.GeneralServiceTowerSmall = 1
-			AM.MLP.GeneralServiceTowerMediumTop = 1
-			AM.MLP.GeneralServiceTowerMediumSec1 = 1
-			AM.MLP.GeneralServiceTowerMedium = 1
-			AM.MLP.GeneralServiceTowerLargeTop = 1
-			AM.MLP.GeneralServiceTowerLargeSec1 = 1
-			AM.MLP.GeneralTowerMulti = 1
-			AM.MLP.GeneralROFI = 1
-			AM.MLP.GeneralLaunchBaseMedium = 1
-			AM.MLP.GeneralLaunchBase = 1
-			AM.MLP.GeneralHold7 = 1
-			AM.MLP.GeneralHold6 = 1
-			AM.MLP.GeneralHold5 = 1
-			AM.MLP.GeneralHold4 = 1
-			AM.MLP.GeneralHold3 = 1
-			AM.MLP.GeneralHold2 = 1
-			AM.MLP.GeneralHold1 = 1
-			AM.MLP.GeneralFallbackUmbilicalTower = 1
-			AM.MLP.FlatLaunchBaseSmall = 1
-			AM.MLP.FlatLaunchBaseMini = 1
-			AM.MLP.GeneralLaunchPlate = 1
-			AM.MLP.CrewElevatorXLargeSec = 1
-			AM.MLP.GeneralCrewElevator2 = 1
-			AM.MLP.CrewElevatorSmallTop = 1
-			AM.MLP.CrewElevatorSmallSec1 = 1
-			AM.MLP.GeneralCrewElevatorSmall = 1
-			AM.MLP.GeneralCrewElevatorMiniSec1 = 1
-			AM.MLP.GeneralCrewElevatorMini = 1
-			AM.MLP.CrewElevatorLargeTop = 1
-			AM.MLP.CrewElevatorLargeSec1 = 1
-			AM.MLP.CrewElevatorLargeExt = 1
-			AM.MLP.GeneralCrewElevator = 1
-			AM.MLP.GeneralCrewElevatorMiniArmS = 1
-			AM.MLP.GeneralCrewElevatorMiniArm = 1
-			AM.MLP.GeneralCrewArmSmallMount = 1
-			AM.MLP.GeneralCrewArm = 1
-			RV105.2xlateral.2xfront.half = 1
-			RV105.2xlateral.1xdown.half = 1
-			RV105.2xlateral45.1xup.1xdown.half = 1
-			RV105.2xlateral45.1xdown.half = 1
-			RV105.2xlateral45.half = 1
-			RV105.2xlateral.half = 1
-			RV105.1xdown.half = 1
-			RCS.025T.2xlateral.1xdown.tenth = 1
-			RCS.025T.2xlateral.1xdown = 1
-			RCS.025T.2xlateral45.1xdown.tenth = 1
-			RCS.025T.2xlateral45.1xdown = 1
-			RCS.025T.2xlateral45.tenth = 1
-			RCS.025T.2xlateral45 = 1
-			RCS.025T.2xlateral.tenth = 1
-			RCS.025T.2xlateral = 1
-			RCS.025T.1xfront.tenth = 1
-			RCS.025T.1xfront = 1
-			RCS.025T.1xdown.tenth = 1
-			RCS.025T.1xdown = 1
-			RO.InternalRCSx5.28.45 = 1
-			RO.InternalRCSx5.69.111 = 1
-			RO.InternalRCSx5.128.223 = 1
-			RO.InternalRCSx5.275.445 = 1
-			RO.InternalRCSx4.28.45 = 1
-			RO.InternalRCSx4.69.111 = 1
-			RO.InternalRCSx4.128.223 = 1
-			RO.InternalRCSx4.275.445 = 1
-			RO.InternalRCSx3.28.45 = 1
-			RO.InternalRCSx3.69.111 = 1
-			RO.InternalRCSx3.128.223 = 1
-			RO.InternalRCSx3.275.445 = 1
-			RO.InternalRCSx2.28.45 = 1
-			RO.InternalRCSx2.69.111 = 1
-			RO.InternalRCSx2.128.223 = 1
-			RO.InternalRCSx2.275.445 = 1
-			RO.InternalRCSx1.28.45 = 1
-			RO.InternalRCSx1.69.111 = 1
-			RO.InternalRCSx1.128.223 = 1
-			RO.InternalRCSx1.275.445 = 1
-			conformaldecals-semiotic = 1
-			conformaldecals-munar = 1
-			RO-B9ProcAMWing-Supersonic = 1
-			RO-B9ProcCS-Supersonic = 1
 		}
 	}
 	SCENARIO
@@ -2764,6 +2347,230 @@ GAME
 						notes = 
 						completedMessage = 
 					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 20d0b895-6901-4874-89b0-9e508984c72b
+				type = ConfiguredContract
+				prestige = 0
+				seed = 898944474
+				state = Active
+				viewed = Read
+				agent = Exploration
+				agentName = Exploration
+				deadlineType = Floating
+				expiryType = None
+				ignoresWeight = True
+				values = 518400,24883200,4320,19200,8100,0,2,0,70754069.4820577,70708659.752273,95591859.752273,0
+				subtype = SoundingRocketBio
+				title = Low Space Biological Experimentation
+				description = Launching small mammals will prepare us for the monumental task of putting an astronaut into space. Carry a small biological capsule and 35 units of monitoring instrumentation above the Karman line, then recover the experiment. For best results, place the sounding payload into a high pressure steel or aluminum tank using the Tank UI in the PAW. <br>This is a series of 3 contracts, of which 0 have been completed.
+				synopsis = Launch and recover a biological capsule and 35 units of scientific equipment from over 100 km
+				completedMessage = Well done! Our scientists are now studying the sample to see the effects of the journey.
+				hash = -695518578
+				targetBody = Earth
+				BEHAVIOUR
+				{
+					type = ContractConfigurator.Behaviour.Expression
+					CONTRACT_OFFERED
+					{
+					}
+					CONTRACT_ACCEPTED
+					{
+					}
+					CONTRACT_COMPLETED_SUCCESS
+					{
+						type = Double
+						SoundingBio_Count = $SoundingBio_Count + 1
+					}
+					CONTRACT_COMPLETED_FAILURE
+					{
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = MissionParameters
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.SoundingRocketBio
+					title = Reach 100 km with a biological sample and 35 units of Sounding payload, and then recover that sample.
+					notes = 
+					completedMessage = 
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = NewVessel
+						id = NewVessel
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketBio
+						title = Launch a New Vessel
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						launchID = 14
+					}
+					PARAM
+					{
+						name = HasCrew
+						id = Crewmembers
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketBio
+						title = Uncrewed
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						minCrew = 0
+						maxCrew = 0
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketBio
+							title = Unmanned
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = HasResource
+						id = HasSoundingPayload
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketBio
+						title = Have a SoundingPayload of at least 35 units on the craft
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						capacity = False
+						RESOURCE
+						{
+							resource = SoundingPayload
+							minQuantity = 34.990000000000002
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketBio
+							title = Resource: SoundingPayload: At least 34.99 units
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = PartValidation
+						id = HasBiologicalSample
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketBio
+						title = Include a small biological experiment on the craft
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						minCount = 1
+						maxCount = 2147483647
+						FILTER
+						{
+							type = FILTER
+							part = SXTProbeGooo
+							part = GooExperiment
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketBio
+							title = With type: Biological Sample Capsule or Biological Sample Capsule
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = CountParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketBio
+							title = Count: At least one
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = ReachState
+						id = SpaceAltitude
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.SoundingRocketBio
+						title = Reach an altitude of at least 100 km
+						notes = 
+						completedMessage = 
+						allowStateReset = False
+						targetBody = Earth
+						minAltitude = 100000
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketBio
+							title = Destination: Earth
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.SoundingRocketBio
+							title = Altitude: Above 100,000 m
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+				PARAM
+				{
+					name = ReturnHome
+					id = ReturnHome
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.SoundingRocketBio
+					title = Return home safely
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
 				}
 			}
 			CONTRACT_FINISHED
@@ -8156,500 +7963,12 @@ GAME
 		}
 		CONTRACT
 		{
-			guid = f0664d0a-04ac-4533-98e8-361b5ed50f23
-			type = ConfiguredContract
-			prestige = 0
-			seed = 931000144
-			state = Offered
-			viewed = Unseen
-			agent = Exploration
-			agentName = Exploration
-			deadlineType = Floating
-			expiryType = Floating
-			ignoresWeight = True
-			values = 86400,25228800,14640,17568,27450,0,0,0,70727712.3020585,0,0,0
-			subtype = DownrangeDifficult
-			title = Downrange Distance LV Development (Difficult)
-			description = Design, build and launch a rocket with 485 units of Sounding Rocket Payload to a downrange distance of 330 km. For best results, place the sounding payload into a high pressure steel or aluminum tank using the Tank UI in the PAW. <b><color="white">Your rocket must be suborbital (over 140 km) for the contract to be completed. Additionally at least the first 50 seconds of the flight must be done under active guidance (using Near-Earth avionics).</color></b> Perfecting this is part of Launch Vehicle development to utilize a gravity turn and tune your ascent profile and angle of attack. The current distance that your rocket has traveled can be seen in the contract parameters screen. It will update in real time. A better option is to use the MechJeb information called Downrange Distance. It can be added to any window using the Custom Window Editor and is found in the Flight Recorder section.&br;&br;<b><color="green">NOTE: The distance that you see provided by KSP in the F3 screen is not accurate, so please do not base your attempts off of it.</color></b>&br;The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 307 % of its nominal value. Elapsed/Expected Days: 836 / 90</b>&br;&br;<b><color="red">This contract will no longer be offered once you complete the First Orbit contract!</color></b>
-			synopsis = Launch a rocket with 485 units of Sounding Rocket Payload to a downrange distance of 330 km.
-			completedMessage = Congratulations on a successful launch!
-			hash = 1963562279
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					RP0_DistanceDifficulty = $RP0_DistanceDifficulty + 1
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					SRD_Completion = 70641112.3020585
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = VesselGroup
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.DownrangeDifficult
-				title = Reach 330 km downrange with 485 units of Sounding payload.
-				notes = 
-				completedMessage = 
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeDifficult
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeDifficult
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeDifficult
-						title = Unmanned
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasSoundingPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeDifficult
-					title = Have a SoundingPayload of at least 485 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = SoundingPayload
-						minQuantity = 484.99000000000001
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeDifficult
-						title = Resource: SoundingPayload: At least 484.99 units
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = HaveAvionics
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeDifficult
-					title = Maintain sufficient avionics for the first 50s of flight (do not lose control)
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = AvionicsCheckParameter
-						id = AvionicsCheck
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeDifficult
-						title = Maintain sufficient avionics (do not lose control)
-						notes = 
-						completedMessage = 
-						hidden = True
-						hideChildren = True
-						allowStateReset = True
-						continuousControlRequired = True
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachState
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeDifficult
-						title = 
-						notes = 
-						completedMessage = 
-						hidden = True
-						hideChildren = True
-						allowStateReset = True
-						targetBody = Earth
-						situation = FLYING
-						minRateOfClimb = 10
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.DownrangeDifficult
-							title = Destination: Earth
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.DownrangeDifficult
-							title = Situation: Flying
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.DownrangeDifficult
-							title = Rate of Climb: Greater than 10 m/s
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = Duration
-						id = Duration
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeDifficult
-						title = 
-						notes = 
-						completedMessage = 
-						completeInSequence = True
-						hidden = True
-						hideChildren = True
-						duration = 50
-						endTime = 0
-						startCriteria = CONTRACT_ACCEPTANCE
-						triggered = False
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachAlt
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeDifficult
-					title = Reach an altitude of at least 140 km
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = False
-					targetBody = Earth
-					minAltitude = 140000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeDifficult
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeDifficult
-						title = Altitude: Above 140,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = DownrangeDistance
-					id = ReachDistance
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeDifficult
-					title = Reach a downrange distance of at least 330 km
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					distance = 330000
-					markLatitude = 0
-					markLongitude = 0
-					triggered = False
-				}
-			}
-		}
-		CONTRACT
-		{
-			guid = 540b7b71-242f-4627-91ba-a969853e0ca4
-			type = ConfiguredContract
-			prestige = 0
-			seed = 214999782
-			state = Offered
-			viewed = Unseen
-			agent = Exploration
-			agentName = Exploration
-			deadlineType = Floating
-			expiryType = Floating
-			ignoresWeight = True
-			values = 86400,25228800,9680,11616,18150,0,0,0,70732465.5620585,0,0,0
-			subtype = SoundingRocketDifficult
-			title = Altitude Sounding Rocket (Difficult)
-			description = Design, build and launch a sounding rocket with 180 units of payload to 140 km. For best results, place the sounding payload into a high pressure steel or aluminum tank using the Tank UI in the PAW.&br;The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 307 % of its nominal value. Elapsed/Expected Days: 836 / 90</b>&br;&br;<b><color="red">This contract will no longer be offered once you complete the First Orbit contract!</color></b>
-			synopsis = Launch a sounding rocket with 180 units of payload to 140 km.
-			completedMessage = Congratulations on a successful launch! The rocket has delivered the payload.
-			hash = -683051546
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					RP0_SoundingDifficulty = $RP0_SoundingDifficulty + 1
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					SRA_Completion = 70646065.5420585
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = VesselGroup
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.SoundingRocketDifficult
-				title = Reach 140 km with 180 units of Sounding payload.
-				notes = 
-				completedMessage = 
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketDifficult
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketDifficult
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketDifficult
-						title = Unmanned
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasSoundingPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketDifficult
-					title = Have a SoundingPayload of at least 180 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = SoundingPayload
-						minQuantity = 179.99000000000001
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketDifficult
-						title = Resource: SoundingPayload: At least 179.99 units
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachAlt
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketDifficult
-					title = Reach an altitude of at least 140 km
-					notes = 
-					completedMessage = 
-					completeInSequence = True
-					allowStateReset = True
-					targetBody = Earth
-					minAltitude = 140000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketDifficult
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketDifficult
-						title = Altitude: Above 140,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-		}
-		CONTRACT
-		{
 			guid = 47f988a4-bf44-4da7-b2a2-067269b24947
 			type = ConfiguredContract
 			prestige = 0
 			seed = 1885660412
 			state = Offered
-			viewed = Unseen
+			viewed = Read
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -8870,913 +8189,12 @@ GAME
 		}
 		CONTRACT
 		{
-			guid = e9c0c174-0915-416f-b7d4-47861b78cad0
-			type = ConfiguredContract
-			prestige = 0
-			seed = 559535164
-			state = Offered
-			viewed = Unseen
-			agent = Exploration
-			agentName = Exploration
-			deadlineType = Floating
-			expiryType = None
-			ignoresWeight = True
-			values = 518400,24883200,4320,13440,8100,0,2,0,70754067.622058,0,0,0
-			subtype = SoundingRocketFilm
-			title = Low space film return
-			description = V-2s launched by the U.S. from the White Sands Proving Grounds returned the first images of Earth from space. We need you to test emerging high-altitude photography technology. Design, build, and launch a rocket with a payload of bulky testing and stabilization equipment that will recover film imagery from just above the edge of space.<br>This is a series of 3 contracts, of which 2 have been completed.
-			synopsis = Launch a rocket with an early film camera above 200 km and cover a downrange distance of 600 km, then return the film camera.
-			completedMessage = Excellent! Both the media and our scientists will be excited to see these lovely shots.
-			hash = 1190954392
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					SoundingFilm_Count = $SoundingFilm_Count + 1
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = MissionParameters
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.SoundingRocketFilm
-				title = Reach 200 km of altitude and 600 km downrange with a film camera, then recover that sample
-				notes = 
-				completedMessage = 
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketFilm
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketFilm
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketFilm
-						title = Unmanned
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = PartValidation
-					id = HasCamera
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketFilm
-					title = Include a early film camera on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCount = 1
-					maxCount = 2147483647
-					FILTER
-					{
-						type = FILTER
-						part = science.module
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketFilm
-						title = With type: Early Film Camera
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketFilm
-						title = Count: At least one
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = SpaceAltitude
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketFilm
-					title = Reach an altitude of at least 200 km
-					notes = 
-					completedMessage = 
-					allowStateReset = False
-					targetBody = Earth
-					minAltitude = 200000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketFilm
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketFilm
-						title = Altitude: Above 200,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = DownrangeDistance
-					id = ReachDistance
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketFilm
-					title = Reach a downrange distance of at least 600 km
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					distance = 600000
-					markLatitude = 0
-					markLongitude = 0
-					triggered = False
-				}
-			}
-			PARAM
-			{
-				name = ReturnHome
-				id = ReturnHome
-				state = Incomplete
-				disableOnStateChange = False
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.SoundingRocketFilm
-				title = Return home safely
-				notes = 
-				completedMessage = 
-				hideChildren = True
-				allowStateReset = True
-			}
-		}
-		CONTRACT
-		{
-			guid = 09e1405e-81ca-4b28-9fdf-befb93370db1
-			type = ConfiguredContract
-			prestige = 0
-			seed = 2023641856
-			state = Offered
-			viewed = Unseen
-			agent = Exploration
-			agentName = Exploration
-			deadlineType = Floating
-			expiryType = Floating
-			ignoresWeight = True
-			values = 86400,25228800,8480,10176,15900,0,0,0,70732469.4420577,0,0,0
-			subtype = SoundingRocketIntermediate
-			title = Altitude Sounding Rocket (Intermediate)
-			description = Design, build and launch a sounding rocket with 70 units of payload to 100 km. For best results, place the sounding payload into a high pressure steel or aluminum tank using the Tank UI in the PAW.&br;The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 307 % of its nominal value. Elapsed/Expected Days: 836 / 90</b>&br;&br;<b><color="red">This contract will no longer be offered once you complete the First Orbit contract!</color></b>
-			synopsis = Launch a sounding rocket with 70 units of payload to 100 km.
-			completedMessage = Congratulations on a successful launch! The rocket has delivered the payload.
-			hash = -1222545301
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					SRA_Completion = 70646069.4220577
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = VesselGroup
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.SoundingRocketIntermediate
-				title = Reach 100 km with 70 units of Sounding payload.
-				notes = 
-				completedMessage = 
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketIntermediate
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketIntermediate
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketIntermediate
-						title = Unmanned
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasSoundingPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketIntermediate
-					title = Have a SoundingPayload of at least 70 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = SoundingPayload
-						minQuantity = 69.989999999999995
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketIntermediate
-						title = Resource: SoundingPayload: At least 69.99 units
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachAlt
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketIntermediate
-					title = Reach an altitude of at least 100 km
-					notes = 
-					completedMessage = 
-					completeInSequence = True
-					allowStateReset = True
-					targetBody = Earth
-					minAltitude = 100000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketIntermediate
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketIntermediate
-						title = Altitude: Above 100,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-		}
-		CONTRACT
-		{
-			guid = 20d0b895-6901-4874-89b0-9e508984c72b
-			type = ConfiguredContract
-			prestige = 0
-			seed = 898944474
-			state = Offered
-			viewed = Unseen
-			agent = Exploration
-			agentName = Exploration
-			deadlineType = Floating
-			expiryType = None
-			ignoresWeight = True
-			values = 518400,24883200,4320,19200,8100,0,2,0,70754069.4820577,0,0,0
-			subtype = SoundingRocketBio
-			title = Low Space Biological Experimentation
-			description = Launching small mammals will prepare us for the monumental task of putting an astronaut into space. Carry a small biological capsule and 35 units of monitoring instrumentation above the Karman line, then recover the experiment. For best results, place the sounding payload into a high pressure steel or aluminum tank using the Tank UI in the PAW. <br>This is a series of 3 contracts, of which 0 have been completed.
-			synopsis = Launch and recover a biological capsule and 35 units of scientific equipment from over 100 km
-			completedMessage = Well done! Our scientists are now studying the sample to see the effects of the journey.
-			hash = -695518578
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					SoundingBio_Count = $SoundingBio_Count + 1
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = MissionParameters
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.SoundingRocketBio
-				title = Reach 100 km with a biological sample and 35 units of Sounding payload, and then recover that sample.
-				notes = 
-				completedMessage = 
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketBio
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketBio
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketBio
-						title = Unmanned
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasSoundingPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketBio
-					title = Have a SoundingPayload of at least 35 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = SoundingPayload
-						minQuantity = 34.990000000000002
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketBio
-						title = Resource: SoundingPayload: At least 34.99 units
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = PartValidation
-					id = HasBiologicalSample
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketBio
-					title = Include a small biological experiment on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCount = 1
-					maxCount = 2147483647
-					FILTER
-					{
-						type = FILTER
-						part = SXTProbeGooo
-						part = GooExperiment
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketBio
-						title = With type: Biological Sample Capsule or Biological Sample Capsule
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketBio
-						title = Count: At least one
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = SpaceAltitude
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.SoundingRocketBio
-					title = Reach an altitude of at least 100 km
-					notes = 
-					completedMessage = 
-					allowStateReset = False
-					targetBody = Earth
-					minAltitude = 100000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketBio
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.SoundingRocketBio
-						title = Altitude: Above 100,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-			PARAM
-			{
-				name = ReturnHome
-				id = ReturnHome
-				state = Incomplete
-				disableOnStateChange = False
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.SoundingRocketBio
-				title = Return home safely
-				notes = 
-				completedMessage = 
-				hideChildren = True
-				allowStateReset = True
-			}
-		}
-		CONTRACT
-		{
-			guid = 5b80530d-44ad-4c52-a245-3683b3f74f54
-			type = ConfiguredContract
-			prestige = 0
-			seed = 800223350
-			state = Offered
-			viewed = Unseen
-			agent = Exploration
-			agentName = Exploration
-			deadlineType = Floating
-			expiryType = Floating
-			ignoresWeight = True
-			values = 86400,25228800,11840,14208,22200,0,0,0,70732469.5420576,0,0,0
-			subtype = DownrangeIntermediate
-			title = Downrange Distance LV Development (Intermediate)
-			description = Design, build and launch a rocket with 250 units of Sounding Rocket Payload to a downrange distance of 180 km. For best results, place the sounding payload into a high pressure steel or aluminum tank using the Tank UI in the PAW. <b><color="white">Your rocket must be suborbital (over 140 km) for the contract to be completed. Additionally at least the first 50 seconds of the flight must be done under active guidance (using Near-Earth avionics).</color></b> Perfecting this is part of Launch Vehicle development to utilize a gravity turn and tune your ascent profile and angle of attack. The current distance that your rocket has traveled can be seen in the contract parameters screen. It will update in real time. A better option is to use the MechJeb information called Downrange Distance. It can be added to any window using the Custom Window Editor and is found in the Flight Recorder section.&br;&br;<b><color="green">NOTE: The distance that you see provided by KSP in the F3 screen is not accurate, so please do not base your attempts off of it.</color></b>&br;The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 307 % of its nominal value. Elapsed/Expected Days: 836 / 90</b>&br;&br;<b><color="red">This contract will no longer be offered once you complete the First Orbit contract!</color></b>
-			synopsis = Launch a rocket with 250 units of Sounding Rocket Payload to a downrange distance of 180 km.
-			completedMessage = Congratulations on a successful launch!
-			hash = -1625332007
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					SRD_Completion = 70646069.5420576
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = VesselGroup
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.DownrangeIntermediate
-				title = Reach 180 km downrange with 250 units of Sounding payload.
-				notes = 
-				completedMessage = 
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeIntermediate
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeIntermediate
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeIntermediate
-						title = Unmanned
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasSoundingPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeIntermediate
-					title = Have a SoundingPayload of at least 250 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = SoundingPayload
-						minQuantity = 249.99000000000001
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeIntermediate
-						title = Resource: SoundingPayload: At least 249.99 units
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = HaveAvionics
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeIntermediate
-					title = Maintain sufficient avionics for the first 50s of flight (do not lose control)
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = AvionicsCheckParameter
-						id = AvionicsCheck
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeIntermediate
-						title = Maintain sufficient avionics (do not lose control)
-						notes = 
-						completedMessage = 
-						hidden = True
-						hideChildren = True
-						allowStateReset = True
-						continuousControlRequired = True
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachState
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeIntermediate
-						title = 
-						notes = 
-						completedMessage = 
-						hidden = True
-						hideChildren = True
-						allowStateReset = True
-						targetBody = Earth
-						situation = FLYING
-						minRateOfClimb = 10
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.DownrangeIntermediate
-							title = Destination: Earth
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.DownrangeIntermediate
-							title = Situation: Flying
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.DownrangeIntermediate
-							title = Rate of Climb: Greater than 10 m/s
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = Duration
-						id = Duration
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeIntermediate
-						title = 
-						notes = 
-						completedMessage = 
-						completeInSequence = True
-						hidden = True
-						hideChildren = True
-						duration = 50
-						endTime = 0
-						startCriteria = CONTRACT_ACCEPTANCE
-						triggered = False
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachAlt
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeIntermediate
-					title = Reach an altitude of at least 140 km
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = False
-					targetBody = Earth
-					minAltitude = 140000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeIntermediate
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.DownrangeIntermediate
-						title = Altitude: Above 140,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = DownrangeDistance
-					id = ReachDistance
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.DownrangeIntermediate
-					title = Reach a downrange distance of at least 180 km
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					distance = 180000
-					markLatitude = 0
-					markLongitude = 0
-					triggered = False
-				}
-			}
-		}
-		CONTRACT
-		{
 			guid = 442aa6cb-883e-437b-87d1-e01efbd2884a
 			type = ConfiguredContract
 			prestige = 0
 			seed = 2137646344
 			state = Offered
-			viewed = Unseen
+			viewed = Read
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -9930,7 +8348,7 @@ GAME
 			prestige = 0
 			seed = 1588619733
 			state = Offered
-			viewed = Unseen
+			viewed = Read
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -10117,8 +8535,8 @@ GAME
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
-		initialized = False
-		savetime = 70708581.092289403
+		initialized = True
+		savetime = 70708663.752272159
 		useUUID = True
 		KKSettings
 		{
@@ -10525,1381 +8943,6 @@ GAME
 	{
 		name = EntryCostManager
 		scene = 6, 5
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-550-890Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-275-445Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-128-223Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-69-111Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx1-28-45Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-550-890Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-275-445Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-128-223Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-69-111Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx2-28-45Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-550-890Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-275-445Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-128-223Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-69-111Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx3-28-45Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-550-890Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-275-445Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-128-223Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-69-111Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx4-28-45Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-550-890Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-275-445Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-128-223Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-69-111Cavea-B
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45HTP
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45Hydrazine
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45NitrousOxide
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45Helium
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45Nitrogen
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45MMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45MMH+MON3
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45MMH+MON10
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45UDMH+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45Aerozine50+NTO
-			currentTL = 0
-		}
-		TLUpgrade
-		{
-			name = RO-InternalRCSx5-28-45Cavea-B
-			currentTL = 0
-		}
 		TLUpgrade
 		{
 			name = RCS-025T-1xdownHTP
@@ -15810,6 +12853,1381 @@ GAME
 			name = 45DegreeRCSCavea-B
 			currentTL = 0
 		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-550-890Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-275-445Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-128-223Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-69-111Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx1-28-45Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-550-890Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-275-445Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-128-223Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-69-111Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx2-28-45Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-550-890Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-275-445Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-128-223Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-69-111Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx3-28-45Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-550-890Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-275-445Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-128-223Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-69-111Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx4-28-45Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-550-890Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-275-445Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-128-223Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-69-111Cavea-B
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45HTP
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45Hydrazine
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45NitrousOxide
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45Helium
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45Nitrogen
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45MMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45MMH+MON3
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45MMH+MON10
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45UDMH+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45Aerozine50+NTO
+			currentTL = 0
+		}
+		TLUpgrade
+		{
+			name = RO-InternalRCSx5-28-45Cavea-B
+			currentTL = 0
+		}
 		Unlocks
 		{
 			RP0probeSounding0-3m = True
@@ -15864,6 +14282,10 @@ GAME
 			SSTUBase = True
 			XLR11-RM-5 = True
 			XLR11-RM-3 = True
+			AJ10-27 = True
+			SSTUHollowRing-Interstage = True
+			SXTProbeGooo = True
+			GooExperiment = True
 		}
 	}
 	SCENARIO
@@ -15926,7 +14348,7 @@ GAME
 				{
 					shipName = Hornet
 					shipID = 62f4c92e-e375-402c-9b7c-cf9dab5b66b2
-					progress = 152985.12053987203
+					progress = 153001.96333635872
 					effectiveCost = 1941.4704792000005
 					buildTime = 601038.7891492733
 					integrationTime = 1352337.2755858642
@@ -36772,7 +35194,7 @@ GAME
 				techName = Supersonic Flight
 				techID = supersonicFlightRP0
 				scienceCost = 2
-				progress = 1.0368056827080026
+				progress = 1.0368179960995227
 				ProtoNode
 				{
 					id = supersonicFlightRP0
@@ -37368,13 +35790,13 @@ GAME
 				EndUT = 70934400
 				CurrentFunds = 0
 				CurrentSci = 0
-				ContractRewards = 43680
+				ContractRewards = 48000
 				OtherFundsEarned = 0
 				ScienceEarned = 0
 				LaunchFees = 432.34758494267464
-				MaintenanceFees = 241.14929604530334
+				MaintenanceFees = 241.49963593482971
 				ToolingFees = 0
-				EntryCosts = 0
+				EntryCosts = 2002
 				OtherFees = 40000
 				VABUpgrades = 0
 				SPHUpgrades = 0
@@ -37861,6 +36283,15 @@ GAME
 				Type = Complete
 				UT = 70646812.152323931
 			}
+			CONTRACT
+			{
+				InternalName = SoundingRocketBio
+				DisplayName = Low Space Biological Experimentation
+				FundsChange = 4320
+				RepChange = 0
+				Type = Accept
+				UT = 70708659.752272993
+			}
 		}
 		LAUNCHEVENTS
 		{
@@ -37961,8 +36392,8 @@ GAME
 	{
 		name = MaintenanceHandler
 		scene = 6, 7, 5, 8
-		nextUpdate = 70708625.512308627
-		lastUpdate = 70705025.512308627
+		nextUpdate = 70712190.772287384
+		lastUpdate = 70708590.772287384
 	}
 	SCENARIO
 	{
@@ -38190,7 +36621,7 @@ GAME
 		partData
 		{
 			partName = XASR-1
-			partData = transferdata:2000,flightdata:1798.16,flighttime:46.76001,
+			partData = transferdata:2000,flightdata:2000,flighttime:46.76001,
 		}
 		partData
 		{
@@ -38217,12 +36648,17 @@ GAME
 			partName = XLR11-RM-5
 			partData = transferdata:977.5734,flightdata:1312.384,flighttime:738.1804,
 		}
+		partData
+		{
+			partName = AJ10-27
+			partData = transferdata:2000,flightdata:2000,
+		}
 	}
 	SCENARIO
 	{
 		name = TestFlightRnDScenario
 		scene = 7, 6, 5, 8
-		lastUpdateTime = 70638112.302058548
+		lastUpdateTime = 70752280.03701295
 	}
 	SCENARIO
 	{
@@ -38756,7 +37192,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.1
-		UT = 70708581.092289403
+		UT = 70708663.752272159
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -38914,7 +37350,7 @@ GAME
 		FerramAerospaceResearch = True
 		Firespitter = True
 		FShangarExtender = True
-		InternalRCS = True
+		InternalRCS = False
 		KerbalHacks = True
 		Kerbalism = True
 		KerbalismConfig = True
@@ -38976,7 +37412,7 @@ GAME
 		StagedAnimation = True
 		StretchySNTextures = True
 		SXT = True
-		Taerobee = True
+		Taerobee = False
 		TestFlight = True
 		TextureReplacer = True
 		TriggerTech = True
@@ -38993,7 +37429,7 @@ GAME
 		D2.cfg = True
 		FARPatch.cfg.bak = True
 		FerramAerospaceResearch.zip = True
-		KK.zip = True
+		KK.zip = False
 		ModuleManager.4.1.4.dll = True
 		ModuleManager.ConfigCache = True
 		ModuleManager.ConfigSHA = True
@@ -39466,9 +37902,6 @@ GAME
 		VesselModuleSaveFrameworkVesselModuleSave
 		{
 			048abf79-d74a-459c-90c4-47230b519589
-			{
-			}
-			73875993-afc5-497c-a184-d628333b7d19
 			{
 			}
 		}

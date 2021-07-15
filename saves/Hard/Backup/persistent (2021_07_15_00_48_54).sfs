@@ -510,7 +510,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 101454.77423105304
+		funds = 71534.774231053045
 	}
 	SCENARIO
 	{
@@ -591,7 +591,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 46.2780991
+		sci = 45.0776634
 		Tech
 		{
 			id = start
@@ -840,9 +840,9 @@ GAME
 			id = crewReport@EarthSrfLandedShores
 			title = Crew Report from Shores of an Earth
 			dsc = 0.00124999997
-			scv = 0.232788354
+			scv = 0.291166455
 			sbv = 9.99999975E-06
-			sci = 3.06884649E-05
+			sci = 2.83533409E-05
 			asc = True
 			cap = 3.9999999E-05
 		}
@@ -1088,28 +1088,6 @@ GAME
 			asc = True
 			cap = 3.75
 		}
-		Science
-		{
-			id = crewReport@EarthFlyingHighForest
-			title = Crew Report (Earth flying high Forest)
-			dsc = 0.00124999997
-			scv = 0.676346421
-			sbv = 0.75
-			sci = 0.970960796
-			asc = True
-			cap = 3
-		}
-		Science
-		{
-			id = crewReport@EarthFlyingHighShores
-			title = Crew Report (Earth flying high Shores)
-			dsc = 0.00124999997
-			scv = 0.91159904
-			sbv = 0.75
-			sci = 0.26520291
-			asc = True
-			cap = 3
-		}
 		ExpParts
 		{
 			fairingSize3 = 1
@@ -1147,7 +1125,7 @@ GAME
 	{
 		name = Reputation
 		scene = 7, 8, 5, 6
-		rep = 192.816071
+		rep = 176.844589
 	}
 	SCENARIO
 	{
@@ -1691,7 +1669,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 81811256.847323582
+		update = 81810334.892349973
 		version = 1.10.1
 		WEIGHTS
 		{
@@ -1863,7 +1841,7 @@ GAME
 						PARAM
 						{
 							name = CountParameterDelegate`1
-							state = Failed
+							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
 							ContractIdentifier = RP0.recordCrewedCount
@@ -1871,6 +1849,113 @@ GAME
 							notes = 
 							completedMessage = 
 						}
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 03ea0044-b24a-41de-a7b0-e2d7b16d0584
+				type = ConfiguredContract
+				prestige = 0
+				seed = 1962911017
+				state = Active
+				viewed = Seen
+				agent = Federation Aeronautique Internationale
+				agentName = Federation Aeronautique Internationale
+				deadlineType = None
+				expiryType = Floating
+				autoAccept = True
+				ignoresWeight = True
+				values = 4960800,0,0,6880,0,0,4,0,70760713.3646463,65799913.3646464,0,0
+				subtype = recordCrewedAlt
+				title = Crewed Altitude Record of 40 km.
+				description = We want you to set a new crewed altitude record! Fly/rocket above 40 km with crew aboard.
+				synopsis = Set a crewed altitude record of 40 km.
+				completedMessage = Congratulations! You've set a new crewed altitude record!
+				hash = -1285589894
+				targetBody = Earth
+				BEHAVIOUR
+				{
+					type = ContractConfigurator.Behaviour.Expression
+					CONTRACT_OFFERED
+					{
+					}
+					CONTRACT_ACCEPTED
+					{
+					}
+					CONTRACT_COMPLETED_SUCCESS
+					{
+						type = Double
+						RP0_CrewedAltitudeIndex = RP0_CrewedAltitudeIndex + 1
+					}
+					CONTRACT_COMPLETED_FAILURE
+					{
+					}
+				}
+				PARAM
+				{
+					name = ReachState
+					id = ReachState
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.recordCrewedAlt
+					title = 
+					notes = 
+					completedMessage = 
+					allowStateReset = True
+					targetBody = Earth
+					minAltitude = 40000
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Complete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.recordCrewedAlt
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.recordCrewedAlt
+						title = Altitude: Above 40,000 m
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = HasCrew
+					id = HasCrew
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.recordCrewedAlt
+					title = 
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 1
+					maxCrew = 2147483647
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = CountParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.recordCrewedAlt
+						title = Count: At least one
+						notes = 
+						completedMessage = 
 					}
 				}
 			}
@@ -1925,7 +2010,6 @@ GAME
 					notes = 
 					completedMessage = 
 					duration = 0
-					trackedVessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					PARAM
@@ -2058,7 +2142,7 @@ GAME
 						{
 							name = HasCrew
 							id = HasCrew
-							state = Complete
+							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
 							ContractIdentifier = RP0.recordCrewedDuration
@@ -2071,17 +2155,10 @@ GAME
 							maxCrew = 2147483647
 							minExperience = 0
 							maxExperience = 5
-							VESSEL_STATS
-							{
-								vessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
-								state = Complete
-								strength = STRONG
-								completionTime = 81810335.592349827
-							}
 							PARAM
 							{
 								name = CountParameterDelegate`1
-								state = Complete
+								state = Incomplete
 								disableOnStateChange = False
 								values = 0,0,0,0,0
 								ContractIdentifier = RP0.recordCrewedDuration
@@ -2190,7 +2267,7 @@ GAME
 				{
 					name = HasCrew
 					id = HasCrew
-					state = Complete
+					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = RP0.recordCrewedSpeed
@@ -2206,7 +2283,7 @@ GAME
 					PARAM
 					{
 						name = CountParameterDelegate`1
-						state = Complete
+						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.recordCrewedSpeed
@@ -2266,14 +2343,13 @@ GAME
 					notes = 
 					completedMessage = 
 					duration = 0
-					trackedVessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
 					dissassociateVesselsOnContractFailure = True
 					dissassociateVesselsOnContractCompletion = False
 					PARAM
 					{
 						name = NewVessel
 						id = NewVessel
-						state = Complete
+						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.SoundingRocketFilm
@@ -2283,13 +2359,6 @@ GAME
 						hideChildren = True
 						allowStateReset = True
 						launchID = 15
-						VESSEL_STATS
-						{
-							vessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
-							state = Complete
-							strength = STRONG
-							completionTime = 81810335.592349827
-						}
 					}
 					PARAM
 					{
@@ -2311,7 +2380,7 @@ GAME
 						PARAM
 						{
 							name = ParameterDelegate`1
-							state = Failed
+							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
 							ContractIdentifier = RP0.SoundingRocketFilm
@@ -2343,7 +2412,7 @@ GAME
 						PARAM
 						{
 							name = ParameterDelegate`1
-							state = Failed
+							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
 							ContractIdentifier = RP0.SoundingRocketFilm
@@ -2354,7 +2423,7 @@ GAME
 						PARAM
 						{
 							name = CountParameterDelegate`1
-							state = Failed
+							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
 							ContractIdentifier = RP0.SoundingRocketFilm
@@ -2413,16 +2482,16 @@ GAME
 						completedMessage = 
 						allowStateReset = True
 						distance = 600000
-						markLatitude = 31.251674061347011
-						markLongitude = -82.493727397912451
-						triggered = True
+						markLatitude = 0
+						markLongitude = 0
+						triggered = False
 					}
 				}
 				PARAM
 				{
 					name = ReturnHome
 					id = ReturnHome
-					state = Complete
+					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = RP0.SoundingRocketFilm
@@ -2591,25 +2660,24 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = 58bba47a-05e5-4ec9-b7b7-07d7e33e373b
+				guid = ffcb771c-bd41-4696-91f1-9734b266069e
 				type = ConfiguredContract
 				prestige = 0
-				seed = 266841629
+				seed = 1022238780
 				state = Active
-				viewed = Unseen
-				agent = Federation Aeronautique Internationale
-				agentName = Federation Aeronautique Internationale
-				deadlineType = None
+				viewed = Read
+				agent = Exploration
+				agentName = Exploration
+				deadlineType = Floating
 				expiryType = Floating
-				autoAccept = True
 				ignoresWeight = True
-				values = 3151620,0,0,8960,0,0,6,0,84962384.3505022,81810764.3505022,0,0
-				subtype = recordCrewedAlt
-				title = Crewed Altitude Record of 70 km.
-				description = We want you to set a new crewed altitude record! Fly/rocket above 70 km with crew aboard.
-				synopsis = Set a crewed altitude record of 70 km.
-				completedMessage = Congratulations! You've set a new crewed altitude record!
-				hash = -1285589894
+				values = 86400,25228800,7040,7040,13200,0,1,0,81896716.2323539,81810318.4323534,107039118.432353,0
+				subtype = CrewedReachSpace
+				title = X-Planes High
+				description = Design, build and launch a crewed rocket or plane to put a person into the high atmosphere above 35 km and return home safely.<br>After completing this contract, the required altitude will increase to 40 km.<br><color=white><b>After reaching 50km, crewed suborbital contracts will become available.</b></color>&br;The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 112 % of its nominal value. Elapsed/Expected Days: 136 / 120</b><br>This contract has been completed 1 times.
+				synopsis = Launch a crewed vessel to 35 km.
+				completedMessage = Congratulations on a successful flight!
+				hash = -527873378
 				targetBody = Earth
 				BEHAVIOUR
 				{
@@ -2623,7 +2691,9 @@ GAME
 					CONTRACT_COMPLETED_SUCCESS
 					{
 						type = Double
-						RP0_CrewedAltitudeIndex = RP0_CrewedAltitudeIndex + 1
+						CrewedReachSpace_Count = $CrewedReachSpace_Count + 1
+						RP0_XPlaneHighDifficulty = $RP0_XPlaneHighDifficulty + 1
+						XPH_Completion = 81810316.2123539
 					}
 					CONTRACT_COMPLETED_FAILURE
 					{
@@ -2631,65 +2701,114 @@ GAME
 				}
 				PARAM
 				{
-					name = ReachState
-					id = ReachState
+					name = VesselParameterGroup
+					id = VesselGroup
 					state = Incomplete
-					disableOnStateChange = False
 					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
+					ContractIdentifier = RP0.CrewedReachSpace
+					title = Reach 35 km with a crewed vessel.
 					notes = 
 					completedMessage = 
-					allowStateReset = True
-					targetBody = Earth
-					minAltitude = 70000
+					define = crewedSuborbitalCraft
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
 					PARAM
 					{
-						name = ParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
+						name = NewVessel
+						id = NewVessel
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Altitude: Above 70,000 m
+						ContractIdentifier = RP0.CrewedReachSpace
+						title = Launch a New Vessel
 						notes = 
 						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						launchID = 15
 					}
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = HasCrew
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 1
-					maxCrew = 2147483647
-					minExperience = 0
-					maxExperience = 5
 					PARAM
 					{
-						name = CountParameterDelegate`1
-						state = Complete
+						name = HasCrew
+						id = HasCrew
+						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Count: At least one
+						ContractIdentifier = RP0.CrewedReachSpace
+						title = Have at least 1 crewmember on board
 						notes = 
 						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						minCrew = 1
+						maxCrew = 99
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = CountParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.CrewedReachSpace
+							title = Count: Between one and 99
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = ReachState
+						id = ReachAlt
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedReachSpace
+						title = Reach 35000 meters
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = False
+						targetBody = Earth
+						minAltitude = 35000
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Complete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.CrewedReachSpace
+							title = Destination: Earth
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.CrewedReachSpace
+							title = Altitude: Above 35,000 m
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = ReturnHome
+						id = ReturnHome
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedReachSpace
+						title = Return Home Safely
+						notes = 
+						completedMessage = 
+						completeInSequence = True
+						hideChildren = True
+						allowStateReset = True
 					}
 				}
 			}
@@ -8556,495 +8675,6 @@ GAME
 					allowStateReset = True
 				}
 			}
-			CONTRACT_FINISHED
-			{
-				guid = 03ea0044-b24a-41de-a7b0-e2d7b16d0584
-				type = ConfiguredContract
-				prestige = 0
-				seed = 1962911017
-				state = Completed
-				viewed = Seen
-				agent = Federation Aeronautique Internationale
-				agentName = Federation Aeronautique Internationale
-				deadlineType = None
-				expiryType = Floating
-				autoAccept = True
-				ignoresWeight = True
-				values = 4960800,0,0,6880,0,0,4,0,70760713.3646463,65799913.3646464,0,81810723.6905107
-				subtype = recordCrewedAlt
-				title = Crewed Altitude Record of 40 km.
-				description = We want you to set a new crewed altitude record! Fly/rocket above 40 km with crew aboard.
-				synopsis = Set a crewed altitude record of 40 km.
-				completedMessage = Congratulations! You've set a new crewed altitude record!
-				hash = -1285589894
-				targetBody = Earth
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachState
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					targetBody = Earth
-					minAltitude = 40000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.recordCrewedAlt
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.recordCrewedAlt
-						title = Altitude: Above 40,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = HasCrew
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 1
-					maxCrew = 2147483647
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.recordCrewedAlt
-						title = Count: At least one
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-			CONTRACT_FINISHED
-			{
-				guid = 4a88a0e3-be7d-435c-881c-b6aa6eeb4026
-				type = ConfiguredContract
-				prestige = 0
-				seed = 1360893046
-				state = Completed
-				viewed = Unseen
-				agent = Federation Aeronautique Internationale
-				agentName = Federation Aeronautique Internationale
-				deadlineType = None
-				expiryType = Floating
-				autoAccept = True
-				ignoresWeight = True
-				values = 2680860,0,0,7680,0,0,5,0,84491583.8105107,81810723.8105107,0,81810743.1505067
-				subtype = recordCrewedAlt
-				title = Crewed Altitude Record of 50 km.
-				description = We want you to set a new crewed altitude record! Fly/rocket above 50 km with crew aboard.
-				synopsis = Set a crewed altitude record of 50 km.
-				completedMessage = Congratulations! You've set a new crewed altitude record!
-				hash = -1285589894
-				targetBody = Earth
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachState
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					targetBody = Earth
-					minAltitude = 50000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Altitude: Above 50,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = HasCrew
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 1
-					maxCrew = 2147483647
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Count: At least one
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-			CONTRACT_FINISHED
-			{
-				guid = 47e4a956-ebd0-4a59-a5dd-6f5217c64f5a
-				type = ConfiguredContract
-				prestige = 0
-				seed = 467833052
-				state = Completed
-				viewed = Unseen
-				agent = Federation Aeronautique Internationale
-				agentName = Federation Aeronautique Internationale
-				deadlineType = None
-				expiryType = Floating
-				autoAccept = True
-				ignoresWeight = True
-				values = 2246760,0,0,8320,0,0,6,0,84057503.2105066,81810743.2105066,0,81810764.2105023
-				subtype = recordCrewedAlt
-				title = Crewed Altitude Record of 60 km.
-				description = We want you to set a new crewed altitude record! Fly/rocket above 60 km with crew aboard.
-				synopsis = Set a crewed altitude record of 60 km.
-				completedMessage = Congratulations! You've set a new crewed altitude record!
-				hash = -1285589894
-				targetBody = Earth
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachState
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					targetBody = Earth
-					minAltitude = 60000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Altitude: Above 60,000 m
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = HasCrew
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedAlt
-					title = 
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 1
-					maxCrew = 2147483647
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Count: At least one
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-			CONTRACT_FINISHED
-			{
-				guid = ffcb771c-bd41-4696-91f1-9734b266069e
-				type = ConfiguredContract
-				prestige = 0
-				seed = 1022238780
-				state = Completed
-				viewed = Read
-				agent = Exploration
-				agentName = Exploration
-				deadlineType = Floating
-				expiryType = Floating
-				ignoresWeight = True
-				values = 86400,25228800,7040,7040,13200,0,1,0,81896716.2323539,81810318.4323534,107039118.432353,81811246.7673257
-				subtype = CrewedReachSpace
-				title = X-Planes High
-				description = Design, build and launch a crewed rocket or plane to put a person into the high atmosphere above 35 km and return home safely.<br>After completing this contract, the required altitude will increase to 40 km.<br><color=white><b>After reaching 50km, crewed suborbital contracts will become available.</b></color>&br;The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 112 % of its nominal value. Elapsed/Expected Days: 136 / 120</b><br>This contract has been completed 1 times.
-				synopsis = Launch a crewed vessel to 35 km.
-				completedMessage = Congratulations on a successful flight!
-				hash = -527873378
-				targetBody = Earth
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = VesselGroup
-					enabled = False
-					state = Complete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.CrewedReachSpace
-					title = Reach 35 km with a crewed vessel.
-					notes = 
-					completedMessage = 
-					define = crewedSuborbitalCraft
-					duration = 0
-					trackedVessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = NewVessel
-						id = NewVessel
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedReachSpace
-						title = Launch a New Vessel
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = True
-						launchID = 15
-						VESSEL_STATS
-						{
-							vessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
-							state = Complete
-							strength = STRONG
-							completionTime = 81810335.592349827
-						}
-					}
-					PARAM
-					{
-						name = HasCrew
-						id = HasCrew
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedReachSpace
-						title = Have at least 1 crewmember on board
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = True
-						minCrew = 1
-						maxCrew = 99
-						minExperience = 0
-						maxExperience = 5
-						VESSEL_STATS
-						{
-							vessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
-							state = Complete
-							strength = STRONG
-							completionTime = 81810335.592349827
-						}
-						PARAM
-						{
-							name = CountParameterDelegate`1
-							state = Complete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.CrewedReachSpace
-							title = Count: Between one and 99
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = ReachState
-						id = ReachAlt
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedReachSpace
-						title = Reach 35000 meters
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = False
-						targetBody = Earth
-						minAltitude = 35000
-						VESSEL_STATS
-						{
-							vessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
-							state = Complete
-							strength = STRONG
-							completionTime = 81810713.250512898
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Complete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.CrewedReachSpace
-							title = Destination: Earth
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.CrewedReachSpace
-							title = Altitude: Above 35,000 m
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = ReturnHome
-						id = ReturnHome
-						state = Complete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedReachSpace
-						title = Return Home Safely
-						notes = 
-						completedMessage = 
-						completeInSequence = True
-						hideChildren = True
-						allowStateReset = True
-						VESSEL_STATS
-						{
-							vessel = 446461e0-fa37-4b82-8416-2e99c3f07f08
-							state = Complete
-							strength = STRONG
-							completionTime = 81811246.707325697
-						}
-					}
-				}
-			}
 		}
 	}
 	SCENARIO
@@ -9557,36 +9187,30 @@ GAME
 			SRD_Completion = Double:-1593731.23919388
 			XPL_Completion = Double:-4185731.19919388
 			SRA_Completion = Double:-1593728.87919393
-			RP0_CrewedAltitudeIndex = Double:9
+			RP0_CrewedAltitudeIndex = Double:6
 			RP0_CrewedSpeedIndex = Double:3
 			XPSS_Completion = Double:12679839.6712076
 			RocketPlaneDevelopment_Count = Double:4
 			RPD_Completion = Double:65060703.672937
 			SoundingFilm_Count = Double:2
 			SoundingBio_Count = Double:1
-			CrewedReachSpace_Count = Double:2
-			XPH_Completion = Double:81810316.2123539
+			CrewedReachSpace_Count = Double:1
+			XPH_Completion = Double:70043459.2244522
 			$CrewedReachSpace_Count = Double:1
-			RP0_XPlaneHighDifficulty = Double:2
+			RP0_XPlaneHighDifficulty = Double:1
 		}
 	}
 	SCENARIO
 	{
 		name = ContractVesselTracker
 		scene = 7, 8, 5
-		VESSEL
-		{
-			key = crewedSuborbitalCraft
-			id = 446461e0-fa37-4b82-8416-2e99c3f07f08
-			hash = 2787401678
-		}
 	}
 	SCENARIO
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = True
-		savetime = 81811266.087321654
+		savetime = 81810335.592349827
 		useUUID = True
 		KKSettings
 		{
@@ -15351,7 +14975,7 @@ GAME
 		{
 			enabledForSave = True
 			activeKSC = us_cape_canaveral
-			SciPoints = 71.2780991
+			SciPoints = 70.0776672
 			UpgradesResetCounter = 0
 			TechUpgrades = 6
 			IsSimulation = False
@@ -15398,7 +15022,7 @@ GAME
 				{
 					shipName = Hornet B
 					shipID = 1d20e43a-5a52-4013-b5ac-0c23420079c5
-					progress = 143740.93331655508
+					progress = 143536.20682275732
 					effectiveCost = 2225.5056127999997
 					buildTime = 658594.93452264322
 					integrationTime = 1481838.6026759467
@@ -47826,7 +47450,7 @@ GAME
 				techName = Early Science
 				techID = earlyScience
 				scienceCost = 3
-				progress = 0.45888957619330745
+				progress = 0.45873292452960895
 				ProtoNode
 				{
 					id = earlyScience
@@ -48491,7 +48115,7 @@ GAME
 				EndUT = 84153600
 				CurrentFunds = 0
 				CurrentSci = 0
-				ContractRewards = 36960
+				ContractRewards = 7040
 				OtherFundsEarned = 0
 				ScienceEarned = 0
 				LaunchFees = 214.06256866455078
@@ -49056,42 +48680,6 @@ GAME
 				Type = Accept
 				UT = 81810318.432353407
 			}
-			CONTRACT
-			{
-				InternalName = recordCrewedAlt
-				DisplayName = Crewed Altitude Record of 40 km.
-				FundsChange = 6880
-				RepChange = 4
-				Type = Complete
-				UT = 81810723.69051072
-			}
-			CONTRACT
-			{
-				InternalName = recordCrewedAlt
-				DisplayName = Crewed Altitude Record of 50 km.
-				FundsChange = 7680
-				RepChange = 5
-				Type = Complete
-				UT = 81810743.15050666
-			}
-			CONTRACT
-			{
-				InternalName = recordCrewedAlt
-				DisplayName = Crewed Altitude Record of 60 km.
-				FundsChange = 8320
-				RepChange = 6
-				Type = Complete
-				UT = 81810764.210502267
-			}
-			CONTRACT
-			{
-				InternalName = CrewedReachSpace
-				DisplayName = X-Planes High
-				FundsChange = 7040
-				RepChange = 1
-				Type = Complete
-				UT = 81811246.767325684
-			}
 		}
 		LAUNCHEVENTS
 		{
@@ -49164,11 +48752,6 @@ GAME
 			{
 				VesselName = Hornet B
 				UT = 81263525.754569605
-			}
-			LAUNCHEVENT
-			{
-				VesselName = Skystreak B
-				UT = 81810346.012347654
 			}
 		}
 		FACILITYCONSTRUCTIONS
@@ -49480,7 +49063,7 @@ GAME
 		partData
 		{
 			partName = XLR11-RM-5
-			partData = transferdata:977.5734,flightdata:2008.67,flighttime:1129.714,
+			partData = transferdata:977.5734,flightdata:1312.384,flighttime:738.1804,
 		}
 		partData
 		{
@@ -49526,7 +49109,7 @@ GAME
 		scene = 5, 8, 7, 6
 		version = 3.14
 		uid = 676198639
-		uncreditedScience = 0.035674345620095055
+		uncreditedScience = 0
 		kerbals
 		{
 			Inessa___Korovina
@@ -49678,7 +49261,7 @@ GAME
 				{
 					radiation
 					{
-						problem = 0.00017387769029208897
+						problem = 9.0861527406003523E-05
 						message = 0
 						time_since = 0
 						lifetime = True
@@ -49694,14 +49277,14 @@ GAME
 					{
 						problem = 0
 						message = 0
-						time_since = 932.1550865881145
+						time_since = 1.6599999628961086
 						lifetime = False
 					}
 					drinking
 					{
 						problem = 0
 						message = 0
-						time_since = 932.1550865881145
+						time_since = 1.6599999628961086
 						lifetime = False
 					}
 					breathing
@@ -49720,7 +49303,7 @@ GAME
 					}
 					stress
 					{
-						problem = 0.0019629231166468247
+						problem = 1.0249322829465177E-06
 						message = 0
 						time_since = 0
 						lifetime = False
@@ -49824,7 +49407,7 @@ GAME
 				cfg_show = True
 				deviceTransmit = True
 				solarPanelsAverageExposure = -1
-				scienceTransmitted = 1.2361023717792572
+				scienceTransmitted = 0
 				StormData
 				{
 					storm_time = 0
@@ -49877,7 +49460,7 @@ GAME
 					}
 					LqdOxygen
 					{
-						message = 1
+						message = 0
 					}
 					Hydrogen
 					{
@@ -50059,6 +49642,21 @@ GAME
 					{
 						1664263807
 						{
+							0
+							{
+								distance = 6.9164948463439941
+								thickness = 0.1265017651661442
+							}
+							1
+							{
+								distance = 6.6098647117614746
+								thickness = 0.1236865031010565
+							}
+							2
+							{
+								distance = 6.1895971298217773
+								thickness = 0.24265778273442132
+							}
 						}
 					}
 				}
@@ -50075,29 +49673,15 @@ GAME
 							sendFileNames = 
 							files
 							{
-								crewReport@151191553
-								{
-									size = 0.00076183325910501734
-									resultText = "Zero-G and I feel fine!" -John Glenn Mercury-Atlas 6
-									useStockCrediting = False
-								}
 								crewReport@1
 								{
-									size = 0.0002400720734707317
+									size = 2.7666666048268492E-05
 									resultText = "Zero-G and I feel fine!" -John Glenn Mercury-Atlas 6
 									useStockCrediting = False
 								}
 							}
 							samples
 							{
-								RP0-SupersonicLow2@-16646143
-								{
-									size = 0.0017299321716187381
-									resultText = Mach 2 flight Data Acquired
-									useStockCrediting = False
-									analyze = True
-									mass = 0.00017299321759858531
-								}
 							}
 						}
 					}
@@ -50172,7 +49756,7 @@ GAME
 			}
 			crewReport@1
 			{
-				percentRetrieved = 0.76740866755943793
+				percentRetrieved = 0.70897216666106411
 			}
 			crewReport@131073
 			{
@@ -50241,14 +49825,6 @@ GAME
 			barometerScan@-16515071
 			{
 				percentRetrieved = 1.0000704430491014
-			}
-			crewReport@151191553
-			{
-				percentRetrieved = 0.32363334477309136
-			}
-			crewReport@196609
-			{
-				percentRetrieved = 0.088399999999984935
 			}
 		}
 		bodies
@@ -50382,7 +49958,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.1
-		UT = 81811266.087321654
+		UT = 81810335.592349827
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -50393,27 +49969,27 @@ GAME
 			persistentId = 765244024
 			name = Skystreak B
 			type = Ship
-			sit = LANDED
+			sit = PRELAUNCH
 			landed = True
 			skipGroundPositioning = False
-			vesselSpawning = False
+			vesselSpawning = True
 			launchedFrom = Runway
 			landedAt = Runway
 			displaylandedAt = #autoLOC_300899
 			splashed = False
-			met = 919.99497401714325
-			lct = 81810346.012347654
-			lastUT = 81811266.087321654
-			distanceTraveled = 725966.52021437371
+			met = 0
+			lct = 81810335.592349827
+			lastUT = 81810335.592349827
+			distanceTraveled = 0
 			root = 0
-			lat = 28.553498755345327
-			lon = -80.667189044804431
-			alt = 20.082264695316553
-			hgt = 1.30800629
-			nrm = -0.00132265687,0.035702765,-0.999361634
-			rot = 0.108113125,-0.241432011,0.687860191,0.675922036
-			CoM = 9.53674316E-06,-3.32279587,0.0192190409
-			stg = 1
+			lat = 28.553526609852167
+			lon = -80.673824343668571
+			alt = 20.432021172717214
+			hgt = 1.16307461
+			nrm = -7.81267881E-05,-0.000204056501,-1
+			rot = 0.229618937,0.117868952,-0.668464243,0.697522581
+			CoM = 0.000357508659,-3.30574512,0.00259977579
+			stg = 2
 			prst = False
 			ref = 1664263807
 			ctrl = True
@@ -50425,18 +50001,18 @@ GAME
 			OverrideAxisControl = 0,0,0,0
 			OverrideGroupNames = ,,,
 			altDispState = ASL
-			cPch = 0.07153308
-			cHdg = 0.001544237
-			cMod = 4
+			cPch = 0.2
+			cHdg = 0.3
+			cMod = 0
 			ORBIT
 			{
-				SMA = 3189754.9932653471
-				ECC = 0.99733834025839263
-				INC = 28.553498306079852
-				LPE = 270.00003697263003
-				LAN = 103.05754495463384
-				MNA = 3.1415926286899714
-				EPH = 81811266.067321658
+				SMA = 3189755.2332283342
+				ECC = 0.99733834236815666
+				INC = 28.553526574176583
+				LPE = 270
+				LAN = 99.163206834896471
+				MNA = 3.1415926535897869
+				EPH = 81810335.592349827
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -50465,10 +50041,10 @@ GAME
 				attN = bottom, 2
 				mass = 0.358199984
 				shielded = False
-				temp = 302.17660658595838
-				tempExt = 300.26798800641188
-				tempExtUnexp = 300.26964444983861
-				staticPressureAtm = 0.99762949271758572
+				temp = 284.48602402149857
+				tempExt = 281.98876873066297
+				tempExtUnexp = 282.01529919398121
+				staticPressureAtm = 0.99758823036176902
 				expt = 0.5
 				state = 0
 				attached = True
@@ -51333,17 +50909,17 @@ GAME
 						}
 						MechJebModuleFlightRecorder
 						{
-							markUT = 81810346.012347654
-							deltaVExpended = 2916.3652133331307
-							dragLosses = 3867.9854089533846
-							gravityLosses = 479.16756267308824
-							steeringLosses = 353.82699770219608
-							markLAN = 99.206223496792248
-							markLatitude = 28.553526866886568
-							markLongitude = -80.673856937692122
-							markAltitude = 19.923906527273356
+							markUT = 81810335.592349827
+							deltaVExpended = 0
+							dragLosses = 0
+							gravityLosses = 0
+							steeringLosses = 0
+							markLAN = 99.162830808313814
+							markLatitude = 28.553526907476332
+							markLongitude = -80.673859131153336
+							markAltitude = 20.430096433497965
 							markBodyIndex = 1
-							maxDragGees = 3.3216137892998177
+							maxDragGees = 0
 							unlockParts = 
 							unlockTechs = 
 						}
@@ -51467,7 +51043,7 @@ GAME
 					situationId = 1
 					didPrepare = False
 					shrouded = False
-					remainingSampleMass = 0.00022700678240143582
+					remainingSampleMass = 0.00040000000000000002
 					privateHdId = 0
 					firstStart = False
 					prodFactor = 0
@@ -51780,8 +51356,6 @@ GAME
 					Log
 					{
 						flight = 0
-						0 = Land,Earth
-						0 = Flight,Earth
 					}
 					UPGRADESAPPLIED
 					{
@@ -51790,7 +51364,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 5312.2743169794439
+					amount = 7196.5555000750883
 					maxAmount = 7200
 					flowState = True
 					isTweakable = True
@@ -51801,7 +51375,7 @@ GAME
 				RESOURCE
 				{
 					name = Oxygen
-					amount = 41.346571542477989
+					amount = 46
 					maxAmount = 46
 					flowState = True
 					isTweakable = True
@@ -51878,10 +51452,10 @@ GAME
 				srfN = srfAttach, 0,collider.collider.collider.collider.collider.collider
 				mass = 0.100000001
 				shielded = False
-				temp = 285.59501433160727
-				tempExt = 300.11787379526675
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765629818961254
+				temp = 284.51319879219375
+				tempExt = 284.23787137762724
+				tempExtUnexp = 284.2470306400578
+				staticPressureAtm = 0.9976185747584736
 				expt = 0.5
 				state = 0
 				attached = True
@@ -52159,7 +51733,7 @@ GAME
 					antiRoll = 0
 					label = 
 					persistentState = DEPLOYED
-					persistentData = 0,0.07230747
+					persistentData = 0,0
 					grounded = True
 					initializedEditor = True
 					stagingEnabled = True
@@ -52262,7 +51836,7 @@ GAME
 				{
 					name = KSPWheelDeployment
 					isEnabled = True
-					oneShotTriggered = True
+					oneShotTriggered = False
 					stagingEnabled = True
 					EVENTS
 					{
@@ -52353,10 +51927,10 @@ GAME
 				attN = bottom, 31
 				mass = 0.465500653
 				shielded = False
-				temp = 233.07235362092501
-				tempExt = 236.18683500457007
-				tempExtUnexp = 235.74232902847461
-				staticPressureAtm = 0.99764319663867806
+				temp = 90.270328098244022
+				tempExt = 119.15479667735781
+				tempExtUnexp = 118.96674995374963
+				staticPressureAtm = 0.99758815506549925
 				expt = 0.5
 				state = 0
 				attached = True
@@ -52620,7 +52194,7 @@ GAME
 						temperature = 90.1500015
 						fillable = True
 						techRequired = 
-						amount = 14.803899495956227
+						amount = 2651.3352856164597
 						maxAmount = 2651.3352912282276
 					}
 					TANK
@@ -52634,7 +52208,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 0.42328184161376387
+						amount = 51.532266645923578
 						maxAmount = 51.532266645923578
 					}
 					TANK
@@ -52648,7 +52222,7 @@ GAME
 						temperature = 300
 						fillable = True
 						techRequired = 
-						amount = 24.133917470599656
+						amount = 2501.89164212585
 						maxAmount = 2501.89164212585
 					}
 					UPGRADESAPPLIED
@@ -52708,7 +52282,7 @@ GAME
 				RESOURCE
 				{
 					name = Ethanol75
-					amount = 24.133917470599656
+					amount = 2501.89164212585
 					maxAmount = 2501.89164212585
 					flowState = True
 					isTweakable = True
@@ -52719,7 +52293,7 @@ GAME
 				RESOURCE
 				{
 					name = LqdOxygen
-					amount = 14.803899495956227
+					amount = 2651.3352856164597
 					maxAmount = 2651.3352912282276
 					flowState = True
 					isTweakable = True
@@ -52730,7 +52304,7 @@ GAME
 				RESOURCE
 				{
 					name = HTP
-					amount = 0.42328184161376387
+					amount = 51.532266645923578
 					maxAmount = 51.532266645923578
 					flowState = True
 					isTweakable = True
@@ -52764,10 +52338,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 0.0929831937
 				shielded = False
-				temp = 259.30343601664418
-				tempExt = 258.17983055164484
-				tempExtUnexp = 258.14418395512382
-				staticPressureAtm = 0.99764372371256627
+				temp = 280.99383404306855
+				tempExt = 268.23906721897885
+				tempExtUnexp = 268.40984193064099
+				staticPressureAtm = 0.9975935011006507
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -53067,10 +52641,10 @@ GAME
 				srfN = srfAttach, 3,section
 				mass = 0.0062962505
 				shielded = False
-				temp = 260.62888336368047
-				tempExt = 260.51107467230088
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765313574628356
+				temp = 284.26100732922481
+				tempExt = 282.96988160377634
+				tempExtUnexp = 283.00695001288852
+				staticPressureAtm = 0.99759342580438093
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -53359,10 +52933,10 @@ GAME
 				srfN = srfAttach, 3,section
 				mass = 0.00837735087
 				shielded = False
-				temp = 260.21069701236996
-				tempExt = 260.02518082088233
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765321104255333
+				temp = 284.31761871268839
+				tempExt = 282.90421845144698
+				tempExtUnexp = 282.94097954863963
+				staticPressureAtm = 0.99759342580438093
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -53651,10 +53225,10 @@ GAME
 				srfN = srfAttach, 3,section
 				mass = 0.0384346657
 				shielded = False
-				temp = 257.69432910947734
-				tempExt = 258.03364528803451
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99764590730438862
+				temp = 284.47580001224918
+				tempExt = 283.09764123733788
+				tempExtUnexp = 283.13215716859804
+				staticPressureAtm = 0.9975890586207361
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -53942,10 +53516,10 @@ GAME
 				srfN = srfAttach, 3,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 260.43461273884543
-				tempExt = 261.8845309800675
-				tempExtUnexp = 261.76142004032226
-				staticPressureAtm = 0.99762700794068437
+				temp = 283.63482147052815
+				tempExt = 281.97295299440827
+				tempExtUnexp = 282.04127472930014
+				staticPressureAtm = 0.9975739240705187
 				expt = 0.5
 				state = 0
 				attached = True
@@ -54088,10 +53662,10 @@ GAME
 				srfN = srfAttach, 3,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 260.03068120798719
-				tempExt = 260.83095515786908
-				tempExtUnexp = 260.75592485589652
-				staticPressureAtm = 0.99762369490481584
+				temp = 283.554360664858
+				tempExt = 281.4997838069516
+				tempExtUnexp = 281.57233887162926
+				staticPressureAtm = 0.99757874303178196
 				expt = 0.5
 				state = 0
 				attached = True
@@ -54264,10 +53838,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 0.0929831937
 				shielded = False
-				temp = 259.28404444162851
-				tempExt = 258.20198616701293
-				tempExtUnexp = 258.11871180217565
-				staticPressureAtm = 0.9976438743051057
+				temp = 281.00246345580695
+				tempExt = 268.41620926897485
+				tempExtUnexp = 268.58239011565263
+				staticPressureAtm = 0.9975935011006507
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -54567,10 +54141,10 @@ GAME
 				srfN = srfAttach, 9,section
 				mass = 0.0062962505
 				shielded = False
-				temp = 260.1635017823707
-				tempExt = 259.83376253198003
-				tempExtUnexp = 4
-				staticPressureAtm = 0.9976538134127112
+				temp = 284.20289086492687
+				tempExt = 282.44634754893502
+				tempExtUnexp = 282.49452651318654
+				staticPressureAtm = 0.9975935011006507
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -54859,10 +54433,10 @@ GAME
 				srfN = srfAttach, 9,section
 				mass = 0.00837735087
 				shielded = False
-				temp = 260.12340398176246
-				tempExt = 259.82707410212902
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765358752390199
+				temp = 284.27004895363382
+				tempExt = 282.36651307134827
+				tempExtUnexp = 282.41406322611914
+				staticPressureAtm = 0.9975935011006507
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -55151,10 +54725,10 @@ GAME
 				srfN = srfAttach, 9,section
 				mass = 0.0384346657
 				shielded = False
-				temp = 257.71797945437703
-				tempExt = 258.05347879872119
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99764635908200716
+				temp = 284.46571745889497
+				tempExt = 282.60795153992831
+				tempExtUnexp = 282.65221037012003
+				staticPressureAtm = 0.99758913391700588
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -55442,10 +55016,10 @@ GAME
 				srfN = srfAttach, 9,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 259.27113456940526
-				tempExt = 259.06707761785384
-				tempExtUnexp = 258.99710705150511
-				staticPressureAtm = 0.99762791149592123
+				temp = 283.42574693028587
+				tempExt = 280.73155171414163
+				tempExtUnexp = 280.81149020782732
+				staticPressureAtm = 0.99757407466305814
 				expt = 0.5
 				state = 0
 				attached = True
@@ -55597,10 +55171,10 @@ GAME
 				srfN = srfAttach, 9,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 259.95827840733295
-				tempExt = 260.6784901107921
-				tempExtUnexp = 260.6672049635626
-				staticPressureAtm = 0.99762392079362505
+				temp = 283.55221069179521
+				tempExt = 281.48466344834748
+				tempExtUnexp = 281.55747635324127
+				staticPressureAtm = 0.99757874303178196
 				expt = 0.5
 				state = 0
 				attached = True
@@ -55772,10 +55346,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 0.0385643095
 				shielded = False
-				temp = 259.39451258877784
-				tempExt = 258.69723295462353
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99762233957196056
+				temp = 280.42462096811295
+				tempExt = 255.73404688228203
+				tempExtUnexp = 255.87746007147771
+				staticPressureAtm = 0.99755216344856434
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -56074,10 +55648,10 @@ GAME
 				srfN = srfAttach, 15,section
 				mass = 0.00510704657
 				shielded = False
-				temp = 266.63804539726601
-				tempExt = 266.51192061444095
-				tempExtUnexp = 266.49837125239571
-				staticPressureAtm = 0.99755314230007086
+				temp = 284.39294280864345
+				tempExt = 283.98418389160986
+				tempExtUnexp = 283.99325446064967
+				staticPressureAtm = 0.99748146025127982
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -56376,10 +55950,10 @@ GAME
 				srfN = srfAttach, 16,section
 				mass = 0.00546377292
 				shielded = False
-				temp = 275.50063042461039
-				tempExt = 275.24637141562891
-				tempExtUnexp = 275.18517792402798
-				staticPressureAtm = 0.99751617183162933
+				temp = 284.51868534869243
+				tempExt = 284.56481818028544
+				tempExtUnexp = 284.56459409872963
+				staticPressureAtm = 0.99744343563506199
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -56678,10 +56252,10 @@ GAME
 				srfN = srfAttach, 17,section
 				mass = 0.00872050226
 				shielded = False
-				temp = 276.68811782951718
-				tempExt = 276.56714383198886
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99745962433305568
+				temp = 284.53222093574283
+				tempExt = 284.67071135125673
+				tempExtUnexp = 284.66982251015975
+				staticPressureAtm = 0.99738425276704756
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -56970,10 +56544,10 @@ GAME
 				srfN = srfAttach, 17,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 276.35300109286436
-				tempExt = 276.32164827745731
-				tempExtUnexp = 276.31315218392666
-				staticPressureAtm = 0.99748093317739173
+				temp = 284.52922716365185
+				tempExt = 284.59541959621498
+				tempExtUnexp = 284.59442877610877
+				staticPressureAtm = 0.99740669105542956
 				expt = 0.5
 				state = 0
 				attached = True
@@ -57125,10 +56699,10 @@ GAME
 				srfN = srfAttach, 17,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 276.35470188779129
-				tempExt = 276.32541144885812
-				tempExtUnexp = 276.31474296490637
-				staticPressureAtm = 0.99748093317739173
+				temp = 284.53040397218444
+				tempExt = 284.60313046741715
+				tempExtUnexp = 284.60203637505043
+				staticPressureAtm = 0.99740669105542956
 				expt = 0.5
 				state = 0
 				attached = True
@@ -57279,10 +56853,10 @@ GAME
 				srfN = srfAttach, 16,section
 				mass = 0.0029065297
 				shielded = False
-				temp = 267.18568344701947
-				tempExt = 267.32134280532722
-				tempExtUnexp = 267.32325267927041
-				staticPressureAtm = 0.99753785715731402
+				temp = 284.53571332067867
+				tempExt = 284.63533875895013
+				tempExtUnexp = 284.63591985716761
+				staticPressureAtm = 0.99746263618384523
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -57571,10 +57145,10 @@ GAME
 				srfN = srfAttach, 16,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 270.60227665056527
-				tempExt = 271.10875195835285
-				tempExtUnexp = 271.11694960880266
-				staticPressureAtm = 0.99753620063937976
+				temp = 284.51184816945727
+				tempExt = 284.54818590585347
+				tempExtUnexp = 284.54845535465631
+				staticPressureAtm = 0.99746278677638478
 				expt = 0.5
 				state = 0
 				attached = True
@@ -57726,10 +57300,10 @@ GAME
 				srfN = srfAttach, 16,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 270.59869474607257
-				tempExt = 271.09547159462875
-				tempExtUnexp = 271.12892389552462
-				staticPressureAtm = 0.99753627593564942
+				temp = 284.51184816945727
+				tempExt = 284.54818590585347
+				tempExtUnexp = 284.54845535465631
+				staticPressureAtm = 0.99746278677638478
 				expt = 0.5
 				state = 0
 				attached = True
@@ -57881,10 +57455,10 @@ GAME
 				srfN = srfAttach, 15,section
 				mass = 0.0353947692
 				shielded = False
-				temp = 260.3367445660129
-				tempExt = 260.82210696574828
-				tempExtUnexp = 260.45984023249167
-				staticPressureAtm = 0.99769884058201486
+				temp = 284.59740132917511
+				tempExt = 285.21872477001546
+				tempExtUnexp = 285.23440201599226
+				staticPressureAtm = 0.99762550201528954
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -58190,10 +57764,10 @@ GAME
 				srfN = srfAttach, 15,section
 				mass = 0.0353947692
 				shielded = False
-				temp = 260.28690790062717
-				tempExt = 260.78439278250312
-				tempExtUnexp = 260.49020481465897
-				staticPressureAtm = 0.99769891587828452
+				temp = 284.62909500154512
+				tempExt = 285.36626227665533
+				tempExtUnexp = 285.38254647069351
+				staticPressureAtm = 0.99762550201528954
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -58499,10 +58073,10 @@ GAME
 				srfN = srfAttach, 15,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 260.34687414159305
-				tempExt = 260.50298846016244
-				tempExtUnexp = 260.52623216320569
-				staticPressureAtm = 0.99760185898659171
+				temp = 283.90243346076852
+				tempExt = 283.8111768954717
+				tempExtUnexp = 283.82480567064971
+				staticPressureAtm = 0.99752814393851774
 				expt = 0.5
 				state = 0
 				attached = True
@@ -58654,10 +58228,10 @@ GAME
 				srfN = srfAttach, 15,section
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 260.34488662812578
-				tempExt = 260.49970734321283
-				tempExtUnexp = 260.52645845226328
-				staticPressureAtm = 0.99760193428286137
+				temp = 283.90243346076852
+				tempExt = 283.8111768954717
+				tempExtUnexp = 283.82480567064971
+				staticPressureAtm = 0.99752814393851774
 				expt = 0.5
 				state = 0
 				attached = True
@@ -58808,10 +58382,10 @@ GAME
 				srfN = srfAttach, 15,section
 				mass = 0.00597860478
 				shielded = False
-				temp = 258.71235221353908
-				tempExt = 258.84801183671743
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99759749180294688
+				temp = 284.30365022204631
+				tempExt = 283.86365104998504
+				tempExtUnexp = 283.87548377199852
+				staticPressureAtm = 0.99752219553320842
 				expt = 0.100000001
 				state = 0
 				attached = True
@@ -59100,10 +58674,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 0.100000001
 				shielded = False
-				temp = 208.34190471077162
-				tempExt = 257.46646761060185
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99766593611213916
+				temp = 284.04774213829592
+				tempExt = 238.75042334151988
+				tempExtUnexp = 239.16211764594379
+				staticPressureAtm = 0.9976052473187299
 				expt = 0.5
 				state = 0
 				attached = True
@@ -59369,7 +58943,7 @@ GAME
 					antiRoll = 0
 					label = 
 					persistentState = DEPLOYED
-					persistentData = 0,0.05298016
+					persistentData = 0,0
 					grounded = True
 					initializedEditor = True
 					stagingEnabled = True
@@ -59472,7 +59046,7 @@ GAME
 				{
 					name = KSPWheelDeployment
 					isEnabled = True
-					oneShotTriggered = True
+					oneShotTriggered = False
 					stagingEnabled = True
 					EVENTS
 					{
@@ -59562,10 +59136,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 0.100000001
 				shielded = False
-				temp = 208.34190455160075
-				tempExt = 257.4973418016055
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99766631259348781
+				temp = 284.04774214051236
+				tempExt = 238.81644911874881
+				tempExtUnexp = 239.22433997013687
+				staticPressureAtm = 0.9976052473187299
 				expt = 0.5
 				state = 0
 				attached = True
@@ -59831,7 +59405,7 @@ GAME
 					antiRoll = 0
 					label = 
 					persistentState = DEPLOYED
-					persistentData = 0,0.05262602
+					persistentData = 0,0
 					grounded = True
 					initializedEditor = True
 					stagingEnabled = True
@@ -59934,7 +59508,7 @@ GAME
 				{
 					name = KSPWheelDeployment
 					isEnabled = True
-					oneShotTriggered = True
+					oneShotTriggered = False
 					stagingEnabled = True
 					EVENTS
 					{
@@ -60025,10 +59599,10 @@ GAME
 				attN = bottom, 32
 				mass = 0.0252641439
 				shielded = False
-				temp = 229.53079683138796
-				tempExt = 230.75870384713056
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765900885532321
+				temp = 273.5519654022828
+				tempExt = 249.42067177961061
+				tempExtUnexp = 249.66477376638434
+				staticPressureAtm = 0.99758807976922959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -60364,11 +59938,11 @@ GAME
 				attN = connect01, 35
 				attN = connect02, 34
 				mass = 0.00885864999
-				shielded = True
-				temp = 254.78191174391782
-				tempExt = 255.6756185416186
-				tempExtUnexp = 4
-				staticPressureAtm = 0.9976611171508758
+				shielded = False
+				temp = 284.29950934141795
+				tempExt = 278.55280303780182
+				tempExtUnexp = 278.6652482568532
+				staticPressureAtm = 0.99758807976922959
 				expt = 0
 				state = 0
 				attached = True
@@ -60580,12 +60154,12 @@ GAME
 				attN = top, 32
 				mass = 0.157000005
 				shielded = False
-				temp = 138.83045811508791
-				tempExt = 139.3200112851849
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99766247248373119
+				temp = 284.51271956482037
+				tempExt = 284.23309794443719
+				tempExtUnexp = 284.24346002213542
+				staticPressureAtm = 0.99758800447295981
 				expt = 0.5
-				state = 1
+				state = 0
 				attached = True
 				autostrutMode = Off
 				rigidAttachment = False
@@ -60619,14 +60193,14 @@ GAME
 					isEnabled = True
 					autoCutoff = True
 					ignited = False
-					ignitions = 2
+					ignitions = 4
 					partSeed = 733081342
 					calculatedResiduals = 0.0070000000000000001
 					independentThrottle = False
 					independentThrottlePercentage = 0
-					staged = True
+					staged = False
 					flameout = False
-					EngineIgnited = True
+					EngineIgnited = False
 					engineShutdown = False
 					currentThrottle = 0
 					thrustPercentage = 100
@@ -60838,11 +60412,11 @@ GAME
 				{
 					name = TestFlightCore
 					isEnabled = True
-					operatingTime = 391.600342
-					lastMET = 911.01497589051723
-					currentFlightData = 2008.53564
+					operatingTime = 0
+					lastMET = 0
+					currentFlightData = 1312.38403
 					initialFlightData = 2289.95752
-					missionStartTime = 81810354.99234578
+					missionStartTime = 81810334.892349973
 					activeConfig = 
 					stagingEnabled = True
 					EVENTS
@@ -60859,7 +60433,7 @@ GAME
 				{
 					name = FlightDataRecorder_Engine
 					isEnabled = True
-					lastRecordedMet = 391.600342
+					lastRecordedMet = 0
 					stagingEnabled = True
 					EVENTS
 					{
@@ -60875,8 +60449,8 @@ GAME
 				{
 					name = TestFlightReliability
 					isEnabled = True
-					lastCheck = 391.360352
-					lastReliability = 0.996881127
+					lastCheck = 0
+					lastReliability = 1
 					stagingEnabled = True
 					EVENTS
 					{
@@ -60892,9 +60466,9 @@ GAME
 				{
 					name = TestFlightReliability_EngineCycle
 					isEnabled = True
-					engineOperatingTime = 391.37816020846367
+					engineOperatingTime = 0
 					currentRunTime = 0
-					previousOperatingTime = 81811265.087321863
+					previousOperatingTime = 81810335.172349915
 					lastCheck = 0
 					lastReliability = 1
 					stagingEnabled = True
@@ -60928,8 +60502,8 @@ GAME
 				{
 					name = TestFlightFailure_IgnitionFail
 					isEnabled = True
-					numIgnitions = 1
-					previousTime = 81811266.007321671
+					numIgnitions = 0
+					previousTime = 81810335.592349827
 					failed = False
 					stagingEnabled = True
 					EVENTS
@@ -60941,8 +60515,8 @@ GAME
 					ENGINE_RUN_DATA
 					{
 						id = 0
-						hasBeenRun = True
-						timeSinceLastShutdown = 519.39386
+						hasBeenRun = False
+						timeSinceLastShutdown = 81810336
 					}
 					UPGRADESAPPLIED
 					{
@@ -61057,10 +60631,10 @@ GAME
 				attN = connect, 32
 				mass = 0.00179165066
 				shielded = False
-				temp = 238.34104218756261
-				tempExt = 239.06482159614077
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765915944786265
+				temp = 284.4885043191278
+				tempExt = 284.11158288043077
+				tempExtUnexp = 284.12773668075602
+				staticPressureAtm = 0.99758807976922959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -61373,10 +60947,10 @@ GAME
 				attN = connect, 32
 				mass = 0.00179165066
 				shielded = False
-				temp = 239.56560756164617
-				tempExt = 240.27601911985784
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765908415159288
+				temp = 284.4882560438308
+				tempExt = 284.10987096925169
+				tempExtUnexp = 284.12603106367771
+				staticPressureAtm = 0.99758807976922959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -61688,10 +61262,10 @@ GAME
 				srfN = srfAttach, 31,collisionMesh
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 230.98777186251831
-				tempExt = 231.34301399325312
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765893355905344
+				temp = 281.53165026321244
+				tempExt = 275.63819482603537
+				tempExtUnexp = 275.80394936445111
+				staticPressureAtm = 0.99758807976922959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -61843,10 +61417,10 @@ GAME
 				srfN = srfAttach, 31,collisionMesh
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 230.98777186251831
-				tempExt = 231.34301399325312
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99765908415159288
+				temp = 281.53164667584599
+				tempExt = 275.63817433060609
+				tempExtUnexp = 275.80392901151214
+				staticPressureAtm = 0.99758807976922959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -61997,10 +61571,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 0.0089802444
 				shielded = False
-				temp = 227.11458528038872
-				tempExt = 235.47373982267183
-				tempExtUnexp = 4
-				staticPressureAtm = 0.9977018524328044
+				temp = 280.15126315868298
+				tempExt = 239.86423119532245
+				tempExtUnexp = 240.25536092000425
+				staticPressureAtm = 0.99762806208846067
 				expt = 0.5
 				state = 0
 				attached = True
@@ -62353,10 +61927,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 259.50360658355572
-				tempExt = 259.50121044905842
-				tempExtUnexp = 259.29123420728962
-				staticPressureAtm = 0.99755223874483401
+				temp = 186.412919502959
+				tempExt = 230.99492799795678
+				tempExtUnexp = 231.53922557534898
+				staticPressureAtm = 0.99750931987108316
 				expt = 0.5
 				state = 0
 				attached = True
@@ -62529,10 +62103,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 260.54246096279604
-				tempExt = 260.80282087749987
-				tempExtUnexp = 260.53872707981833
-				staticPressureAtm = 0.99765418989405996
+				temp = 186.5850268584301
+				tempExt = 232.20096224387993
+				tempExtUnexp = 232.72762137956178
+				staticPressureAtm = 0.99758807976922959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -62675,10 +62249,10 @@ GAME
 				srfN = srfAttach, 2,collisionMesh
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 260.5425521382669
-				tempExt = 260.80292400132521
-				tempExtUnexp = 260.538769591397
-				staticPressureAtm = 0.9976543404865994
+				temp = 186.58504946848873
+				tempExt = 232.20109024455482
+				tempExtUnexp = 232.72774853923931
+				staticPressureAtm = 0.99758807976922959
 				expt = 0.5
 				state = 0
 				attached = True
@@ -62821,10 +62395,10 @@ GAME
 				srfN = srfAttach, 0,collider.collider.collider.collider.collider.collider.collider.
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 300.92266474065576
-				tempExt = 300.5063395011926
-				tempExtUnexp = 4
-				staticPressureAtm = 0.99762143601672371
+				temp = 284.41032553873089
+				tempExt = 283.79990914285429
+				tempExtUnexp = 283.81510426530042
+				staticPressureAtm = 0.9975851432147097
 				expt = 0.5
 				state = 0
 				attached = True
@@ -62976,10 +62550,10 @@ GAME
 				srfN = srfAttach, 0,collider.collider.collider.collider.collider.collider.collider.
 				mass = 9.99999975E-05
 				shielded = False
-				temp = 300.91695816600941
-				tempExt = 300.60990265933907
-				tempExtUnexp = 300.50533896437565
-				staticPressureAtm = 0.99762128542418416
+				temp = 284.41032553873089
+				tempExt = 283.79990914285429
+				tempExtUnexp = 283.81510426530042
+				staticPressureAtm = 0.9975851432147097
 				expt = 0.5
 				state = 0
 				attached = True
@@ -63108,17 +62682,17 @@ GAME
 			}
 			ACTIONGROUPS
 			{
-				Stage = True, 81810354.9923458
-				Gear = True, 81811171.9473413
+				Stage = False, 0
+				Gear = True, 81810333.9523502
 				Light = True, 0
 				RCS = False, 0
 				SAS = False, 0
-				Brakes = False, 81811259.447323
+				Brakes = False, 0
 				Abort = False, 0
 				Custom01 = False, 0
 				Custom02 = False, 0
-				Custom03 = False, 81811260.077323
-				Custom04 = True, 81811211.5773331
+				Custom03 = False, 0
+				Custom04 = False, 0
 				Custom05 = False, 0
 				Custom06 = False, 0
 				Custom07 = False, 0
@@ -63594,9 +63168,6 @@ GAME
 			FLIGHT_LOG
 			{
 				flight = 9
-				9 = Land,Earth
-				9 = Flight,Earth
-				9 = Flight-High,Earth
 			}
 		}
 		KERBAL
@@ -63902,38 +63473,6 @@ GAME
 	MESSAGESYSTEM
 	{
 		flash = True
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>X-Planes High</b>~n~nCongratulations on a successful flight!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  7,040   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 1   </color>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Crewed Altitude Record of 60 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  8,320   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 6   </color>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Crewed Altitude Record of 50 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  7,680   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 5   </color>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
-		MESSAGE
-		{
-			title = Contract Complete
-			message = <b>Crewed Altitude Record of 40 km.</b>~n~nCongratulations! You've set a new crewed altitude record!~n~n<b><color=#8BED8B>Completion Rewards:</color></b> ~n<color=#B4D455><sprite="CurrencySpriteAsset" name="Funds" tint=1>  6,880   </color>~n<color=#E0D503><sprite="CurrencySpriteAsset" name="Reputation" tint=1> 4   </color>~n~n
-			color = 2
-			icon = 3
-			read = False
-		}
 		MESSAGE
 		{
 			title = Contract Complete
