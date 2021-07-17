@@ -1,16 +1,16 @@
 {
     "spec_version": "v1.18",
-    "identifier": "RP-1-NathanKell-1-10-3",
-    "name": "NathanKell's RP-1 modset",
-    "abstract": "My set of installed mods for playing RP-1, with the exception of Conformal Decals (which must be installed manually from the forums) and the Kerbal Konstructs setup (which takes manual work to set up).",
+    "identifier": "RORP1",
+    "name": "NathanKell's RO/RP-1 modset",
+    "abstract": "You will need to manually create folders named NoNonRO and NoNonRP0 in GameData.\r\n\r\nYou will have to manually install a few mods:\r\n* Conformal Decals https://forum.kerbalspaceprogram.com/index.php?/topic/194802-18-111-conformal-decals-028-decals-done-the-right-way/\r\n* TUFX https://forum.kerbalspaceprogram.com/index.php?/topic/192212-19x-tufx-post-processing/\r\n",
     "author": [
         "NathanKell"
     ],
-    "version": "2021.07.14.09.15.34",
+    "version": "2021.07.17.04.04.48",
     "ksp_version_min": "1.10.1",
     "ksp_version_max": "1.10.1",
     "license": [
-        "CC-BY-NC-SA-4.0"
+        "CC-BY-SA-4.0"
     ],
     "depends": [
         {
@@ -231,7 +231,7 @@
         },
         {
             "name": "RealismOverhaul",
-            "version": "v14.1.2.0"
+            "version": "v14.1.3.0"
         },
         {
             "name": "AdvancedJetEngine",
@@ -360,10 +360,14 @@
         {
             "name": "MechJeb2-dev",
             "version": "2.12.0.0-1092"
+        },
+        {
+            "name": "Taerobee",
+            "version": "1:3.0"
         }
     ],
     "recommends": [],
     "suggests": [],
     "kind": "metapackage",
-    "release_date": "2021-07-14T02:15:34.5646035-07:00"
+    "release_date": "2021-07-16T21:04:48.0413207-07:00"
 }
