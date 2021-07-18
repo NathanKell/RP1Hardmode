@@ -2,7 +2,7 @@ ship = Skystreak B
 version = 1.10.1
 description = 
 type = SPH
-size = 6.14832878,3.60634041,12.5831451
+size = 6.14832878,3.60634232,12.5831509
 steamPublishedFileId = 0
 persistentId = 765244024
 rot = 0,0,0,0
@@ -1026,7 +1026,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = True
+		isEnabled = False
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -1035,8 +1035,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Running
-		status = Waiting
+		expState = Stopped
+		status = Stopped
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1059,7 +1059,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = False
+		isEnabled = True
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -1068,8 +1068,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1192,8 +1192,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = !-Mach 2 flight
-		prev_cfg = !-Mach 2 flight
+		cfg = !4High altitude flight
+		prev_cfg = !4High altitude flight
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1300,7 +1300,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -1608,7 +1607,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -1884,7 +1882,7 @@ PART
 	part = RO-RFTank-Seperate_4289721066
 	partName = Part
 	persistentId = 2582073165
-	pos = 0,5,0.0549800396
+	pos = 0,5,0.0549762249
 	attPos = 0,0,0
 	attPos0 = 0,-3.25,4.76837158E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -1943,7 +1941,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.2500006, 6.50000477, 0.00100000005)
+		tempColliderSize = (1.25, 6.50000334, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -2228,7 +2226,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -2296,7 +2293,7 @@ PART
 	part = RO-B9ProcWing-Early_4289548504
 	partName = Part
 	persistentId = 2394501698
-	pos = -0.424162686,4.95474768,1.1786809
+	pos = -0.424162686,4.95474768,1.17867804
 	attPos = -0.271807432,2.62369728,0.0452517085
 	attPos0 = -0.152355254,-1.49999893,3.57627385E-07
 	rot = 0,-0.707106829,-0.707106829,0
@@ -2560,7 +2557,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -2595,7 +2591,7 @@ PART
 	part = RO-B9ProcCS-Early_4289419516
 	partName = Part
 	persistentId = 3163519798
-	pos = -2.520154,4.95474815,-1.11610222
+	pos = -2.520154,4.95474815,-1.11610603
 	attPos = 0,0,0
 	attPos0 = 2.09598684,-2.29477143,2.38418252E-07
 	rot = 0.70709902,-0.00333076064,0.00333980098,0.707098901
@@ -2843,7 +2839,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -2878,7 +2873,7 @@ PART
 	part = RO-B9ProcCS-Early_4289073868
 	partName = Part
 	persistentId = 3421994596
-	pos = -1.2455883,4.95474815,-1.10407782
+	pos = -1.2455883,4.95474815,-1.10408163
 	attPos = 0,0,0
 	attPos0 = 0.821423888,-2.28274703,2.38418252E-07
 	rot = 0.70709902,-0.00333076064,0.00333980098,0.707098901
@@ -3126,7 +3121,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -3161,7 +3155,7 @@ PART
 	part = RO-B9ProcWing-Early_4289523900
 	partName = Part
 	persistentId = 1560818056
-	pos = 0.424162686,4.95474768,1.17868042
+	pos = 0.424162686,4.95474768,1.17867756
 	attPos = 0.271807432,2.6236968,0.0452517085
 	attPos0 = 0.152355254,-1.49999917,3.57627385E-07
 	rot = -0.707106948,-3.09086197E-08,-3.09086197E-08,-0.707106709
@@ -3425,7 +3419,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -3460,7 +3453,7 @@ PART
 	part = RO-B9ProcCS-Early_4289217398
 	partName = Part
 	persistentId = 1930044140
-	pos = 2.520154,4.95474815,-1.11610365
+	pos = 2.520154,4.95474815,-1.11610746
 	attPos = 0,0,0
 	attPos0 = 2.09598827,-2.29477262,7.65493724E-07
 	rot = 0.70709902,0.00333076064,-0.00333979959,0.707098901
@@ -3708,7 +3701,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -3743,7 +3735,7 @@ PART
 	part = RO-B9ProcCS-Early_4289002336
 	partName = Part
 	persistentId = 902757672
-	pos = 1.2455883,4.95474815,-1.10407877
+	pos = 1.2455883,4.95474815,-1.10408258
 	attPos = 0,0,0
 	attPos0 = 0.821424484,-2.28274822,6.49767344E-07
 	rot = 0.70709902,0.00333076064,-0.00333979959,0.707098901
@@ -3991,7 +3983,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -4026,7 +4017,7 @@ PART
 	part = RO-B9ProcWing-Early_4288704188
 	partName = Part
 	persistentId = 2365589886
-	pos = -1.33198714E-08,5.30472374,-3.51154852
+	pos = -1.33198714E-08,5.30472374,-3.51155424
 	attPos = 2.06583106E-08,-0.316525221,0.0839415193
 	attPos0 = -3.3978182E-08,-3.24999762,-0.388664663
 	rot = -0.50000006,-0.50000006,-0.50000006,-0.50000006
@@ -4290,7 +4281,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -4325,7 +4315,7 @@ PART
 	part = RO-B9ProcWing-Early_4288486818
 	partName = Part
 	persistentId = 3661615739
-	pos = 4.62847893E-08,5.90395355,-3.83858681
+	pos = 4.62847893E-08,5.90395355,-3.83859253
 	attPos = 0.0239028335,0.0847417712,0
 	attPos0 = 0.57532692,-0.411780417,1.19209275E-07
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -4587,7 +4577,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -4622,7 +4611,7 @@ PART
 	part = RO-B9ProcAMWing-Early_4287736352
 	partName = Part
 	persistentId = 3586415373
-	pos = -0.228473619,4.68235207,-4.25865412
+	pos = -0.228473738,4.68235207,-4.25865984
 	attPos = -0.841260314,-0.0813959241,-0.158473581
 	attPos0 = 0.21888876,-0.665709674,-0.0699997768
 	rot = -3.09086268E-08,-0.707106888,-0.707106888,3.09086268E-08
@@ -4887,7 +4876,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -4922,7 +4910,7 @@ PART
 	part = RO-B9ProcAMWing-Early_4287730720
 	partName = Part
 	persistentId = 1662648902
-	pos = 0.228473678,4.68235207,-4.25865602
+	pos = 0.228473797,4.68235207,-4.25866175
 	attPos = -0.841260433,-0.0813978314,0.158473492
 	attPos0 = 0.21888876,-0.665709674,0.0699998364
 	rot = -0.707107246,-5.33850759E-08,-1.15202326E-07,-0.707106531
@@ -5187,7 +5175,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -5222,7 +5209,7 @@ PART
 	part = SmallGearBay_4287277958
 	partName = Part
 	persistentId = 1888661567
-	pos = -1.18753731,4.85449553,-1.31071377
+	pos = -1.18753731,4.85449553,-1.31071758
 	attPos = -0.87548548,1.88430202,-0.0657864064
 	attPos0 = -0.312051833,-3.24999428,0.211290821
 	rot = 0,1.00000012,0,-4.37113918E-08
@@ -5399,7 +5386,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -5675,7 +5661,7 @@ PART
 	part = SmallGearBay_4287271306
 	partName = Part
 	persistentId = 2190994125
-	pos = 1.18753731,4.85449553,-1.31071472
+	pos = 1.18753731,4.85449553,-1.31071854
 	attPos = 0.87548548,1.88430107,-0.0657864064
 	attPos0 = 0.312051833,-3.24999428,0.211290821
 	rot = 0,1.00000012,0,4.3711367E-08
@@ -5852,7 +5838,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -6128,7 +6113,7 @@ PART
 	part = RO-RFTank-Seperate_4289643526
 	partName = Part
 	persistentId = 2378303734
-	pos = 0,5.00000048,-3.69504404
+	pos = 0,5.00000048,-3.69504976
 	attPos = 0,0,0
 	attPos0 = 0,-3.75000072,0
 	rot = 0.707106829,0,0,0.707106829
@@ -6180,7 +6165,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.00000095, 1.00000167, 0.00100000005)
+		tempColliderSize = (1.00000119, 1.00000119, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -6423,7 +6408,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -6458,7 +6442,7 @@ PART
 	part = SSTUHollowRing.Boattail_4289637162
 	partName = Part
 	persistentId = 137937901
-	pos = -9.52766754E-11,5,-4.19763327
+	pos = -9.52766754E-11,5,-4.19765615
 	attPos = 0,0,0
 	attPos0 = 0,-1.5000025,0
 	rot = 0,-0.707106829,0.707106829,0
@@ -6640,7 +6624,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -6675,7 +6658,7 @@ PART
 	part = ROE-XLR11_4289698734
 	partName = Part
 	persistentId = 2992991160
-	pos = -2.63995048E-10,4.99999952,-4.50888872
+	pos = -2.63995048E-10,4.99999952,-4.50893927
 	attPos = 0,0,0
 	attPos0 = 0,0.308201194,0
 	rot = 0.707106829,0,0,0.707106829
@@ -6938,9 +6921,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1312.38403
-		initialFlightData = 2289.95752
-		missionStartTime = 77135420.532247066
+		currentFlightData = 6370.521
+		initialFlightData = 7348.09424
+		missionStartTime = 138176784.35095024
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7093,7 +7076,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -7128,7 +7110,7 @@ PART
 	part = RC.radial_4286209804
 	partName = Part
 	persistentId = 1702288480
-	pos = 5.23479304E-09,4.66035652,-4.35739374
+	pos = 5.23479304E-09,4.66035652,-4.35739946
 	attPos = 5.56325297E-09,-2.55387974,-0.185892969
 	attPos0 = -3.28460148E-10,-1.8584882,0.525536776
 	rot = -4.59765204E-08,0.699728727,0.714408755,-4.6941075E-08
@@ -7274,7 +7256,7 @@ PART
 			modelID = 0
 			typeID = 2
 			lastTypeID = 2
-			position = 1.54170614E-08,4.58287287,-4.35900259
+			position = 1.54170614E-08,4.58287287,-4.35900831
 			isPressure = False
 			calcSelect = True
 			getMass = False
@@ -7301,7 +7283,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -7350,7 +7331,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -7475,7 +7455,7 @@ PART
 	part = RO-B9ProcCS-Early_4286033170
 	partName = Part
 	persistentId = 1916716320
-	pos = -1.51436687,4.99174547,-0.416155338
+	pos = -1.51436734,4.99174547,-0.416159153
 	attPos = 2.38418579E-07,-9.53674316E-07,-0.0264038965
 	attPos0 = 1.09020066,-1.59482956,0.0634014383
 	rot = -0.707072258,-0.0070033581,-0.00700335624,-0.70707202
@@ -7723,7 +7703,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -7758,7 +7737,7 @@ PART
 	part = RO-B9ProcCS-Early_4285994656
 	partName = Part
 	persistentId = 1275384833
-	pos = 1.51436591,4.99174547,-0.41615653
+	pos = 1.51436591,4.99174547,-0.416160345
 	attPos = 4.76837158E-07,-1.90734863E-06,0.0264039002
 	attPos0 = 1.09020138,-1.59482884,-0.0634006783
 	rot = 0.707072318,-0.00700335484,-0.00700335391,0.70707196
@@ -8006,7 +7985,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -8041,7 +8019,7 @@ PART
 	part = KzProcFairingSide2.TU_4288713590
 	partName = Part
 	persistentId = 2245201802
-	pos = 0.400000334,5,-3.7192359
+	pos = 0.400000334,5,-3.71925879
 	attPos = 0,0,0
 	attPos0 = -0.400000036,-0.478398323,0
 	rot = -0.707106769,-5.04075679E-08,5.04075608E-08,0.707106888
@@ -8312,7 +8290,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -8347,7 +8324,7 @@ PART
 	part = KzProcFairingSide2.TU_4290783262
 	partName = Part
 	persistentId = 1137412860
-	pos = -0.400000334,5,-3.7192359
+	pos = -0.400000334,5,-3.71925879
 	attPos = 0,0,0
 	attPos0 = 0.400000036,-0.478398323,0
 	rot = 5.04075608E-08,0.707106888,-0.707106769,-5.04075679E-08
@@ -8618,7 +8595,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -8653,7 +8629,7 @@ PART
 	part = conformaldecals-generic_4290346536
 	partName = Part
 	persistentId = 3215746409
-	pos = 5.85717999E-08,5.66884613,2.9286437
+	pos = 5.85717999E-08,5.66884613,2.9286418
 	attPos = 0,0,0
 	attPos0 = 5.85717999E-08,2.87365794,-0.668846309
 	rot = -0.497873038,0.497873068,-0.502118051,-0.502118111
@@ -8769,7 +8745,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -8819,7 +8794,7 @@ PART
 	part = conformaldecals-text_4290248434
 	partName = Part
 	persistentId = 355563550
-	pos = -0.549944758,5.00000048,-3.68453884
+	pos = -0.549944758,5.00000048,-3.68454456
 	attPos = 0,0,0
 	attPos0 = -0.549944758,0.0105051994,0
 	rot = 0,0.671319366,1.49011612E-07,0.74116832
@@ -8930,7 +8905,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -8965,7 +8939,7 @@ PART
 	part = conformaldecals-text_4290167116
 	partName = Part
 	persistentId = 1109697949
-	pos = 0.549944758,5.00000048,-3.68453884
+	pos = 0.549944758,5.00000048,-3.68454456
 	attPos = 0,0,0
 	attPos0 = 0.549944758,0.0105051994,0
 	rot = 0,-0.671319306,-1.1920929E-07,0.74116832
@@ -9076,7 +9050,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -9111,7 +9084,7 @@ PART
 	part = conformaldecals-text_4290071278
 	partName = Part
 	persistentId = 2665030878
-	pos = -0.170000464,5.50799084,-4.34090853
+	pos = -0.170000523,5.50799084,-4.34091425
 	attPos = 0,0,0
 	attPos0 = 0.203267068,-0.829360068,-0.17000027
 	rot = -1.49011612E-07,-0.707107067,-1.78813934E-07,-0.707106709
@@ -9222,7 +9195,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -9257,7 +9229,7 @@ PART
 	part = conformaldecals-text_4290040464
 	partName = Part
 	persistentId = 1697144311
-	pos = 0.170000419,5.50799084,-4.34090853
+	pos = 0.170000479,5.50799084,-4.34091425
 	attPos = 0,0,0
 	attPos0 = 0.203267038,-0.829360068,0.170000315
 	rot = 1.49011612E-07,-0.707107067,-1.78813934E-07,0.707106709
@@ -9368,7 +9340,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -9403,7 +9374,7 @@ PART
 	part = RO-B9ProcWing-Early_4289404094
 	partName = Part
 	persistentId = 1234108475
-	pos = 4.62847751E-08,6.22619629,-4.07719755
+	pos = 4.62847751E-08,6.2261982,-4.07720327
 	attPos = 0.0163383484,0.29635632,0
 	attPos0 = 0.305901587,-0.534966648,5.96046306E-08
 	rot = 0.49999997,0.500000119,0.500000238,0.49999997
@@ -9664,7 +9635,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -9699,7 +9669,7 @@ PART
 	part = RO-B9ProcCS-Early_4289074134
 	partName = Part
 	persistentId = 618132890
-	pos = 1.64824581E-08,5.55812263,-4.68760347
+	pos = 1.64824581E-08,5.55812263,-4.6876111
 	attPos = -0.0142502785,-2.86102295E-06,0
 	attPos0 = 0.253398865,-1.17604756,5.96046377E-08
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -9946,7 +9916,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -9981,7 +9950,7 @@ PART
 	part = RO-B9ProcCS-Early_4288674548
 	partName = Part
 	persistentId = 284971387
-	pos = 4.62847751E-08,6.06377506,-4.68892908
+	pos = 4.62847751E-08,6.06377506,-4.68893671
 	attPos = 0.0511141419,8.86917114E-05,5.96046306E-08
 	attPos0 = 0.108707368,-0.850427985,0
 	rot = 0.499991536,0.500008583,0.499991775,0.500008404
@@ -10228,7 +10197,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -10263,7 +10231,7 @@ PART
 	part = RO-B9ProcCS-Early_4288543040
 	partName = Part
 	persistentId = 3304297272
-	pos = -1.33198714E-08,6.7281189,-4.68923616
+	pos = -1.33198714E-08,6.7281208,-4.68924379
 	attPos = 0.00546550751,-0.0136026144,4.92956787E-09
 	attPos0 = 0.496457398,-0.598433495,6.74981635E-08
 	rot = 0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -10510,7 +10478,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -10545,7 +10512,7 @@ PART
 	part = conformaldecals-text_4289908304
 	partName = Part
 	persistentId = 2026709709
-	pos = -0.165402204,6.06214714,-4.25935888
+	pos = -0.165402204,6.06214714,-4.2593646
 	attPos = 0.00699615479,0.0127573609,-5.96046448E-08
 	attPos0 = 0.151196957,-0.433529079,-0.165402099
 	rot = -0.0108574033,-0.707023621,0.0108574033,-0.707023501
@@ -10656,7 +10623,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -10691,7 +10657,7 @@ PART
 	part = conformaldecals-text_4288267908
 	partName = Part
 	persistentId = 1203530763
-	pos = 0.165402293,6.06214714,-4.25936079
+	pos = 0.165402293,6.06214714,-4.25936651
 	attPos = 0.00699663162,0.0127554536,5.96046448E-08
 	attPos0 = 0.151196957,-0.433529079,0.165402219
 	rot = 0.0108573437,-0.70702374,0.0108573437,0.707023382
@@ -10802,7 +10768,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -10837,7 +10802,7 @@ PART
 	part = conformaldecals-text_4290010882
 	partName = Part
 	persistentId = 1037447750
-	pos = -0.139772326,6.53786373,-4.42876959
+	pos = -0.139772326,6.53786564,-4.42877531
 	attPos = -0.267995924,0.178541213,-2.08616257E-07
 	attPos0 = 0.5796628,-0.53011328,-0.139772058
 	rot = -0.0123686492,-0.706998765,0.0123685002,-0.706998706
@@ -10948,7 +10913,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -10983,7 +10947,7 @@ PART
 	part = conformaldecals-text_4288216166
 	partName = Part
 	persistentId = 3740598631
-	pos = 0.139772415,6.53786469,-4.4287715
+	pos = 0.139772415,6.53786659,-4.42877722
 	attPos = -0.26799497,0.178539306,-3.27825546E-07
 	attPos0 = 0.579662681,-0.53011328,0.139772743
 	rot = 0.0123686492,-0.706998706,0.01236853,0.706998587
@@ -11094,7 +11058,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -11129,7 +11092,7 @@ PART
 	part = conformaldecals-text_4288193296
 	partName = Part
 	persistentId = 2140620393
-	pos = 1.45480013,5.11934948,0.393417835
+	pos = 1.45480013,5.11934948,0.393414974
 	attPos = 0,0,0
 	attPos0 = 1.0306375,-0.785262287,-0.164601356
 	rot = -0.643784821,-0.292474568,0.305168688,-0.637865126
@@ -11239,7 +11202,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -11274,7 +11236,7 @@ PART
 	part = conformaldecals-flag_4288199122
 	partName = Part
 	persistentId = 1641626916
-	pos = -1.38026655,5.12082577,0.470146179
+	pos = -1.38026655,5.12082577,0.470143318
 	attPos = 0,0,0
 	attPos0 = 0.956103206,-0.70853442,0.166078016
 	rot = -0.643784821,0.292474449,-0.305168748,-0.637865126
@@ -11375,7 +11337,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -11410,7 +11371,7 @@ PART
 	part = conformaldecals-generic_4288136326
 	partName = Part
 	persistentId = 735485668
-	pos = -0.908459187,5.08016253,2.40832424
+	pos = -0.908459187,5.08016253,2.40832233
 	attPos = 0,0,0
 	attPos0 = 0.484296173,1.22964048,0.125414923
 	rot = 0.347471088,0.61584425,-0.608840704,0.35960111
@@ -11527,7 +11488,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -11577,7 +11537,7 @@ PART
 	part = conformaldecals-generic_4288102698
 	partName = Part
 	persistentId = 2125393088
-	pos = 0.908459187,5.08016253,2.40832424
+	pos = 0.908459187,5.08016253,2.40832233
 	attPos = 0,0,0
 	attPos0 = 0.484296501,1.22964096,-0.125415325
 	rot = -0.347471118,0.61584425,-0.608840585,-0.35960108
@@ -11694,7 +11654,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -11855,7 +11814,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -12001,7 +11959,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -12036,7 +11993,7 @@ PART
 	part = conformaldecals-flag_4290682750
 	partName = Part
 	persistentId = 4110042791
-	pos = -0.609252632,5.00000048,-2.56789827
+	pos = -0.609252632,5.00000048,-2.56790209
 	attPos = 0,0,0
 	attPos0 = -0.609252632,-2.62287712,-4.76836959E-07
 	rot = 0,0.698059976,5.96046448E-08,0.71603936
@@ -12138,7 +12095,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -12173,7 +12129,7 @@ PART
 	part = conformaldecals-flag_4287740568
 	partName = Part
 	persistentId = 2805186649
-	pos = 0.609252632,5.00000048,-2.56789827
+	pos = 0.609252632,5.00000048,-2.56790209
 	attPos = 0,0,0
 	attPos0 = 0.609252632,-2.62287712,-4.76836959E-07
 	rot = 0,-0.698059976,-5.96046448E-08,0.71603936
@@ -12275,7 +12231,6 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
-		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0

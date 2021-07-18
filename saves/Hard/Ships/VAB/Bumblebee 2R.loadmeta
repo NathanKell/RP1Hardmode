@@ -1,6 +1,6 @@
 shipName = Bumblebee 2R
 description = 
-version = 1.10.1
+version = 1.8.1
 partCount = 22
 stageCount = 4
 totalCost = 161.710983
@@ -80,4 +80,4 @@ partModules = ProceduralPart
 partModules = TankContentSwitcher
 partModules = ProceduralShapeBezierCone
 saveMD5 = 
-lastWriteTime = 637615857283919377
+lastWriteTime = 637621077397361395
