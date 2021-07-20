@@ -6,11 +6,11 @@
     "author": [
         "NathanKell"
     ],
-    "version": "2021.07.17.04.04.48",
+    "version": "2021.07.20.09.48.28",
     "ksp_version_min": "1.10.1",
     "ksp_version_max": "1.10.1",
     "license": [
-        "CC-BY-SA-4.0"
+        "CC-BY-NC-SA-4.0"
     ],
     "depends": [
         {
@@ -22,8 +22,8 @@
             "version": "3:0.43.0.9"
         },
         {
-            "name": "DeadlyReentry",
-            "version": "v8.1.0"
+            "name": "RealFuels",
+            "version": "rf-v13.2.0"
         },
         {
             "name": "DistantObject",
@@ -102,8 +102,8 @@
             "version": "1.3.0"
         },
         {
-            "name": "RP-0",
-            "version": "v1.10.3.0"
+            "name": "RealismOverhaul",
+            "version": "v14.2.0.0"
         },
         {
             "name": "RSS-CanaveralHD",
@@ -156,10 +156,6 @@
         {
             "name": "ROSolar",
             "version": "v1.1.1"
-        },
-        {
-            "name": "PersistentRotationUpgraded",
-            "version": "1.9.1.4"
         },
         {
             "name": "KerbalRenamer",
@@ -230,8 +226,8 @@
             "version": "0.2.6.3"
         },
         {
-            "name": "RealismOverhaul",
-            "version": "v14.2.0.0"
+            "name": "RP-0",
+            "version": "v1.10.4.0"
         },
         {
             "name": "AdvancedJetEngine",
@@ -254,8 +250,8 @@
             "version": "v3.5.2"
         },
         {
-            "name": "RealFuels",
-            "version": "rf-v13.2.0"
+            "name": "DeadlyReentry",
+            "version": "v8.1.0"
         },
         {
             "name": "CommunityResourcePack",
@@ -314,14 +310,6 @@
             "version": "2:release-1.12.1-55"
         },
         {
-            "name": "DMagicOrbitalScience",
-            "version": "1.4.3"
-        },
-        {
-            "name": "DMagicScienceAnimate",
-            "version": "v0.23"
-        },
-        {
             "name": "MagiCore",
             "version": "1.3.2.3"
         },
@@ -354,8 +342,8 @@
             "version": "1:v0.6.6.0"
         },
         {
-            "name": "SpaceTuxLibrary",
-            "version": "0.0.6"
+            "name": "MandatoryRCS",
+            "version": "1:1.8"
         },
         {
             "name": "MechJeb2-dev",
@@ -369,5 +357,5 @@
     "recommends": [],
     "suggests": [],
     "kind": "metapackage",
-    "release_date": "2021-07-16T21:04:48.0413207-07:00"
+    "release_date": "2021-07-20T02:48:28.8859587-07:00"
 }
