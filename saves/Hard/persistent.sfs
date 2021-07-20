@@ -459,8 +459,8 @@ GAME
 			DisplayOfferedWaypoints = True
 			DisplayActiveWaypoints = True
 			ActiveContractMultiplier = 1
-			lastMCButton = Active
-			lastMCButton = Active
+			lastMCButton = Available
+			lastMCButton = Available
 		}
 		EEX
 		{
@@ -523,7 +523,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 67015.602895193297
+		funds = 78018.975991939369
 	}
 	SCENARIO
 	{
@@ -662,9 +662,6 @@ GAME
 			part = SXTProbeGooo
 			part = SXTProbeGooo
 			part = GooExperiment
-			part = proceduralStackDecoupler
-			part = RV105.2xlateral.1xdown.half
-			part = RCS.025T.1xdown
 		}
 		Tech
 		{
@@ -1235,6 +1232,13 @@ GAME
 		{
 			fairingSize3 = 1
 			fairingSize1 = 1
+			restock-battery-375-1 = 1
+			RP0probeAvionics0-81m = 1
+			probeCoreSphere.v2 = 1
+			batteryPack = 1
+			batteryBankMini = 1
+			ksp.r.largeBatteryPack = 1
+			SXTSputnik = 1
 			RO-ImprovedFilmCamera = 1
 			RFTank-III-Balloon = 1
 			RFTank-III = 1
@@ -1295,6 +1299,7 @@ GAME
 			nacelleBody = 1
 			SXTRadialAirIntakeShockCone = 1
 			SXTmk3Cockpit52 = 1
+			ROE-18KS7800 = 1
 			ROE-Agena8048 = 1
 			ROE-GCRC = 1
 			ROE-BabySergeant = 1
@@ -1306,6 +1311,7 @@ GAME
 			ROE-Castor1.Inline = 1
 			ROE-Gamma2 = 1
 			ROE-Gamma8 = 1
+			ROE-NikeM5E1 = 1
 			ROE-RD0105 = 1
 			ROE-RZ = 1
 			Mark1Cockpit = 1
@@ -1874,7 +1880,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = -1000
+		update = 150658987.200239
 		version = 1.10.1
 		WEIGHTS
 		{
@@ -2669,113 +2675,6 @@ GAME
 			}
 			CONTRACT
 			{
-				guid = 1f3997dd-0cbb-4264-87b3-4e617c6936ae
-				type = ConfiguredContract
-				prestige = 0
-				seed = 1317318316
-				state = Active
-				viewed = Seen
-				agent = Federation Aeronautique Internationale
-				agentName = Federation Aeronautique Internationale
-				deadlineType = None
-				expiryType = Floating
-				autoAccept = True
-				ignoresWeight = True
-				values = 6117540,0,0,11520,0,0,22,0,156775496.783991,150657956.783991,0,0
-				subtype = recordCrewedSpeed
-				title = Crewed Speed Record of 2000 m/s.
-				description = We want you to set a new crewed speed record! Fly/rocket above 2000 m/s with crew aboard.
-				synopsis = Set a crewed speed record of 2000 m/s.
-				completedMessage = Congratulations! You've set a new crewed speed record!
-				hash = -1533548832
-				targetBody = Earth
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-						type = Double
-						RP0_CrewedSpeedIndex = RP0_CrewedSpeedIndex + 1
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachState
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedSpeed
-					title = 
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					targetBody = Earth
-					minSpeed = 2000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.recordCrewedSpeed
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.recordCrewedSpeed
-						title = Speed: Greater than 2,000 m/s
-						notes = 
-						completedMessage = 
-					}
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = HasCrew
-					state = Complete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.recordCrewedSpeed
-					title = 
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 1
-					maxCrew = 2147483647
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.recordCrewedSpeed
-						title = Count: At least one
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-			CONTRACT
-			{
 				guid = 45550f08-b63d-4db6-abfc-c58efc4389b9
 				type = ConfiguredContract
 				prestige = 0
@@ -3471,6 +3370,113 @@ GAME
 								}
 							}
 						}
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 1f3997dd-0cbb-4264-87b3-4e617c6936ae
+				type = ConfiguredContract
+				prestige = 0
+				seed = 1317318316
+				state = Active
+				viewed = Unseen
+				agent = Federation Aeronautique Internationale
+				agentName = Federation Aeronautique Internationale
+				deadlineType = None
+				expiryType = Floating
+				autoAccept = True
+				ignoresWeight = True
+				values = 6117540,0,0,11520,0,0,22,0,156775496.783991,150657956.783991,0,0
+				subtype = recordCrewedSpeed
+				title = Crewed Speed Record of 2000 m/s.
+				description = We want you to set a new crewed speed record! Fly/rocket above 2000 m/s with crew aboard.
+				synopsis = Set a crewed speed record of 2000 m/s.
+				completedMessage = Congratulations! You've set a new crewed speed record!
+				hash = -1533548832
+				targetBody = Earth
+				BEHAVIOUR
+				{
+					type = ContractConfigurator.Behaviour.Expression
+					CONTRACT_OFFERED
+					{
+					}
+					CONTRACT_ACCEPTED
+					{
+					}
+					CONTRACT_COMPLETED_SUCCESS
+					{
+						type = Double
+						RP0_CrewedSpeedIndex = RP0_CrewedSpeedIndex + 1
+					}
+					CONTRACT_COMPLETED_FAILURE
+					{
+					}
+				}
+				PARAM
+				{
+					name = ReachState
+					id = ReachState
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.recordCrewedSpeed
+					title = 
+					notes = 
+					completedMessage = 
+					allowStateReset = True
+					targetBody = Earth
+					minSpeed = 2000
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.recordCrewedSpeed
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.recordCrewedSpeed
+						title = Speed: Greater than 2,000 m/s
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = HasCrew
+					id = HasCrew
+					state = Complete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.recordCrewedSpeed
+					title = 
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 1
+					maxCrew = 2147483647
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = CountParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.recordCrewedSpeed
+						title = Count: At least one
+						notes = 
+						completedMessage = 
 					}
 				}
 			}
@@ -15470,7 +15476,7 @@ GAME
 	SCENARIO
 	{
 		name = CommNetScenario
-		scene = 7, 8, 5, 6
+		scene = 4
 	}
 	SCENARIO
 	{
@@ -15498,7 +15504,7 @@ GAME
 			prestige = 0
 			seed = 805369043
 			state = Offered
-			viewed = Read
+			viewed = Unseen
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -15799,7 +15805,7 @@ GAME
 			prestige = 0
 			seed = 1501250540
 			state = Offered
-			viewed = Read
+			viewed = Unseen
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -16481,12 +16487,146 @@ GAME
 		}
 		CONTRACT
 		{
+			guid = fc972b68-9494-4c73-ad26-64a69e2c63e4
+			type = ConfiguredContract
+			prestige = 1
+			seed = 241355686
+			state = Offered
+			viewed = Unseen
+			agent = Federation Aeronautique Internationale
+			agentName = Federation Aeronautique Internationale
+			deadlineType = Floating
+			expiryType = None
+			ignoresWeight = True
+			values = 518400,50457600,48000,48000,90000,0,50,10,150765459.309155,0,0,0
+			subtype = first_KarmanCrewed
+			title = Pass the Karman Line (Crewed)
+			description = Although the Earth's atmosphere extends far further than 100km above sea level, the Karman Line is the traditional separator between it and space. The Karman Line is where the speed necessary to maintain altitude via lift, is the same as the speed required for orbit. Putting a human above this line also represents a milestone target for the early space program. Before attempting this milestone make sure you have time to research and build a spacecraft capable of the task, there is a hard deadline to meet. While passing the Karman Line is the goal of every spacecraft very few have been specifically designed to not reach orbit afterwards. Examples include the Mercury capsule (1961, 1.4 tons, Mercury-Redstone), the X-15 (1963, 15.4 tons loaded, B-52), and SpaceShipOne (2004, 3.6 tons, White Knight).
+			synopsis = Pass the Karman Line of 100 km with a crewed craft
+			completedMessage = Congratulations! The first person has officially reached space!
+			hash = -904316179
+			targetBody = Earth
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = VesselGroup
+				state = Incomplete
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.first_KarmanCrewed
+				title = Pass the Karman Line (crewed) and return to Earth.
+				notes = 
+				completedMessage = 
+				define = karmanCrewedSpacecraft
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = NewVessel
+					id = NewVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_KarmanCrewed
+					title = Launch a New Vessel
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					launchID = 0
+				}
+				PARAM
+				{
+					name = HasCrew
+					id = OneCrew
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_KarmanCrewed
+					title = Have at least 1 crewmember on board
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 1
+					maxCrew = 99
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = CountParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_KarmanCrewed
+						title = Count: Between one and 99
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = ReachState
+					id = ReachStateKarman
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_KarmanCrewed
+					title = Reach 100 km
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = False
+					targetBody = Earth
+					minAltitude = 100000
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_KarmanCrewed
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_KarmanCrewed
+						title = Altitude: Above 100,000 m
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = ReturnHome
+					id = ReturnHome
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_KarmanCrewed
+					title = Return Home Safely
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					hideChildren = True
+					allowStateReset = True
+				}
+			}
+		}
+		CONTRACT
+		{
 			guid = 8562be66-2a25-4ab3-9b3d-c9f74b8f2ca5
 			type = ConfiguredContract
 			prestige = 0
 			seed = 1793801135
 			state = Offered
-			viewed = Read
+			viewed = Unseen
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -16653,7 +16793,7 @@ GAME
 			prestige = 0
 			seed = 1024844512
 			state = Offered
-			viewed = Read
+			viewed = Unseen
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -16888,7 +17028,7 @@ GAME
 			prestige = 0
 			seed = 145304188
 			state = Offered
-			viewed = Read
+			viewed = Unseen
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -17474,7 +17614,7 @@ GAME
 			prestige = 0
 			seed = 516978440
 			state = Offered
-			viewed = Read
+			viewed = Unseen
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -17621,140 +17761,6 @@ GAME
 				}
 			}
 		}
-		CONTRACT
-		{
-			guid = 87acdd6b-857f-4a70-99cc-8f38aa167470
-			type = ConfiguredContract
-			prestige = 1
-			seed = 1499325583
-			state = Offered
-			viewed = Unseen
-			agent = Federation Aeronautique Internationale
-			agentName = Federation Aeronautique Internationale
-			deadlineType = Floating
-			expiryType = None
-			ignoresWeight = True
-			values = 518400,50457600,48000,48000,90000,0,50,10,150766977.820234,0,0,0
-			subtype = first_KarmanCrewed
-			title = Pass the Karman Line (Crewed)
-			description = Although the Earth's atmosphere extends far further than 100km above sea level, the Karman Line is the traditional separator between it and space. The Karman Line is where the speed necessary to maintain altitude via lift, is the same as the speed required for orbit. Putting a human above this line also represents a milestone target for the early space program. Before attempting this milestone make sure you have time to research and build a spacecraft capable of the task, there is a hard deadline to meet. While passing the Karman Line is the goal of every spacecraft very few have been specifically designed to not reach orbit afterwards. Examples include the Mercury capsule (1961, 1.4 tons, Mercury-Redstone), the X-15 (1963, 15.4 tons loaded, B-52), and SpaceShipOne (2004, 3.6 tons, White Knight).
-			synopsis = Pass the Karman Line of 100 km with a crewed craft
-			completedMessage = Congratulations! The first person has officially reached space!
-			hash = -904316179
-			targetBody = Earth
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = VesselGroup
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.first_KarmanCrewed
-				title = Pass the Karman Line (crewed) and return to Earth.
-				notes = 
-				completedMessage = 
-				define = karmanCrewedSpacecraft
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_KarmanCrewed
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = OneCrew
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_KarmanCrewed
-					title = Have at least 1 crewmember on board
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 1
-					maxCrew = 99
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Count: Between one and 99
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = ReachStateKarman
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_KarmanCrewed
-					title = Reach 100 km
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = False
-					targetBody = Earth
-					minAltitude = 100000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Altitude: Above 100,000 m
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = ReturnHome
-					id = ReturnHome
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_KarmanCrewed
-					title = Return Home Safely
-					notes = 
-					completedMessage = 
-					completeInSequence = True
-					hideChildren = True
-					allowStateReset = True
-				}
-			}
-		}
 	}
 	SCENARIO
 	{
@@ -17798,8 +17804,8 @@ GAME
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
-		initialized = True
-		savetime = 150659209.60035831
+		initialized = False
+		savetime = 150658993.76024252
 		useUUID = True
 		KKSettings
 		{
@@ -17814,7 +17820,7 @@ GAME
 			mapShowRecovery = False
 			defaultVABlaunchsite = LaunchPad
 			defaultSPHlaunchsite = Runway
-			lastLaunchSiteUsed = LaunchPad
+			lastLaunchSiteUsed = Runway
 		}
 		Facilities
 		{
@@ -23554,19 +23560,6 @@ GAME
 			A-6 = True
 			Navaho-PhaseIII-TP = True
 			Navaho-PhaseII-TP = True
-			Science-Core-avionicsPrototypes = True
-			Science-Core-postWarAvionics = True
-			Science-Core-start = True
-			proceduralStackDecoupler = True
-			RV105-2xlateral-1xdown-half = True
-			Helium = True
-			Near-Earth-avionicsPrototypes = True
-			avionicsBoosterPW = True
-			avionicsPW = True
-			HTP = True
-			CatalystRCS = True
-			Nitrogen = True
-			RCS-025T-1xdown = True
 		}
 	}
 	SCENARIO
@@ -23584,7 +23577,7 @@ GAME
 			activeKSC = us_cape_canaveral
 			SciPoints = 116.594589
 			UpgradesResetCounter = 0
-			TechUpgrades = 18
+			TechUpgrades = 25
 			IsSimulation = False
 			DisableFailuresInSim = True
 			VABUpgrades
@@ -23612,7 +23605,7 @@ GAME
 			ActiveLPID = 0
 			VABUpgrades
 			{
-				Upgrade = 29
+				Upgrade = 22
 			}
 			SPHUpgrades
 			{
@@ -23621,7 +23614,7 @@ GAME
 			RDUpgrades
 			{
 				Upgrade = 0
-				Upgrade = 18
+				Upgrade = 25
 			}
 			VABList
 			{
@@ -23629,7 +23622,7 @@ GAME
 				{
 					shipName = Wasp
 					shipID = aa076799-509e-41f3-95db-1ae90eec5c17
-					progress = 124255.32002892561
+					progress = 124141.10996765859
 					effectiveCost = 2873.2205830000003
 					buildTime = 785975.13517617318
 					integrationTime = 1768444.054146389
@@ -63404,7 +63397,7 @@ GAME
 				{
 					name = Vessel Recovery
 					BP = 11932.09377068609
-					progress = 190.58010223507881
+					progress = 76.370040968060493
 					cost = 0
 					associatedID = b514a5a3-b938-43d4-9dd4-b4f963a254c6
 					launchPadID = Runway
@@ -63427,21 +63420,34 @@ GAME
 			}
 			VABRateCache
 			{
-				rate = 0.52000000000000002
+				rate = 0.41499999999999998
 			}
 			SPHRateCache
 			{
-				rate = 0.52000000000000002
+				rate = 0.41499999999999998
 			}
 		}
 		TechList
 		{
 			Tech
 			{
+				techName = 1956-1957 Solid Rocket Engines
+				techID = solids1956
+				scienceCost = 5
+				progress = 1.5449695849470177
+				ProtoNode
+				{
+					id = solids1956
+					state = Unavailable
+					cost = 5
+				}
+			}
+			Tech
+			{
 				techName = Satellite Era Electronics Research
 				techID = electronicsSatellite
 				scienceCost = 10
-				progress = 6.1525551622561422E-05
+				progress = 0
 				ProtoNode
 				{
 					id = electronicsSatellite
@@ -63460,19 +63466,6 @@ GAME
 					id = scienceSatellite
 					state = Unavailable
 					cost = 7
-				}
-			}
-			Tech
-			{
-				techName = 1956-1957 Solid Rocket Engines
-				techID = solids1956
-				scienceCost = 5
-				progress = 1.5450007941551247
-				ProtoNode
-				{
-					id = solids1956
-					state = Unavailable
-					cost = 5
 				}
 			}
 			Tech
@@ -64669,9 +64662,9 @@ GAME
 				OtherFundsEarned = 0
 				ScienceEarned = 0
 				LaunchFees = 356.77079391479492
-				MaintenanceFees = 212.60634687542915
+				MaintenanceFees = 212.2332501411438
 				ToolingFees = 0
-				EntryCosts = 11003
+				EntryCosts = 0
 				OtherFees = 0
 				VABUpgrades = 0
 				SPHUpgrades = 0
@@ -65927,8 +65920,8 @@ GAME
 	{
 		name = MaintenanceHandler
 		scene = 6, 7, 5, 8
-		nextUpdate = 150662575.32023263
-		lastUpdate = 150658975.32023263
+		nextUpdate = 150661015.84915394
+		lastUpdate = 150657415.84915394
 	}
 	SCENARIO
 	{
@@ -66159,7 +66152,7 @@ GAME
 		scene = 6, 5
 		ProceduralAvioncisUnlockedTech
 		{
-			UnlockedTechState = Near-Earth|avionicsPrototypes|Science-Core|avionicsPrototypes
+			UnlockedTechState = Near-Earth|start|Science-Core|start
 		}
 	}
 	SCENARIO
@@ -66816,7 +66809,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 150701986.155065
+				storm_generation = 150659009.94952393
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -66868,15 +66861,10 @@ GAME
 			map_viewed = True
 		}
 	}
-	SCENARIO
-	{
-		name = ScenarioDiscoverableObjects
-		scene = 7, 8, 5
-	}
 	FLIGHTSTATE
 	{
 		version = 1.10.1
-		UT = 150659209.60035831
+		UT = 150658993.76024252
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -66924,13 +66912,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 3185511.0058442694
-				ECC = 0.99999999999999989
+				SMA = NaN
+				ECC = 1
 				INC = 61.551368000288022
 				LPE = 90.000000000000014
-				LAN = 113.99565867425332
-				MNA = 3.1415926207170166
-				EPH = 150658975.24023259
+				LAN = 114.04546134567272
+				MNA = 0
+				EPH = 150658987.16023898
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -68230,5 +68218,9 @@ GAME
 				0 = Nationality,Russian
 			}
 		}
+	}
+	MESSAGESYSTEM
+	{
+		flash = True
 	}
 }
