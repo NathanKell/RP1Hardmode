@@ -2,7 +2,7 @@ ship = Skystreak J3
 version = 1.10.1
 description = 
 type = SPH
-size = 6.14832878,3.7237339,13.6561451
+size = 6.14832878,3.72373962,13.6561604
 steamPublishedFileId = 0
 persistentId = 765244024
 rot = 0,0,0,0
@@ -16,7 +16,7 @@ PART
 {
 	part = RO-X1Cockpit_4289721662
 	partName = Part
-	persistentId = 2895623331
+	persistentId = 3470282225
 	pos = 1.46610836E-15,5,2.85500336
 	attPos = 0,0,0
 	attPos0 = 0,5,0
@@ -1419,8 +1419,8 @@ PART
 {
 	part = SmallGearBay_4287304402
 	partName = Part
-	persistentId = 2247379431
-	pos = 1.46610836E-15,4.74248743,3.68050838
+	persistentId = 1275177472
+	pos = 1.46610836E-15,4.74248743,3.68050933
 	attPos = 0,0.825504601,-0.245220363
 	attPos0 = 0,-4.17232513E-07,0.502732813
 	rot = 0,0,0,1.00000012
@@ -1882,8 +1882,8 @@ PART
 {
 	part = RO-RFTank-Seperate_4289721066
 	partName = Part
-	persistentId = 2582073165
-	pos = 1.46610836E-15,5,-0.395025969
+	persistentId = 2311837350
+	pos = 1.46610836E-15,5,-0.395032644
 	attPos = 0,0,0
 	attPos0 = 0,-3.25,4.76837158E-07
 	rot = 0.707106829,0,0,0.707106829
@@ -1904,9 +1904,9 @@ PART
 	modCost = 46.2513046
 	modMass = -0.628185034
 	modSize = 0,0,0
-	link = RO-B9ProcWing-Early_4289548504
-	link = RO-B9ProcWing-Early_4289523900
-	link = RO-B9ProcWing-Early_4288704188
+	link = RO-B9ProcWing-Supersonic_4289548504
+	link = RO-B9ProcWing-Supersonic_4289523900
+	link = RO-B9ProcWing-Supersonic_4288704188
 	link = SmallGearBay_4287277958
 	link = SmallGearBay_4287271306
 	link = RO-RFTank-Seperate_4289643526
@@ -2241,10 +2241,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4289548504
+	part = RO-B9ProcWing-Supersonic_4289548504
 	partName = Part
-	persistentId = 2394501698
-	pos = -0.424162686,4.95474768,0.728676319
+	persistentId = 4221545031
+	pos = -0.424162686,4.95474768,0.728671551
 	attPos = -0.271807432,2.62369728,0.0452517085
 	attPos0 = -0.152355254,-1.49999893,3.57627385E-07
 	rot = 0,-0.707106829,-0.707106829,0
@@ -2262,15 +2262,15 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 5.00991726
+	modCost = 10.0099173
 	modMass = 0.092973195
 	modSize = 0,0,0
-	link = RO-B9ProcCS-Early_4289419516
-	link = RO-B9ProcCS-Early_4289073868
-	link = RO-B9ProcCS-Early_4286033170
+	link = RO-B9ProcCS-Supersonic_4289419516
+	link = RO-B9ProcCS-Supersonic_4289073868
+	link = RO-B9ProcCS-Supersonic_4286033170
 	link = conformaldecals-flag_4288199122
 	link = conformaldecals-generic_4288136326
-	sym = RO-B9ProcWing-Early_4289523900
+	sym = RO-B9ProcWing-Supersonic_4289523900
 	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
@@ -2539,10 +2539,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4289419516
+	part = RO-B9ProcCS-Supersonic_4289419516
 	partName = Part
-	persistentId = 3163519798
-	pos = -2.520154,4.95474815,-1.56610823
+	persistentId = 2987640146
+	pos = -2.520154,4.95474815,-1.5661149
 	attPos = 0,0,0
 	attPos0 = 2.09598684,-2.29477143,2.38418252E-07
 	rot = 0.70709902,-0.00333076064,0.00333980098,0.707098901
@@ -2560,11 +2560,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.00628625043
 	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4289217398
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0,0|1|0,0|0|0
+	sym = RO-B9ProcCS-Supersonic_4289217398
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289548504,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -2821,10 +2821,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4289073868
+	part = RO-B9ProcCS-Supersonic_4289073868
 	partName = Part
-	persistentId = 3421994596
-	pos = -1.2455883,4.95474815,-1.55408382
+	persistentId = 2974106329
+	pos = -1.2455883,4.95474815,-1.5540905
 	attPos = 0,0,0
 	attPos0 = 0.821423888,-2.28274703,2.38418252E-07
 	rot = 0.70709902,-0.00333076064,0.00333980098,0.707098901
@@ -2842,11 +2842,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.00836735126
 	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4289002336
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0,0|1|0,0|0|0
+	sym = RO-B9ProcCS-Supersonic_4289002336
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289548504,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -3103,10 +3103,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4289523900
+	part = RO-B9ProcWing-Supersonic_4289523900
 	partName = Part
-	persistentId = 1560818056
-	pos = 0.424162686,4.95474768,0.728675842
+	persistentId = 2435881231
+	pos = 0.424162686,4.95474768,0.728671074
 	attPos = 0.271807432,2.6236968,0.0452517085
 	attPos0 = 0.152355254,-1.49999917,3.57627385E-07
 	rot = -0.707106948,-3.09086197E-08,-3.09086197E-08,-0.707106709
@@ -3124,15 +3124,15 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 5.00991726
+	modCost = 10.0099173
 	modMass = 0.092973195
 	modSize = 0,0,0
-	link = RO-B9ProcCS-Early_4289217398
-	link = RO-B9ProcCS-Early_4289002336
-	link = RO-B9ProcCS-Early_4285994656
+	link = RO-B9ProcCS-Supersonic_4289217398
+	link = RO-B9ProcCS-Supersonic_4289002336
+	link = RO-B9ProcCS-Supersonic_4285994656
 	link = conformaldecals-text_4288193296
 	link = conformaldecals-generic_4288102698
-	sym = RO-B9ProcWing-Early_4289548504
+	sym = RO-B9ProcWing-Supersonic_4289548504
 	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
@@ -3401,10 +3401,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4289217398
+	part = RO-B9ProcCS-Supersonic_4289217398
 	partName = Part
-	persistentId = 1930044140
-	pos = 2.520154,4.95474815,-1.56610966
+	persistentId = 174926982
+	pos = 2.520154,4.95474815,-1.56611633
 	attPos = 0,0,0
 	attPos0 = 2.09598827,-2.29477262,7.65493724E-07
 	rot = 0.70709902,0.00333076064,-0.00333979959,0.707098901
@@ -3422,11 +3422,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.00628625043
 	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4289419516
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0,0|1|0,0|0|0
+	sym = RO-B9ProcCS-Supersonic_4289419516
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289523900,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -3683,10 +3683,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4289002336
+	part = RO-B9ProcCS-Supersonic_4289002336
 	partName = Part
-	persistentId = 902757672
-	pos = 1.2455883,4.95474815,-1.55408478
+	persistentId = 3970285526
+	pos = 1.2455883,4.95474815,-1.55409145
 	attPos = 0,0,0
 	attPos0 = 0.821424484,-2.28274822,6.49767344E-07
 	rot = 0.70709902,0.00333076064,-0.00333979959,0.707098901
@@ -3704,11 +3704,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.00836735126
 	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4289073868
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0,0|1|0,0|0|0
+	sym = RO-B9ProcCS-Supersonic_4289073868
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289523900,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -3965,10 +3965,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288704188
+	part = RO-B9ProcWing-Supersonic_4288704188
 	partName = Part
-	persistentId = 2365589886
-	pos = -1.33198697E-08,5.42211533,-3.85234451
+	persistentId = 2251093886
+	pos = -1.33198697E-08,5.42211533,-3.852355
 	attPos = 2.06583106E-08,-0.207319021,-0.0334500074
 	attPos0 = -3.3978182E-08,-3.24999762,-0.388664663
 	rot = -0.50000006,-0.50000006,-0.50000006,-0.50000006
@@ -3989,12 +3989,12 @@ PART
 	modCost = 0.00185220013
 	modMass = 0.038548544
 	modSize = 0,0,0
-	link = RO-B9ProcWing-Early_4288486818
-	link = RO-B9ProcAMWing-Early_4287736352
-	link = RO-B9ProcAMWing-Early_4287730720
+	link = RO-B9ProcWing-Supersonic_4288486818
+	link = RO-B9ProcAMWing-Supersonic_4287736352
+	link = RO-B9ProcAMWing-Supersonic_4287730720
 	link = conformaldecals-text_4290071278
 	link = conformaldecals-text_4290040464
-	link = RO-B9ProcCS-Early_4289074134
+	link = RO-B9ProcCS-Supersonic_4289074134
 	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
@@ -4263,10 +4263,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4288486818
+	part = RO-B9ProcWing-Supersonic_4288486818
 	partName = Part
-	persistentId = 3661615739
-	pos = 4.62847893E-08,6.02134514,-4.17938328
+	persistentId = 3066923620
+	pos = 4.62847893E-08,6.02134514,-4.17939377
 	attPos = 0.0239028335,0.0847417712,0
 	attPos0 = 0.57532692,-0.411780417,1.19209275E-07
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -4287,11 +4287,11 @@ PART
 	modCost = 0.000333400007
 	modMass = 0.00508551113
 	modSize = 0,0,0
-	link = RO-B9ProcWing-Early_4289404094
-	link = RO-B9ProcCS-Early_4288674548
+	link = RO-B9ProcWing-Supersonic_4289404094
+	link = RO-B9ProcCS-Supersonic_4288674548
 	link = conformaldecals-text_4289908304
 	link = conformaldecals-text_4288267908
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0,-1|0|0,0|0|0
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288704188,section,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -4559,10 +4559,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcAMWing-Early_4287736352
+	part = RO-B9ProcAMWing-Supersonic_4287736352
 	partName = Part
-	persistentId = 3586415373
-	pos = -0.228473976,5.24619055,-4.41072941
+	persistentId = 2701293344
+	pos = -0.228474215,5.24619055,-4.4107399
 	attPos = -0.394813478,0.1073246,-0.158474147
 	attPos0 = 0.21888876,-0.665709674,-0.0699997768
 	rot = -3.09086268E-08,-0.707106888,-0.707106888,3.09086268E-08
@@ -4580,11 +4580,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.0353847705
 	modSize = 0,0,0
-	sym = RO-B9ProcAMWing-Early_4287730720
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0,-1|0|0,0|0|0
+	sym = RO-B9ProcAMWing-Supersonic_4287730720
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288704188,section,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -4858,10 +4858,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcAMWing-Early_4287730720
+	part = RO-B9ProcAMWing-Supersonic_4287730720
 	partName = Part
-	persistentId = 1662648902
-	pos = 0.228473991,5.24619055,-4.41073132
+	persistentId = 1610457071
+	pos = 0.22847423,5.24619055,-4.41074181
 	attPos = -0.394813538,0.107322693,0.158474088
 	attPos0 = 0.21888876,-0.665709674,0.0699998364
 	rot = -0.707107246,-5.33850759E-08,-1.15202326E-07,-0.707106531
@@ -4879,11 +4879,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.0353847705
 	modSize = 0,0,0
-	sym = RO-B9ProcAMWing-Early_4287736352
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0,-1|0|0,0|0|0
+	sym = RO-B9ProcAMWing-Supersonic_4287736352
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288704188,section,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -5159,8 +5159,8 @@ PART
 {
 	part = SmallGearBay_4287277958
 	partName = Part
-	persistentId = 1888661567
-	pos = -1.18753731,4.85449553,-1.76071978
+	persistentId = 2410010302
+	pos = -1.18753731,4.85449553,-1.76072645
 	attPos = -0.87548548,1.88430202,-0.0657864064
 	attPos0 = -0.312051833,-3.24999428,0.211290821
 	rot = 0,1.00000012,0,-4.37113918E-08
@@ -5611,8 +5611,8 @@ PART
 {
 	part = SmallGearBay_4287271306
 	partName = Part
-	persistentId = 2190994125
-	pos = 1.18753731,4.85449553,-1.76072073
+	persistentId = 139949809
+	pos = 1.18753731,4.85449553,-1.76072741
 	attPos = 0.87548548,1.88430107,-0.0657864064
 	attPos0 = 0.312051833,-3.24999428,0.211290821
 	rot = 0,1.00000012,0,4.3711367E-08
@@ -6063,8 +6063,8 @@ PART
 {
 	part = RO-RFTank-Seperate_4289643526
 	partName = Part
-	persistentId = 2378303734
-	pos = 1.46610836E-15,5.00000048,-4.14505291
+	persistentId = 3348282312
+	pos = 1.46610836E-15,5.00000048,-4.1450634
 	attPos = 0,0,0
 	attPos0 = 0,-3.75000072,0
 	rot = 0.707106829,0,0,0.707106829
@@ -6116,7 +6116,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.00000095, 1.00000024, 0.00100000005)
+		tempColliderSize = (1.00000024, 1.00000072, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -6390,10 +6390,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4286033170
+	part = RO-B9ProcCS-Supersonic_4286033170
 	partName = Part
-	persistentId = 1916716320
-	pos = -1.51436758,4.99174547,-0.866161346
+	persistentId = 436997957
+	pos = -1.51436853,4.99174547,-0.866168022
 	attPos = 2.38418579E-07,-9.53674316E-07,-0.0264038965
 	attPos0 = 1.09020066,-1.59482956,0.0634014383
 	rot = -0.707072258,-0.0070033581,-0.00700335624,-0.70707202
@@ -6411,11 +6411,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 5
+	modCost = 15
 	modMass = 0.038424667
 	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4285994656
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0,0|1|0,0|0|0
+	sym = RO-B9ProcCS-Supersonic_4285994656
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289548504,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -6672,10 +6672,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4285994656
+	part = RO-B9ProcCS-Supersonic_4285994656
 	partName = Part
-	persistentId = 1275384833
-	pos = 1.51436591,4.99174547,-0.866162539
+	persistentId = 3922619168
+	pos = 1.51436591,4.99174547,-0.866169214
 	attPos = 4.76837158E-07,-1.90734863E-06,0.0264039002
 	attPos0 = 1.09020138,-1.59482884,-0.0634006783
 	rot = 0.707072318,-0.00700335484,-0.00700335391,0.70707196
@@ -6693,11 +6693,11 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 5
+	modCost = 15
 	modMass = 0.038424667
 	modSize = 0,0,0
-	sym = RO-B9ProcCS-Early_4286033170
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0,0|1|0,0|0|0
+	sym = RO-B9ProcCS-Supersonic_4286033170
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289523900,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -6956,8 +6956,8 @@ PART
 {
 	part = conformaldecals-generic_4290346536
 	partName = Part
-	persistentId = 3215746409
-	pos = 5.85717999E-08,5.66884613,2.47864056
+	persistentId = 2914622512
+	pos = 5.85717999E-08,5.66884613,2.4786377
 	attPos = 0,0,0
 	attPos0 = 5.85717999E-08,2.87365794,-0.668846309
 	rot = -0.497873038,0.497873068,-0.502118051,-0.502118111
@@ -7121,8 +7121,8 @@ PART
 {
 	part = conformaldecals-text_4290248434
 	partName = Part
-	persistentId = 355563550
-	pos = -0.582204759,5.00000048,-4.13461256
+	persistentId = 2028356600
+	pos = -0.582204759,5.00000048,-4.13462305
 	attPos = 0,0,0
 	attPos0 = -0.549944758,0.0105051994,0
 	rot = 0,0.671319366,1.49011612E-07,0.74116832
@@ -7266,8 +7266,8 @@ PART
 {
 	part = conformaldecals-text_4290167116
 	partName = Part
-	persistentId = 1109697949
-	pos = 0.582204759,5.00000048,-4.13461256
+	persistentId = 840160733
+	pos = 0.582204759,5.00000048,-4.13462305
 	attPos = 0,0,0
 	attPos0 = 0.549944758,0.0105051994,0
 	rot = 0,-0.671319306,-1.1920929E-07,0.74116832
@@ -7411,8 +7411,8 @@ PART
 {
 	part = conformaldecals-text_4290071278
 	partName = Part
-	persistentId = 2665030878
-	pos = -0.170000553,5.62538242,-4.68170452
+	persistentId = 3963488928
+	pos = -0.170000672,5.62538242,-4.68171501
 	attPos = 0,0,0
 	attPos0 = 0.203267068,-0.829360068,-0.17000027
 	rot = -1.49011612E-07,-0.707107067,-1.78813934E-07,-0.707106709
@@ -7434,7 +7434,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-text_4290040464
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -7556,8 +7556,8 @@ PART
 {
 	part = conformaldecals-text_4290040464
 	partName = Part
-	persistentId = 1697144311
-	pos = 0.170000508,5.62538242,-4.68170452
+	persistentId = 215376380
+	pos = 0.170000628,5.62538242,-4.68171501
 	attPos = 0,0,0
 	attPos0 = 0.203267038,-0.829360068,0.170000315
 	rot = 1.49011612E-07,-0.707107067,-1.78813934E-07,0.707106709
@@ -7579,7 +7579,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-text_4290071278
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288704188,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -7699,10 +7699,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcWing-Early_4289404094
+	part = RO-B9ProcWing-Supersonic_4289404094
 	partName = Part
-	persistentId = 1234108475
-	pos = 4.62847751E-08,6.34359074,-4.41799355
+	persistentId = 715257363
+	pos = 4.62847751E-08,6.3435936,-4.41800404
 	attPos = 0.0163383484,0.29635632,0
 	attPos0 = 0.305901587,-0.534966648,5.96046306E-08
 	rot = 0.49999997,0.500000119,0.500000238,0.49999997
@@ -7720,13 +7720,13 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0.000193400003
+	modCost = 5.0001936
 	modMass = 0.00541916769
 	modSize = 0,0,0
-	link = RO-B9ProcCS-Early_4288543040
+	link = RO-B9ProcCS-Supersonic_4288543040
 	link = conformaldecals-text_4290010882
 	link = conformaldecals-text_4288216166
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0,-1|0|0,0|0|0
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288486818,section,0|0|0,-1|0|0,0|0|0
 	EVENTS
 	{
 	}
@@ -7994,10 +7994,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4289074134
+	part = RO-B9ProcCS-Supersonic_4289074134
 	partName = Part
-	persistentId = 618132890
-	pos = 1.64824598E-08,5.67551422,-5.02840233
+	persistentId = 1364695035
+	pos = 1.64824598E-08,5.67551422,-5.02841663
 	attPos = -0.0142502785,-2.86102295E-06,0
 	attPos0 = 0.253398865,-1.17604756,5.96046377E-08
 	rot = 0.50000006,0.50000006,0.50000006,0.50000006
@@ -8015,10 +8015,10 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.0059686047
 	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4288704188,section,0|0|0,0|1|0,0|0|0
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288704188,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -8275,10 +8275,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288674548
+	part = RO-B9ProcCS-Supersonic_4288674548
 	partName = Part
-	persistentId = 284971387
-	pos = 4.62847751E-08,6.18116665,-5.02972794
+	persistentId = 2983946955
+	pos = 4.62847751E-08,6.1811676,-5.02974224
 	attPos = 0.0511141419,8.86917114E-05,5.96046306E-08
 	attPos0 = 0.108707368,-0.850427985,0
 	rot = 0.499991536,0.500008583,0.499991775,0.500008404
@@ -8296,10 +8296,10 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.00289652962
 	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0,0|1|0,0|0|0
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288486818,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -8556,10 +8556,10 @@ PART
 }
 PART
 {
-	part = RO-B9ProcCS-Early_4288543040
+	part = RO-B9ProcCS-Supersonic_4288543040
 	partName = Part
-	persistentId = 3304297272
-	pos = -1.33198697E-08,6.84551334,-5.03003502
+	persistentId = 3755510432
+	pos = -1.33198554E-08,6.84551716,-5.03004885
 	attPos = 0.00546550751,-0.0136026144,4.92956787E-09
 	attPos0 = 0.496457398,-0.598433495,6.74981635E-08
 	rot = 0.50000006,-0.50000006,-0.50000006,0.50000006
@@ -8577,10 +8577,10 @@ PART
 	sepI = -1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 5
 	modMass = 0.00850287266
 	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0,0|1|0,0|0|0
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289404094,section,0|0|0,0|1|0,0|0|0
 	EVENTS
 	{
 	}
@@ -8839,8 +8839,8 @@ PART
 {
 	part = conformaldecals-text_4289908304
 	partName = Part
-	persistentId = 2026709709
-	pos = -0.165402204,6.17953968,-4.60015488
+	persistentId = 61574301
+	pos = -0.165402263,6.17954254,-4.60016537
 	attPos = 0.00699615479,0.0127573609,-5.96046448E-08
 	attPos0 = 0.151196957,-0.433529079,-0.165402099
 	rot = -0.0108574033,-0.707023621,0.0108574033,-0.707023501
@@ -8862,7 +8862,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-text_4288267908
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -8984,8 +8984,8 @@ PART
 {
 	part = conformaldecals-text_4288267908
 	partName = Part
-	persistentId = 1203530763
-	pos = 0.165402293,6.17953968,-4.60015678
+	persistentId = 1933467122
+	pos = 0.165402353,6.17954254,-4.60016727
 	attPos = 0.00699663162,0.0127554536,5.96046448E-08
 	attPos0 = 0.151196957,-0.433529079,0.165402219
 	rot = 0.0108573437,-0.70702374,0.0108573437,0.707023382
@@ -9007,7 +9007,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-text_4289908304
-	srfN = srfAttach,RO-B9ProcWing-Early_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4288486818,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -9129,8 +9129,8 @@ PART
 {
 	part = conformaldecals-text_4290010882
 	partName = Part
-	persistentId = 1037447750
-	pos = -0.139772326,6.65525818,-4.76956558
+	persistentId = 2797423741
+	pos = -0.139772326,6.65526199,-4.76957607
 	attPos = -0.267995924,0.178541213,-2.08616257E-07
 	attPos0 = 0.5796628,-0.53011328,-0.139772058
 	rot = -0.0123686492,-0.706998765,0.0123685002,-0.706998706
@@ -9152,7 +9152,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-text_4288216166
-	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -9274,8 +9274,8 @@ PART
 {
 	part = conformaldecals-text_4288216166
 	partName = Part
-	persistentId = 3740598631
-	pos = 0.139772415,6.65525913,-4.76956749
+	persistentId = 900509195
+	pos = 0.139772415,6.65526295,-4.76957798
 	attPos = -0.26799497,0.178539306,-3.27825546E-07
 	attPos0 = 0.579662681,-0.53011328,0.139772743
 	rot = 0.0123686492,-0.706998706,0.01236853,0.706998587
@@ -9297,7 +9297,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-text_4290010882
-	srfN = srfAttach,RO-B9ProcWing-Early_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289404094,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -9419,8 +9419,8 @@ PART
 {
 	part = conformaldecals-text_4288193296
 	partName = Part
-	persistentId = 2140620393
-	pos = 1.45480013,5.11934948,-0.0565867424
+	persistentId = 4080500177
+	pos = 1.45480013,5.11934948,-0.0565915108
 	attPos = 0,0,0
 	attPos0 = 1.0306375,-0.785262287,-0.164601356
 	rot = -0.643784821,-0.292474568,0.305168688,-0.637865126
@@ -9441,7 +9441,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289523900,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -9563,8 +9563,8 @@ PART
 {
 	part = conformaldecals-flag_4288199122
 	partName = Part
-	persistentId = 1641626916
-	pos = -1.38026655,5.12082577,0.0201416016
+	persistentId = 1728731610
+	pos = -1.38026655,5.12082577,0.0201368332
 	attPos = 0,0,0
 	attPos0 = 0.956103206,-0.70853442,0.166078016
 	rot = -0.643784821,0.292474449,-0.305168748,-0.637865126
@@ -9585,7 +9585,7 @@ PART
 	modCost = 0
 	modMass = 0
 	modSize = 0,0,0
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289548504,section,0|0|0.100000001,0|0|-1,0|0|0.100000001
 	EVENTS
 	{
 	}
@@ -9698,8 +9698,8 @@ PART
 {
 	part = conformaldecals-generic_4288136326
 	partName = Part
-	persistentId = 735485668
-	pos = -0.908459187,5.08016253,1.95832098
+	persistentId = 3552775644
+	pos = -0.908459187,5.08016253,1.95831811
 	attPos = 0,0,0
 	attPos0 = 0.484296173,1.22964048,0.125414923
 	rot = 0.347471088,0.61584425,-0.608840704,0.35960111
@@ -9721,7 +9721,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-generic_4288102698
-	srfN = srfAttach,RO-B9ProcWing-Early_4289548504,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289548504,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
 	EVENTS
 	{
 	}
@@ -9864,8 +9864,8 @@ PART
 {
 	part = conformaldecals-generic_4288102698
 	partName = Part
-	persistentId = 2125393088
-	pos = 0.908459187,5.08016253,1.95832098
+	persistentId = 2518159042
+	pos = 0.908459187,5.08016253,1.95831811
 	attPos = 0,0,0
 	attPos0 = 0.484296501,1.22964096,-0.125415325
 	rot = -0.347471118,0.61584425,-0.608840585,-0.35960108
@@ -9887,7 +9887,7 @@ PART
 	modMass = 0
 	modSize = 0,0,0
 	sym = conformaldecals-generic_4288136326
-	srfN = srfAttach,RO-B9ProcWing-Early_4289523900,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
+	srfN = srfAttach,RO-B9ProcWing-Supersonic_4289523900,section,0|0|0.0500000007,0|0|-1,0|0|0.0500000007
 	EVENTS
 	{
 	}
@@ -10030,7 +10030,7 @@ PART
 {
 	part = conformaldecals-text_4290076886
 	partName = Part
-	persistentId = 2824372952
+	persistentId = 2854302398
 	pos = 0.514978468,5.02640057,4.04086781
 	attPos = 0,0,0
 	attPos0 = 0.514978468,1.18586409,-0.0264006853
@@ -10175,7 +10175,7 @@ PART
 {
 	part = conformaldecals-text_4287751808
 	partName = Part
-	persistentId = 635104154
+	persistentId = 3652108402
 	pos = -0.514978468,5.02640057,4.04086781
 	attPos = 0,0,0
 	attPos0 = -0.514978468,1.18586409,-0.0264006853
@@ -10320,8 +10320,8 @@ PART
 {
 	part = conformaldecals-flag_4290682750
 	partName = Part
-	persistentId = 4110042791
-	pos = -0.609252632,5.00000048,-3.01790428
+	persistentId = 3098032391
+	pos = -0.609252632,5.00000048,-3.01791096
 	attPos = 0,0,0
 	attPos0 = -0.609252632,-2.62287712,-4.76836959E-07
 	rot = 0,0.698059976,5.96046448E-08,0.71603936
@@ -10456,8 +10456,8 @@ PART
 {
 	part = conformaldecals-flag_4287740568
 	partName = Part
-	persistentId = 2805186649
-	pos = 0.609252632,5.00000048,-3.01790428
+	persistentId = 87732980
+	pos = 0.609252632,5.00000048,-3.01791096
 	attPos = 0,0,0
 	attPos0 = 0.609252632,-2.62287712,-4.76836959E-07
 	rot = 0,-0.698059976,-5.96046448E-08,0.71603936
@@ -10592,8 +10592,8 @@ PART
 {
 	part = aje.j57_4283388474
 	partName = Part
-	persistentId = 3211382267
-	pos = 1.46610836E-15,5.00000048,-4.64505482
+	persistentId = 2454547574
+	pos = 1.46610836E-15,5.00000048,-4.64506531
 	attPos = 0,0,0
 	attPos0 = 0,-0.500001907,0
 	rot = 0.707106829,0,0,0.707106829
@@ -10720,7 +10720,7 @@ PART
 	{
 		name = ModuleAJEJetAnimateAfterburner
 		isEnabled = True
-		animationState = 0
+		animationState = 5.89699262E-11
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10876,7 +10876,7 @@ PART
 {
 	part = SXTRadialAirIntakeShockCone_4283340740
 	partName = Part
-	persistentId = 3423012705
+	persistentId = 4271956099
 	pos = 1.46610836E-15,4.63103151,3.41318989
 	attPos = 0,-0.452401757,-0.0916289985
 	attPos0 = 0,1.01058841,0.460597456
@@ -11034,8 +11034,8 @@ PART
 {
 	part = RO-RFTank-Seperate_4283324844
 	partName = Part
-	persistentId = 2327521484
-	pos = 1.46610836E-15,5.00556421,5.88669968
+	persistentId = 2242500016
+	pos = 1.46610836E-15,5.00556421,5.88670444
 	attPos = -9.21618977E-08,5.65072584,1.02538335
 	attPos0 = 9.21618977E-08,0.63099575,-1.03094852
 	rot = -0.699729085,3.63404595E-08,3.71028435E-08,-0.714408398
@@ -11056,7 +11056,7 @@ PART
 	modCost = 41.1813736
 	modMass = -0.996032059
 	modSize = 0,0,0
-	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,5.36619593E-09|0|0.449999988,0|0|-1,5.36619593E-09|0|0.449999988
+	srfN = srfAttach,RO-RFTank-Seperate_4289721066,collisionMesh,5.96244054E-10|0|0.0500000007,0|0|-1,5.96244054E-10|0|0.0500000007
 	attN = top,Null_0_0|1.35000002|0_0|1|0_0|1.35000002|0_0|1|0
 	attN = bottom,Null_0_0|-1.35000002|0_0|-1|0_0|-1.35000002|0_0|-1|0
 	EVENTS
@@ -11085,7 +11085,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.199999973, 2.70829797, 0.00100000005)
+		tempColliderSize = (0.200000063, 2.70830274, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
