@@ -1,5 +1,5 @@
 ship = Bumblebee
-version = 1.8.1
+version = 1.10.1
 description = 
 type = VAB
 size = 2.89800024,14.3290005,2.89799976
@@ -12,7 +12,6 @@ OverrideDefault = False,False,False,False
 OverrideActionControl = 0,0,0,0
 OverrideAxisControl = 0,0,0,0
 OverrideGroupNames = ,,,
-upgraded = ProceduralParts 2.1 Bezier Cone Updgrader // Updates ProceduralParts Bezier Shapes to Custom Settings
 PART
 {
 	part = RP0probeSounding0-3m_4290122670
@@ -5042,12 +5041,11 @@ PART
 	{
 		name = ProceduralShapeBezierCone
 		isEnabled = True
-		selectedShape = Peaked2
+		selectedShape = Peaked #2
 		topDiameter = 0
 		bottomDiameter = 0.300000012
 		length = 1.20000005
 		stagingEnabled = True
-		shapePoints = 0.300000012,0.200000003,1,0.5
 		EVENTS
 		{
 		}

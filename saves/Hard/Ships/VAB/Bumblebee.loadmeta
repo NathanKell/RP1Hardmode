@@ -1,6 +1,6 @@
 shipName = Bumblebee
 description = 
-version = 1.10.1
+version = 1.8.1
 partCount = 18
 stageCount = 2
 totalCost = 122.200409
@@ -75,4 +75,4 @@ partModules = ModuleAnimateGenericExtra
 partModules = ModuleB9AssignUiGroups
 partModules = ModuleB9PartInfo
 saveMD5 = 
-lastWriteTime = 637614148708855916
+lastWriteTime = 637626261941818924
