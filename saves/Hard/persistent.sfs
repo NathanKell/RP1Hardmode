@@ -289,15 +289,6 @@ GAME
 			EnableVolumetricClouds = True
 			szRestartNotification = A restart is required for the changes to take effect.
 		}
-		HangerExtender
-		{
-			scalingFactor = 5
-			changeHotkey = False
-			newHotKey = KeypadMultiply
-			hideHangars = True
-			BuildingStartMaxSize = False
-			advancedDebug = False
-		}
 		RP0Settings
 		{
 			PlaneContractsEnabled = True
@@ -318,6 +309,15 @@ GAME
 			AvionicsWindow_ShowInfo3 = True
 			CareerLog_URL = aHR0cHM6Ly9ycDFjYXJlZXJsb2cuYXp1cmV3ZWJzaXRlcy5uZXQvYXBpL0NhcmVlckxvZ3Mv
 			CareerLog_Token = 64d675a67b9f4ad686a92c93deee13fb
+		}
+		HangerExtender
+		{
+			scalingFactor = 5
+			changeHotkey = False
+			newHotKey = KeypadMultiply
+			hideHangars = True
+			BuildingStartMaxSize = False
+			advancedDebug = False
 		}
 		KJRSettings
 		{
@@ -523,7 +523,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 155775.11143421012
+		funds = 147675.08658398062
 	}
 	SCENARIO
 	{
@@ -749,6 +749,7 @@ GAME
 			id = earlySolids
 			state = Available
 			cost = 1
+			part = sepMotorSmall
 		}
 		Tech
 		{
@@ -1972,7 +1973,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 208290289.84177729
+		update = 208290400.0218364
 		version = 1.10.1
 		WEIGHTS
 		{
@@ -21896,7 +21897,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 208290292.06177849
+		savetime = 208290401.00183693
 		useUUID = True
 		KKSettings
 		{
@@ -27677,6 +27678,10 @@ GAME
 			SolidsHollow = True
 			restock-decoupler-radial-tiny-1 = True
 			launchClamp1 = True
+			Near-Earth-earlyAvionics = True
+			avionicsBoosterEarly = True
+			avionicsEarly = True
+			sepMotorSmall = True
 		}
 	}
 	SCENARIO
@@ -27757,7 +27762,7 @@ GAME
 					cannotEarnScience = True
 					cost = 675.161499
 					integrationCost = 224.310135
-					mass = 5.47839403
+					mass = 5.47839451
 					kscDistance = 3416852.5
 					numStageParts = 0
 					numStages = 2
@@ -77356,7 +77361,7 @@ GAME
 				techName = 1956-1957 Solid Rocket Engines
 				techID = solids1956
 				scienceCost = 5
-				progress = 1.5450829405778388
+				progress = 1.5451887999408902
 				ProtoNode
 				{
 					id = solids1956
@@ -78937,9 +78942,9 @@ GAME
 				OtherFundsEarned = 0
 				ScienceEarned = 0
 				LaunchFees = 0
-				MaintenanceFees = 170.54683208465576
+				MaintenanceFees = 170.57168231508695
 				ToolingFees = 0
-				EntryCosts = 0
+				EntryCosts = 8100
 				OtherFees = 0
 				VABUpgrades = 0
 				SPHUpgrades = 0
@@ -80499,8 +80504,8 @@ GAME
 	{
 		name = MaintenanceHandler
 		scene = 6, 7, 5, 8
-		nextUpdate = 208293804.2417582
-		lastUpdate = 208290204.2417582
+		nextUpdate = 208293897.08178118
+		lastUpdate = 208290297.08178118
 	}
 	SCENARIO
 	{
@@ -80805,7 +80810,7 @@ GAME
 		scene = 6, 5
 		ProceduralAvioncisUnlockedTech
 		{
-			UnlockedTechState = Near-Earth|avionicsPrototypes|Science-Core|earlyAvionics
+			UnlockedTechState = Near-Earth|earlyAvionics|Science-Core|earlyAvionics
 		}
 	}
 	SCENARIO
@@ -80927,6 +80932,51 @@ GAME
 		{
 			partName = AJ10-37
 			partData = transferdata:2000,flightdata:0,
+		}
+		partData
+		{
+			partName = sepMotorSmall
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = SolidFuel
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = ROE-LR79
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = S-3
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = ROE-LR89
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = LR43-NA-3
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = ROE-LR101Inline
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = LR101-NA-3
+			partData = transferdata:0,flightdata:0,
+		}
+		partData
+		{
+			partName = ROE-LR101
+			partData = transferdata:0,flightdata:0,
 		}
 	}
 	SCENARIO
@@ -81495,13 +81545,13 @@ GAME
 							{
 								micrometeoriteDetect@-16515071
 								{
-									size = 0.3248302099999229
+									size = 0.32483701874988152
 									resultText = Micrometeorite Detection Data Acquired
 									useStockCrediting = False
 								}
 								RP0cosmicRay1_5@-16515071
 								{
-									size = 0.95196603827615656
+									size = 0.9519932732753863
 									resultText = Cosmic Ray Science 1.5 Data Acquired
 									useStockCrediting = False
 								}
@@ -81890,7 +81940,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.1
-		UT = 208290292.06177849
+		UT = 208290401.00183693
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -83945,7 +83995,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 0.14867255189103171
+					amount = 0.19138791793455667
 					maxAmount = 360
 					flowState = True
 					isTweakable = True
@@ -85417,13 +85467,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = 61.551369389580159
 				LPE = 90
-				LAN = 61.821355207802071
+				LAN = 62.323476436410431
 				MNA = 0
-				EPH = 208290269.76176652
+				EPH = 208290389.94183099
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -85996,7 +86046,7 @@ GAME
 		TexturesUnlimited v0.0.0.0 = True
 		ToolbarControl v0.1.9.4 / v1.0.0.0 = True
 		SolverEngines v3.3.0.0 / v3.10.0.0 = True
-		AJE v2.17.0.0 = True
+		AJE v2.17.0.0 = False
 		AtmosphereAutopilot v1.5.16.0 = True
 		AtmosphereAutopilot.UI v1.0.0.0 = True
 		B9PartSwitch v2.17.0.0 / vv2.17.0 = True
@@ -86234,7 +86284,7 @@ GAME
 		DeadlyReentry v8.1.0.0 = False
 		B9-PWings-Fork v0.43.0.10 = True
 		MandatoryRCS v1.6.0.0 = True
-		RealFuels v13.2.0.0 / v13.2.0 = True
+		RealFuels v13.2.0.0 / v13.2.0 = False
 		RealismOverhaul v0.12.8.1 / v14.2.0.0 = True
 		RP0 v1.0.0.0 / v1.10.4.0 = True
 		MandatoryRCS = True
@@ -86245,6 +86295,8 @@ GAME
 		KSPBurst v1.5.4.0 = True
 		System.Runtime.CompilerServices.Unsafe v4.0.4.0 / v1.0.0.0 8Asse / v1.0.0.0 = True
 		Unity.Burst.Unsafe v4.0.5.0 / v1.0.0.0 8Asse / v1.0.0.0 = True
+		RealFuels v13.2.0.1 / v13.2.0.1-7513-dirty = True
+		AJE v2.18.0.0 = True
 		System.Buffers v4.0.3.0 / v4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f / v4.6.28619.01 = True
 	}
 	ROSTER
