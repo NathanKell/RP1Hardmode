@@ -31,7 +31,7 @@ PART
 	resPri = 0
 	dstg = 0
 	sidx = 0
-	sqor = 1
+	sqor = 0
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
@@ -1433,16 +1433,16 @@ PART
 	resPri = 0
 	dstg = 1
 	sidx = 1
-	sqor = 1
+	sqor = 0
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
 	modCost = 0.760839999
 	modMass = -0.999497831
 	modSize = 0,0,0
-	link = ROE-BabySergeant_4285557692
+	link = ROE-BabySergeant_4284806762
 	attN = top,RP0-SampleReturnCapsule_4285677472_0|0.100000001|0_0|1|0_0|0.100000001|0_0|1|0
-	attN = bottom,ROE-BabySergeant_4285557692_0|-0.100000001|0_0|-1|0_0|-0.100000001|0_0|-1|0
+	attN = bottom,ROE-BabySergeant_4284806762_0|-0.100000001|0_0|-1|0_0|-0.100000001|0_0|-1|0
 	EVENTS
 	{
 	}
@@ -1469,7 +1469,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.100000001, 0.200000763, 0.100000001)
+		tempColliderSize = (0.0999999791, 0.200000763, 0.0999999791)
 		forceLegacyTextures = False
 		textureSet = PlainWhite
 		capTextureIndex = 0
@@ -1775,9 +1775,9 @@ PART
 }
 PART
 {
-	part = ROE-BabySergeant_4285557692
+	part = ROE-BabySergeant_4284806762
 	partName = Part
-	persistentId = 3143995244
+	persistentId = 3799557234
 	pos = 0,13.3574982,0
 	attPos = 0,0,0
 	attPos0 = 0,-0.795500755,0
@@ -2084,7 +2084,7 @@ PART
 		lastMET = 0
 		currentFlightData = 2400
 		initialFlightData = 2400
-		missionStartTime = 276282665.22367859
+		missionStartTime = 276283572.76794159
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
