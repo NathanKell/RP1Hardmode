@@ -289,15 +289,6 @@ GAME
 			EnableVolumetricClouds = True
 			szRestartNotification = A restart is required for the changes to take effect.
 		}
-		HangerExtender
-		{
-			scalingFactor = 5
-			changeHotkey = False
-			newHotKey = KeypadMultiply
-			hideHangars = True
-			BuildingStartMaxSize = False
-			advancedDebug = False
-		}
 		RP0Settings
 		{
 			PlaneContractsEnabled = True
@@ -318,6 +309,15 @@ GAME
 			AvionicsWindow_ShowInfo3 = True
 			CareerLog_URL = aHR0cHM6Ly9ycDFjYXJlZXJsb2cuYXp1cmV3ZWJzaXRlcy5uZXQvYXBpL0NhcmVlckxvZ3Mv
 			CareerLog_Token = 64d675a67b9f4ad686a92c93deee13fb
+		}
+		HangerExtender
+		{
+			scalingFactor = 5
+			changeHotkey = False
+			newHotKey = KeypadMultiply
+			hideHangars = True
+			BuildingStartMaxSize = False
+			advancedDebug = False
 		}
 		KJRSettings
 		{
@@ -525,7 +525,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 190598.21592484208
+		funds = 170418.23406284297
 	}
 	SCENARIO
 	{
@@ -883,6 +883,8 @@ GAME
 			id = entryDescentLanding
 			state = Available
 			cost = 15
+			part = RP0-SampleReturnCapsule
+			part = RP0-SampleReturnCommand
 		}
 		Tech
 		{
@@ -1758,13 +1760,6 @@ GAME
 		{
 			fairingSize3 = 1
 			fairingSize1 = 1
-			ROE-Algol1 = 1
-			ROE-Algol1.Inline = 1
-			ROE-Altair = 1
-			ROE-Antares1 = 1
-			ROE-Antares1.Inline = 1
-			sepMotor1 = 1
-			sepMotorLarge = 1
 			RFSM-II = 1
 			restock-nosecone-1875-1 = 1
 			ROE-Agena.EquipmentRack = 1
@@ -1782,490 +1777,6 @@ GAME
 			microEngine = 1
 			RO-Kerbalism-DummyEngine = 1
 			ServiceBay.250 = 1
-			conformaldecals-munar = 1
-			conformaldecals-semiotic = 1
-			0625.Heatshield = 1
-			1.25.Heatshield = 1
-			Heatshield-15M = 1
-			Heatshield-1M = 1
-			decoupler.ftr.smaller = 1
-			decoupler.ftr.small = 1
-			RCS.025T.1xdown.tenth = 1
-			RCS.025T.1xfront = 1
-			RCS.025T.1xfront.tenth = 1
-			RCS.025T.2xlateral = 1
-			RCS.025T.2xlateral.tenth = 1
-			RCS.025T.2xlateral45 = 1
-			RCS.025T.2xlateral45.tenth = 1
-			RCS.025T.2xlateral45.1xdown = 1
-			RCS.025T.2xlateral45.1xdown.tenth = 1
-			RCS.025T.2xlateral.1xdown = 1
-			RCS.025T.2xlateral.1xdown.tenth = 1
-			RV105.1xdown.half = 1
-			RV105.2xlateral.half = 1
-			RV105.2xlateral45.half = 1
-			RV105.2xlateral45.1xdown.half = 1
-			RV105.2xlateral45.1xup.1xdown.half = 1
-			RV105.2xlateral.1xdown.half = 1
-			RV105.2xlateral.2xfront.half = 1
-			AM.MLP.GeneralCrewArm = 1
-			AM.MLP.GeneralCrewArmSmallMount = 1
-			AM.MLP.GeneralCrewElevatorMiniArm = 1
-			AM.MLP.GeneralCrewElevatorMiniArmS = 1
-			AM.MLP.GeneralCrewElevator = 1
-			AM.MLP.CrewElevatorLargeExt = 1
-			AM.MLP.CrewElevatorLargeSec1 = 1
-			AM.MLP.CrewElevatorLargeTop = 1
-			AM.MLP.GeneralCrewElevatorMini = 1
-			AM.MLP.GeneralCrewElevatorMiniSec1 = 1
-			AM.MLP.GeneralCrewElevatorSmall = 1
-			AM.MLP.CrewElevatorSmallSec1 = 1
-			AM.MLP.CrewElevatorSmallTop = 1
-			AM.MLP.GeneralCrewElevator2 = 1
-			AM.MLP.CrewElevatorXLargeSec = 1
-			AM.MLP.GeneralLaunchPlate = 1
-			AM.MLP.FlatLaunchBaseMini = 1
-			AM.MLP.FlatLaunchBaseSmall = 1
-			AM.MLP.GeneralFallbackUmbilicalTower = 1
-			AM.MLP.GeneralHold1 = 1
-			AM.MLP.GeneralHold2 = 1
-			AM.MLP.GeneralHold3 = 1
-			AM.MLP.GeneralHold4 = 1
-			AM.MLP.GeneralHold5 = 1
-			AM.MLP.GeneralHold6 = 1
-			AM.MLP.GeneralHold7 = 1
-			AM.MLP.GeneralLaunchBase = 1
-			AM.MLP.GeneralLaunchBaseMedium = 1
-			AM.MLP.GeneralROFI = 1
-			AM.MLP.GeneralTowerMulti = 1
-			AM.MLP.GeneralServiceTowerLargeSec1 = 1
-			AM.MLP.GeneralServiceTowerLargeTop = 1
-			AM.MLP.GeneralServiceTowerMedium = 1
-			AM.MLP.GeneralServiceTowerMediumSec1 = 1
-			AM.MLP.GeneralServiceTowerMediumTop = 1
-			AM.MLP.GeneralServiceTowerSmall = 1
-			AM.MLP.GeneralServiceTowerSmallSec1 = 1
-			AM.MLP.GeneralServiceTowerSmallTop = 1
-			AM.MLP.GeneralStrongbackTowerFull = 1
-			AM.MLP.GeneralStrongbackTowerMini = 1
-			AM.MLP.GeneralStrongbackTowerSmall = 1
-			AM.MLP.ShuttleTowerRodanCrewArm = 1
-			AM.MLP.GeneralTowerAtlasV = 1
-			AM.MLP.GeneralTowerDeltaII = 1
-			AM.MLP.SpecialServiceTowerAtlasVBase = 1
-			AM.MLP.SpecialServiceTowerAtlasVSec1 = 1
-			AM.MLP.SpecialServiceTowerAtlasVSec2 = 1
-			AM.MLP.SpecialServiceTowerAtlasVTop = 1
-			AM.MLP.SpecialServiceTowerDeltaIIBase = 1
-			AM.MLP.SpecialServiceTowerDeltaIISec1 = 1
-			AM.MLP.SpecialServiceTowerDeltaIISec2 = 1
-			AM.MLP.SpecialServiceTowerDeltaIITop = 1
-			AM.MLP.GeneralServiceTowerXLBase = 1
-			AM.MLP.GeneralServiceTowerXLSec1 = 1
-			AM.MLP.GeneralServiceTowerXLTop = 1
-			AM.MLP.SmallTowerSwingArmLarge = 1
-			AM.MLP.SmallTowerSwingArmMedium = 1
-			AM.MLP.SmallTowerSwingArm = 1
-			AM.MLP.GeneralTowerSwingArmLarge = 1
-			AM.MLP.GeneralTowerSwingArmMedium = 1
-			AM.MLP.GeneralTowerSwingArm = 1
-			AM.MLP.TestStandSmall = 1
-			AM.MLP.TestStandEngine = 1
-			AM.MLP.TestStandTower = 1
-			AM.MLP.GeneralUmbilicalDroopA = 1
-			AM.MLP.GeneralUmbilicalDroopB = 1
-			AM.MLP.GeneralUmbilicalDroopC = 1
-			AM.MLP.GeneralUmbilicalDroopD = 1
-			AM.MLP.GeneralUmbilicalDroopE = 1
-			AM.MLP.GeneralUmbilicalDropLarge = 1
-			AM.MLP.GeneralUmbilicalDrop = 1
-			AM.MLP.LaunchStandSmallUmbilical = 1
-			AM.MLP.LaunchPlateEnergia = 1
-			AM.MLP.LaunchPlateFalcon9 = 1
-			AM.MLP.LaunchPlateN1 = 1
-			AM.MLP.LaunchPlateRnd2 = 1
-			AM.MLP.LaunchPlateRnd3 = 1
-			AM.MLP.LaunchPlateSqr1 = 1
-			AM.MLP.LaunchPlateSqr2 = 1
-			AM.MLP.LaunchPlateSqr3 = 1
-			AM.MLP.AtlasLaunchStand = 1
-			AM.MLP.AtlasSepClampArm = 1
-			AM.MLP.AtlasSepSideUmb = 1
-			AM.MLP.AtlasUmbilicalArmAgena = 1
-			AM.MLP.AtlasUmbilicalArmCentaur1 = 1
-			AM.MLP.AtlasUmbilicalArmCentaur2 = 1
-			AM.MLP.AtlasUmbilicalArmCentaur = 1
-			AM.MLP.CrewElevatorAtlasUmbilical = 1
-			AM.MLP.LaunchStandCrewElevatorAtlas = 1
-			AM.MLP.LaunchStandCrewElevatorGemini = 1
-			AM.MLP.LaunchStandCrewElevatorMercury = 1
-			AM.MLP.LaunchStandCrewWalkwayMercury = 1
-			AM.MLP.SmallLaunchStandRect = 1
-			AM.MLP.JupiterPetalCover = 1
-			AM.MLP.LaunchRailLarge = 1
-			AM.MLP.LaunchRailMedium = 1
-			AM.MLP.LaunchRailSmall = 1
-			AM.MLP.MilkstoolLaunchStand1 = 1
-			AM.MLP.MilkstoolLaunchStand2 = 1
-			AM.MLP.MilkstoolLaunchStand3 = 1
-			AM.MLP.MilkstoolMini1S = 1
-			AM.MLP.MilkstoolMini1T = 1
-			AM.MLP.MilkstoolMini2S = 1
-			AM.MLP.MilkstoolMini2T = 1
-			AM.MLP.MilkstoolMini3M = 1
-			AM.MLP.MilkstoolMini3S = 1
-			AM.MLP.MilkstoolMini3T = 1
-			AM.MLP.LaunchStandServiceTower1 = 1
-			AM.MLP.LaunchStandServiceTower2 = 1
-			AM.MLP.LaunchStandServiceTower3 = 1
-			AM.MLP.LaunchStandServiceTower4 = 1
-			AM.MLP.SaturnLaunchStandPedestal = 1
-			AM.MLP.LargeLaunchStand = 1
-			AM.MLP.Titan3LaunchStand = 1
-			AM.MLP.TitanIILaunchStand = 1
-			AM.MLP.TitanIIServiceTowerMast = 1
-			AM.MLP.TitanIIServiceTowerModBase = 1
-			AM.MLP.TitanIIServiceTowerModSec1 = 1
-			AM.MLP.TitanIIServiceTowerModSec2 = 1
-			AM.MLP.TitanIIServiceTowerModTop = 1
-			AM.MLP.TitanIIServiceTowerSingle = 1
-			AM.MLP.TitanIIServiceTowerUmbilicalGem = 1
-			AM.MLP.TitanIIServiceTowerUmbilical = 1
-			AM.MLP.TitanIIServiceTowerUmbilicalGem2 = 1
-			AM.MLP.TitanIIServiceTowerUmbilical2 = 1
-			AM.MLP.TitanIIITowerMast = 1
-			AM.MLP.VanguardLaunchStand = 1
-			AM.MLP.VanguardServiceTower = 1
-			AM.MLP.HoldArmSaturnIB = 1
-			AM.MLP.HoldArmSaturnV = 1
-			AM.MLP.SaturnTowerCrewArm = 1
-			AM.MLP.SaturnHammerheadCrane = 1
-			AM.MLP.SaturnLauncherMilkstool = 1
-			AM.MLP.SaturnLauncherTSM = 1
-			AM.MLP.SaturnLightningMast = 1
-			AM.MLP.SaturnMilkstoolClamp = 1
-			AM.MLP.SaturnMobileLauncherClampBase = 1
-			AM.MLP.SaturnTowerBase = 1
-			AM.MLP.SaturnTowerBaseSquare = 1
-			AM.MLP.SaturnTowerMultiSection = 1
-			AM.MLP.SaturnTowerCrewFloor = 1
-			AM.MLP.SaturnTowerCrewSection = 1
-			AM.MLP.SaturnTowerDamperArm = 1
-			AM.MLP.SaturnTowerSwingArmGen = 1
-			AM.MLP.SaturnTowerSwingArm0 = 1
-			AM.MLP.SaturnTowerSwingArmBDB = 1
-			AM.MLP.SaturnTowerSwingArm2 = 1
-			AM.MLP.SaturnTowerSwingArm3 = 1
-			AM.MLP.SaturnTowerSwingArm4 = 1
-			AM.MLP.SaturnTowerSwingArm5 = 1
-			AM.MLP.SaturnTowerSwingArm6 = 1
-			AM.MLP.SaturnTowerSwingArm7 = 1
-			AM.MLP.SaturnTowerSwingArm8 = 1
-			AM.MLP.SaturnTowerTopSection = 1
-			AM.MLP.ShuttleLauncherFSSBase = 1
-			AM.MLP.ShuttleTowerMultiSection = 1
-			AM.MLP.ShuttleTowerCrewFloor = 1
-			AM.MLP.ShuttleTowerCrewSection = 1
-			AM.MLP.ShuttleTowerTopSection = 1
-			AM.MLP.ShuttleLauncherBaseClamp = 1
-			AM.MLP.ShuttleLauncherRSSHinge = 1
-			AM.MLP.ShuttleLauncherRSS = 1
-			AM.MLP.ShuttleLauncherSRBHold = 1
-			AM.MLP.ShuttleLauncherTSM = 1
-			AM.MLP.SaturnLightningMastAlt = 1
-			AM.MLP.ShuttleTowerArmHydrogen = 1
-			AM.MLP.ShuttleTowerArmIntertank = 1
-			AM.MLP.ShuttleTowerArmLOX = 1
-			AM.MLP.ShuttleTowerCrewArm = 1
-			AM.MLP.ShuttleTowerIntertankStructure = 1
-			AM.MLP.SoyuzLaunchBaseArmLG = 1
-			AM.MLP.SoyuzLaunchBaseArmSM = 1
-			AM.MLP.SoyuzLaunchBaseClampArm = 1
-			AM.MLP.SoyuzLaunchBaseElevator = 1
-			AM.MLP.SoyuzLaunchBaseGantry = 1
-			AM.MLP.SoyuzLaunchBase = 1
-			RSBRibbedBase = 1
-			RSBRibbedBase.Interstage = 1
-			RSBRibbedBase.Boattail = 1
-			RSBTrussBase = 1
-			RSBTrussBase.Interstage = 1
-			RSBTrussBase.Boattail = 1
-			SSTUBase.Interstage = 1
-			SSTUBase.Boattail = 1
-			SSTUHollowRing = 1
-			KzInterstageAdapter2 = 1
-			KzFlatAdapter = 1
-			KzFlatBoattail = 1
-			KzResizableFairingBaseRing = 1
-			KzResizableFairingBase = 1
-			KzProcFairingSide1 = 1
-			KzProcFairingFuselage1 = 1
-			KzProcFairingSide2 = 1
-			KzProcFairingFuselage2 = 1
-			KzThrustPlate = 1
-			proceduralStackDecoupler = 1
-			RFSM-I = 1
-			RFTank-III-Balloon = 1
-			RFTank-III = 1
-			RFTank-II = 1
-			RFTank-I = 1
-			RO-RFTank-BalloonNew = 1
-			RO-RFTank-Integral = 1
-			RO-RFTank-Balloon = 1
-			RO-RFTank = 1
-			proceduralStructural = 1
-			RC.cone.double = 1
-			RO-RestockPlus-RCS-Block-Dual-138 = 1
-			RO-RestockPlus-RCS-Block-Quad-138 = 1
-			restock-rcs-block-quad-angled-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Quad-Angled-28 = 1
-			restock-rcs-block-quad-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Quad-28 = 1
-			RO-RestockPlus-RCS-Block-Quint-138 = 1
-			restock-rcs-block-qunit-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Quint-28 = 1
-			RO-RestockPlus-RCS-Block-Triple-Angled-138 = 1
-			restock-rcs-block-triple-angled-mini-1 = 1
-			RO-RestockPlus-RCS-Block-Triple-Angled-28 = 1
-			RO-RestockPlus-RCS-Linear-28 = 1
-			restock-decoupler-1875-1 = 1
-			restock-separator-1875-1 = 1
-			restock-battery-375-1 = 1
-			restock-fairing-base-0625-1 = 1
-			restock-fairing-base-1875-1 = 1
-			ROE-Veronique = 1
-			ROE-S2253 = 1
-			ROE-RD100 = 1
-			ROE-25KS18000 = 1
-			ROE-Agena8048 = 1
-			ROE-BabySergeantX3 = 1
-			ROE-BabySergeantX11 = 1
-			ROE-BabySergeantX3Dec = 1
-			ROE-BabySergeantX11Dec = 1
-			ROE-Castor1 = 1
-			ROE-Castor1.Inline = 1
-			ROE-CastorDecoupler = 1
-			ROE-Gamma2 = 1
-			ROE-Gamma301 = 1
-			ROE-Gamma8 = 1
-			ROE-JupiterVernier = 1
-			ROE-LR105 = 1
-			ROE-LR89 = 1
-			ROE-ORM65 = 1
-			ROE-RD0105 = 1
-			ROE-RD107 = 1
-			ROE-RD108 = 1
-			ROE-RD200 = 1
-			ROE-RD211 = 1
-			ROE-RZ = 1
-			ROE-S155 = 1
-			ROE-Stentor = 1
-			ROE-X405 = 1
-			ROE-XLR25 = 1
-			ROE-XLR41 = 1
-			ROE-XLR43 = 1
-			ROE-MediumApolloLC = 1
-			ROE-SmallApolloLC = 1
-			ROE-LargeApolloLC = 1
-			ROE-MediumLC = 1
-			ROE-SmallLC = 1
-			ROE-LargeLC = 1
-			ROE-MediumRadialLC = 1
-			ROE-SmallRadialLC = 1
-			ROE-LargeRadialLC = 1
-			ROE-UmbilicalTower = 1
-			ROH-LEOHeatshield = 1
-			ROT-AtlasDecoupler = 1
-			ROT-ProbeCore = 1
-			ROT-AtlasTank-Separate = 1
-			ROT-AtlasTank-Integral = 1
-			ROT-AtlasTank-Balloon = 1
-			ROT-BoosterTank = 1
-			ROT-BoosterTank-Separate = 1
-			ROT-BoosterTank-Integral = 1
-			ROT-GenericTank = 1
-			ROT-ServiceModule = 1
-			ROT-BalloonTank = 1
-			ROT-BalloonTank-New = 1
-			ROT-LanderTank-SM = 1
-			ROT-LanderTank-Separate = 1
-			ROT-LanderTank-Integral = 1
-			ROT-RadialTank = 1
-			ROT-RadialTank-Separate = 1
-			ROT-RadialTank-Integral = 1
-			ROT-SphericalTank = 1
-			ROT-SphericalTank-Separate = 1
-			ROT-SphericalTank-Integral = 1
-			ROT-ToroidalTank = 1
-			ROT-ToroidalTank-Separate = 1
-			ROT-ToroidalTank-Integral = 1
-			RP0-SampleReturnCapsule = 1
-			RP0-SampleReturnCommand = 1
-			RO-GeigerMuller = 1
-			RO-EarlyMagnet = 1
-			RO-Micrometeorite = 1
-			RO-IonMassSpectrometer = 1
-			RO-ImprovedFilmCamera = 1
-			RO-EarlyTVCamera = 1
-			noseCone = 1
-			airbrake1 = 1
-			CanardController = 1
-			sweptWing = 1
-			tailfin = 1
-			basicFin = 1
-			CircularIntake = 1
-			shockConeIntake = 1
-			pointyNoseConeA = 1
-			pointyNoseConeB = 1
-			rocketNoseCone.v2 = 1
-			standardNoseCone = 1
-			airplaneTail = 1
-			airplaneTailB = 1
-			RO.LEOHeatShield0625m = 1
-			RO.LEOHeatShield15m = 1
-			RO.LEOHeatShield125m = 1
-			RO.LEOHeatShield1m = 1
-			IntakeRadialLong = 1
-			miniIntake = 1
-			ramAirIntake = 1
-			R8winglet = 1
-			winglet = 1
-			winglet3 = 1
-			wingConnector = 1
-			wingConnector2 = 1
-			wingConnector3 = 1
-			wingConnector4 = 1
-			wingConnector5 = 1
-			deltaWing = 1
-			delta.small = 1
-			StandardCtrlSrf = 1
-			elevon2 = 1
-			elevon3 = 1
-			smallCtrlSrf = 1
-			elevon5 = 1
-			wingStrake = 1
-			structuralWing = 1
-			structuralWing2 = 1
-			structuralWing3 = 1
-			structuralWing4 = 1
-			sweptWing1 = 1
-			sweptWing2 = 1
-			RP0aerobeeSounding = 1
-			RP0probeAvionics0-81m = 1
-			Mark2Cockpit = 1
-			probeCoreSphere.v2 = 1
-			RP0probeVanguardXray = 1
-			strutConnector = 1
-			Decoupler.0 = 1
-			Decoupler.1 = 1
-			Decoupler.2 = 1
-			RO.EarlyTinySolarPanel = 1
-			batteryPack = 1
-			batteryBankMini = 1
-			ksp.r.largeBatteryPack = 1
-			RO-J48 = 1
-			miniJetEngine = 1
-			adapterSize2-Size1 = 1
-			adapterSize2-Size1Slant = 1
-			radialEngineBody = 1
-			nacelleBody = 1
-			MK1IntakeFuselage = 1
-			structuralIBeam2 = 1
-			structuralIBeam3 = 1
-			structuralIBeam1 = 1
-			structuralMiniNode = 1
-			structuralPanel1 = 1
-			structuralPanel2 = 1
-			smallHardpoint = 1
-			structuralPylon = 1
-			strutCube = 1
-			strutOcto = 1
-			trussAdapter = 1
-			trussPiece1x = 1
-			trussPiece3x = 1
-			radialDecoupler1-2 = 1
-			radialDecoupler = 1
-			radialDecoupler2 = 1
-			SurfAntenna = 1
-			ladder1 = 1
-			telescopicLadder = 1
-			telescopicLadderBay = 1
-			RO.linearRcs.tenth = 1
-			RO.FASA.ExplorerRCS = 1
-			RO.FASA.MercuryPodRCS = 1
-			parachuteSingle = 1
-			parachuteLarge = 1
-			parachuteRadial = 1
-			parachuteDrogue = 1
-			stackPoint1 = 1
-			SquadRCSBlockTenth = 1
-			RCSBlockQuarter = 1
-			SquadRCSBlockHalf = 1
-			ServiceBay.125 = 1
-			spotLight1 = 1
-			spotLight2 = 1
-			stackBiCoupler.v2 = 1
-			stackTriCoupler.v2 = 1
-			GearFixed = 1
-			GearFree = 1
-			GearSmall = 1
-			SXTInlineAirIntake = 1
-			SXTelevonSmall = 1
-			SXTelevonSmallHalf = 1
-			SXTelevonLarge = 1
-			SXTelevonVeryLarge = 1
-			SXTWingSmall = 1
-			625mBonny = 1
-			SXTClyde = 1
-			LMiniAircaftTail = 1
-			SXTke111 = 1
-			SXTmk3Cockpit52 = 1
-			SXTKO211Dprop = 1
-			SXTTinyprop = 1
-			SXTJ213 = 1
-			SXT.Jumo213A = 1
-			SXTMerlin66prop = 1
-			SXTMerlin46Prop = 1
-			SXTPWR2800 = 1
-			SXTR280021Prop = 1
-			SXTR280018WProp = 1
-			RO-VK1 = 1
-			SXTSmallFuselage = 1
-			SXTradialWindow = 1
-			SXTAntenna = 1
-			SXTSputnik = 1
-			SXTProtonlikeNoseCone = 1
-			RCSBoonExt = 1
-			SXTlaunchclamp1 = 1
-			taerobee.control = 1
-			taerobee.despin = 1
-			taerobee.nosecone = 1
-			taerobee.parachute = 1
-			taerobee.science = 1
-			taerobee.sustainerTank.3 = 1
-			Bumper.Body = 1
-			Bumper.Control = 1
-			Bumper.Fin = 1
-			Bumper.Nose = 1
-			X1.Body = 1
-			X1.Crew = 1
-			X1.Tail = 1
-			SmallSpotLight = 1
-			SmallPointLight = 1
-			SmallStripLight = 1
-			SnubOtron = 1
-			InlineRCS = 1
-			strutCubeSmall = 1
-			strutCubeMedium = 1
-			strutCubeLarge = 1
-			Angledpanel = 1
-			MedLadder = 1
-			LongLadder = 1
-			MedLadderUtility = 1
-			SMLadderUtility = 1
-			LGLadderUtility = 1
-			shortDecoupler1-2 = 1
-			MK1Cargobay = 1
 			Heatshield-3M = 1
 			Heatshield-25M = 1
 			Heatshield-2M = 1
@@ -26660,7 +26171,7 @@ GAME
 			prestige = 0
 			seed = 1895414071
 			state = Offered
-			viewed = Unseen
+			viewed = Read
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -26746,10 +26257,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedReachSpace
 						title = Count: Between one and 99
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -26773,10 +26284,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedReachSpace
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -26784,10 +26295,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedReachSpace
 						title = Altitude: Above 95,000 m
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -26924,10 +26435,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -26955,10 +26466,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
 						title = Resource: ComSatPayload: At least 81.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -26992,6 +26503,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -27002,6 +26514,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -27012,6 +26525,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
 						title = Apoapsis: Between 4,298,000 m and 8,030,000 m
 						notes = 
 						completedMessage = 
@@ -27022,6 +26536,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
 						title = Periapsis: Above 958,000 m
 						notes = 
 						completedMessage = 
@@ -27032,6 +26547,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
 						title = Inclination: Above 42.0°
 						notes = 
 						completedMessage = 
@@ -27041,6 +26557,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.ComTestSat
 						title = 
@@ -27147,10 +26664,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27184,6 +26701,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = Destination: The Moon
 						notes = 
 						completedMessage = 
@@ -27194,6 +26712,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -27204,6 +26723,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = Apoapsis: Below 5,000,000 m
 						notes = 
 						completedMessage = 
@@ -27214,6 +26734,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = Periapsis: Above 20,000 m
 						notes = 
 						completedMessage = 
@@ -27223,6 +26744,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = 
@@ -27259,10 +26781,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = Destination: The Moon
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -27271,10 +26793,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
 						title = Experiment: Any
 						notes = 
 						completedMessage = 
-						hidden = True
 						PARAM
 						{
 							name = ParameterDelegate`1
@@ -27282,6 +26804,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
 							title = 
 							notes = 
 							completedMessage = 
@@ -27293,6 +26816,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
 							title = Recovery: Recover or transmit
 							notes = 
 							completedMessage = 
@@ -27400,10 +26924,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27431,10 +26955,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Resource: ComSatPayload: At least 84.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27468,6 +26992,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -27478,6 +27003,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -27488,6 +27014,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Periapsis: Above 500,000 m
 						notes = 
 						completedMessage = 
@@ -27498,6 +27025,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Eccentricity: Above 0.7000
 						notes = 
 						completedMessage = 
@@ -27508,6 +27036,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Inclination: Between 61.4° and 65.4°
 						notes = 
 						completedMessage = 
@@ -27518,6 +27047,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Argument of Periapsis: Between 220.0° and 320.0°
 						notes = 
 						completedMessage = 
@@ -27528,6 +27058,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Period: Between 11:56:02 and 12:00:02
 						notes = 
 						completedMessage = 
@@ -27537,6 +27068,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.FirstMolniyaSat
 						title = 
@@ -27560,7 +27092,7 @@ GAME
 			prestige = 0
 			seed = 205670515
 			state = Offered
-			viewed = Unseen
+			viewed = Read
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
@@ -27630,10 +27162,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
 						title = Count: Between one and 99
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27663,10 +27195,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
 						title = None have module: Engines R F
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -27674,10 +27206,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
 						title = None have module: Engines A J E Propeller
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27704,6 +27236,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -27714,6 +27247,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
 						title = Situation: Flying
 						notes = 
 						completedMessage = 
@@ -27724,6 +27258,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
 						title = Speed: Between 700 ms and 750 m/s
 						notes = 
 						completedMessage = 
@@ -27734,6 +27269,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
 						title = Rate of Climb: Between -10 ms and 10 m/s
 						notes = 
 						completedMessage = 
@@ -27743,6 +27279,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.CrewedSupersonic
 						title = 
@@ -27864,10 +27401,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27891,10 +27428,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
 						title = Destination: The Moon
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -27902,10 +27439,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
 						title = Situation: Landed
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27931,10 +27468,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
 						title = Destination: The Moon
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -27943,10 +27480,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
 						title = Situation: Landed
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -27955,10 +27492,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
 						title = Experiment: Any
 						notes = 
 						completedMessage = 
-						hidden = True
 						PARAM
 						{
 							name = ParameterDelegate`1
@@ -27966,6 +27503,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.landingMoon
 							title = 
 							notes = 
 							completedMessage = 
@@ -27977,6 +27515,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.landingMoon
 							title = Recovery: Transmit
 							notes = 
 							completedMessage = 
@@ -28043,10 +27582,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28070,10 +27609,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Destination: Venus
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -28081,10 +27620,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Altitude: Below 20,000,000 m
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28109,10 +27648,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Destination: Venus
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -28121,10 +27660,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Experiment: Any
 						notes = 
 						completedMessage = 
-						hidden = True
 						PARAM
 						{
 							name = ParameterDelegate`1
@@ -28132,6 +27671,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.flybyVenus
 							title = 
 							notes = 
 							completedMessage = 
@@ -28143,6 +27683,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.flybyVenus
 							title = Recovery: Transmit
 							notes = 
 							completedMessage = 
@@ -28224,10 +27765,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28255,10 +27796,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
 						title = Resource: WeatherSatPayload: At least 19.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28292,6 +27833,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -28302,6 +27844,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -28312,6 +27855,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
 						title = Periapsis: Above 300,000 m
 						notes = 
 						completedMessage = 
@@ -28322,6 +27866,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
 						title = Eccentricity: Below 0.0050
 						notes = 
 						completedMessage = 
@@ -28331,6 +27876,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.FirstWeatherSat
 						title = 
@@ -28405,8 +27951,8 @@ GAME
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
-		initialized = False
-		savetime = 276282665.22367859
+		initialized = True
+		savetime = 276282781.62356758
 		useUUID = True
 		KKSettings
 		{
@@ -34226,6 +33772,8 @@ GAME
 			Mark1Cockpit = True
 			hypersonicCockpit = True
 			vernierEngine = True
+			RP0-SampleReturnCapsule = True
+			RP0-SampleReturnCommand = True
 		}
 	}
 	SCENARIO
@@ -34288,7 +33836,7 @@ GAME
 				{
 					shipName = Comstar 1
 					shipID = 2e58cd96-18c4-45cd-a2c3-8181d8b870d6
-					progress = 1529378.9310286203
+					progress = 1529445.8861647607
 					effectiveCost = 5026.4237592632562
 					buildTime = 1183193.5962141599
 					integrationTime = 2662185.5914818603
@@ -79580,7 +79128,7 @@ GAME
 					launchpadID = 2
 					id = SpaceCenter/LaunchPad
 					commonName = LC-14
-					progress = 15645480.003560977
+					progress = 15645546.958697272
 					BP = 21395302.289185099
 					cost = 150000
 					UpgradeProcessed = False
@@ -97890,7 +97438,7 @@ GAME
 				techName = 1959 Orbital Rocketry
 				techID = orbitalRocketry1959
 				scienceCost = 16
-				progress = 10.576510942420619
+				progress = 10.57664714521702
 				ProtoNode
 				{
 					id = orbitalRocketry1959
@@ -99978,9 +99526,9 @@ GAME
 				OtherFundsEarned = 0
 				ScienceEarned = 0
 				LaunchFees = 1.6201171875
-				MaintenanceFees = 97.083025217056274
-				ToolingFees = 0
-				EntryCosts = 0
+				MaintenanceFees = 98.064887198153883
+				ToolingFees = 179
+				EntryCosts = 20000
 				OtherFees = 20000
 				VABUpgrades = 0
 				SPHUpgrades = 0
@@ -102027,8 +101575,8 @@ GAME
 	{
 		name = MaintenanceHandler
 		scene = 6, 7, 5, 8
-		nextUpdate = 276283209.6237362
-		lastUpdate = 276279609.6237362
+		nextUpdate = 276286301.54364395
+		lastUpdate = 276282701.54364395
 	}
 	SCENARIO
 	{
@@ -102193,6 +101741,10 @@ GAME
 					ENTRY
 					{
 						value = 0.100000001
+					}
+					ENTRY
+					{
+						value = 0.265000015
 					}
 				}
 				ENTRY
@@ -104446,7 +103998,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.1
-		UT = 276282665.22367859
+		UT = 276282781.62356758
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -121798,13 +121350,13 @@ GAME
 			cMod = -1
 			ORBIT
 			{
-				SMA = 3185514.5722563504
-				ECC = 0.99999999999999989
-				INC = 61.546299322555072
+				SMA = 0
+				ECC = 1
+				INC = 61.5462993225551
 				LPE = 90
-				LAN = 86.559854242054712
-				MNA = 3.1415926207170166
-				EPH = 276279663.22373325
+				LAN = 99.253846076119771
+				MNA = 0
+				EPH = 276282701.46364403
 				REF = 1
 				IDENT = Kerbin
 			}
@@ -122794,7 +122346,7 @@ GAME
 	}
 	LoaderInfo
 	{
-		ModuleManager v4.1.4.0 = True
+		ModuleManager v4.1.4.0 = False
 		ClickThroughBlocker v0.1.10.15 / v1.0.0.0 = True
 		0Harmony v2.0.4.0 = True
 		HarmonyInstallChecker v1.0.0.0 = True
@@ -123024,7 +122576,7 @@ GAME
 		FARPatch.cfg.bak = True
 		FerramAerospaceResearch.zip = True
 		KK.zip = False
-		ModuleManager.4.1.4.dll = True
+		ModuleManager.4.1.4.dll = False
 		ModuleManager.ConfigCache = True
 		ModuleManager.ConfigSHA = True
 		ModuleManager.Physics = True
@@ -123057,7 +122609,7 @@ GAME
 		MandatoryRCS = True
 		DMagic.zip = True
 		PersistentRotation.zip = True
-		CanaveralPads = True
+		CanaveralPads = False
 		DeadlyReentry v8.1.1.0 = False
 		KSPBurst v1.5.4.0 = False
 		System.Runtime.CompilerServices.Unsafe v4.0.4.0 / v1.0.0.0 8Asse / v1.0.0.0 = False
@@ -123066,11 +122618,14 @@ GAME
 		AJE v2.18.0.0 = True
 		DeadlyReentry v8.1.2.0 = True
 		MechJeb2 v2.5.1.0 / vDev #1093 Sarbian / v2.12.0.0 = False
-		KSPBurst v1.5.4.1 = True
+		KSPBurst v1.5.4.1 = False
 		System.Runtime.CompilerServices.Unsafe v4.0.6.0 / v3.1.3+8a3ffed558ddf943c1efa87d693227722d6af094 / v4.700.20.12001 = True
 		Unity.Burst.Unsafe v4.0.5.0 / v1.0.0.0 = True
 		MechJeb2 v2.5.1.0 / vDev #1094 Sarbian / v2.12.0.0 = True
 		ZeroMiniAVC v1.1.0.2 = True
+		ModuleManager v4.2.1.0 = True
+		KSPBurst v1.5.5.1 = True
+		ModuleManager.4.2.1.dll = True
 		System.Buffers v4.0.3.0 / v4.6.28619.01 @BuiltBy: dlab14-DDVSOWINAGE069 @Branch: release/2.1 @SrcCode: https://github.com/dotnet/corefx/tree/7601f4f6225089ffb291dc7d58293c7bbf5c5d4f / v4.6.28619.01 = True
 	}
 	ROSTER
