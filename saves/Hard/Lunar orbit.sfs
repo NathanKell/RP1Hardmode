@@ -525,7 +525,7 @@ GAME
 	{
 		name = Funding
 		scene = 7, 8, 5, 6
-		funds = 196366.4455487488
+		funds = 154911.36257162792
 	}
 	SCENARIO
 	{
@@ -2869,7 +2869,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 281197831.11978656
+		update = 280879583.75065041
 		version = 1.10.1
 		WEIGHTS
 		{
@@ -2897,7 +2897,7 @@ GAME
 			Ceres = 30
 			Deimos = 30
 			Mars = 30
-			Moon = 66
+			Moon = 42
 			Vesta = 30
 			Phobos = 30
 			Titan = 30
@@ -4598,463 +4598,6 @@ GAME
 						completeInSequence = True
 						hideChildren = True
 						allowStateReset = True
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 1a2c9338-187c-4465-b040-f3b7fff2dce1
-				type = ConfiguredContract
-				prestige = 1
-				seed = 1110665736
-				state = Active
-				viewed = Read
-				agent = Exploration
-				agentName = Exploration
-				deadlineType = Floating
-				expiryType = None
-				ignoresWeight = True
-				values = 259200,50457600,192000,150000,360000,15,75,15,280987409.170817,280879591.330643,331337191.330643,0
-				subtype = first_MoonImpact
-				title = Lunar Impactor (Uncrewed)
-				description = Design and successfully launch a probe that impacts the surface of the Moon. Scientists at home will record their observations as a result of the impact. Due to the nature of the experiment, the impactor must have significant mass to it. The contract requires the impactor to have at least a 40 kg mass.&br;&br;<b>Number of Contracts Completed: 0 / 3</b>
-				synopsis = Impact the surface of the Moon with a probe
-				completedMessage = Congratulations on hitting the Moon! We're getting some great data here.
-				hash = -1119566847
-				targetBody = Moon
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-						type = Double
-						first_MoonImpact_Count = $first_MoonImpact_Count + 1
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = MoonImpact
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_MoonImpact
-					title = Moon Impact Craft
-					notes = 
-					completedMessage = 
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = All
-						id = AtMoonLow
-						state = Incomplete
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonImpact
-						title = 
-						notes = 
-						completedMessage = 
-						PARAM
-						{
-							name = NewVessel
-							id = NewVessel
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Launch a New Vessel
-							notes = 
-							completedMessage = 
-							hideChildren = True
-							allowStateReset = True
-							launchID = 61
-						}
-						PARAM
-						{
-							name = HasCrew
-							id = Crewmembers
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Uncrewed
-							notes = 
-							completedMessage = 
-							hideChildren = True
-							allowStateReset = True
-							minCrew = 0
-							maxCrew = 0
-							minExperience = 0
-							maxExperience = 5
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Unmanned
-								notes = 
-								completedMessage = 
-							}
-						}
-						PARAM
-						{
-							name = HasResource
-							id = HasPower
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Craft must have power
-							notes = 
-							completedMessage = 
-							allowStateReset = True
-							capacity = False
-							RESOURCE
-							{
-								resource = ElectricCharge
-								minQuantity = 1
-							}
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Resource: ElectricCharge: At least 1 units
-								notes = 
-								completedMessage = 
-							}
-						}
-						PARAM
-						{
-							name = VesselMass
-							id = ImpactorMass
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Impactor probe must be at least 40 kg
-							notes = 
-							completedMessage = 
-							allowStateReset = True
-							minMass = 0.0399999991
-							maxMass = 3.40282347E+38
-						}
-						PARAM
-						{
-							name = ReachState
-							id = ReachMoonSurface
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = 
-							notes = 
-							completedMessage = 
-							allowStateReset = True
-							targetBody = Moon
-							maxTerrainAltitude = 3500
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Destination: The Moon
-								notes = 
-								completedMessage = 
-							}
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Altitude (terrain): Below 3,500 m
-								notes = 
-								completedMessage = 
-							}
-						}
-					}
-					PARAM
-					{
-						name = ImpactCB
-						id = Impact
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonImpact
-						title = Impact The Moon at a speed of at least 2450 m/s
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						minSrfVel = 2450
-						targetBody = Moon
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 7ad862c9-1364-4dee-96ee-e96885343108
-				type = ConfiguredContract
-				prestige = 1
-				seed = 1455167344
-				state = Active
-				viewed = Read
-				agent = Exploration
-				agentName = Exploration
-				deadlineType = Floating
-				expiryType = None
-				ignoresWeight = True
-				values = 86400,50457600,180000,180000,337500,0,150,30,280987339.350832,280879591.330643,331337191.330643,0
-				subtype = first_MoonOrbitUncrewed
-				title = Lunar Orbiter (Uncrewed)
-				description = Design and successfully launch a probe into lunar orbit (with a maximum apiselene of 5,000 km) and successfully transmit or return some scientific data from the Moon's vicinity. &br;&br;<b>Note: The orbital parameters get tighter on the second contract</b> &br;&br;<b>Number of Contracts Completed: 0 / 2</b>
-				synopsis = Achieve lunar orbit and receive data
-				completedMessage = Orbit confirmed, and we got some excellent new data!
-				hash = -1483926777
-				targetBody = Moon
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-						type = Double
-						first_MoonOrbitUncrewed_Count = $first_MoonOrbitUncrewed_Count + 1
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = vesselGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_MoonOrbitUncrewed
-					title = Achieve lunar orbit and receive data
-					notes = 
-					completedMessage = 
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = NewVessel
-						id = NewVessel
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = Launch a New Vessel
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = True
-						launchID = 61
-					}
-					PARAM
-					{
-						name = HasCrew
-						id = Crewmembers
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = Uncrewed
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = True
-						minCrew = 0
-						maxCrew = 0
-						minExperience = 0
-						maxExperience = 5
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Unmanned
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = OrbitParameter
-						id = Orbit
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = 
-						notes = 
-						completedMessage = 
-						allowStateReset = False
-						situation = ORBITING
-						targetBody = Moon
-						minAltitude = 0
-						minApoapsis = 0
-						maxApoapsis = 5000000
-						minPeriapsis = 20000
-						minEccentricity = 0
-						minInclination = 0
-						maxInclination = 180
-						minArgumentOfPeriapsis = 0
-						maxArgumentOfPeriapsis = 360
-						minPeriod = 0
-						displayNotes = False
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Destination: The Moon
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Situation: Orbit
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Apoapsis: Below 5,000,000 m
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Periapsis: Above 20,000 m
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = Duration
-							id = Duration
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = 
-							notes = 
-							completedMessage = 
-							duration = 120
-							preWaitText = Check for Stable Orbit
-							waitingText = Checking for Stable Orbit
-							completionText = Stable Orbit: Confirmed
-							endTime = 0
-							startCriteria = CONTRACT_ACCEPTANCE
-							triggered = True
-						}
-					}
-					PARAM
-					{
-						name = CollectScienceCustom
-						id = CollectScience
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = Collect Science from around the Moon and transmit it to the KSC
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = False
-						targetBody = Moon
-						recoveryMethod = RecoverOrTransmit
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = destination
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Destination: The Moon
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = experiment
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Experiment: Any
-							notes = 
-							completedMessage = 
-							PARAM
-							{
-								name = ParameterDelegate`1
-								id = Subject
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonOrbitUncrewed
-								title = 
-								notes = 
-								completedMessage = 
-							}
-							PARAM
-							{
-								name = ParameterDelegate`1
-								id = recovery
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonOrbitUncrewed
-								title = Recovery: Recover or transmit
-								notes = 
-								completedMessage = 
-							}
-						}
 					}
 				}
 			}
@@ -26659,7 +26202,7 @@ GAME
 	{
 		name = SentinelScenario
 		scene = 7, 8, 5
-		NextSpawnTime = 281239364.86085397
+		NextSpawnTime = 280984126.13476205
 	}
 	SCENARIO
 	{
@@ -26687,10 +26230,236 @@ GAME
 		scene = 7, 8, 5
 		CONTRACT
 		{
-			guid = a2e5b35c-4701-480c-95f2-fbb58ae2eeed
+			guid = 2fd6bb28-cfc5-457f-8faf-83edd7ba211a
+			type = ConfiguredContract
+			prestige = 0
+			seed = 618504291
+			state = Offered
+			viewed = Unseen
+			agent = Exploration
+			agentName = Exploration
+			deadlineType = Floating
+			expiryType = Floating
+			ignoresWeight = True
+			values = 86400,25228800,14880,16640,27900,0,0,0,280965557.350832,0,0,0
+			subtype = CrewedSupersonic
+			title = X-Planes (Supersonic)
+			description = Design, build and fly a crewed jet aircraft to maintain 700 m/s in level flight, then return home safely.<br>This is a series of 17 contracts, of which 7 have been completed.<br>The reward of this contract will slowly increase over time but will be reset to 0 after each completion.<br><b>Current reward is at 184 % of its nominal value. Elapsed/Expected Days: 553 / 120</b>
+			synopsis = Fly a crewed jet aircraft to maintain 700 m/s in level flight and hold, then return safely.
+			completedMessage = Congratulations on a successful flight!
+			hash = 1425707872
+			targetBody = Earth
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.Expression
+				CONTRACT_OFFERED
+				{
+				}
+				CONTRACT_ACCEPTED
+				{
+				}
+				CONTRACT_COMPLETED_SUCCESS
+				{
+					type = Double
+					RP0_XPSS_Difficulty = $RP0_XPSS_Difficulty + 1
+					XPSS_Completion = 280879137.350832
+				}
+				CONTRACT_COMPLETED_FAILURE
+				{
+				}
+			}
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = VesselGroup
+				state = Incomplete
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.CrewedSupersonic
+				title = Maintain between 700 m/s and 750 m/s in level flight with a crewed jet aircraft.
+				notes = 
+				completedMessage = 
+				define = supersonicCraft
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = HasCrew
+					id = Has Crew
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.CrewedSupersonic
+					title = Have at least 1 crewmember on board
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 1
+					maxCrew = 99
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = CountParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = Count: Between one and 99
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = PartValidation
+					id = NoRocket
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.CrewedSupersonic
+					title = Vessel is a jet (no rocket engines allowed)
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCount = 0
+					maxCount = 2147483647
+					FILTER
+					{
+						type = NONE
+						partModule = ModuleEnginesRF
+						partModule = ModuleEnginesAJEPropeller
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = None have module: Engines R F
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = None have module: Engines A J E Propeller
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = ReachState
+					id = HoldSituation
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.CrewedSupersonic
+					title = Hold between 700 m/s to 750 m/s in level flight.
+					notes = 
+					completedMessage = 
+					allowStateReset = False
+					targetBody = Earth
+					situation = FLYING
+					minSpeed = 700
+					maxSpeed = 750
+					minRateOfClimb = -10
+					maxRateOfClimb = 10
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = Situation: Flying
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = Speed: Between 700 ms and 750 m/s
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = Rate of Climb: Between -10 ms and 10 m/s
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = Duration
+						id = Duration
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.CrewedSupersonic
+						title = 
+						notes = 
+						completedMessage = 
+						duration = 180
+						preWaitText = Reach specified speed.
+						waitingText = Testing highspeed flight
+						completionText = Flight completed, you are cleared to land.
+						endTime = 0
+						startCriteria = CONTRACT_ACCEPTANCE
+						triggered = False
+					}
+				}
+				PARAM
+				{
+					name = ReturnHome
+					id = ReturnHome
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.CrewedSupersonic
+					title = Return Home Safely
+					notes = 
+					completedMessage = 
+					completeInSequence = True
+					hideChildren = True
+					allowStateReset = True
+				}
+			}
+		}
+		CONTRACT
+		{
+			guid = 676104a0-542c-4e32-aec3-eb017c595d30
 			type = ConfiguredContract
 			prestige = 1
-			seed = 972689066
+			seed = 1577290873
 			state = Offered
 			viewed = Unseen
 			agent = Federation Aeronautique Internationale
@@ -26698,7 +26467,7 @@ GAME
 			deadlineType = Floating
 			expiryType = None
 			ignoresWeight = True
-			values = 518400,50457600,24000,120000,45000,0,12,2,281239528.005722,0,0,0
+			values = 345600,50457600,24000,120000,45000,0,12,2,280987177.350832,0,0,0
 			subtype = first_GEOUncrewed
 			title = First Geostationary Satellite
 			description = A geostationary orbit is a circular orbit 35,786 km above the Earth's equator and following the direction of the Earth's rotation. An object in such an orbit has an orbital period equal to the Earth's rotational period of 23h 56m 4.1s and thus appears motionless, at a fixed position in the sky, to ground observers. &br;&br;Launch a satellite into a Geostationary Orbit.
@@ -26714,12 +26483,12 @@ GAME
 					type = RANDOM_ORBIT
 					ORBIT
 					{
-						SMA = 42164172.365635373
-						ECC = 1.8252777767524329E-16
+						SMA = 42164172.365635335
+						ECC = 2.8515788669485614E-16
 						INC = 0
-						LPE = 216.5757712088587
+						LPE = 159.75470408821991
 						LAN = 0
-						MNA = 0.70081092824466951
+						MNA = 2.9337205414518426
 						EPH = 0
 						REF = 1
 					}
@@ -26784,10 +26553,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_GEOUncrewed
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -26815,10 +26584,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_GEOUncrewed
 						title = Resource: ComSatPayload: At least 24.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -26848,12 +26617,12 @@ GAME
 					deviationWindow = 5
 					ORBIT
 					{
-						SMA = 42164172.365635373
-						ECC = 1.8252777767524329E-16
+						SMA = 42164172.365635335
+						ECC = 2.8515788669485614E-16
 						INC = 0
-						LPE = 216.5757712088587
+						LPE = 159.75470408821991
 						LAN = 0
-						MNA = 0.70081092824466951
+						MNA = 2.9337205414518426
 						EPH = 0
 						REF = 1
 					}
@@ -26863,6 +26632,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_GEOUncrewed
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -26873,6 +26643,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_GEOUncrewed
 						title = Reach the specified orbit
 						notes = 
 						completedMessage = 
@@ -26882,6 +26653,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.first_GEOUncrewed
 						title = 
@@ -26900,10 +26672,261 @@ GAME
 		}
 		CONTRACT
 		{
-			guid = d7dc89de-d381-4b66-a5a3-71f75e4a2008
+			guid = 7ad862c9-1364-4dee-96ee-e96885343108
 			type = ConfiguredContract
-			prestige = 0
-			seed = 1001232496
+			prestige = 1
+			seed = 1455167344
+			state = Offered
+			viewed = Read
+			agent = Exploration
+			agentName = Exploration
+			deadlineType = Floating
+			expiryType = None
+			ignoresWeight = True
+			values = 86400,50457600,180000,180000,337500,0,150,30,280987339.350832,0,0,0
+			subtype = first_MoonOrbitUncrewed
+			title = Lunar Orbiter (Uncrewed)
+			description = Design and successfully launch a probe into lunar orbit (with a maximum apiselene of 5,000 km) and successfully transmit or return some scientific data from the Moon's vicinity. &br;&br;<b>Note: The orbital parameters get tighter on the second contract</b> &br;&br;<b>Number of Contracts Completed: 0 / 2</b>
+			synopsis = Achieve lunar orbit and receive data
+			completedMessage = Orbit confirmed, and we got some excellent new data!
+			hash = -1483926777
+			targetBody = Moon
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.Expression
+				CONTRACT_OFFERED
+				{
+				}
+				CONTRACT_ACCEPTED
+				{
+				}
+				CONTRACT_COMPLETED_SUCCESS
+				{
+					type = Double
+					first_MoonOrbitUncrewed_Count = $first_MoonOrbitUncrewed_Count + 1
+				}
+				CONTRACT_COMPLETED_FAILURE
+				{
+				}
+			}
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = vesselGroup
+				state = Incomplete
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.first_MoonOrbitUncrewed
+				title = Achieve lunar orbit and receive data
+				notes = 
+				completedMessage = 
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = NewVessel
+					id = NewVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_MoonOrbitUncrewed
+					title = Launch a New Vessel
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					launchID = 0
+				}
+				PARAM
+				{
+					name = HasCrew
+					id = Crewmembers
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_MoonOrbitUncrewed
+					title = Uncrewed
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 0
+					maxCrew = 0
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Unmanned
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = OrbitParameter
+					id = Orbit
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_MoonOrbitUncrewed
+					title = 
+					notes = 
+					completedMessage = 
+					allowStateReset = False
+					situation = ORBITING
+					targetBody = Moon
+					minAltitude = 0
+					minApoapsis = 0
+					maxApoapsis = 5000000
+					minPeriapsis = 20000
+					minEccentricity = 0
+					minInclination = 0
+					maxInclination = 180
+					minArgumentOfPeriapsis = 0
+					maxArgumentOfPeriapsis = 360
+					minPeriod = 0
+					displayNotes = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Destination: The Moon
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Situation: Orbit
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Apoapsis: Below 5,000,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Periapsis: Above 20,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = Duration
+						id = Duration
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = 
+						notes = 
+						completedMessage = 
+						duration = 120
+						preWaitText = Check for Stable Orbit
+						waitingText = Checking for Stable Orbit
+						completionText = Stable Orbit: Confirmed
+						endTime = 0
+						startCriteria = CONTRACT_ACCEPTANCE
+						triggered = False
+					}
+				}
+				PARAM
+				{
+					name = CollectScienceCustom
+					id = CollectScience
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_MoonOrbitUncrewed
+					title = Collect Science from around the Moon and transmit it to the KSC
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = False
+					targetBody = Moon
+					recoveryMethod = RecoverOrTransmit
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = destination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Destination: The Moon
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = experiment
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Experiment: Any
+						notes = 
+						completedMessage = 
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Subject
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = 
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = recovery
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Recovery: Recover or transmit
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+			}
+		}
+		CONTRACT
+		{
+			guid = 1bc6573b-2e81-4e6f-8565-df820b92d6a4
+			type = ConfiguredContract
+			prestige = 1
+			seed = 222170318
 			state = Offered
 			viewed = Unseen
 			agent = Satellites
@@ -26911,7 +26934,1301 @@ GAME
 			deadlineType = Floating
 			expiryType = None
 			ignoresWeight = True
-			values = 345600,25228800,19200,9600,36000,0,5,1,281240328.005722,0,0,0
+			values = 345600,75686400,48000,144000,90000,0,19,0,280987393.750832,0,0,0
+			subtype = EarlyComNetwork3
+			title = Early Communications Network (3 Satellites)
+			description = Mission control is tired of losing vessels and probes over the horizon, since they are rarely heard from again.  We need to find a way to stay in constant communication with our probes.&br;&br;Build a communication network with three ComSats that has continuous connectivity to mission control.&br;&br;<b><color=white>NOTE: Make sure to only accept either the three or four satellite version of this contract (it's impossible to complete both).</color></b>
+			synopsis = Launch a 3 satellite Communications Network
+			completedMessage = Congratulations! The network is up and transmitting, and our shake-out testing is complete!
+			hash = -64857958
+			targetBody = Earth
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = CommSat1
+				state = Incomplete
+				disableOnStateChange = False
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.EarlyComNetwork3
+				title = 
+				notes = 
+				completedMessage = 
+				define = CommSat I
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = IsNotVessel
+					id = IsNotVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = 
+					notes = 
+					completedMessage = 
+					fakeFailures = True
+					allowStateReset = True
+					failWhenUnmet = True
+					vesselKey = CommSat II
+				}
+				PARAM
+				{
+					name = IsNotVessel
+					id = IsNotVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = 
+					notes = 
+					completedMessage = 
+					fakeFailures = True
+					allowStateReset = True
+					failWhenUnmet = True
+					vesselKey = CommSat III
+				}
+				PARAM
+				{
+					name = HasResource
+					id = HasComSatPayload
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = Have a ComSatPayload of at least 125 units on the craft
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					capacity = False
+					RESOURCE
+					{
+						resource = ComSatPayload
+						minQuantity = 124.98999999999999
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Resource: ComSatPayload: At least 124.99 units
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = OrbitParameter
+					id = Orbit
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = 
+					notes = 
+					completedMessage = 
+					allowStateReset = True
+					situation = ORBITING
+					targetBody = Earth
+					minAltitude = 0
+					minApoapsis = 0
+					minPeriapsis = 6371000
+					minEccentricity = 0
+					maxEccentricity = 0.0040000000000000001
+					minInclination = 0
+					maxInclination = 180
+					minArgumentOfPeriapsis = 0
+					maxArgumentOfPeriapsis = 360
+					minPeriod = 0
+					displayNotes = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Situation: Orbit
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Periapsis: Above 6,371,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Eccentricity: Below 0.0040
+						notes = 
+						completedMessage = 
+					}
+				}
+			}
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = CommSat2
+				state = Incomplete
+				disableOnStateChange = False
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.EarlyComNetwork3
+				title = 
+				notes = 
+				completedMessage = 
+				define = CommSat II
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = IsNotVessel
+					id = IsNotVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = 
+					notes = 
+					completedMessage = 
+					fakeFailures = True
+					allowStateReset = True
+					failWhenUnmet = True
+					vesselKey = CommSat III
+				}
+				PARAM
+				{
+					name = HasResource
+					id = HasComSatPayload
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = Have a ComSatPayload of at least 125 units on the craft
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					capacity = False
+					RESOURCE
+					{
+						resource = ComSatPayload
+						minQuantity = 124.98999999999999
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Resource: ComSatPayload: At least 124.99 units
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = OrbitParameter
+					id = Orbit
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = 
+					notes = 
+					completedMessage = 
+					allowStateReset = True
+					situation = ORBITING
+					targetBody = Earth
+					minAltitude = 0
+					minApoapsis = 0
+					minPeriapsis = 6371000
+					minEccentricity = 0
+					maxEccentricity = 0.0040000000000000001
+					minInclination = 0
+					maxInclination = 180
+					minArgumentOfPeriapsis = 0
+					maxArgumentOfPeriapsis = 360
+					minPeriod = 0
+					displayNotes = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Situation: Orbit
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Periapsis: Above 6,371,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Eccentricity: Below 0.0040
+						notes = 
+						completedMessage = 
+					}
+				}
+			}
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = CommSat3
+				state = Incomplete
+				disableOnStateChange = False
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.EarlyComNetwork3
+				title = 
+				notes = 
+				completedMessage = 
+				define = CommSat III
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = IsNotVessel
+					id = IsNotVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = 
+					notes = 
+					completedMessage = 
+					fakeFailures = True
+					allowStateReset = True
+					failWhenUnmet = True
+					vesselKey = CommSat I
+				}
+				PARAM
+				{
+					name = HasResource
+					id = HasComSatPayload
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = Have a ComSatPayload of at least 125 units on the craft
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					capacity = False
+					RESOURCE
+					{
+						resource = ComSatPayload
+						minQuantity = 124.98999999999999
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Resource: ComSatPayload: At least 124.99 units
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = OrbitParameter
+					id = Orbit
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.EarlyComNetwork3
+					title = 
+					notes = 
+					completedMessage = 
+					allowStateReset = True
+					situation = ORBITING
+					targetBody = Earth
+					minAltitude = 0
+					minApoapsis = 0
+					minPeriapsis = 6371000
+					minEccentricity = 0
+					maxEccentricity = 0.0040000000000000001
+					minInclination = 0
+					maxInclination = 180
+					minArgumentOfPeriapsis = 0
+					maxArgumentOfPeriapsis = 360
+					minPeriod = 0
+					displayNotes = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Situation: Orbit
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Periapsis: Above 6,371,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork3
+						title = Eccentricity: Below 0.0040
+						notes = 
+						completedMessage = 
+					}
+				}
+			}
+			PARAM
+			{
+				name = Duration
+				id = Duration
+				state = Incomplete
+				disableOnStateChange = False
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.EarlyComNetwork3
+				title = 
+				notes = 
+				completedMessage = 
+				duration = 172800
+				preWaitText = Testing time after network up
+				waitingText = Performing shake-out testing
+				completionText = Shake-out testing completed
+				endTime = 0
+				startCriteria = CONTRACT_ACCEPTANCE
+				triggered = False
+			}
+		}
+		CONTRACT
+		{
+			guid = 790319bc-e0db-4097-85ca-b0e0a9968def
+			type = ConfiguredContract
+			prestige = 0
+			seed = 170456600
+			state = Offered
+			viewed = Unseen
+			agent = Federation Aeronautique Internationale
+			agentName = Federation Aeronautique Internationale
+			deadlineType = Floating
+			expiryType = None
+			ignoresWeight = True
+			values = 345600,25228800,14400,28800,27000,0,5,1,280987393.810832,0,0,0
+			subtype = FirstWeatherSat
+			title = First Weather Satellite
+			description = The Atmospheric Analysis Satellite that we launched was a good first step to understanding how the upper atmosphere affects the weather. However, our meteorologists want to see images of the clouds to better assess the situtation.&br;&br;Launch our first official weather satellite into orbit.
+			synopsis = Launch the first weather satellite
+			completedMessage = Success! The images provided from this satellite have proven that weather satellites can be extremely effective in helping meteorologists predict the weather.
+			hash = -439428417
+			targetBody = Earth
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = FirstWeatherSat
+				state = Incomplete
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.FirstWeatherSat
+				title = First Weather Satellite
+				notes = 
+				completedMessage = 
+				define = FirstWeatherSat
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = NewVessel
+					id = NewVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.FirstWeatherSat
+					title = Launch a New Vessel
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					launchID = 0
+				}
+				PARAM
+				{
+					name = HasCrew
+					id = Crewmembers
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.FirstWeatherSat
+					title = Uncrewed
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 0
+					maxCrew = 0
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
+						title = Unmanned
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = HasResource
+					id = HasWeatherSatPayload
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.FirstWeatherSat
+					title = Have a WeatherSatPayload of at least 20 units on the craft
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					capacity = False
+					RESOURCE
+					{
+						resource = WeatherSatPayload
+						minQuantity = 19.989999999999998
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
+						title = Resource: WeatherSatPayload: At least 19.99 units
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = OrbitParameter
+					id = Orbit
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.FirstWeatherSat
+					title = Achieve an orbit with a Perigee above 300 km and an Eccentricity below 0.005
+					notes = 
+					completedMessage = 
+					allowStateReset = False
+					situation = ORBITING
+					targetBody = Earth
+					minAltitude = 0
+					minApoapsis = 0
+					minPeriapsis = 300000
+					minEccentricity = 0
+					maxEccentricity = 0.0050000000000000001
+					minInclination = 0
+					maxInclination = 180
+					minArgumentOfPeriapsis = 0
+					maxArgumentOfPeriapsis = 360
+					minPeriod = 0
+					displayNotes = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
+						title = Situation: Orbit
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
+						title = Periapsis: Above 300,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
+						title = Eccentricity: Below 0.0050
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = Duration
+						id = Duration
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstWeatherSat
+						title = 
+						notes = 
+						completedMessage = 
+						duration = 120
+						preWaitText = Check for Stable Orbit
+						waitingText = Checking for Stable Orbit
+						completionText = Stable Orbit: Confirmed
+						endTime = 0
+						startCriteria = CONTRACT_ACCEPTANCE
+						triggered = False
+					}
+				}
+			}
+		}
+		CONTRACT
+		{
+			guid = 4adab2b6-7a2f-421a-9bf2-ce308eb39f87
+			type = ConfiguredContract
+			prestige = 1
+			seed = 1217095479
+			state = Offered
+			viewed = Unseen
+			agent = Exploration
+			agentName = Exploration
+			deadlineType = Floating
+			expiryType = None
+			ignoresWeight = True
+			values = 345600,50457600,150000,150000,281250,0,125,12,280987393.910831,0,0,0
+			subtype = landingMoon
+			title = Lunar Landing (Uncrewed)
+			description = Design and successfully launch a craft that can achieve a soft landing on the Moon and return science data back to Earth. Completing this contract 2 times will unlock far side lunar landing.<b><color=white>NOTE: You can not select this contract and the First Crewed Lunar Landing contract. If you select the other contract while this is active, this will automatically fail.</color></b>&br;&br;<b>Number of Contracts Completed: 0 / 4</b>
+			synopsis = Achieve a soft landing on the Moon and transmit Science
+			completedMessage = Mission Success! You have safely landed on the Moon and returned valuable science data from the surface. We now know that it is possible for a crewed craft to land there safely as well.
+			hash = -1192594296
+			targetBody = Moon
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.Expression
+				CONTRACT_OFFERED
+				{
+				}
+				CONTRACT_ACCEPTED
+				{
+				}
+				CONTRACT_COMPLETED_SUCCESS
+				{
+					type = Double
+					landingMoon_Count = $landingMoon_Count + 1
+				}
+				CONTRACT_COMPLETED_FAILURE
+				{
+				}
+			}
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = VesselGroup
+				state = Incomplete
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.landingMoon
+				title = Moon Lander
+				notes = 
+				completedMessage = 
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = NewVessel
+					id = NewVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.landingMoon
+					title = Launch a New Vessel
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					launchID = 0
+				}
+				PARAM
+				{
+					name = HasCrew
+					id = Crewmembers
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.landingMoon
+					title = Uncrewed
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 0
+					maxCrew = 0
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
+						title = Unmanned
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = ReachState
+					id = LandOnMoon
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.landingMoon
+					title = Land on [ The Moon ]
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = False
+					targetBody = Moon
+					situation = LANDED
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
+						title = Destination: The Moon
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
+						title = Situation: Landed
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = CollectScienceCustom
+					id = CollectScience
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.landingMoon
+					title = Transmit Science from the surface of the Moon
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = False
+					targetBody = Moon
+					situation = SrfLanded
+					recoveryMethod = Transmit
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = destination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
+						title = Destination: The Moon
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = situation
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
+						title = Situation: Landed
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = experiment
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.landingMoon
+						title = Experiment: Any
+						notes = 
+						completedMessage = 
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Subject
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.landingMoon
+							title = 
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = recovery
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.landingMoon
+							title = Recovery: Transmit
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+			}
+		}
+		CONTRACT
+		{
+			guid = f7d8b9ca-1913-4409-a93f-26454a6d41d7
+			type = ConfiguredContract
+			prestige = 1
+			seed = 1076893621
+			state = Offered
+			viewed = Unseen
+			agent = Federation Aeronautique Internationale
+			agentName = Federation Aeronautique Internationale
+			deadlineType = Floating
+			expiryType = None
+			ignoresWeight = True
+			values = 432000,75686400,72000,288000,135000,0,188,56,280987393.990831,0,0,0
+			subtype = flybyMars
+			title = Mars Flyby
+			description = Design and successfully launch a probe on a flyby of Mars with a closest approach of 20,000 km or closer, then record observations and transmit.
+			synopsis = Flyby Mars closer than 20,000 km and transmit science
+			completedMessage = Congratulations on the flyby! The data is coming in now.
+			hash = -1596861145
+			targetBody = Mars
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = VesselGroup
+				state = Incomplete
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.flybyMars
+				title = Flyby Mars
+				notes = 
+				completedMessage = 
+				define = FlybyMars
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = False
+				PARAM
+				{
+					name = HasCrew
+					id = Crewmembers
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.flybyMars
+					title = Uncrewed
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 0
+					maxCrew = 0
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyMars
+						title = Unmanned
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = ReachState
+					id = FlybyPlanet
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.flybyMars
+					title = Flyby Mars within 20,000 km
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = False
+					targetBody = Mars
+					maxAltitude = 20000000
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyMars
+						title = Destination: Mars
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyMars
+						title = Altitude: Below 20,000,000 m
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = CollectScienceCustom
+					id = CollectSpaceScience
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.flybyMars
+					title = Transmit Science Data from Space near Mars
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = False
+					targetBody = Mars
+					recoveryMethod = Transmit
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = destination
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyMars
+						title = Destination: Mars
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						id = experiment
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyMars
+						title = Experiment: Any
+						notes = 
+						completedMessage = 
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = Subject
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.flybyMars
+							title = 
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = recovery
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.flybyMars
+							title = Recovery: Transmit
+							notes = 
+							completedMessage = 
+						}
+					}
+				}
+			}
+		}
+		CONTRACT
+		{
+			guid = 999bda68-e5d9-4911-bf93-8542483434ad
+			type = ConfiguredContract
+			prestige = 0
+			seed = 1790497889
+			state = Offered
+			viewed = Unseen
+			agent = Satellites
+			agentName = Satellites
+			deadlineType = Floating
+			expiryType = Floating
+			ignoresWeight = True
+			values = 86400,25228800,0,0,0,0,2,0,280965795.95083,0,0,0
+			subtype = ComTestSat
+			title = Communications Test Satellite
+			description = There are groups that want to understand more about communications with satellites. Launch a new communications test satellite into the proper orbit. &br;&br;<b><color=red>NOTE: The satellite will be destroyed upon completion of the contract. This simulates transfer of the payload back to the customer.</color></b>&br;&br;<b><color=white>Removal Condition: Completion of a Communications Satellite (Early) contract</color></b>&br;&br;<b>The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 0 % of its nominal value. Elapsed/Expected Days: 7 / 60<br>Number of Contracts Completed: 2 / unlimited</b>
+			synopsis = Launch a Communications Test Satellite
+			completedMessage = Success! We are learning more about space communications with every launch.
+			hash = -1170235128
+			targetBody = Earth
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.Expression
+				CONTRACT_OFFERED
+				{
+				}
+				CONTRACT_ACCEPTED
+				{
+				}
+				CONTRACT_COMPLETED_SUCCESS
+				{
+					type = Double
+					ComTestSat_Count = $ComTestSat_Count + 1
+					RepeatSat_Completion = 280879395.95083
+				}
+				CONTRACT_COMPLETED_FAILURE
+				{
+				}
+			}
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.DestroyVessel
+				onState = CONTRACT_SUCCESS
+				vessel = TestComSatellite
+			}
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.DialogBox
+				DIALOG_BOX
+				{
+					condition = CONTRACT_SUCCESS
+					position = CENTER
+					width = 0.5
+					height = 0
+					title = Vessel Ownership Transferred
+					titleColor = #FFFFFFFF
+					TextSection
+					{
+						text = The contract has been completed successfully and the satellite has been transferred back to the customer.
+						textColor = #FFCCCCCC
+						fontSize = 20
+					}
+				}
+			}
+			PARAM
+			{
+				name = VesselParameterGroup
+				id = TestComSat
+				state = Incomplete
+				values = 0,0,0,0,0
+				ContractIdentifier = RP0.ComTestSat
+				title = Communications Test Satellite
+				notes = 
+				completedMessage = 
+				define = TestComSatellite
+				duration = 0
+				dissassociateVesselsOnContractFailure = True
+				dissassociateVesselsOnContractCompletion = True
+				PARAM
+				{
+					name = NewVessel
+					id = NewVessel
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.ComTestSat
+					title = Launch a New Vessel
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					launchID = 0
+				}
+				PARAM
+				{
+					name = HasCrew
+					id = Crewmembers
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.ComTestSat
+					title = Uncrewed
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					minCrew = 0
+					maxCrew = 0
+					minExperience = 0
+					maxExperience = 5
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = Unmanned
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = HasResource
+					id = HasComSatPayload
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.ComTestSat
+					title = Have a ComSatPayload of at least 132 units on the craft
+					notes = 
+					completedMessage = 
+					hideChildren = True
+					allowStateReset = True
+					capacity = False
+					RESOURCE
+					{
+						resource = ComSatPayload
+						minQuantity = 131.99000000000001
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = Resource: ComSatPayload: At least 131.99 units
+						notes = 
+						completedMessage = 
+					}
+				}
+				PARAM
+				{
+					name = OrbitParameter
+					id = Orbit
+					state = Incomplete
+					disableOnStateChange = False
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.ComTestSat
+					title = Achieve Orbit within the parameters
+					notes = 
+					completedMessage = 
+					allowStateReset = False
+					situation = ORBITING
+					targetBody = Earth
+					minAltitude = 0
+					minApoapsis = 4933000
+					maxApoapsis = 7557000
+					minPeriapsis = 775000
+					minEccentricity = 0
+					minInclination = 49
+					maxInclination = 180
+					minArgumentOfPeriapsis = 0
+					maxArgumentOfPeriapsis = 360
+					minPeriod = 0
+					displayNotes = False
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = Destination: Earth
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = Situation: Orbit
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = Apoapsis: Between 4,933,000 m and 7,557,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = Periapsis: Above 775,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = Inclination: Above 49.0°
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = Duration
+						id = Duration
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.ComTestSat
+						title = 
+						notes = 
+						completedMessage = 
+						duration = 120
+						preWaitText = Check for Stable Orbit
+						waitingText = Checking for Stable Orbit
+						completionText = Stable Orbit: Confirmed
+						endTime = 0
+						startCriteria = CONTRACT_ACCEPTANCE
+						triggered = False
+					}
+				}
+			}
+		}
+		CONTRACT
+		{
+			guid = 5a1e571b-3f67-4f21-ac54-df56fe45fcd6
+			type = ConfiguredContract
+			prestige = 0
+			seed = 792016731
+			state = Offered
+			viewed = Unseen
+			agent = Satellites
+			agentName = Satellites
+			deadlineType = Floating
+			expiryType = None
+			ignoresWeight = True
+			values = 86400,25228800,19200,9600,36000,0,5,1,280987396.010829,0,0,0
 			subtype = EarlyNavSats
 			title = Early Navigation Satellite
 			description = Our engineers are once again requesting a new navigational satellite test article.  Please place one into the proper orbit around Earth.&br;&br;<b><color=red>NOTE: The satellite will be destroyed upon completion of the contract. This simulates transfer of the payload back to the customer.</color></b>&br;&br;<b><color=white>Removal Condition: Completion of a Operational Navigation System contract</color></b>&br;&br;<b>Number of Contracts Completed: 0 / 4</b>
@@ -27014,10 +28331,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyNavSats
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27045,10 +28362,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyNavSats
 						title = Resource: NavSatPayload: At least 59.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27056,6 +28373,7 @@ GAME
 					name = OrbitParameter
 					id = Orbit
 					state = Incomplete
+					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = RP0.EarlyNavSats
 					title = Achieve an orbit within the stated parameters
@@ -27081,6 +28399,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyNavSats
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -27091,6 +28410,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyNavSats
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -27101,6 +28421,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyNavSats
 						title = Apoapsis: Below 1,000,000 m
 						notes = 
 						completedMessage = 
@@ -27111,6 +28432,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyNavSats
 						title = Periapsis: Above 800,000 m
 						notes = 
 						completedMessage = 
@@ -27121,6 +28443,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyNavSats
 						title = Inclination: Between 64.0° and 70.0°
 						notes = 
 						completedMessage = 
@@ -27130,6 +28453,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.EarlyNavSats
 						title = 
@@ -27148,174 +28472,10 @@ GAME
 		}
 		CONTRACT
 		{
-			guid = 02f4f545-6278-4dba-98d4-f37021a54407
-			type = ConfiguredContract
-			prestige = 1
-			seed = 1577402317
-			state = Offered
-			viewed = Unseen
-			agent = Federation Aeronautique Internationale
-			agentName = Federation Aeronautique Internationale
-			deadlineType = Floating
-			expiryType = None
-			ignoresWeight = True
-			values = 518400,75686400,72000,288000,135000,0,188,56,281241528.005722,0,0,0
-			subtype = flybyMars
-			title = Mars Flyby
-			description = Design and successfully launch a probe on a flyby of Mars with a closest approach of 20,000 km or closer, then record observations and transmit.
-			synopsis = Flyby Mars closer than 20,000 km and transmit science
-			completedMessage = Congratulations on the flyby! The data is coming in now.
-			hash = -1596861145
-			targetBody = Mars
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = VesselGroup
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.flybyMars
-				title = Flyby Mars
-				notes = 
-				completedMessage = 
-				define = FlybyMars
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.flybyMars
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Unmanned
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = FlybyPlanet
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.flybyMars
-					title = Flyby Mars within 20,000 km
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = False
-					targetBody = Mars
-					maxAltitude = 20000000
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Mars
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Altitude: Below 20,000,000 m
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = CollectScienceCustom
-					id = CollectSpaceScience
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.flybyMars
-					title = Transmit Science Data from Space near Mars
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = False
-					targetBody = Mars
-					recoveryMethod = Transmit
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = destination
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Mars
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = experiment
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Experiment: Any
-						notes = 
-						completedMessage = 
-						hidden = True
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Subject
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							title = 
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = recovery
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							title = Recovery: Transmit
-							notes = 
-							completedMessage = 
-						}
-					}
-				}
-			}
-		}
-		CONTRACT
-		{
-			guid = 47529634-e823-48d2-a424-c5f8fad30278
+			guid = eb499bb6-e4f7-485d-939d-ff7d8848554d
 			type = ConfiguredContract
 			prestige = 0
-			seed = 342061955
+			seed = 2043769674
 			state = Offered
 			viewed = Unseen
 			agent = Federation Aeronautique Internationale
@@ -27323,7 +28483,7 @@ GAME
 			deadlineType = Floating
 			expiryType = None
 			ignoresWeight = True
-			values = 518400,25228800,19200,53760,36000,0,2,0,281248528.005722,0,0,0
+			values = 259200,25228800,19200,53760,36000,0,2,0,280987397.010829,0,0,0
 			subtype = FirstMolniyaSat
 			title = First Molniya Orbit Satellite
 			description = A Molniya orbit is a type of highly elliptical orbit with an inclination of 63.4 degrees, an argument of perigee of −90 degrees and an orbital period of one half of a sidereal day. Place a satellite into a Molniya orbit.&br;&br;There will be an orbit showing in the map view and tracking station. You do not have to place the satellite into this orbit, but it is instead meant to show you where your Perigee and Apogee should approximately be located, but more importantly, it shows the proper shape of the orbit.
@@ -27409,10 +28569,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27440,10 +28600,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Resource: ComSatPayload: At least 84.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -27477,6 +28637,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -27487,6 +28648,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -27497,6 +28659,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Periapsis: Above 500,000 m
 						notes = 
 						completedMessage = 
@@ -27507,6 +28670,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Eccentricity: Above 0.7000
 						notes = 
 						completedMessage = 
@@ -27517,6 +28681,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Inclination: Between 61.4° and 65.4°
 						notes = 
 						completedMessage = 
@@ -27527,6 +28692,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Argument of Periapsis: Between 220.0° and 320.0°
 						notes = 
 						completedMessage = 
@@ -27537,6 +28703,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.FirstMolniyaSat
 						title = Period: Between 11:56:02 and 12:00:02
 						notes = 
 						completedMessage = 
@@ -27546,6 +28713,7 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
 						ContractIdentifier = RP0.FirstMolniyaSat
 						title = 
@@ -27564,482 +28732,83 @@ GAME
 		}
 		CONTRACT
 		{
-			guid = a8c5bca9-7459-4136-8e9d-3d640d03073f
+			guid = bc2b0007-8242-4d7e-9aef-794e0861b2f4
 			type = ConfiguredContract
-			prestige = 1
-			seed = 330473924
+			prestige = 0
+			seed = 1584673919
 			state = Offered
 			viewed = Unseen
 			agent = Satellites
 			agentName = Satellites
 			deadlineType = Floating
-			expiryType = None
+			expiryType = Floating
 			ignoresWeight = True
-			values = 432000,75686400,48000,144000,90000,0,19,0,281271928.005722,0,0,0
-			subtype = EarlyComNetwork3
-			title = Early Communications Network (3 Satellites)
-			description = Mission control is tired of losing vessels and probes over the horizon, since they are rarely heard from again.  We need to find a way to stay in constant communication with our probes.&br;&br;Build a communication network with three ComSats that has continuous connectivity to mission control.&br;&br;<b><color=white>NOTE: Make sure to only accept either the three or four satellite version of this contract (it's impossible to complete both).</color></b>
-			synopsis = Launch a 3 satellite Communications Network
-			completedMessage = Congratulations! The network is up and transmitting, and our shake-out testing is complete!
-			hash = -64857958
+			values = 86400,12441600,0,0,0,0,2,0,280965800.890825,0,0,0
+			subtype = EarlyComSat
+			title = Commercial Communications Satellite (Early)
+			description = Now that we have tested out the Communications Satellite Technology, there are many uses we have for these Satellites. We have a customer that is requesting a new satellite. Launch a new communications Satellite into the specified orbit.&br;&br;<b><color=red>NOTE: The satellite will be destroyed upon completion of the contract. This simulates transfer of the payload back to the customer.</color></b><b><color=white>Removal Condition: Completion of a Commercial Communications Satellite contract</color></b>&br;&br;<b>The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 0 % of its nominal value. Elapsed/Expected Days: 7 / 60<br>Number of Contracts Completed: 0 / unlimited</b>
+			synopsis = Launch a Communications Satellite for a customer.
+			completedMessage = Success! The communications satellite was launched into the proper orbit. Your customer is very happy.
+			hash = 2109239655
 			targetBody = Earth
-			PARAM
+			BEHAVIOUR
 			{
-				name = VesselParameterGroup
-				id = CommSat1
-				state = Incomplete
-				disableOnStateChange = False
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.EarlyComNetwork3
-				title = 
-				notes = 
-				completedMessage = 
-				define = CommSat I
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
+				type = ContractConfigurator.Behaviour.Expression
+				CONTRACT_OFFERED
 				{
-					name = IsNotVessel
-					id = IsNotVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = 
-					notes = 
-					completedMessage = 
-					fakeFailures = True
-					allowStateReset = True
-					failWhenUnmet = True
-					vesselKey = CommSat II
 				}
-				PARAM
+				CONTRACT_ACCEPTED
 				{
-					name = IsNotVessel
-					id = IsNotVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = 
-					notes = 
-					completedMessage = 
-					fakeFailures = True
-					allowStateReset = True
-					failWhenUnmet = True
-					vesselKey = CommSat III
 				}
-				PARAM
+				CONTRACT_COMPLETED_SUCCESS
 				{
-					name = HasResource
-					id = HasComSatPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = Have a ComSatPayload of at least 125 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = ComSatPayload
-						minQuantity = 124.98999999999999
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Resource: ComSatPayload: At least 124.99 units
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
+					type = Double
+					EarlyComSat_Count = $EarlyComSat_Count + 1
+					RepeatSat_Completion = 280879400.890825
 				}
-				PARAM
+				CONTRACT_COMPLETED_FAILURE
 				{
-					name = OrbitParameter
-					id = Orbit
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = 
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					situation = ORBITING
-					targetBody = Earth
-					minAltitude = 0
-					minApoapsis = 0
-					minPeriapsis = 6371000
-					minEccentricity = 0
-					maxEccentricity = 0.0040000000000000001
-					minInclination = 0
-					maxInclination = 180
-					minArgumentOfPeriapsis = 0
-					maxArgumentOfPeriapsis = 360
-					minPeriod = 0
-					displayNotes = False
-					PARAM
+				}
+			}
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.DestroyVessel
+				onState = CONTRACT_SUCCESS
+				vessel = EarlyComSatellite
+			}
+			BEHAVIOUR
+			{
+				type = ContractConfigurator.Behaviour.DialogBox
+				DIALOG_BOX
+				{
+					condition = CONTRACT_SUCCESS
+					position = CENTER
+					width = 0.5
+					height = 0
+					title = Vessel Ownership Transferred
+					titleColor = #FFFFFFFF
+					TextSection
 					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Situation: Orbit
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Periapsis: Above 6,371,000 m
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Eccentricity: Below 0.0040
-						notes = 
-						completedMessage = 
+						text = The contract has been completed successfully and the satellite has been transferred back to the customer.
+						textColor = #FFCCCCCC
+						fontSize = 20
 					}
 				}
 			}
 			PARAM
 			{
 				name = VesselParameterGroup
-				id = CommSat2
+				id = EarlyComSat
 				state = Incomplete
-				disableOnStateChange = False
 				values = 0,0,0,0,0
-				ContractIdentifier = RP0.EarlyComNetwork3
-				title = 
+				ContractIdentifier = RP0.EarlyComSat
+				title = Communications Satellite (Early)
 				notes = 
 				completedMessage = 
-				define = CommSat II
+				define = EarlyComSatellite
 				duration = 0
 				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = IsNotVessel
-					id = IsNotVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = 
-					notes = 
-					completedMessage = 
-					fakeFailures = True
-					allowStateReset = True
-					failWhenUnmet = True
-					vesselKey = CommSat III
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasComSatPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = Have a ComSatPayload of at least 125 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = ComSatPayload
-						minQuantity = 124.98999999999999
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Resource: ComSatPayload: At least 124.99 units
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = OrbitParameter
-					id = Orbit
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = 
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					situation = ORBITING
-					targetBody = Earth
-					minAltitude = 0
-					minApoapsis = 0
-					minPeriapsis = 6371000
-					minEccentricity = 0
-					maxEccentricity = 0.0040000000000000001
-					minInclination = 0
-					maxInclination = 180
-					minArgumentOfPeriapsis = 0
-					maxArgumentOfPeriapsis = 360
-					minPeriod = 0
-					displayNotes = False
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Situation: Orbit
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Periapsis: Above 6,371,000 m
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Eccentricity: Below 0.0040
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = CommSat3
-				state = Incomplete
-				disableOnStateChange = False
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.EarlyComNetwork3
-				title = 
-				notes = 
-				completedMessage = 
-				define = CommSat III
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = IsNotVessel
-					id = IsNotVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = 
-					notes = 
-					completedMessage = 
-					fakeFailures = True
-					allowStateReset = True
-					failWhenUnmet = True
-					vesselKey = CommSat I
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasComSatPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = Have a ComSatPayload of at least 125 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = ComSatPayload
-						minQuantity = 124.98999999999999
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Resource: ComSatPayload: At least 124.99 units
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = OrbitParameter
-					id = Orbit
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComNetwork3
-					title = 
-					notes = 
-					completedMessage = 
-					allowStateReset = True
-					situation = ORBITING
-					targetBody = Earth
-					minAltitude = 0
-					minApoapsis = 0
-					minPeriapsis = 6371000
-					minEccentricity = 0
-					maxEccentricity = 0.0040000000000000001
-					minInclination = 0
-					maxInclination = 180
-					minArgumentOfPeriapsis = 0
-					maxArgumentOfPeriapsis = 360
-					minPeriod = 0
-					displayNotes = False
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Situation: Orbit
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Periapsis: Above 6,371,000 m
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Eccentricity: Below 0.0040
-						notes = 
-						completedMessage = 
-					}
-				}
-			}
-			PARAM
-			{
-				name = Duration
-				id = Duration
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.EarlyComNetwork3
-				title = 
-				notes = 
-				completedMessage = 
-				duration = 172800
-				preWaitText = Testing time after network up
-				waitingText = Performing shake-out testing
-				completionText = Shake-out testing completed
-				endTime = 0
-				startCriteria = CONTRACT_ACCEPTANCE
-				triggered = False
-			}
-		}
-		CONTRACT
-		{
-			guid = df9ac465-b7b5-4fb4-b748-b026ca70637c
-			type = ConfiguredContract
-			prestige = 0
-			seed = 2102623358
-			state = Offered
-			viewed = Unseen
-			agent = Federation Aeronautique Internationale
-			agentName = Federation Aeronautique Internationale
-			deadlineType = Floating
-			expiryType = None
-			ignoresWeight = True
-			values = 172800,25228800,14400,28800,27000,0,5,1,281272528.005722,0,0,0
-			subtype = FirstWeatherSat
-			title = First Weather Satellite
-			description = The Atmospheric Analysis Satellite that we launched was a good first step to understanding how the upper atmosphere affects the weather. However, our meteorologists want to see images of the clouds to better assess the situtation.&br;&br;Launch our first official weather satellite into orbit.
-			synopsis = Launch the first weather satellite
-			completedMessage = Success! The images provided from this satellite have proven that weather satellites can be extremely effective in helping meteorologists predict the weather.
-			hash = -439428417
-			targetBody = Earth
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = FirstWeatherSat
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.FirstWeatherSat
-				title = First Weather Satellite
-				notes = 
-				completedMessage = 
-				define = FirstWeatherSat
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
+				dissassociateVesselsOnContractCompletion = True
 				PARAM
 				{
 					name = NewVessel
@@ -28047,7 +28816,7 @@ GAME
 					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
-					ContractIdentifier = RP0.FirstWeatherSat
+					ContractIdentifier = RP0.EarlyComSat
 					title = Launch a New Vessel
 					notes = 
 					completedMessage = 
@@ -28062,7 +28831,7 @@ GAME
 					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
-					ContractIdentifier = RP0.FirstWeatherSat
+					ContractIdentifier = RP0.EarlyComSat
 					title = Uncrewed
 					notes = 
 					completedMessage = 
@@ -28078,21 +28847,21 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComSat
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
 				{
 					name = HasResource
-					id = HasWeatherSatPayload
+					id = HasComSatPayload
 					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
-					ContractIdentifier = RP0.FirstWeatherSat
-					title = Have a WeatherSatPayload of at least 20 units on the craft
+					ContractIdentifier = RP0.EarlyComSat
+					title = Have a ComSatPayload of at least 185 units on the craft
 					notes = 
 					completedMessage = 
 					hideChildren = True
@@ -28100,8 +28869,8 @@ GAME
 					capacity = False
 					RESOURCE
 					{
-						resource = WeatherSatPayload
-						minQuantity = 19.989999999999998
+						resource = ComSatPayload
+						minQuantity = 184.99000000000001
 					}
 					PARAM
 					{
@@ -28109,10 +28878,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Resource: WeatherSatPayload: At least 19.99 units
+						ContractIdentifier = RP0.EarlyComSat
+						title = Resource: ComSatPayload: At least 184.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28120,20 +28889,21 @@ GAME
 					name = OrbitParameter
 					id = Orbit
 					state = Incomplete
+					disableOnStateChange = False
 					values = 0,0,0,0,0
-					ContractIdentifier = RP0.FirstWeatherSat
-					title = Achieve an orbit with a Perigee above 300 km and an Eccentricity below 0.005
+					ContractIdentifier = RP0.EarlyComSat
+					title = Achieve Orbit within the parameters
 					notes = 
 					completedMessage = 
 					allowStateReset = False
 					situation = ORBITING
 					targetBody = Earth
 					minAltitude = 0
-					minApoapsis = 0
-					minPeriapsis = 300000
+					minApoapsis = 3822000
+					maxApoapsis = 27337000
+					minPeriapsis = 863000
 					minEccentricity = 0
-					maxEccentricity = 0.0050000000000000001
-					minInclination = 0
+					minInclination = 31
 					maxInclination = 180
 					minArgumentOfPeriapsis = 0
 					maxArgumentOfPeriapsis = 360
@@ -28145,6 +28915,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComSat
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -28155,6 +28926,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComSat
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -28165,7 +28937,8 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Periapsis: Above 300,000 m
+						ContractIdentifier = RP0.EarlyComSat
+						title = Apoapsis: Between 3,822,000 m and 27,337,000 m
 						notes = 
 						completedMessage = 
 					}
@@ -28175,7 +28948,19 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Eccentricity: Below 0.0050
+						ContractIdentifier = RP0.EarlyComSat
+						title = Periapsis: Above 863,000 m
+						notes = 
+						completedMessage = 
+					}
+					PARAM
+					{
+						name = ParameterDelegate`1
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComSat
+						title = Inclination: Above 31.0°
 						notes = 
 						completedMessage = 
 					}
@@ -28184,8 +28969,9 @@ GAME
 						name = Duration
 						id = Duration
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
-						ContractIdentifier = RP0.FirstWeatherSat
+						ContractIdentifier = RP0.EarlyComSat
 						title = 
 						notes = 
 						completedMessage = 
@@ -28202,219 +28988,10 @@ GAME
 		}
 		CONTRACT
 		{
-			guid = 8586eec6-80e6-4de2-a97f-7ad42d608449
+			guid = fa64c9e3-83a4-4554-9952-06f809907a2e
 			type = ConfiguredContract
 			prestige = 1
-			seed = 1997255860
-			state = Offered
-			viewed = Unseen
-			agent = Exploration
-			agentName = Exploration
-			deadlineType = Floating
-			expiryType = None
-			ignoresWeight = True
-			values = 345600,50457600,150000,150000,281250,0,125,12,281273528.005722,0,0,0
-			subtype = landingMoon
-			title = Lunar Landing (Uncrewed)
-			description = Design and successfully launch a craft that can achieve a soft landing on the Moon and return science data back to Earth. Completing this contract 2 times will unlock far side lunar landing.<b><color=white>NOTE: You can not select this contract and the First Crewed Lunar Landing contract. If you select the other contract while this is active, this will automatically fail.</color></b>&br;&br;<b>Number of Contracts Completed: 0 / 4</b>
-			synopsis = Achieve a soft landing on the Moon and transmit Science
-			completedMessage = Mission Success! You have safely landed on the Moon and returned valuable science data from the surface. We now know that it is possible for a crewed craft to land there safely as well.
-			hash = -1192594296
-			targetBody = Moon
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					landingMoon_Count = $landingMoon_Count + 1
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = VesselGroup
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.landingMoon
-				title = Moon Lander
-				notes = 
-				completedMessage = 
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = False
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.landingMoon
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.landingMoon
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Unmanned
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = LandOnMoon
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.landingMoon
-					title = Land on [ The Moon ]
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = False
-					targetBody = Moon
-					situation = LANDED
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: The Moon
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Situation: Landed
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = CollectScienceCustom
-					id = CollectScience
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.landingMoon
-					title = Transmit Science from the surface of the Moon
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = False
-					targetBody = Moon
-					situation = SrfLanded
-					recoveryMethod = Transmit
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = destination
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: The Moon
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = situation
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Situation: Landed
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						id = experiment
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Experiment: Any
-						notes = 
-						completedMessage = 
-						hidden = True
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = Subject
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							title = 
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = recovery
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							title = Recovery: Transmit
-							notes = 
-							completedMessage = 
-						}
-					}
-				}
-			}
-		}
-		CONTRACT
-		{
-			guid = 24a0fe2e-f163-45f4-b9de-3c6b6dc56851
-			type = ConfiguredContract
-			prestige = 1
-			seed = 2051433050
+			seed = 1142639816
 			state = Offered
 			viewed = Unseen
 			agent = Satellites
@@ -28422,7 +28999,7 @@ GAME
 			deadlineType = Floating
 			expiryType = None
 			ignoresWeight = True
-			values = 86400,75686400,48000,216000,90000,0,19,0,281279928.005722,0,0,0
+			values = 259200,75686400,48000,216000,90000,0,19,0,280987405.45082,0,0,0
 			subtype = EarlyComNetwork4
 			title = Early Communications Network (4 Satellites)
 			description = Mission control is tired of losing vessels and probes over the horizon, since they are rarely heard from again.  We need to find a way to stay in constant communication with our probes.&br;&br;Build a communication network with four ComSats that has continuous connectivity to mission control.&br;&br;<b><color=white>NOTE: Make sure to only accept either the three or four satellite version of this contract (it's impossible to complete both).</color></b>
@@ -28518,10 +29095,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Resource: ComSatPayload: At least 124.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28555,6 +29132,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -28565,6 +29143,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -28575,6 +29154,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Periapsis: Above 2,638,955 m
 						notes = 
 						completedMessage = 
@@ -28585,6 +29165,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Eccentricity: Below 0.0040
 						notes = 
 						completedMessage = 
@@ -28663,10 +29244,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Resource: ComSatPayload: At least 124.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28700,6 +29281,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -28710,6 +29292,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -28720,6 +29303,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Periapsis: Above 2,638,955 m
 						notes = 
 						completedMessage = 
@@ -28730,6 +29314,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Eccentricity: Below 0.0040
 						notes = 
 						completedMessage = 
@@ -28808,10 +29393,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Resource: ComSatPayload: At least 124.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28845,6 +29430,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -28855,6 +29441,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -28865,6 +29452,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Periapsis: Above 2,638,955 m
 						notes = 
 						completedMessage = 
@@ -28875,6 +29463,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Eccentricity: Below 0.0040
 						notes = 
 						completedMessage = 
@@ -28937,10 +29526,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Resource: ComSatPayload: At least 124.99 units
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -28974,6 +29563,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Destination: Earth
 						notes = 
 						completedMessage = 
@@ -28984,6 +29574,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Situation: Orbit
 						notes = 
 						completedMessage = 
@@ -28994,6 +29585,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Periapsis: Above 2,638,955 m
 						notes = 
 						completedMessage = 
@@ -29004,6 +29596,7 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.EarlyComNetwork4
 						title = Eccentricity: Below 0.0040
 						notes = 
 						completedMessage = 
@@ -29015,6 +29608,7 @@ GAME
 				name = Duration
 				id = Duration
 				state = Incomplete
+				disableOnStateChange = False
 				values = 0,0,0,0,0
 				ContractIdentifier = RP0.EarlyComNetwork4
 				title = 
@@ -29031,523 +29625,25 @@ GAME
 		}
 		CONTRACT
 		{
-			guid = 786f6e1d-1bf3-4c4e-b602-247759a001b7
+			guid = 1a2c9338-187c-4465-b040-f3b7fff2dce1
 			type = ConfiguredContract
-			prestige = 0
-			seed = 402966757
+			prestige = 1
+			seed = 1110665736
 			state = Offered
-			viewed = Unseen
-			agent = Satellites
-			agentName = Satellites
-			deadlineType = Floating
-			expiryType = Floating
-			ignoresWeight = True
-			values = 86400,12441600,0,0,0,0,2,0,281270824.528815,0,0,0
-			subtype = EarlyComSat
-			title = Commercial Communications Satellite (Early)
-			description = Now that we have tested out the Communications Satellite Technology, there are many uses we have for these Satellites. We have a customer that is requesting a new satellite. Launch a new communications Satellite into the specified orbit.&br;&br;<b><color=red>NOTE: The satellite will be destroyed upon completion of the contract. This simulates transfer of the payload back to the customer.</color></b><b><color=white>Removal Condition: Completion of a Commercial Communications Satellite contract</color></b>&br;&br;<b>The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 0 % of its nominal value. Elapsed/Expected Days: 11 / 60<br>Number of Contracts Completed: 0 / unlimited</b>
-			synopsis = Launch a Communications Satellite for a customer.
-			completedMessage = Success! The communications satellite was launched into the proper orbit. Your customer is very happy.
-			hash = 2109239655
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					EarlyComSat_Count = $EarlyComSat_Count + 1
-					RepeatSat_Completion = 281184424.528815
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.DestroyVessel
-				onState = CONTRACT_SUCCESS
-				vessel = EarlyComSatellite
-			}
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.DialogBox
-				DIALOG_BOX
-				{
-					condition = CONTRACT_SUCCESS
-					position = CENTER
-					width = 0.5
-					height = 0
-					title = Vessel Ownership Transferred
-					titleColor = #FFFFFFFF
-					TextSection
-					{
-						text = The contract has been completed successfully and the satellite has been transferred back to the customer.
-						textColor = #FFCCCCCC
-						fontSize = 20
-					}
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = EarlyComSat
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.EarlyComSat
-				title = Communications Satellite (Early)
-				notes = 
-				completedMessage = 
-				define = EarlyComSatellite
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = True
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComSat
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComSat
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Unmanned
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasComSatPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComSat
-					title = Have a ComSatPayload of at least 327 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = ComSatPayload
-						minQuantity = 326.99000000000001
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Resource: ComSatPayload: At least 326.99 units
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = OrbitParameter
-					id = Orbit
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.EarlyComSat
-					title = Achieve Orbit within the parameters
-					notes = 
-					completedMessage = 
-					allowStateReset = False
-					situation = ORBITING
-					targetBody = Earth
-					minAltitude = 0
-					minApoapsis = 9762000
-					maxApoapsis = 17470000
-					minPeriapsis = 711000
-					minEccentricity = 0
-					minInclination = 30
-					maxInclination = 180
-					minArgumentOfPeriapsis = 0
-					maxArgumentOfPeriapsis = 360
-					minPeriod = 0
-					displayNotes = False
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Situation: Orbit
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Apoapsis: Between 9,762,000 m and 17,470,000 m
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Periapsis: Above 711,000 m
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Inclination: Above 30.0°
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = Duration
-						id = Duration
-						state = Incomplete
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.EarlyComSat
-						title = 
-						notes = 
-						completedMessage = 
-						duration = 120
-						preWaitText = Check for Stable Orbit
-						waitingText = Checking for Stable Orbit
-						completionText = Stable Orbit: Confirmed
-						endTime = 0
-						startCriteria = CONTRACT_ACCEPTANCE
-						triggered = False
-					}
-				}
-			}
-		}
-		CONTRACT
-		{
-			guid = 833993cb-d887-4f34-8ecc-f3adb6b94f9e
-			type = ConfiguredContract
-			prestige = 0
-			seed = 2133105220
-			state = Offered
-			viewed = Unseen
-			agent = Satellites
-			agentName = Satellites
-			deadlineType = Floating
-			expiryType = Floating
-			ignoresWeight = True
-			values = 86400,25228800,0,0,0,0,2,0,281270824.868815,0,0,0
-			subtype = ComTestSat
-			title = Communications Test Satellite
-			description = There are groups that want to understand more about communications with satellites. Launch a new communications test satellite into the proper orbit. &br;&br;<b><color=red>NOTE: The satellite will be destroyed upon completion of the contract. This simulates transfer of the payload back to the customer.</color></b>&br;&br;<b><color=white>Removal Condition: Completion of a Communications Satellite (Early) contract</color></b>&br;&br;<b>The reward of this contract will slowly increase over time but will be reset to 0 after each completion.&br;<b>Current reward is at 0 % of its nominal value. Elapsed/Expected Days: 11 / 60<br>Number of Contracts Completed: 2 / unlimited</b>
-			synopsis = Launch a Communications Test Satellite
-			completedMessage = Success! We are learning more about space communications with every launch.
-			hash = -1170235128
-			targetBody = Earth
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.Expression
-				CONTRACT_OFFERED
-				{
-				}
-				CONTRACT_ACCEPTED
-				{
-				}
-				CONTRACT_COMPLETED_SUCCESS
-				{
-					type = Double
-					ComTestSat_Count = $ComTestSat_Count + 1
-					RepeatSat_Completion = 281184424.868815
-				}
-				CONTRACT_COMPLETED_FAILURE
-				{
-				}
-			}
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.DestroyVessel
-				onState = CONTRACT_SUCCESS
-				vessel = TestComSatellite
-			}
-			BEHAVIOUR
-			{
-				type = ContractConfigurator.Behaviour.DialogBox
-				DIALOG_BOX
-				{
-					condition = CONTRACT_SUCCESS
-					position = CENTER
-					width = 0.5
-					height = 0
-					title = Vessel Ownership Transferred
-					titleColor = #FFFFFFFF
-					TextSection
-					{
-						text = The contract has been completed successfully and the satellite has been transferred back to the customer.
-						textColor = #FFCCCCCC
-						fontSize = 20
-					}
-				}
-			}
-			PARAM
-			{
-				name = VesselParameterGroup
-				id = TestComSat
-				state = Incomplete
-				values = 0,0,0,0,0
-				ContractIdentifier = RP0.ComTestSat
-				title = Communications Test Satellite
-				notes = 
-				completedMessage = 
-				define = TestComSatellite
-				duration = 0
-				dissassociateVesselsOnContractFailure = True
-				dissassociateVesselsOnContractCompletion = True
-				PARAM
-				{
-					name = NewVessel
-					id = NewVessel
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.ComTestSat
-					title = Launch a New Vessel
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					launchID = 0
-				}
-				PARAM
-				{
-					name = HasCrew
-					id = Crewmembers
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.ComTestSat
-					title = Uncrewed
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 0
-					maxCrew = 0
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Unmanned
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = HasResource
-					id = HasComSatPayload
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.ComTestSat
-					title = Have a ComSatPayload of at least 137 units on the craft
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					capacity = False
-					RESOURCE
-					{
-						resource = ComSatPayload
-						minQuantity = 136.99000000000001
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Resource: ComSatPayload: At least 136.99 units
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = OrbitParameter
-					id = Orbit
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.ComTestSat
-					title = Achieve Orbit within the parameters
-					notes = 
-					completedMessage = 
-					allowStateReset = False
-					situation = ORBITING
-					targetBody = Earth
-					minAltitude = 0
-					minApoapsis = 4280000
-					maxApoapsis = 7222000
-					minPeriapsis = 791000
-					minEccentricity = 0
-					minInclination = 32
-					maxInclination = 180
-					minArgumentOfPeriapsis = 0
-					maxArgumentOfPeriapsis = 360
-					minPeriod = 0
-					displayNotes = False
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Destination: Earth
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Situation: Orbit
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Apoapsis: Between 4,280,000 m and 7,222,000 m
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Periapsis: Above 791,000 m
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Inclination: Above 32.0°
-						notes = 
-						completedMessage = 
-					}
-					PARAM
-					{
-						name = Duration
-						id = Duration
-						state = Incomplete
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.ComTestSat
-						title = 
-						notes = 
-						completedMessage = 
-						duration = 120
-						preWaitText = Check for Stable Orbit
-						waitingText = Checking for Stable Orbit
-						completionText = Stable Orbit: Confirmed
-						endTime = 0
-						startCriteria = CONTRACT_ACCEPTANCE
-						triggered = False
-					}
-				}
-			}
-		}
-		CONTRACT
-		{
-			guid = dd1d71e9-aa4e-4494-82d6-f7d9d0af8824
-			type = ConfiguredContract
-			prestige = 0
-			seed = 1255520331
-			state = Offered
-			viewed = Unseen
+			viewed = Read
 			agent = Exploration
 			agentName = Exploration
 			deadlineType = Floating
-			expiryType = Floating
+			expiryType = None
 			ignoresWeight = True
-			values = 86400,25228800,14880,16640,27900,0,0,0,281273276.356234,0,0,0
-			subtype = CrewedSupersonic
-			title = X-Planes (Supersonic)
-			description = Design, build and fly a crewed jet aircraft to maintain 700 m/s in level flight, then return home safely.<br>This is a series of 17 contracts, of which 7 have been completed.<br>The reward of this contract will slowly increase over time but will be reset to 0 after each completion.<br><b>Current reward is at 185 % of its nominal value. Elapsed/Expected Days: 557 / 120</b>
-			synopsis = Fly a crewed jet aircraft to maintain 700 m/s in level flight and hold, then return safely.
-			completedMessage = Congratulations on a successful flight!
-			hash = 1425707872
-			targetBody = Earth
+			values = 259200,50457600,192000,150000,360000,15,75,15,280987409.170817,0,0,0
+			subtype = first_MoonImpact
+			title = Lunar Impactor (Uncrewed)
+			description = Design and successfully launch a probe that impacts the surface of the Moon. Scientists at home will record their observations as a result of the impact. Due to the nature of the experiment, the impactor must have significant mass to it. The contract requires the impactor to have at least a 40 kg mass.&br;&br;<b>Number of Contracts Completed: 0 / 3</b>
+			synopsis = Impact the surface of the Moon with a probe
+			completedMessage = Congratulations on hitting the Moon! We're getting some great data here.
+			hash = -1119566847
+			targetBody = Moon
 			BEHAVIOUR
 			{
 				type = ContractConfigurator.Behaviour.Expression
@@ -29560,8 +29656,7 @@ GAME
 				CONTRACT_COMPLETED_SUCCESS
 				{
 					type = Double
-					RP0_XPSS_Difficulty = $RP0_XPSS_Difficulty + 1
-					XPSS_Completion = 281186876.356234
+					first_MoonImpact_Count = $first_MoonImpact_Count + 1
 				}
 				CONTRACT_COMPLETED_FAILURE
 				{
@@ -29570,189 +29665,176 @@ GAME
 			PARAM
 			{
 				name = VesselParameterGroup
-				id = VesselGroup
+				id = MoonImpact
 				state = Incomplete
 				values = 0,0,0,0,0
-				ContractIdentifier = RP0.CrewedSupersonic
-				title = Maintain between 700 m/s and 750 m/s in level flight with a crewed jet aircraft.
+				ContractIdentifier = RP0.first_MoonImpact
+				title = Moon Impact Craft
 				notes = 
 				completedMessage = 
-				define = supersonicCraft
 				duration = 0
 				dissassociateVesselsOnContractFailure = True
 				dissassociateVesselsOnContractCompletion = False
 				PARAM
 				{
-					name = HasCrew
-					id = Has Crew
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.CrewedSupersonic
-					title = Have at least 1 crewmember on board
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCrew = 1
-					maxCrew = 99
-					minExperience = 0
-					maxExperience = 5
-					PARAM
-					{
-						name = CountParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = Count: Between one and 99
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = PartValidation
-					id = NoRocket
-					state = Incomplete
-					disableOnStateChange = False
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.CrewedSupersonic
-					title = Vessel is a jet (no rocket engines allowed)
-					notes = 
-					completedMessage = 
-					hideChildren = True
-					allowStateReset = True
-					minCount = 0
-					maxCount = 2147483647
-					FILTER
-					{
-						type = NONE
-						partModule = ModuleEnginesRF
-						partModule = ModuleEnginesAJEPropeller
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = None have module: Engines R F
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-					PARAM
-					{
-						name = ParameterDelegate`1
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						title = None have module: Engines A J E Propeller
-						notes = 
-						completedMessage = 
-						hidden = True
-					}
-				}
-				PARAM
-				{
-					name = ReachState
-					id = HoldSituation
+					name = All
+					id = AtMoonLow
 					state = Incomplete
 					values = 0,0,0,0,0
-					ContractIdentifier = RP0.CrewedSupersonic
-					title = Hold between 700 m/s to 750 m/s in level flight.
+					ContractIdentifier = RP0.first_MoonImpact
+					title = 
 					notes = 
 					completedMessage = 
-					allowStateReset = False
-					targetBody = Earth
-					situation = FLYING
-					minSpeed = 700
-					maxSpeed = 750
-					minRateOfClimb = -10
-					maxRateOfClimb = 10
 					PARAM
 					{
-						name = ParameterDelegate`1
+						name = NewVessel
+						id = NewVessel
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Destination: Earth
+						ContractIdentifier = RP0.first_MoonImpact
+						title = Launch a New Vessel
 						notes = 
 						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						launchID = 0
 					}
 					PARAM
 					{
-						name = ParameterDelegate`1
+						name = HasCrew
+						id = Crewmembers
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Situation: Flying
+						ContractIdentifier = RP0.first_MoonImpact
+						title = Uncrewed
 						notes = 
 						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						minCrew = 0
+						maxCrew = 0
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Unmanned
+							notes = 
+							completedMessage = 
+						}
 					}
 					PARAM
 					{
-						name = ParameterDelegate`1
+						name = HasResource
+						id = HasPower
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Speed: Between 700 ms and 750 m/s
+						ContractIdentifier = RP0.first_MoonImpact
+						title = Craft must have power
 						notes = 
 						completedMessage = 
+						allowStateReset = True
+						capacity = False
+						RESOURCE
+						{
+							resource = ElectricCharge
+							minQuantity = 1
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Resource: ElectricCharge: At least 1 units
+							notes = 
+							completedMessage = 
+						}
 					}
 					PARAM
 					{
-						name = ParameterDelegate`1
+						name = VesselMass
+						id = ImpactorMass
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
-						title = Rate of Climb: Between -10 ms and 10 m/s
+						ContractIdentifier = RP0.first_MoonImpact
+						title = Impactor probe must be at least 40 kg
 						notes = 
 						completedMessage = 
+						allowStateReset = True
+						minMass = 0.0399999991
+						maxMass = 3.40282347E+38
 					}
 					PARAM
 					{
-						name = Duration
-						id = Duration
+						name = ReachState
+						id = ReachMoonSurface
 						state = Incomplete
+						disableOnStateChange = False
 						values = 0,0,0,0,0
-						ContractIdentifier = RP0.CrewedSupersonic
+						ContractIdentifier = RP0.first_MoonImpact
 						title = 
 						notes = 
 						completedMessage = 
-						duration = 180
-						preWaitText = Reach specified speed.
-						waitingText = Testing highspeed flight
-						completionText = Flight completed, you are cleared to land.
-						endTime = 0
-						startCriteria = CONTRACT_ACCEPTANCE
-						triggered = False
+						allowStateReset = True
+						targetBody = Moon
+						maxTerrainAltitude = 3500
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Destination: The Moon
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Altitude (terrain): Below 3,500 m
+							notes = 
+							completedMessage = 
+						}
 					}
 				}
 				PARAM
 				{
-					name = ReturnHome
-					id = ReturnHome
+					name = ImpactCB
+					id = Impact
 					state = Incomplete
 					disableOnStateChange = False
 					values = 0,0,0,0,0
-					ContractIdentifier = RP0.CrewedSupersonic
-					title = Return Home Safely
+					ContractIdentifier = RP0.first_MoonImpact
+					title = Impact The Moon at a speed of at least 2450 m/s
 					notes = 
 					completedMessage = 
-					completeInSequence = True
-					hideChildren = True
 					allowStateReset = True
+					minSrfVel = 2450
+					targetBody = Moon
 				}
 			}
 		}
 		CONTRACT
 		{
-			guid = 7236a9db-ce61-42e7-afad-f704fe1db274
+			guid = e704b6a1-e08e-4d71-895c-b89c1a758854
 			type = ConfiguredContract
 			prestige = 1
-			seed = 2001106327
+			seed = 1120561116
 			state = Offered
 			viewed = Unseen
 			agent = Federation Aeronautique Internationale
@@ -29760,7 +29842,7 @@ GAME
 			deadlineType = Floating
 			expiryType = None
 			ignoresWeight = True
-			values = 259200,50457600,72000,288000,135000,0,188,56,281301736.356234,0,0,0
+			values = 432000,50457600,72000,288000,135000,0,188,56,280987413.790812,0,0,0
 			subtype = flybyVenus
 			title = Venus Flyby
 			description = Design and successfully launch a probe on a flyby of Venus with a closest approach of 20,000 km or closer, then record observations and transmit.
@@ -29805,10 +29887,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Unmanned
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -29816,6 +29898,7 @@ GAME
 					name = ReachState
 					id = FlybyPlanet
 					state = Incomplete
+					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = RP0.flybyVenus
 					title = Flyby Venus within 20,000 km
@@ -29831,10 +29914,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Destination: Venus
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -29842,10 +29925,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Altitude: Below 20,000,000 m
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 				}
 				PARAM
@@ -29853,6 +29936,7 @@ GAME
 					name = CollectScienceCustom
 					id = CollectSpaceScience
 					state = Incomplete
+					disableOnStateChange = False
 					values = 0,0,0,0,0
 					ContractIdentifier = RP0.flybyVenus
 					title = Transmit Science Data from Space near Venus
@@ -29869,10 +29953,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Destination: Venus
 						notes = 
 						completedMessage = 
-						hidden = True
 					}
 					PARAM
 					{
@@ -29881,10 +29965,10 @@ GAME
 						state = Incomplete
 						disableOnStateChange = False
 						values = 0,0,0,0,0
+						ContractIdentifier = RP0.flybyVenus
 						title = Experiment: Any
 						notes = 
 						completedMessage = 
-						hidden = True
 						PARAM
 						{
 							name = ParameterDelegate`1
@@ -29892,6 +29976,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.flybyVenus
 							title = 
 							notes = 
 							completedMessage = 
@@ -29903,6 +29988,7 @@ GAME
 							state = Incomplete
 							disableOnStateChange = False
 							values = 0,0,0,0,0
+							ContractIdentifier = RP0.flybyVenus
 							title = Recovery: Transmit
 							notes = 
 							completedMessage = 
@@ -29970,7 +30056,7 @@ GAME
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
 		initialized = False
-		savetime = 281197838.36405444
+		savetime = 280879588.67064571
 		useUUID = True
 		KKSettings
 		{
@@ -35829,7 +35915,7 @@ GAME
 			PurchasedUpgrades
 			{
 				Item = 0
-				Item = 75
+				Item = 71
 			}
 		}
 		KSC
@@ -35838,7 +35924,7 @@ GAME
 			ActiveLPID = 1
 			VABUpgrades
 			{
-				Upgrade = 39
+				Upgrade = 35
 			}
 			SPHUpgrades
 			{
@@ -35855,7 +35941,7 @@ GAME
 				{
 					shipName = Surveyor 1
 					shipID = 4fe80aac-ecef-42d4-b3a1-e60ac0fcdea5
-					progress = 1506316.3366327945
+					progress = 1294515.8891460064
 					effectiveCost = 5905.213090415813
 					buildTime = 1337291.7887478201
 					integrationTime = 3008906.5246825954
@@ -81048,25 +81134,11 @@ GAME
 					launchpadID = 2
 					id = SpaceCenter/LaunchPad
 					commonName = LC-14
-					progress = 18661396.809309974
+					progress = 18449596.361824103
 					BP = 21395302.289185099
 					cost = 150000
 					UpgradeProcessed = False
 					isLaunchpad = True
-				}
-				UpgradingBuilding
-				{
-					sFacilityType = ResearchAndDevelopment
-					upgradeLevel = 1
-					currentLevel = 0
-					launchpadID = 0
-					id = SpaceCenter/ResearchAndDevelopment
-					commonName = ResearchAndDevelopment
-					progress = 211796.64109046946
-					BP = 16718507.624410501
-					cost = 250000
-					UpgradeProcessed = False
-					isLaunchpad = False
 				}
 			}
 			VABPlans
@@ -99325,7 +99397,7 @@ GAME
 				{
 					name = Mounting to carrier
 					BP = 448311.08941230248
-					progress = 448311.08941230248
+					progress = 386106.93761165976
 					cost = 2154.0799948250001
 					associatedID = 9692e52d-d795-4b3c-8e00-665466eb76ce
 				}
@@ -99366,11 +99438,11 @@ GAME
 			}
 			VABRateCache
 			{
-				rate = 0.67000000000000004
+				rate = 0.60999999999999999
 			}
 			SPHRateCache
 			{
-				rate = 0.67000000000000004
+				rate = 0.60999999999999999
 			}
 		}
 		TechList
@@ -99380,7 +99452,7 @@ GAME
 				techName = Basic Avionics and Probes
 				techID = basicAvionics
 				scienceCost = 16
-				progress = 0.39145555476784799
+				progress = 0.00023776262429506029
 				ProtoNode
 				{
 					id = basicAvionics
@@ -101470,14 +101542,14 @@ GAME
 				EndUT = 281318400
 				CurrentFunds = 0
 				CurrentSci = 0
-				ContractRewards = 456264
+				ContractRewards = 84264
 				OtherFundsEarned = 0
 				ScienceEarned = 0
-				LaunchFees = 13651.775119660781
-				MaintenanceFees = 839.98490142822266
+				LaunchFees = 13220.959110139296
+				MaintenanceFees = 725.88387739658356
 				ToolingFees = 0
 				EntryCosts = 0
-				OtherFees = 370000
+				OtherFees = 40000
 				VABUpgrades = 0
 				SPHUpgrades = 0
 				RnDUpgrades = 0
@@ -103043,24 +103115,6 @@ GAME
 				Type = Accept
 				UT = 280518271.51085651
 			}
-			CONTRACT
-			{
-				InternalName = first_MoonImpact
-				DisplayName = Lunar Impactor (Uncrewed)
-				FundsChange = 192000
-				RepChange = 0
-				Type = Accept
-				UT = 280879591.33064318
-			}
-			CONTRACT
-			{
-				InternalName = first_MoonOrbitUncrewed
-				DisplayName = Lunar Orbiter (Uncrewed)
-				FundsChange = 180000
-				RepChange = 0
-				Type = Accept
-				UT = 280879591.33064318
-			}
 		}
 		LAUNCHEVENTS
 		{
@@ -103439,14 +103493,6 @@ GAME
 				State = Started
 				UT = 246342431.06450078
 			}
-			FACILITYCONSTRUCTION
-			{
-				Facility = ResearchAndDevelopment
-				NewLevel = 1
-				Cost = 250000
-				State = Started
-				UT = 280879594.51064014
-			}
 		}
 		TECHS
 		{
@@ -103586,8 +103632,8 @@ GAME
 	{
 		name = MaintenanceHandler
 		scene = 6, 7, 5, 8
-		nextUpdate = 281201431.11978656
-		lastUpdate = 281197831.11978656
+		nextUpdate = 280882937.35083187
+		lastUpdate = 280879337.35083187
 	}
 	SCENARIO
 	{
@@ -103969,7 +104015,7 @@ GAME
 	{
 		name = CrewHandler
 		scene = 6, 7, 5, 8
-		NextUpdate = 281199600
+		NextUpdate = 280882800
 		RETIRETIMES
 		{
 			Glenn Wells = 504490237.61101693
@@ -103993,15 +104039,40 @@ GAME
 		}
 		EXPIRATIONS
 		{
-			Expiration
-			{
-				pcmName = Glenn Wells
-				expiration = 291542528.00572228
-				entry = TRAINING_mission,X-15
-			}
 		}
 		FlightSchoolData
 		{
+			ACTIVE_COURSE
+			{
+				id = msn_X-15
+				name = Mission: X-15
+				startTime = 280246651.25781608
+				elapsedTime = 632566.09301578999
+				Started = True
+				Completed = False
+				STUDENTS
+				{
+					student = Glenn Wells
+				}
+				SOURCE_NODE
+				{
+					id = msn_X-15
+					name = Mission: X-15
+					time = 1296001
+					isTemporary = False
+					timeUseStupid = True
+					seatMax = 2
+					expiration = 10368000
+					preReqs = TRAINING_proficiency:X-15
+					REWARD
+					{
+						FLIGHTLOG
+						{
+							0 = TRAINING_mission,X-15
+						}
+					}
+				}
+			}
 		}
 	}
 	SCENARIO
@@ -104228,7 +104299,7 @@ GAME
 	{
 		name = TestFlightRnDScenario
 		scene = 7, 6, 5, 8
-		lastUpdateTime = 281184918.39969134
+		lastUpdateTime = 280838297.35083187
 	}
 	SCENARIO
 	{
@@ -104679,7 +104750,7 @@ GAME
 		{
 			04c9bbba-a8b8-4eec-87f2-bbe2da981ce9
 			{
-				msg_signal = False
+				msg_signal = True
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
@@ -104970,7 +105041,7 @@ GAME
 			}
 			94d2e1b3-9d51-411a-a166-3cc3e84f6571
 			{
-				msg_signal = True
+				msg_signal = False
 				msg_belt = False
 				cfg_ec = True
 				cfg_supply = True
@@ -105898,19 +105969,19 @@ GAME
 		{
 			Earth
 			{
-				storm_time = 281191196.3572548
-				storm_duration = 18294.016776679495
-				storm_generation = 281247013.51513231
-				storm_state = 2
-				msg_storm = 2
-				displayed_duration = 18294.016776679495
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 280895792.48178428
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
 				display_warning = True
 			}
 			Mercury
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 281219475.55428362
+				storm_generation = 280894201.01128435
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -105920,7 +105991,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 281209612.39664644
+				storm_generation = 280896618.63221389
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -105930,7 +106001,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 281217453.790824
+				storm_generation = 280921455.6703788
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -105938,19 +106009,19 @@ GAME
 			}
 			Vesta
 			{
-				storm_time = 0
-				storm_duration = 0
-				storm_generation = 281203807.95706332
-				storm_state = 0
-				msg_storm = 0
-				displayed_duration = 0
+				storm_time = 280877497.35324216
+				storm_duration = 43209.872203866849
+				storm_generation = 280963709.31062424
+				storm_state = 2
+				msg_storm = 2
+				displayed_duration = 43209.872203866849
 				display_warning = True
 			}
 			Mars
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 281211246.81707048
+				storm_generation = 280920936.53211069
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -105960,7 +106031,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 281217128.13627899
+				storm_generation = 280885859.35778779
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -105970,7 +106041,7 @@ GAME
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 281229815.39792681
+				storm_generation = 280886160.58504927
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -105978,29 +106049,29 @@ GAME
 			}
 			Uranus
 			{
-				storm_time = 281096704.90631866
-				storm_duration = 350578.19461534941
-				storm_generation = 281488145.68457037
-				storm_state = 2
-				msg_storm = 2
-				displayed_duration = 350578.19461534941
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 280888924.45962626
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
 				display_warning = True
 			}
 			Neptune
 			{
-				storm_time = 280977725.43568909
-				storm_duration = 549983.2138763438
-				storm_generation = 281567179.09472668
-				storm_state = 2
-				msg_storm = 2
-				displayed_duration = 549983.2138763438
+				storm_time = 0
+				storm_duration = 0
+				storm_generation = 280888634.4544844
+				storm_state = 0
+				msg_storm = 0
+				displayed_duration = 0
 				display_warning = True
 			}
 			Pluto
 			{
 				storm_time = 0
 				storm_duration = 0
-				storm_generation = 281225589.16235405
+				storm_generation = 280889020.77500123
 				storm_state = 0
 				msg_storm = 0
 				displayed_duration = 0
@@ -106025,7 +106096,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.1
-		UT = 281197838.36405444
+		UT = 280879588.67064571
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -108080,7 +108151,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 1569.2521172169807
+					amount = 1569.3177419405199
 					maxAmount = 1570.7999999999997
 					flowState = True
 					isTweakable = True
@@ -112974,7 +113045,7 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = 84148225
+					situationId = 262145
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -124928,7 +124999,7 @@ GAME
 			veteran = False
 			tour = False
 			state = Available
-			inactive = False
+			inactive = True
 			inactiveTimeEnd = 281173191.51262426
 			gExperienced = 0
 			outDueToG = False
@@ -124944,7 +125015,7 @@ GAME
 			hero = False
 			CAREER_LOG
 			{
-				flight = 11
+				flight = 10
 				0 = Nationality,Russian
 				0 = Nationality,American
 				1 = TRAINING_proficiency,X-15
@@ -124971,11 +125042,10 @@ GAME
 				9 = Flight-High,Earth
 				9 = Suborbit,Earth
 				9 = Recover
-				10 = TRAINING_mission,X-15
 			}
 			FLIGHT_LOG
 			{
-				flight = 11
+				flight = 10
 			}
 		}
 		KERBAL
