@@ -658,7 +658,7 @@ GAME
 	{
 		name = ResearchAndDevelopment
 		scene = 7, 8, 5, 6
-		sci = 82.1434174
+		sci = 82.3440247
 		Tech
 		{
 			id = start
@@ -1857,9 +1857,9 @@ GAME
 			id = micrometeoriteDetect@MoonInSpaceHigh
 			title = Micrometeorite Detection while in space high over The Moon
 			dsc = 0.0702000037
-			scv = 0.991457343
+			scv = 0.991454482
 			sbv = 1.5
-			sci = 0.0896976292
+			sci = 0.089728117
 			asc = True
 			cap = 10.5
 		}
@@ -1868,9 +1868,9 @@ GAME
 			id = barometerScan@MoonInSpaceLow
 			title = Pressure Scan while in space near The Moon
 			dsc = 1.87500009E-05
-			scv = 0.995865643
+			scv = 0.977846861
 			sbv = 2
-			sci = 0.0330749899
+			sci = 0.177225247
 			asc = True
 			cap = 8
 		}
@@ -1879,9 +1879,9 @@ GAME
 			id = RP0massSpec1@MoonInSpaceLow
 			title = Mass Spectrometry while in space near The Moon
 			dsc = 0.000125000006
-			scv = 0.93484062
+			scv = 0.933075964
 			sbv = 2
-			sci = 1.04254985
+			sci = 1.07078445
 			asc = True
 			cap = 16
 		}
@@ -2982,7 +2982,7 @@ GAME
 	{
 		name = ContractSystem
 		scene = 7, 8, 5, 6
-		update = 294659675.91357499
+		update = -1000
 		version = 1.10.1
 		WEIGHTS
 		{
@@ -4407,6 +4407,463 @@ GAME
 			}
 			CONTRACT
 			{
+				guid = c985fba1-4a94-43d9-98ea-341f9caede2b
+				type = ConfiguredContract
+				prestige = 1
+				seed = 300530207
+				state = Active
+				viewed = Read
+				agent = Exploration
+				agentName = Exploration
+				deadlineType = Floating
+				expiryType = None
+				ignoresWeight = True
+				values = 86400,50457600,38400,96000,72000,15,75,15,294767473.313768,294659655.373595,345117255.373595,0
+				subtype = first_MoonImpact
+				title = Lunar Impactor (Uncrewed)
+				description = Design and successfully launch a probe that impacts the surface of the Moon. Scientists at home will record their observations as a result of the impact. Due to the nature of the experiment, the impactor must have significant mass to it. The contract requires the impactor to have at least a 40 kg mass.&br;&br;<b>Number of Contracts Completed: 1 / 3</b>
+				synopsis = Impact the surface of the Moon with a probe
+				completedMessage = Congratulations on hitting the Moon! We're getting some great data here.
+				hash = -1119566847
+				targetBody = Moon
+				BEHAVIOUR
+				{
+					type = ContractConfigurator.Behaviour.Expression
+					CONTRACT_OFFERED
+					{
+					}
+					CONTRACT_ACCEPTED
+					{
+					}
+					CONTRACT_COMPLETED_SUCCESS
+					{
+						type = Double
+						first_MoonImpact_Count = $first_MoonImpact_Count + 1
+					}
+					CONTRACT_COMPLETED_FAILURE
+					{
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = MoonImpact
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_MoonImpact
+					title = Moon Impact Craft
+					notes = 
+					completedMessage = 
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = All
+						id = AtMoonLow
+						state = Incomplete
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonImpact
+						title = 
+						notes = 
+						completedMessage = 
+						PARAM
+						{
+							name = NewVessel
+							id = NewVessel
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Launch a New Vessel
+							notes = 
+							completedMessage = 
+							hideChildren = True
+							allowStateReset = True
+							launchID = 66
+						}
+						PARAM
+						{
+							name = HasCrew
+							id = Crewmembers
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Uncrewed
+							notes = 
+							completedMessage = 
+							hideChildren = True
+							allowStateReset = True
+							minCrew = 0
+							maxCrew = 0
+							minExperience = 0
+							maxExperience = 5
+							PARAM
+							{
+								name = ParameterDelegate`1
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = RP0.first_MoonImpact
+								title = Unmanned
+								notes = 
+								completedMessage = 
+							}
+						}
+						PARAM
+						{
+							name = HasResource
+							id = HasPower
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Craft must have power
+							notes = 
+							completedMessage = 
+							allowStateReset = True
+							capacity = False
+							RESOURCE
+							{
+								resource = ElectricCharge
+								minQuantity = 1
+							}
+							PARAM
+							{
+								name = ParameterDelegate`1
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = RP0.first_MoonImpact
+								title = Resource: ElectricCharge: At least 1 units
+								notes = 
+								completedMessage = 
+							}
+						}
+						PARAM
+						{
+							name = VesselMass
+							id = ImpactorMass
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = Impactor probe must be at least 40 kg
+							notes = 
+							completedMessage = 
+							allowStateReset = True
+							minMass = 0.0399999991
+							maxMass = 3.40282347E+38
+						}
+						PARAM
+						{
+							name = ReachState
+							id = ReachMoonSurface
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonImpact
+							title = 
+							notes = 
+							completedMessage = 
+							allowStateReset = True
+							targetBody = Moon
+							maxTerrainAltitude = 3500
+							PARAM
+							{
+								name = ParameterDelegate`1
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = RP0.first_MoonImpact
+								title = Destination: The Moon
+								notes = 
+								completedMessage = 
+							}
+							PARAM
+							{
+								name = ParameterDelegate`1
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = RP0.first_MoonImpact
+								title = Altitude (terrain): Below 3,500 m
+								notes = 
+								completedMessage = 
+							}
+						}
+					}
+					PARAM
+					{
+						name = ImpactCB
+						id = Impact
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonImpact
+						title = Impact The Moon at a speed of at least 2450 m/s
+						notes = 
+						completedMessage = 
+						allowStateReset = True
+						minSrfVel = 2450
+						targetBody = Moon
+					}
+				}
+			}
+			CONTRACT
+			{
+				guid = 2fcf2a0f-2153-46ef-b1a2-2bb65342756f
+				type = ConfiguredContract
+				prestige = 1
+				seed = 1353314666
+				state = Active
+				viewed = Read
+				agent = Exploration
+				agentName = Exploration
+				deadlineType = Floating
+				expiryType = None
+				ignoresWeight = True
+				values = 259200,50457600,43200,134400,81000,0,150,30,294767473.233768,294659655.373595,345117255.373595,0
+				subtype = first_MoonOrbitUncrewed
+				title = Lunar Orbiter (Uncrewed)
+				description = Design and successfully launch a probe into lunar orbit (with a maximum apiselene of 500 km) and successfully transmit or return some scientific data from the Moon's vicinity. &br;&br;<b>Note: The orbital parameters get tighter on the second contract</b> &br;&br;<b>Number of Contracts Completed: 1 / 2</b>
+				synopsis = Achieve lunar orbit and receive data
+				completedMessage = Orbit confirmed, and we got some excellent new data!
+				hash = -1483926777
+				targetBody = Moon
+				BEHAVIOUR
+				{
+					type = ContractConfigurator.Behaviour.Expression
+					CONTRACT_OFFERED
+					{
+					}
+					CONTRACT_ACCEPTED
+					{
+					}
+					CONTRACT_COMPLETED_SUCCESS
+					{
+						type = Double
+						first_MoonOrbitUncrewed_Count = $first_MoonOrbitUncrewed_Count + 1
+					}
+					CONTRACT_COMPLETED_FAILURE
+					{
+					}
+				}
+				PARAM
+				{
+					name = VesselParameterGroup
+					id = vesselGroup
+					state = Incomplete
+					values = 0,0,0,0,0
+					ContractIdentifier = RP0.first_MoonOrbitUncrewed
+					title = Achieve lunar orbit and receive data
+					notes = 
+					completedMessage = 
+					duration = 0
+					dissassociateVesselsOnContractFailure = True
+					dissassociateVesselsOnContractCompletion = False
+					PARAM
+					{
+						name = NewVessel
+						id = NewVessel
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Launch a New Vessel
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						launchID = 66
+					}
+					PARAM
+					{
+						name = HasCrew
+						id = Crewmembers
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Uncrewed
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = True
+						minCrew = 0
+						maxCrew = 0
+						minExperience = 0
+						maxExperience = 5
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Unmanned
+							notes = 
+							completedMessage = 
+						}
+					}
+					PARAM
+					{
+						name = OrbitParameter
+						id = Orbit
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = 
+						notes = 
+						completedMessage = 
+						allowStateReset = False
+						situation = ORBITING
+						targetBody = Moon
+						minAltitude = 0
+						minApoapsis = 0
+						maxApoapsis = 500000
+						minPeriapsis = 20000
+						minEccentricity = 0
+						minInclination = 0
+						maxInclination = 180
+						minArgumentOfPeriapsis = 0
+						maxArgumentOfPeriapsis = 360
+						minPeriod = 0
+						displayNotes = False
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Destination: The Moon
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Situation: Orbit
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Apoapsis: Below 500,000 m
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Periapsis: Above 20,000 m
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = Duration
+							id = Duration
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = 
+							notes = 
+							completedMessage = 
+							duration = 120
+							preWaitText = Check for Stable Orbit
+							waitingText = Checking for Stable Orbit
+							completionText = Stable Orbit: Confirmed
+							endTime = 0
+							startCriteria = CONTRACT_ACCEPTANCE
+							triggered = True
+						}
+					}
+					PARAM
+					{
+						name = CollectScienceCustom
+						id = CollectScience
+						state = Incomplete
+						disableOnStateChange = False
+						values = 0,0,0,0,0
+						ContractIdentifier = RP0.first_MoonOrbitUncrewed
+						title = Collect Science from around the Moon and transmit it to the KSC
+						notes = 
+						completedMessage = 
+						hideChildren = True
+						allowStateReset = False
+						targetBody = Moon
+						recoveryMethod = RecoverOrTransmit
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = destination
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Destination: The Moon
+							notes = 
+							completedMessage = 
+						}
+						PARAM
+						{
+							name = ParameterDelegate`1
+							id = experiment
+							state = Incomplete
+							disableOnStateChange = False
+							values = 0,0,0,0,0
+							ContractIdentifier = RP0.first_MoonOrbitUncrewed
+							title = Experiment: Any
+							notes = 
+							completedMessage = 
+							PARAM
+							{
+								name = ParameterDelegate`1
+								id = Subject
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = RP0.first_MoonOrbitUncrewed
+								title = 
+								notes = 
+								completedMessage = 
+							}
+							PARAM
+							{
+								name = ParameterDelegate`1
+								id = recovery
+								state = Incomplete
+								disableOnStateChange = False
+								values = 0,0,0,0,0
+								ContractIdentifier = RP0.first_MoonOrbitUncrewed
+								title = Recovery: Recover or transmit
+								notes = 
+								completedMessage = 
+							}
+						}
+					}
+				}
+			}
+			CONTRACT
+			{
 				guid = 92fbedae-0394-4dc6-8e6a-43ae8b2fe368
 				type = ConfiguredContract
 				prestige = 1
@@ -4784,463 +5241,6 @@ GAME
 						completeInSequence = True
 						hideChildren = True
 						allowStateReset = True
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = 2fcf2a0f-2153-46ef-b1a2-2bb65342756f
-				type = ConfiguredContract
-				prestige = 1
-				seed = 1353314666
-				state = Active
-				viewed = Read
-				agent = Exploration
-				agentName = Exploration
-				deadlineType = Floating
-				expiryType = None
-				ignoresWeight = True
-				values = 259200,50457600,43200,134400,81000,0,150,30,294767473.233768,294659655.373595,345117255.373595,0
-				subtype = first_MoonOrbitUncrewed
-				title = Lunar Orbiter (Uncrewed)
-				description = Design and successfully launch a probe into lunar orbit (with a maximum apiselene of 500 km) and successfully transmit or return some scientific data from the Moon's vicinity. &br;&br;<b>Note: The orbital parameters get tighter on the second contract</b> &br;&br;<b>Number of Contracts Completed: 1 / 2</b>
-				synopsis = Achieve lunar orbit and receive data
-				completedMessage = Orbit confirmed, and we got some excellent new data!
-				hash = -1483926777
-				targetBody = Moon
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-						type = Double
-						first_MoonOrbitUncrewed_Count = $first_MoonOrbitUncrewed_Count + 1
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = vesselGroup
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_MoonOrbitUncrewed
-					title = Achieve lunar orbit and receive data
-					notes = 
-					completedMessage = 
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = NewVessel
-						id = NewVessel
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = Launch a New Vessel
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = True
-						launchID = 66
-					}
-					PARAM
-					{
-						name = HasCrew
-						id = Crewmembers
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = Uncrewed
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = True
-						minCrew = 0
-						maxCrew = 0
-						minExperience = 0
-						maxExperience = 5
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Unmanned
-							notes = 
-							completedMessage = 
-						}
-					}
-					PARAM
-					{
-						name = OrbitParameter
-						id = Orbit
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = 
-						notes = 
-						completedMessage = 
-						allowStateReset = False
-						situation = ORBITING
-						targetBody = Moon
-						minAltitude = 0
-						minApoapsis = 0
-						maxApoapsis = 500000
-						minPeriapsis = 20000
-						minEccentricity = 0
-						minInclination = 0
-						maxInclination = 180
-						minArgumentOfPeriapsis = 0
-						maxArgumentOfPeriapsis = 360
-						minPeriod = 0
-						displayNotes = False
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Destination: The Moon
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Situation: Orbit
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Apoapsis: Below 500,000 m
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Periapsis: Above 20,000 m
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = Duration
-							id = Duration
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = 
-							notes = 
-							completedMessage = 
-							duration = 120
-							preWaitText = Check for Stable Orbit
-							waitingText = Checking for Stable Orbit
-							completionText = Stable Orbit: Confirmed
-							endTime = 0
-							startCriteria = CONTRACT_ACCEPTANCE
-							triggered = True
-						}
-					}
-					PARAM
-					{
-						name = CollectScienceCustom
-						id = CollectScience
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonOrbitUncrewed
-						title = Collect Science from around the Moon and transmit it to the KSC
-						notes = 
-						completedMessage = 
-						hideChildren = True
-						allowStateReset = False
-						targetBody = Moon
-						recoveryMethod = RecoverOrTransmit
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = destination
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Destination: The Moon
-							notes = 
-							completedMessage = 
-						}
-						PARAM
-						{
-							name = ParameterDelegate`1
-							id = experiment
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonOrbitUncrewed
-							title = Experiment: Any
-							notes = 
-							completedMessage = 
-							PARAM
-							{
-								name = ParameterDelegate`1
-								id = Subject
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonOrbitUncrewed
-								title = 
-								notes = 
-								completedMessage = 
-							}
-							PARAM
-							{
-								name = ParameterDelegate`1
-								id = recovery
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonOrbitUncrewed
-								title = Recovery: Recover or transmit
-								notes = 
-								completedMessage = 
-							}
-						}
-					}
-				}
-			}
-			CONTRACT
-			{
-				guid = c985fba1-4a94-43d9-98ea-341f9caede2b
-				type = ConfiguredContract
-				prestige = 1
-				seed = 300530207
-				state = Active
-				viewed = Read
-				agent = Exploration
-				agentName = Exploration
-				deadlineType = Floating
-				expiryType = None
-				ignoresWeight = True
-				values = 86400,50457600,38400,96000,72000,15,75,15,294767473.313768,294659655.373595,345117255.373595,0
-				subtype = first_MoonImpact
-				title = Lunar Impactor (Uncrewed)
-				description = Design and successfully launch a probe that impacts the surface of the Moon. Scientists at home will record their observations as a result of the impact. Due to the nature of the experiment, the impactor must have significant mass to it. The contract requires the impactor to have at least a 40 kg mass.&br;&br;<b>Number of Contracts Completed: 1 / 3</b>
-				synopsis = Impact the surface of the Moon with a probe
-				completedMessage = Congratulations on hitting the Moon! We're getting some great data here.
-				hash = -1119566847
-				targetBody = Moon
-				BEHAVIOUR
-				{
-					type = ContractConfigurator.Behaviour.Expression
-					CONTRACT_OFFERED
-					{
-					}
-					CONTRACT_ACCEPTED
-					{
-					}
-					CONTRACT_COMPLETED_SUCCESS
-					{
-						type = Double
-						first_MoonImpact_Count = $first_MoonImpact_Count + 1
-					}
-					CONTRACT_COMPLETED_FAILURE
-					{
-					}
-				}
-				PARAM
-				{
-					name = VesselParameterGroup
-					id = MoonImpact
-					state = Incomplete
-					values = 0,0,0,0,0
-					ContractIdentifier = RP0.first_MoonImpact
-					title = Moon Impact Craft
-					notes = 
-					completedMessage = 
-					duration = 0
-					dissassociateVesselsOnContractFailure = True
-					dissassociateVesselsOnContractCompletion = False
-					PARAM
-					{
-						name = All
-						id = AtMoonLow
-						state = Incomplete
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonImpact
-						title = 
-						notes = 
-						completedMessage = 
-						PARAM
-						{
-							name = NewVessel
-							id = NewVessel
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Launch a New Vessel
-							notes = 
-							completedMessage = 
-							hideChildren = True
-							allowStateReset = True
-							launchID = 66
-						}
-						PARAM
-						{
-							name = HasCrew
-							id = Crewmembers
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Uncrewed
-							notes = 
-							completedMessage = 
-							hideChildren = True
-							allowStateReset = True
-							minCrew = 0
-							maxCrew = 0
-							minExperience = 0
-							maxExperience = 5
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Unmanned
-								notes = 
-								completedMessage = 
-							}
-						}
-						PARAM
-						{
-							name = HasResource
-							id = HasPower
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Craft must have power
-							notes = 
-							completedMessage = 
-							allowStateReset = True
-							capacity = False
-							RESOURCE
-							{
-								resource = ElectricCharge
-								minQuantity = 1
-							}
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Resource: ElectricCharge: At least 1 units
-								notes = 
-								completedMessage = 
-							}
-						}
-						PARAM
-						{
-							name = VesselMass
-							id = ImpactorMass
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = Impactor probe must be at least 40 kg
-							notes = 
-							completedMessage = 
-							allowStateReset = True
-							minMass = 0.0399999991
-							maxMass = 3.40282347E+38
-						}
-						PARAM
-						{
-							name = ReachState
-							id = ReachMoonSurface
-							state = Incomplete
-							disableOnStateChange = False
-							values = 0,0,0,0,0
-							ContractIdentifier = RP0.first_MoonImpact
-							title = 
-							notes = 
-							completedMessage = 
-							allowStateReset = True
-							targetBody = Moon
-							maxTerrainAltitude = 3500
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Destination: The Moon
-								notes = 
-								completedMessage = 
-							}
-							PARAM
-							{
-								name = ParameterDelegate`1
-								state = Incomplete
-								disableOnStateChange = False
-								values = 0,0,0,0,0
-								ContractIdentifier = RP0.first_MoonImpact
-								title = Altitude (terrain): Below 3,500 m
-								notes = 
-								completedMessage = 
-							}
-						}
-					}
-					PARAM
-					{
-						name = ImpactCB
-						id = Impact
-						state = Incomplete
-						disableOnStateChange = False
-						values = 0,0,0,0,0
-						ContractIdentifier = RP0.first_MoonImpact
-						title = Impact The Moon at a speed of at least 2450 m/s
-						notes = 
-						completedMessage = 
-						allowStateReset = True
-						minSrfVel = 2450
-						targetBody = Moon
 					}
 				}
 			}
@@ -33350,8 +33350,8 @@ GAME
 	{
 		name = KerbalKonstructsSettings
 		scene = 5, 6, 7, 8
-		initialized = False
-		savetime = 294659684.63356668
+		initialized = True
+		savetime = 294659721.25353175
 		useUUID = True
 		KKSettings
 		{
@@ -39200,7 +39200,7 @@ GAME
 		{
 			enabledForSave = True
 			activeKSC = us_cape_canaveral
-			SciPoints = 319.142792
+			SciPoints = 319.343384
 			UpgradesResetCounter = 0
 			TechUpgrades = 54
 			IsSimulation = False
@@ -39247,7 +39247,7 @@ GAME
 				{
 					shipName = Pioneer 3
 					shipID = b26db945-6d77-4848-86b8-4e9f1369fd3f
-					progress = 531962.79605838761
+					progress = 531992.51663004351
 					effectiveCost = 10689.435764415815
 					buildTime = 2127093.10046928
 					integrationTime = 4785959.4760558801
@@ -89552,7 +89552,7 @@ GAME
 					launchpadID = 0
 					id = SpaceCenter/ResearchAndDevelopment
 					commonName = ResearchAndDevelopment
-					progress = 10555723.740209177
+					progress = 10555753.460780775
 					BP = 16718507.624410501
 					cost = 250000
 					UpgradeProcessed = False
@@ -107815,7 +107815,7 @@ GAME
 				{
 					name = Mounting to carrier
 					BP = 448311.08941230248
-					progress = 20.09278083801269
+					progress = 49.813352494239723
 					cost = 2154.0799948250001
 					associatedID = a311cc99-936c-4ee7-9ffa-6812a630bf72
 				}
@@ -107886,7 +107886,7 @@ GAME
 				techName = Early Flight Control
 				techID = earlyFlightControl
 				scienceCost = 15
-				progress = 1.7300485098046881
+				progress = 1.7300984285631826
 				ProtoNode
 				{
 					id = earlyFlightControl
@@ -113083,7 +113083,7 @@ GAME
 		scene = 5, 8, 7, 6
 		version = 3.14
 		uid = 676198639
-		uncreditedScience = 0.063078749413465113
+		uncreditedScience = 0.034882213393465568
 		kerbals
 		{
 			Inessa___Korovina
@@ -114762,7 +114762,7 @@ GAME
 				cfg_show = True
 				deviceTransmit = True
 				solarPanelsAverageExposure = 0.72440617676643937
-				scienceTransmitted = 9.1540571752326851
+				scienceTransmitted = 9.3264688653299164
 				StormData
 				{
 					storm_time = 0
@@ -115034,7 +115034,7 @@ GAME
 							{
 								RP0visibleImaging1@262153
 								{
-									size = 0.00016945062103777828
+									size = 0.0001730356209576487
 									resultText = Visible Imaging Data Acquired
 									useStockCrediting = False
 								}
@@ -115046,13 +115046,13 @@ GAME
 								}
 								RP0massSpec1@-16515063
 								{
-									size = 4.587132177745741E-05
+									size = 4.6098496144705315E-05
 									resultText = Mass Spectrometry Data Acquired
 									useStockCrediting = False
 								}
 								micrometeoriteDetect@-16515063
 								{
-									size = 4.9964764525890944E-05
+									size = 5.086101450585855E-05
 									resultText = Micrometeorite Detection Data Acquired
 									useStockCrediting = False
 								}
@@ -115070,7 +115070,7 @@ GAME
 								}
 								barometerScan@-16515063
 								{
-									size = 7.46899255171288E-05
+									size = 7.3338519131037929E-05
 									resultText = It's still a vacuum up here, but perhaps the surface is different.
 									useStockCrediting = False
 								}
@@ -115078,6 +115078,12 @@ GAME
 								{
 									size = 1.9908437065779886E-05
 									resultText = Visible Imaging Data Acquired
+									useStockCrediting = False
+								}
+								micrometeoriteDetect@-16449527
+								{
+									size = 0
+									resultText = Micrometeorite Detection Data Acquired
 									useStockCrediting = False
 								}
 							}
@@ -115737,7 +115743,7 @@ GAME
 			}
 			RP0massSpec1@-16515063
 			{
-				percentRetrieved = 0.065159024736481247
+				percentRetrieved = 0.066923516907572617
 			}
 			RP0massSpec1@-16449527
 			{
@@ -115753,7 +115759,7 @@ GAME
 			}
 			micrometeoriteDetect@-16449527
 			{
-				percentRetrieved = 0.0085419972483830528
+				percentRetrieved = 0.0085448360760094835
 			}
 			RP0photos1@196609
 			{
@@ -116001,7 +116007,7 @@ GAME
 			}
 			barometerScan@-16515063
 			{
-				percentRetrieved = 0.0041343749982275732
+				percentRetrieved = 0.022153125956925153
 			}
 			barometerScan@-16449527
 			{
@@ -116139,7 +116145,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 1.10.1
-		UT = 294659684.63356668
+		UT = 294659721.25353175
 		activeVessel = 0
 		mapViewFiltering = -17410
 		commNetUIModeTracking = Network
@@ -144582,7 +144588,7 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = -16515063
+					situationId = -16449527
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -144828,15 +144834,15 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = -16515063
+					situationId = -16449527
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
 					privateHdId = 0
 					firstStart = False
-					prodFactor = 1
+					prodFactor = 0
 					expState = Running
-					status = Running
+					status = Waiting
 					stagingEnabled = True
 					EVENTS
 					{
@@ -144960,7 +144966,7 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = -16515063
+					situationId = -16449527
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -144993,15 +144999,15 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = 262153
+					situationId = -16449527
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
 					privateHdId = 0
 					firstStart = False
-					prodFactor = 1
+					prodFactor = 0
 					expState = Running
-					status = Running
+					status = Waiting
 					stagingEnabled = True
 					EVENTS
 					{
@@ -145442,7 +145448,7 @@ GAME
 				RESOURCE
 				{
 					name = ElectricCharge
-					amount = 1557.128441100095
+					amount = 1556.7123829648167
 					maxAmount = 1570.7999999999997
 					flowState = True
 					isTweakable = True
@@ -145788,7 +145794,7 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = -16515063
+					situationId = -16449527
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
@@ -145988,7 +145994,7 @@ GAME
 					name = Experiment
 					isEnabled = True
 					issue = 
-					situationId = -16515063
+					situationId = -16449527
 					didPrepare = False
 					shrouded = False
 					remainingSampleMass = 0
