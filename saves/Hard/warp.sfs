@@ -85789,7 +85789,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-0.398970038, 7.2652607, -0.119179033)
 					autopilotTargetHold = False
@@ -86395,7 +86395,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0, 0, 0)
 					autopilotTargetHold = False

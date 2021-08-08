@@ -122353,7 +122353,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-0.00205618166, -4.26969385, 0.0024289717)
 					autopilotTargetHold = False
@@ -127684,7 +127684,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-4.55393774E-06, -2.71687627, 0.000640860817)
 					autopilotTargetHold = False
@@ -134324,7 +134324,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-1.42052972, -1.93655622, -0.578809023)
 					autopilotTargetHold = False
@@ -140958,7 +140958,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-0.00405849749, -1.24823594, 0.00490421848)
 					autopilotTargetHold = False
@@ -143242,7 +143242,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0.0469555594, -1.24796522, 0.0631192327)
 					autopilotTargetHold = False
@@ -144264,7 +144264,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-0.0764234141, -1.24796474, -0.0067568426)
 					autopilotTargetHold = False
@@ -148208,7 +148208,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0.00119444355, -1.482445, 0.00086542347)
 					autopilotTargetHold = False
@@ -154356,7 +154356,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0, 0, 0)
 					autopilotTargetHold = False
@@ -158131,7 +158131,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0.00172915775, -1.7074542, 0.000568099902)
 					autopilotTargetHold = False
@@ -164279,7 +164279,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0, 0, 0)
 					autopilotTargetHold = False
@@ -170388,7 +170388,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0.000587890099, -1.70337951, -2.30971673E-05)
 					autopilotTargetHold = False
@@ -176114,7 +176114,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-0.00068825495, -1.58707297, 0.000189795552)
 					autopilotTargetHold = False
@@ -178584,7 +178584,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0.0287278704, -1.51234889, 0.128216431)
 					autopilotTargetHold = False
@@ -179606,7 +179606,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (-0.435424387, -1.51320183, -0.320137322)
 					autopilotTargetHold = False
@@ -183381,7 +183381,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (9.66316293E-05, -2.1251204, -0.000119878998)
 					autopilotTargetHold = False
@@ -186251,7 +186251,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0, 0, 0)
 					autopilotTargetHold = False
@@ -192393,7 +192393,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0, 0, 0)
 					autopilotTargetHold = False
@@ -198505,7 +198505,7 @@ GAME
 				KSPWheelVesselDebug
 				{
 				}
-				VesselModuleRotation
+				VesselModuleRotationRO
 				{
 					angularVelocity = (0.00121951371, -2.11350918, 0.00112537108)
 					autopilotTargetHold = False
