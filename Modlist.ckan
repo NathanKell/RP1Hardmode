@@ -14,344 +14,298 @@
     ],
     "depends": [
         {
-            "name": "AtmosphereAutopilot",
-            "version": "v1.5.16"
+            "name": "KerbalKonstructs"
         },
         {
-            "name": "B9-PWings-Fork",
-            "version": "3:0.43.0.10"
+            "name": "TextureReplacer"
         },
         {
-            "name": "RealFuels",
-            "version": "rf-v13.2.0"
+            "name": "NearFutureSolar-Core"
         },
         {
-            "name": "DistantObject",
-            "version": "v2.0.1.1"
+            "name": "NearFutureSolar"
         },
         {
-            "name": "EditorExtensionsRedux",
-            "version": "3.4.2"
+            "name": "NearFutureExploration"
         },
         {
-            "name": "HangerExtenderExtended",
-            "version": "3.6.0"
+            "name": "ROLib"
         },
         {
-            "name": "KerbalAlarmClock",
-            "version": "v3.13.0.0"
+            "name": "RealSolarSystem"
         },
         {
-            "name": "KSCSwitcher",
-            "version": "v2.0.0.0"
+            "name": "ROSolar"
         },
         {
-            "name": "KSPWheel",
-            "version": "1:0.16.14.33"
+            "name": "SolverEngines"
         },
         {
-            "name": "Milkyway-Skybox-SpaceEngine",
-            "version": "1.0"
+            "name": "KSPWheel"
         },
         {
-            "name": "ModularLaunchPads",
-            "version": "2.2.0.b"
+            "name": "AdvancedJetEngine"
         },
         {
-            "name": "NearFutureExploration",
-            "version": "1.1.1"
+            "name": "KerbalAlarmClock"
         },
         {
-            "name": "NearFutureSolar",
-            "version": "1.3.1"
+            "name": "KerbalRenamer"
         },
         {
-            "name": "PlanetShine",
-            "version": "0.2.6.3"
+            "name": "KSCSwitcher"
         },
         {
-            "name": "ProceduralFairings",
-            "version": "1:v6.0.1"
+            "name": "RealismOverhaul"
         },
         {
-            "name": "ProceduralParts",
-            "version": "v2.1.2"
+            "name": "RSSDateTimeFormatter"
         },
         {
-            "name": "ProceduralParts-Textures-SaturnNova",
-            "version": "1.2"
+            "name": "RealAntennas"
         },
         {
-            "name": "RCSBuildAid",
-            "version": "v1.0.3"
+            "name": "Kerbalism-Config-RO"
         },
         {
-            "name": "RealChute",
-            "version": "v1.4.8"
+            "name": "RCSBuildAid"
         },
         {
-            "name": "ReStock",
-            "version": "1.2.1"
+            "name": "ProceduralFairings"
         },
         {
-            "name": "ReStockPlus",
-            "version": "1.2.1"
+            "name": "ScienceSituationInfo"
         },
         {
-            "name": "RestockRigidLegs",
-            "version": "1.3.0"
+            "name": "ShipManifest"
         },
         {
-            "name": "RealismOverhaul",
-            "version": "v14.2.0.0"
+            "name": "ProceduralParts"
         },
         {
-            "name": "RSS-CanaveralHD",
-            "version": "v1.0"
+            "name": "TestFlight"
         },
         {
-            "name": "RSSDateTimeFormatter",
-            "version": "v1.10.0.0"
+            "name": "DistantObject-RealSolarSystem"
         },
         {
-            "name": "RSSVE-HR",
-            "version": "2.1.4"
+            "name": "AtmosphereAutopilot"
         },
         {
-            "name": "Scatterer",
-            "version": "3:v0.0770"
+            "name": "HyperEdit"
         },
         {
-            "name": "Scatterer-sunflare",
-            "version": "3:v0.0723"
+            "name": "EditorExtensionsRedux"
         },
         {
-            "name": "ShipManifest",
-            "version": "6.0.2.0"
+            "name": "Taerobee"
         },
         {
-            "name": "TextureReplacer",
-            "version": "v4.5.1"
+            "name": "RSSTextures16K"
         },
         {
-            "name": "Waterfall",
-            "version": "0.6.6"
+            "name": "KSPBurst"
         },
         {
-            "name": "MandatoryRCSPartPack",
-            "version": "1.4"
+            "name": "MechJeb2-dev"
         },
         {
-            "name": "ROEngines",
-            "version": "v1.8.1"
+            "name": "HangerExtenderExtended"
         },
         {
-            "name": "ROTanks",
-            "version": "v2.5"
+            "name": "FerramAerospaceResearchContinued"
         },
         {
-            "name": "ROCapsules",
-            "version": "v1.5.1.0"
+            "name": "ModularFlightIntegrator"
         },
         {
-            "name": "ROSolar",
-            "version": "v1.1.1"
+            "name": "B9-PWings-Fork"
         },
         {
-            "name": "KerbalRenamer",
-            "version": "v1.4.0"
+            "name": "KerbalJointReinforcementContinued"
         },
         {
-            "name": "RealAntennas",
-            "version": "v2.0"
+            "name": "RealChute"
         },
         {
-            "name": "TestFlight",
-            "version": "v2.1.0.0"
+            "name": "RealFuels"
         },
         {
-            "name": "TexturesUnlimited",
-            "version": "1.5.10.25"
+            "name": "CommunityResourcePack"
         },
         {
-            "name": "PatchManager",
-            "version": "0.0.17.2"
+            "name": "RealHeat"
         },
         {
-            "name": "ModuleManager",
-            "version": "4.1.4"
+            "name": "RealPlume"
         },
         {
-            "name": "RSSTextures16K",
-            "version": "v18.3"
+            "name": "SmokeScreen"
         },
         {
-            "name": "KSPBurst",
-            "version": "v1.5.0.0"
+            "name": "SXTContinued"
         },
         {
-            "name": "DistantObject-default",
-            "version": "v2.0.1.1"
+            "name": "FirespitterCore"
         },
         {
-            "name": "ClickThroughBlocker",
-            "version": "1:0.1.10.15"
+            "name": "FirespitterResourcesConfig"
         },
         {
-            "name": "ZeroMiniAVC",
-            "version": "1:1.1.0.1"
+            "name": "RetractableLiftingSurface"
         },
         {
-            "name": "ToolbarController",
-            "version": "1:0.1.9.4"
+            "name": "ContractConfigurator"
         },
         {
-            "name": "B9PartSwitch",
-            "version": "v2.17.0"
+            "name": "CustomBarnKit"
         },
         {
-            "name": "StagedAnimation",
-            "version": "v2.0"
+            "name": "VenStockRevamp-NewParts"
         },
         {
-            "name": "CommunityCategoryKit",
-            "version": "v5.2.0.0"
+            "name": "VenStockRevamp-Core"
         },
         {
-            "name": "NearFutureSolar-Core",
-            "version": "1.3.1"
+            "name": "ROCapsules"
         },
         {
-            "name": "PlanetShine-Config-Default",
-            "version": "0.2.6.3"
+            "name": "Kopernicus"
         },
         {
-            "name": "RP-0",
-            "version": "v1.10.4.0"
+            "name": "RP-1-ExpressInstall-Graphics-High"
         },
         {
-            "name": "AdvancedJetEngine",
-            "version": "v2.17.0"
+            "name": "RP-1-ExpressInstall"
         },
         {
-            "name": "FerramAerospaceResearchContinued",
-            "version": "3:0.16.0.3"
+            "name": "MagiCore"
         },
         {
-            "name": "ModularFlightIntegrator",
-            "version": "1.2.7.0"
+            "name": "ClickThroughBlocker"
         },
         {
-            "name": "SolverEngines",
-            "version": "v3.11.0"
+            "name": "ZeroMiniAVC"
         },
         {
-            "name": "KerbalJointReinforcementContinued",
-            "version": "v3.5.2"
+            "name": "ToolbarController"
         },
         {
-            "name": "DeadlyReentry",
-            "version": "v8.1.0"
+            "name": "ROTanks"
         },
         {
-            "name": "CommunityResourcePack",
-            "version": "1.4.2"
+            "name": "TexturesUnlimited"
         },
         {
-            "name": "RealHeat",
-            "version": "v5.1"
+            "name": "B9PartSwitch"
         },
         {
-            "name": "RealPlume",
-            "version": "2:v13.3.2"
+            "name": "PatchManager"
         },
         {
-            "name": "SmokeScreen",
-            "version": "2.8.14.0"
+            "name": "BDAnimationModules"
+        }
+        {
+            "name": "Kerbalism"
+        },
+        {
+            "name": "Harmony2"
+        },
+        {
+            "name": "DistantObject"
+        }
+        {
+            "name": "ProceduralParts-Textures-SaturnNova"
+        },
+        {
+            "name": "PlanetShine"
+        },
+        {
+            "name": "PlanetShine-Config-Default"
+        },
+        {
+            "name": "Waterfall"
+        },
+        {
+            "name": "ModuleManager"
+        },
+        {
+            "name": "ATKPropulsionPack"
+        },
+        {
+            "name": "ROEngines"
+        },
+        {
+            "name": "DeadlyReentry"
+        },
+        {
+            "name": "CustomPreLaunchChecks"
+        },
+        {
+            "name": "InternalRCS"
         },
         {
-            "name": "SXTContinued",
-            "version": "2:0.3.29.5"
+            "name": "EarlyBird"
         },
         {
-            "name": "FirespitterCore",
-            "version": "v7.17"
+            "name": "CommunityCategoryKit"
         },
         {
-            "name": "FirespitterResourcesConfig",
-            "version": "v7.17"
+            "name": "ModularLaunchPads"
         },
         {
-            "name": "RetractableLiftingSurface",
-            "version": "0.2.1.1"
+            "name": "MandatoryRCSPartPack"
         },
         {
-            "name": "ContractConfigurator",
-            "version": "1.30.5"
+            "name": "StagedAnimation"
         },
         {
-            "name": "CustomBarnKit",
-            "version": "1.1.21.0"
+            "name": "RP-0"
         },
         {
-            "name": "VenStockRevamp-NewParts",
-            "version": "v1.15.1"
+            "name": "RestockRigidLegs"
         },
         {
-            "name": "VenStockRevamp-Core",
-            "version": "v1.15.1"
+            "name": "ReStockPlus"
         },
         {
-            "name": "RealSolarSystem",
-            "version": "v18.1.5"
+            "name": "ReStock"
         },
         {
-            "name": "Kopernicus",
-            "version": "2:release-1.12.1-55"
+            "name": "DockingPortAlignmentIndicator"
         },
         {
-            "name": "MagiCore",
-            "version": "1.3.2.3"
+            "name": "StockalikeStructures"
         },
         {
-            "name": "Kerbalism-Config-RO",
-            "version": "v1.2.1"
+            "name": "TundraSpaceCenter"
         },
         {
-            "name": "Kerbalism",
-            "version": "3.14"
+            "name": "TUFX"
         },
         {
-            "name": "Harmony2",
-            "version": "2.0.4.0"
+            "name": "PoodsMilkyWaySkybox"
         },
         {
-            "name": "EnvironmentalVisualEnhancements",
-            "version": "3:1.11.3.1"
+            "name": "Scatterer-sunflare"
         },
         {
-            "name": "Scatterer-config",
-            "version": "3:v0.0723"
+            "name": "Scatterer"
         },
         {
-            "name": "ROLib",
-            "version": "v1.3.1"
+            "name": "Scatterer-config"
         },
         {
-            "name": "BDAnimationModules",
-            "version": "1:v0.6.6.0"
+            "name": "RSSVE-HR"
         },
         {
-            "name": "MandatoryRCS",
-            "version": "1:1.8"
+            "name": "EnvironmentalVisualEnhancements"
         },
         {
-            "name": "MechJeb2-dev",
-            "version": "2.12.0.0-1092"
+            "name": "CanaveralPads"
         },
         {
-            "name": "Taerobee",
-            "version": "1:3.0"
+            "name": "RSS-CanaveralHD"
         }
     ],
     "recommends": [],
