@@ -110,21 +110,6 @@ PART
 	}
 	MODULE
 	{
-		name = ModuleTorqueController
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
 		name = ModuleCommand
 		isEnabled = True
 		hibernation = False
@@ -939,6 +924,9 @@ PART
 		}
 		UPGRADESAPPLIED
 		{
+			upgrade = commsTL1
+			upgrade = commsTL2
+			upgrade = commsTL3
 		}
 	}
 	MODULE
@@ -946,6 +934,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -1344,6 +1333,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -1719,6 +1709,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -1969,6 +1960,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -2264,6 +2256,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -2559,6 +2552,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -2854,6 +2848,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -3149,6 +3144,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -3437,9 +3433,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2000
-		initialFlightData = 4000
-		missionStartTime = 150731002.48055172
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -3592,6 +3588,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -3872,9 +3869,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2000
-		initialFlightData = 4000
-		missionStartTime = 150731002.48055172
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4027,6 +4024,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -4307,9 +4305,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2000
-		initialFlightData = 4000
-		missionStartTime = 150731002.48055172
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4462,6 +4460,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -4742,9 +4741,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2000
-		initialFlightData = 4000
-		missionStartTime = 150731002.48055172
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4897,6 +4896,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -5177,9 +5177,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2000
-		initialFlightData = 4000
-		missionStartTime = 150731002.48055172
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -5332,6 +5332,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -5612,9 +5613,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2000
-		initialFlightData = 4000
-		missionStartTime = 150731002.48055172
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -5767,6 +5768,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -6041,9 +6043,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 2000
-		initialFlightData = 4000
-		missionStartTime = 150731002.48055172
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6196,6 +6198,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -6502,6 +6505,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -6808,6 +6812,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -6986,6 +6991,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -7374,7 +7380,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 150731002.48055172
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7495,6 +7501,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -7543,7 +7550,7 @@ PART
 	pos = -0.213874593,4.93500042,-0.160275191
 	attPos = -1.78813934E-07,-0.0315132141,-1.49011612E-07
 	attPos0 = -0.163678497,-0.0205049515,-0.159628451
-	rot = -0.043619372,-0.999048293,-2.79396772E-09,8.94069672E-08
+	rot = -0.043619372,-0.999048293,-4.65661287E-09,8.94069672E-08
 	attRot = 0.706433713,-0.0308435652,0.0308435652,0.706433713
 	attRot0 = 0.0436193906,0.999048293,-9.31322575E-10,-4.47034836E-08
 	mir = 1,1,1
@@ -7885,7 +7892,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 150731002.48055172
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8006,6 +8013,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -8051,10 +8059,10 @@ PART
 	part = TinyTim_4281356320
 	partName = Part
 	persistentId = 927655397
-	pos = -0.209824577,4.93500042,0.163032204
+	pos = -0.209824711,4.93500042,0.163032278
 	attPos = -1.1920929E-07,-0.0315132141,2.23517418E-07
 	attPos0 = -0.159628466,-0.0205049515,0.163678497
-	rot = -0.0308435429,-0.706433833,0.0308435559,0.706433952
+	rot = -0.0308435354,-0.706433833,0.0308435541,0.706433952
 	attRot = 0.706433713,-0.0308435652,0.0308435652,0.706433713
 	attRot0 = 0.0308435671,0.706433773,-0.0308435671,-0.706433833
 	mir = 1,1,1
@@ -8396,7 +8404,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 150731002.48055172
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8517,6 +8525,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -8562,10 +8571,10 @@ PART
 	part = TinyTim_4281356168
 	partName = Part
 	persistentId = 2484157294
-	pos = 0.113483146,4.93500042,0.158982009
+	pos = 0.113483205,4.93500042,0.158982053
 	attPos = 2.38418579E-07,-0.0315132141,1.1920929E-07
 	attPos0 = 0.163678497,-0.0205049515,0.159628436
-	rot = -2.79396772E-09,1.34110451E-07,0.0436193757,0.999048233
+	rot = -4.65661287E-09,1.34110451E-07,0.0436193757,0.999048233
 	attRot = 0.706433713,-0.0308435652,0.0308435652,0.706433713
 	attRot0 = -2.79396772E-09,-8.94069672E-08,-0.0436193906,-0.999048293
 	mir = 1,1,1
@@ -8907,7 +8916,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 150731002.48055172
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9028,6 +9037,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -9073,10 +9083,10 @@ PART
 	part = TinyTim_4281356016
 	partName = Part
 	persistentId = 2934766780
-	pos = 0.109433129,4.93500042,-0.164325431
+	pos = 0.109433293,4.93500042,-0.164325491
 	attPos = 1.1920929E-07,-0.0315132141,-2.38418579E-07
 	attPos0 = 0.159628451,-0.0205049515,-0.163678497
-	rot = 0.0308435559,0.706433952,0.0308435429,0.706433833
+	rot = 0.0308435541,0.706433952,0.0308435354,0.706433833
 	attRot = 0.706433713,-0.0308435652,0.0308435652,0.706433713
 	attRot0 = -0.0308435671,-0.706433833,-0.0308435671,-0.706433773
 	mir = 1,1,1
@@ -9418,7 +9428,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 150731002.48055172
+		missionStartTime = 388340107.44188261
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9539,6 +9549,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
@@ -9918,6 +9929,7 @@ PART
 		name = ModuleAeroReentry
 		isEnabled = True
 		dead = False
+		crashTolerance = 8
 		internalDamage = 0
 		stagingEnabled = True
 		damageCube = 0, 0, 0, 0, 0, 0
