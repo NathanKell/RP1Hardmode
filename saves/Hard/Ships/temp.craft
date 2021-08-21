@@ -1,8 +1,8 @@
-ship = Mariner 4
+ship = Mariner 3
 version = 1.10.1
 description = 
 type = VAB
-size = 7.04800081,54.4929276,11.40767
+size = 5.18160343,45.4194489,4.3246665
 steamPublishedFileId = 0
 persistentId = 3014296515
 rot = 0,0,0,0
@@ -35,7 +35,7 @@ PART
 	sepI = -1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 5993.88379
+	modCost = 1197.96362
 	modMass = -0.836521626
 	modSize = 0,0,0
 	link = sensorThermometer_4286975756
@@ -4099,7 +4099,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 1.33376193, 0.0243048668)
+		tempColliderSize = (0.00100000005, 1.33376217, 0.0243051648)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -4375,7 +4375,7 @@ PART
 	part = proceduralStructural_4286568194
 	partName = Part
 	persistentId = 2400019949
-	pos = -0.830100834,41.8714943,-0.830123663
+	pos = -0.830100834,41.8714943,-0.830123782
 	attPos = -1.32982869E-09,0.367163956,-0.000419184566
 	attPos0 = 0,-0.75,0
 	rot = 0.00633603334,0.382674485,-0.00262448192,0.923857927
@@ -4427,7 +4427,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.0635463744, 0.609856904)
+		tempColliderSize = (0.00100000005, 0.0635463893, 0.609856844)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -4757,7 +4757,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.468409032, 0.00100000005)
+		tempColliderSize = (0.00100000005, 0.468409002, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -5033,7 +5033,7 @@ PART
 	part = proceduralStructural_4285752280
 	partName = Part
 	persistentId = 790471679
-	pos = -0.83010298,41.8714981,0.830111146
+	pos = -0.830103159,41.8714981,0.830111265
 	attPos = 3.42726679E-07,0.145120323,0.00250311033
 	attPos0 = 0,-0.75,0
 	rot = 0.00262446702,0.923857868,-0.00633609295,0.382674456
@@ -5085,7 +5085,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.0551706105, 0.00100000005)
+		tempColliderSize = (0.00100000005, 0.055170618, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -6073,7 +6073,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.08164108, 0.468409181, 0.00100000005)
+		tempColliderSize = (1.0816412, 0.468409151, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -6729,7 +6729,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.00100000005, 0.00100000005)
+		tempColliderSize = (0.00100000005, 0.392997742, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -7135,7 +7135,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.393000275, 0.364929199)
+		tempColliderSize = (0.00100000005, 0.393000036, 0.364929318)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -7364,8 +7364,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 14.726153721503357
-			maxAmount = 14.726153721503357
+			amount = 14.726153721503351
+			maxAmount = 14.726153721503351
 		}
 		TANK
 		{
@@ -7378,8 +7378,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 13.593372860769492
-			maxAmount = 13.593372860769492
+			amount = 13.593372860769486
+			maxAmount = 13.593372860769486
 		}
 		TANK
 		{
@@ -7392,8 +7392,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 318.594683545431
-			maxAmount = 318.594683545431
+			amount = 318.59468354543088
+			maxAmount = 318.59468354543088
 		}
 		UPGRADESAPPLIED
 		{
@@ -7452,8 +7452,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 14.726153721503357
-		maxAmount = 14.726153721503357
+		amount = 14.726153721503351
+		maxAmount = 14.726153721503351
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7463,8 +7463,8 @@ PART
 	RESOURCE
 	{
 		name = MON10
-		amount = 13.593372860769492
-		maxAmount = 13.593372860769492
+		amount = 13.593372860769486
+		maxAmount = 13.593372860769486
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7474,8 +7474,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 318.594683545431
-		maxAmount = 318.594683545431
+		amount = 318.59468354543088
+		maxAmount = 318.59468354543088
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7541,7 +7541,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.36493206, 0.393000275, 0.36492905)
+		tempColliderSize = (0.364932477, 0.393000036, 0.364929259)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -7770,8 +7770,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 14.726153721503357
-			maxAmount = 14.726153721503357
+			amount = 14.726153721503351
+			maxAmount = 14.726153721503351
 		}
 		TANK
 		{
@@ -7784,8 +7784,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 13.593372860769492
-			maxAmount = 13.593372860769492
+			amount = 13.593372860769486
+			maxAmount = 13.593372860769486
 		}
 		TANK
 		{
@@ -7798,8 +7798,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 318.594683545431
-			maxAmount = 318.594683545431
+			amount = 318.59468354543088
+			maxAmount = 318.59468354543088
 		}
 		UPGRADESAPPLIED
 		{
@@ -7858,8 +7858,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 14.726153721503357
-		maxAmount = 14.726153721503357
+		amount = 14.726153721503351
+		maxAmount = 14.726153721503351
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7869,8 +7869,8 @@ PART
 	RESOURCE
 	{
 		name = MON10
-		amount = 13.593372860769492
-		maxAmount = 13.593372860769492
+		amount = 13.593372860769486
+		maxAmount = 13.593372860769486
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7880,8 +7880,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 318.594683545431
-		maxAmount = 318.594683545431
+		amount = 318.59468354543088
+		maxAmount = 318.59468354543088
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -7947,7 +7947,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.364931941, 0.00100000005, 0.36492908)
+		tempColliderSize = (0.364932358, 0.00100000005, 0.364929199)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -8176,8 +8176,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 14.726153721503357
-			maxAmount = 14.726153721503357
+			amount = 14.726153721503351
+			maxAmount = 14.726153721503351
 		}
 		TANK
 		{
@@ -8190,8 +8190,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 13.593372860769492
-			maxAmount = 13.593372860769492
+			amount = 13.593372860769486
+			maxAmount = 13.593372860769486
 		}
 		TANK
 		{
@@ -8204,8 +8204,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 318.594683545431
-			maxAmount = 318.594683545431
+			amount = 318.59468354543088
+			maxAmount = 318.59468354543088
 		}
 		UPGRADESAPPLIED
 		{
@@ -8264,8 +8264,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 14.726153721503357
-		maxAmount = 14.726153721503357
+		amount = 14.726153721503351
+		maxAmount = 14.726153721503351
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -8275,8 +8275,8 @@ PART
 	RESOURCE
 	{
 		name = MON10
-		amount = 13.593372860769492
-		maxAmount = 13.593372860769492
+		amount = 13.593372860769486
+		maxAmount = 13.593372860769486
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -8286,8 +8286,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 318.594683545431
-		maxAmount = 318.594683545431
+		amount = 318.59468354543088
+		maxAmount = 318.59468354543088
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -8353,7 +8353,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.00100000005, 0.364928931)
+		tempColliderSize = (0.00100000005, 0.00100000005, 0.36492914)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -8582,8 +8582,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 14.726153721503357
-			maxAmount = 14.726153721503357
+			amount = 14.726153721503351
+			maxAmount = 14.726153721503351
 		}
 		TANK
 		{
@@ -8596,8 +8596,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 13.593372860769492
-			maxAmount = 13.593372860769492
+			amount = 13.593372860769486
+			maxAmount = 13.593372860769486
 		}
 		TANK
 		{
@@ -8610,8 +8610,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 318.594683545431
-			maxAmount = 318.594683545431
+			amount = 318.59468354543088
+			maxAmount = 318.59468354543088
 		}
 		UPGRADESAPPLIED
 		{
@@ -8670,8 +8670,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 14.726153721503357
-		maxAmount = 14.726153721503357
+		amount = 14.726153721503351
+		maxAmount = 14.726153721503351
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -8681,8 +8681,8 @@ PART
 	RESOURCE
 	{
 		name = MON10
-		amount = 13.593372860769492
-		maxAmount = 13.593372860769492
+		amount = 13.593372860769486
+		maxAmount = 13.593372860769486
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -8692,8 +8692,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 318.594683545431
-		maxAmount = 318.594683545431
+		amount = 318.59468354543088
+		maxAmount = 318.59468354543088
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -8719,7 +8719,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = -1
 	attm = 1
@@ -9026,7 +9026,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9227,7 +9227,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 1
-	sidx = 1
+	sidx = 0
 	sqor = 0
 	sepI = -1
 	attm = 1
@@ -9534,7 +9534,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9735,7 +9735,7 @@ PART
 	istg = 0
 	resPri = 0
 	dstg = 0
-	sidx = 0
+	sidx = 1
 	sqor = 0
 	sepI = 0
 	attm = 0
@@ -10005,7 +10005,7 @@ PART
 	sepI = 0
 	attm = 0
 	sameVesselCollision = False
-	modCost = 72.4773865
+	modCost = 3.59663367
 	modMass = -0.990639985
 	modSize = 0,0,0
 	link = RO-RFTank-Integral_4278787290
@@ -10045,7 +10045,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.394999593, 0.900002301, 0.394999981)
+		tempColliderSize = (0.395000011, 0.900001526, 0.395000011)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -10313,7 +10313,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 68.8807526
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10398,7 +10398,7 @@ PART
 	part = RO-RFTank-Integral_4278787290
 	partName = Part
 	persistentId = 3409875806
-	pos = 0.383217335,41.4840775,-6.34901608E-06
+	pos = 0.383221239,41.4840775,-6.34901608E-06
 	attPos = 0,-0.249231994,0
 	attPos0 = 0.383201838,-0.127643749,7.37659249E-08
 	rot = -0.0087545719,0.707052708,-0.00875457283,-0.707052529
@@ -10416,8 +10416,8 @@ PART
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
-	modCost = 72.4773865
-	modMass = -0.990639985
+	modCost = 3.72491479
+	modMass = -0.990262926
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4278760278
 	sym = RO-RFTank-Integral_4278760160
@@ -10453,12 +10453,12 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.394999415, 0.898900688, 0.00100000005)
+		tempColliderSize = (0.394999862, 0.929861963, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
 		shapeName = Fillet Cylinder
-		moduleCost = 0.0829991028
+		moduleCost = 0.0863428414
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10510,7 +10510,7 @@ PART
 		name = ProceduralShapePill
 		isEnabled = True
 		diameter = 0.395000011
-		length = 0.900000036
+		length = 0.931000054
 		fillet = 0.393000007
 		stagingEnabled = True
 		EVENTS
@@ -10661,10 +10661,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
-		mass = 0.00935998932
+		mass = 0.00973707438
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 87.6922
+		volume = 91.224999999999994
 		EVENTS
 		{
 		}
@@ -10682,8 +10682,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -10696,8 +10696,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -10710,8 +10710,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 933.99976331360961
-			maxAmount = 933.99976331360961
+			amount = 971.62721893491107
+			maxAmount = 971.62721893491107
 		}
 		UPGRADESAPPLIED
 		{
@@ -10721,7 +10721,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 68.8807526
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10770,8 +10770,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10781,8 +10781,8 @@ PART
 	RESOURCE
 	{
 		name = NTO
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10792,8 +10792,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 933.99976331360961
-		maxAmount = 933.99976331360961
+		amount = 971.62721893491107
+		maxAmount = 971.62721893491107
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -10806,7 +10806,7 @@ PART
 	part = RO-RFTank-Integral_4278760278
 	partName = Part
 	persistentId = 1947078008
-	pos = 0.191616297,41.4840775,-0.331869453
+	pos = 0.191618159,41.4840775,-0.331872672
 	attPos = 0,-0.249231994,0
 	attPos0 = 0.191600978,-0.127643749,-0.331862867
 	rot = -0.0119589679,0.258799344,-0.00320439646,-0.965851784
@@ -10824,8 +10824,8 @@ PART
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
-	modCost = 72.4773865
-	modMass = -0.990639985
+	modCost = 3.72491479
+	modMass = -0.990262926
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4278760160
 	sym = RO-RFTank-Integral_4278760042
@@ -10861,12 +10861,12 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.756272793, 0.914393961, 0.185998321)
+		tempColliderSize = (0.756938457, 0.945383728, 0.185614347)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
 		shapeName = Fillet Cylinder
-		moduleCost = 0.0829991028
+		moduleCost = 0.0863428414
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10918,7 +10918,7 @@ PART
 		name = ProceduralShapePill
 		isEnabled = True
 		diameter = 0.395000011
-		length = 0.900000036
+		length = 0.931000054
 		fillet = 0.393000007
 		stagingEnabled = True
 		EVENTS
@@ -11069,10 +11069,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
-		mass = 0.00935998932
+		mass = 0.00973707438
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 87.6922
+		volume = 91.224999999999994
 		EVENTS
 		{
 		}
@@ -11090,8 +11090,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -11104,8 +11104,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -11118,8 +11118,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 933.99976331360961
-			maxAmount = 933.99976331360961
+			amount = 971.62721893491107
+			maxAmount = 971.62721893491107
 		}
 		UPGRADESAPPLIED
 		{
@@ -11129,7 +11129,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 68.8807526
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11178,8 +11178,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11189,8 +11189,8 @@ PART
 	RESOURCE
 	{
 		name = NTO
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11200,8 +11200,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 933.99976331360961
-		maxAmount = 933.99976331360961
+		amount = 971.62721893491107
+		maxAmount = 971.62721893491107
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11214,7 +11214,7 @@ PART
 	part = RO-RFTank-Integral_4278760160
 	partName = Part
 	persistentId = 3434374650
-	pos = -0.191586062,41.4840775,-0.331869543
+	pos = -0.191587925,41.4840775,-0.331872761
 	attPos = 0,-0.249231994,0
 	attPos0 = -0.191600904,-0.127643749,-0.331862956
 	rot = -0.0119589688,-0.258799136,0.00320439599,-0.965851903
@@ -11232,8 +11232,8 @@ PART
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
-	modCost = 72.4773865
-	modMass = -0.990639985
+	modCost = 3.72491479
+	modMass = -0.990262926
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4278760042
 	sym = RO-RFTank-Integral_4278759924
@@ -11269,12 +11269,12 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.197499469, 0.928028166, 0.736490369)
+		tempColliderSize = (0.197500005, 0.959027469, 0.736490607)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
 		shapeName = Fillet Cylinder
-		moduleCost = 0.0829991028
+		moduleCost = 0.0863428414
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11326,7 +11326,7 @@ PART
 		name = ProceduralShapePill
 		isEnabled = True
 		diameter = 0.395000011
-		length = 0.900000036
+		length = 0.931000054
 		fillet = 0.393000007
 		stagingEnabled = True
 		EVENTS
@@ -11477,10 +11477,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
-		mass = 0.00935998932
+		mass = 0.00973707438
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 87.6922
+		volume = 91.224999999999994
 		EVENTS
 		{
 		}
@@ -11498,8 +11498,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -11512,8 +11512,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -11526,8 +11526,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 933.99976331360961
-			maxAmount = 933.99976331360961
+			amount = 971.62721893491107
+			maxAmount = 971.62721893491107
 		}
 		UPGRADESAPPLIED
 		{
@@ -11537,7 +11537,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 68.8807526
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11586,8 +11586,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11597,8 +11597,8 @@ PART
 	RESOURCE
 	{
 		name = NTO
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11608,8 +11608,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 933.99976331360961
-		maxAmount = 933.99976331360961
+		amount = 971.62721893491107
+		maxAmount = 971.62721893491107
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -11622,7 +11622,7 @@ PART
 	part = RO-RFTank-Integral_4278760042
 	partName = Part
 	persistentId = 3813010641
-	pos = -0.383187234,41.4840775,-6.49878029E-06
+	pos = -0.383191139,41.4840775,-6.49878029E-06
 	attPos = 0,-0.249231994,0
 	attPos0 = -0.383201838,-0.127643749,-4.02651494E-08
 	rot = -0.00875457283,-0.707052588,0.0087545719,-0.707052648
@@ -11640,8 +11640,8 @@ PART
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
-	modCost = 72.4773865
-	modMass = -0.990639985
+	modCost = 3.72491479
+	modMass = -0.990262926
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4278759924
 	sym = RO-RFTank-Integral_4278759806
@@ -11677,12 +11677,12 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.919558346, 0.394515544)
+		tempColliderSize = (0.00100000005, 0.950557649, 0.394515604)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
 		shapeName = Fillet Cylinder
-		moduleCost = 0.0829991028
+		moduleCost = 0.0863428414
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11734,7 +11734,7 @@ PART
 		name = ProceduralShapePill
 		isEnabled = True
 		diameter = 0.395000011
-		length = 0.900000036
+		length = 0.931000054
 		fillet = 0.393000007
 		stagingEnabled = True
 		EVENTS
@@ -11885,10 +11885,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
-		mass = 0.00935998932
+		mass = 0.00973707438
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 87.6922
+		volume = 91.224999999999994
 		EVENTS
 		{
 		}
@@ -11906,8 +11906,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -11920,8 +11920,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -11934,8 +11934,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 933.99976331360961
-			maxAmount = 933.99976331360961
+			amount = 971.62721893491107
+			maxAmount = 971.62721893491107
 		}
 		UPGRADESAPPLIED
 		{
@@ -11945,7 +11945,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 68.8807526
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -11994,8 +11994,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12005,8 +12005,8 @@ PART
 	RESOURCE
 	{
 		name = NTO
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12016,8 +12016,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 933.99976331360961
-		maxAmount = 933.99976331360961
+		amount = 971.62721893491107
+		maxAmount = 971.62721893491107
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12030,7 +12030,7 @@ PART
 	part = RO-RFTank-Integral_4278759924
 	partName = Part
 	persistentId = 2492715067
-	pos = -0.191586107,41.4840775,0.331856668
+	pos = -0.191588327,41.4840775,0.331860423
 	attPos = 0,-0.249231994,0
 	attPos0 = -0.191600978,-0.127643749,0.331862926
 	rot = -0.00320439576,-0.965851843,0.0119589688,-0.258799285
@@ -12048,8 +12048,8 @@ PART
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
-	modCost = 72.4773865
-	modMass = -0.990639985
+	modCost = 3.72491479
+	modMass = -0.990262926
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4278759806
 	sym = RO-RFTank-Integral_4278787290
@@ -12085,12 +12085,12 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.904065073, 0.00100000005)
+		tempColliderSize = (0.00100000005, 0.935035825, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
 		shapeName = Fillet Cylinder
-		moduleCost = 0.0829991028
+		moduleCost = 0.0863428414
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12142,7 +12142,7 @@ PART
 		name = ProceduralShapePill
 		isEnabled = True
 		diameter = 0.395000011
-		length = 0.900000036
+		length = 0.931000054
 		fillet = 0.393000007
 		stagingEnabled = True
 		EVENTS
@@ -12293,10 +12293,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
-		mass = 0.00935998932
+		mass = 0.00973707438
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 87.6922
+		volume = 91.224999999999994
 		EVENTS
 		{
 		}
@@ -12314,8 +12314,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -12328,8 +12328,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -12342,8 +12342,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 933.99976331360961
-			maxAmount = 933.99976331360961
+			amount = 971.62721893491107
+			maxAmount = 971.62721893491107
 		}
 		UPGRADESAPPLIED
 		{
@@ -12353,7 +12353,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 68.8807526
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12402,8 +12402,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12413,8 +12413,8 @@ PART
 	RESOURCE
 	{
 		name = NTO
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12424,8 +12424,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 933.99976331360961
-		maxAmount = 933.99976331360961
+		amount = 971.62721893491107
+		maxAmount = 971.62721893491107
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12438,7 +12438,7 @@ PART
 	part = RO-RFTank-Integral_4278759806
 	partName = Part
 	persistentId = 2800585501
-	pos = 0.191616148,41.4840775,0.331856668
+	pos = 0.191618308,41.4840775,0.331860423
 	attPos = 0,-0.249231994,0
 	attPos0 = 0.191600814,-0.127643749,0.331862986
 	rot = 0.0032043946,-0.965851903,0.0119589688,0.258799046
@@ -12456,8 +12456,8 @@ PART
 	sepI = 0
 	attm = 1
 	sameVesselCollision = False
-	modCost = 72.4773865
-	modMass = -0.990639985
+	modCost = 3.72491479
+	modMass = -0.990262926
 	modSize = 0,0,0
 	sym = RO-RFTank-Integral_4278787290
 	sym = RO-RFTank-Integral_4278760278
@@ -12493,12 +12493,12 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.890430868, 0.00100000005)
+		tempColliderSize = (0.00100000005, 0.921392083, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
 		shapeName = Fillet Cylinder
-		moduleCost = 0.0829991028
+		moduleCost = 0.0863428414
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12550,7 +12550,7 @@ PART
 		name = ProceduralShapePill
 		isEnabled = True
 		diameter = 0.395000011
-		length = 0.900000036
+		length = 0.931000054
 		fillet = 0.393000007
 		stagingEnabled = True
 		EVENTS
@@ -12701,10 +12701,10 @@ PART
 		isEnabled = True
 		type = Tank-Int-Al-HP
 		utilization = 93
-		mass = 0.00935998932
+		mass = 0.00973707438
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
-		volume = 87.6922
+		volume = 91.224999999999994
 		EVENTS
 		{
 		}
@@ -12722,8 +12722,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -12736,8 +12736,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 41.51110059171598
-			maxAmount = 41.51110059171598
+			amount = 43.18343195266273
+			maxAmount = 43.18343195266273
 		}
 		TANK
 		{
@@ -12750,8 +12750,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 933.99976331360961
-			maxAmount = 933.99976331360961
+			amount = 971.62721893491107
+			maxAmount = 971.62721893491107
 		}
 		UPGRADESAPPLIED
 		{
@@ -12761,7 +12761,7 @@ PART
 	{
 		name = ModuleToolingPTank
 		isEnabled = True
-		addedCost = 68.8807526
+		addedCost = 0
 		stagingEnabled = True
 		EVENTS
 		{
@@ -12810,8 +12810,8 @@ PART
 	RESOURCE
 	{
 		name = MMH
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12821,8 +12821,8 @@ PART
 	RESOURCE
 	{
 		name = NTO
-		amount = 41.51110059171598
-		maxAmount = 41.51110059171598
+		amount = 43.18343195266273
+		maxAmount = 43.18343195266273
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -12832,8 +12832,8 @@ PART
 	RESOURCE
 	{
 		name = Helium
-		amount = 933.99976331360961
-		maxAmount = 933.99976331360961
+		amount = 971.62721893491107
+		maxAmount = 971.62721893491107
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -13462,9 +13462,9 @@ PART
 	part = SSTUBase_4278565716
 	partName = Part
 	persistentId = 1927535150
-	pos = 1.50641999E-05,39.7981834,-6.42352188E-06
-	attPos = 0,-0.536346912,0
-	attPos0 = 0,-1.26395905,0
+	pos = 1.50641999E-05,39.7849274,-6.42352188E-06
+	attPos = 0,-0.549598694,0
+	attPos0 = 0,-1.26396179,0
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	attRot0 = 0,0,0,1
@@ -13715,7 +13715,7 @@ PART
 	part = ROSmallSpinMotor_4278564506
 	partName = Part
 	persistentId = 3062110293
-	pos = 1.50641999E-05,40.2685356,0.841823876
+	pos = 1.50641999E-05,40.2552795,0.841823876
 	attPos = 0,0.294307709,-0.448394299
 	attPos0 = 0,0.176044464,1.29022455
 	rot = -0.934894741,-9.99110412E-08,-2.63171785E-07,0.354925185
@@ -13976,7 +13976,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14143,7 +14143,7 @@ PART
 	part = ROSmallSpinMotor_4278564408
 	partName = Part
 	persistentId = 2172177113
-	pos = 1.50641999E-05,40.2685356,-0.841836751
+	pos = 1.50641999E-05,40.2552795,-0.841836751
 	attPos = 3.91992216E-08,0.294307709,0.448394299
 	attPos0 = -1.12794623E-07,0.176044464,-1.29022455
 	rot = -2.22306241E-07,0.354925185,0.934894741,8.43967669E-08
@@ -14404,7 +14404,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14571,7 +14571,7 @@ PART
 	part = KzProcFairingSide1.TU_4278564310
 	partName = Part
 	persistentId = 1010856828
-	pos = 1.52401578,39.7096634,-6.42352188E-06
+	pos = 1.52401507,39.6964073,-6.42352188E-06
 	attPos = 0,0,0
 	attPos0 = 1.52400005,-0.08852005,0
 	rot = 0,0,0,1
@@ -14628,7 +14628,7 @@ PART
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.152400002
-		meshPos = (-1.52400029, 0.0885199606, 0)
+		meshPos = (-1.52400005, 0.0885199606, 0)
 		meshRot = (0, 0, 0, 1)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -14876,10 +14876,10 @@ PART
 	part = KzProcFairingSide1.TU_4278564248
 	partName = Part
 	persistentId = 2463862074
-	pos = -1.52398574,39.7096634,-6.55675422E-06
+	pos = -1.52398503,39.6964073,-6.55675422E-06
 	attPos = 0,0,0
 	attPos0 = -1.52400005,-0.08852005,-1.33232334E-07
-	rot = 0,1,0,4.37113883E-08
+	rot = 0,1,0,4.37113954E-08
 	attRot = 0,0,0,1
 	attRot0 = 0,1,0,-4.37113883E-08
 	mir = 1,1,1
@@ -14933,7 +14933,7 @@ PART
 		topRad = 0
 		inlineHeight = 0
 		sideThickness = 0.152400002
-		meshPos = (-1.52400029, 0.0885199606, 0)
+		meshPos = (-1.52400005, 0.0885199606, 0)
 		meshRot = (0, 0, 0, 1)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -15181,7 +15181,7 @@ PART
 	part = ROT-GenericTank-Integral_4278564186
 	partName = Part
 	persistentId = 1239102036
-	pos = 1.50641999E-05,36.8883629,-6.42352188E-06
+	pos = 1.50641999E-05,36.8751068,-6.42352188E-06
 	attPos = 0,0,0
 	attPos0 = 2.54384759E-07,-2.90982056,0
 	rot = 0,0,-4.37113883E-08,-1
@@ -15530,7 +15530,7 @@ PART
 	part = RO-RestockPlus-RCS-Block-Quad-138_4278563804
 	partName = Part
 	persistentId = 2631052567
-	pos = -1.18471384,33.125782,-5.94668472E-06
+	pos = -1.18471384,33.1125259,-5.94668472E-06
 	attPos = 0.371049047,-0.869655609,2.05069171E-07
 	attPos0 = -1.18472993,-3.76257706,4.63257493E-07
 	rot = 0.688229263,0.162295371,-0.162297517,-0.688229799
@@ -15786,7 +15786,7 @@ PART
 	part = RO-RestockPlus-RCS-Block-Quad-138_4278563702
 	partName = Part
 	persistentId = 1890994333
-	pos = 1.18474579,33.125782,-6.98976601E-06
+	pos = 1.18474579,33.1125259,-6.98976601E-06
 	attPos = -0.371049047,-0.869655609,3.24381517E-08
 	attPos0 = 1.18472993,-3.76257706,-5.6682984E-07
 	rot = -0.162297502,-0.688229799,-0.688229322,-0.162295282
@@ -16042,7 +16042,7 @@ PART
 	part = ROE-RL10A3_4278563600
 	partName = Part
 	persistentId = 2830003348
-	pos = -0.647449791,32.9208488,-6.39371956E-06
+	pos = -0.647449791,32.9075928,-6.39371956E-06
 	attPos = 0.0350371003,0,0
 	attPos0 = -0.64746511,-3.96751022,4.06803338E-08
 	rot = 0,0,0.0141729023,-0.999899566
@@ -16395,7 +16395,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16598,7 +16598,7 @@ PART
 	part = ROE-RL10A3_4278563426
 	partName = Part
 	persistentId = 749907683
-	pos = 0.647480905,32.9208488,-6.51292885E-06
+	pos = 0.647480905,32.9075928,-6.51292885E-06
 	attPos = -0.0350371003,0,3.06306447E-09
 	attPos0 = 0.64746511,-3.96751022,-9.7283646E-08
 	rot = 0.0141729899,-0.999899566,-6.19517271E-10,4.37069971E-08
@@ -16951,7 +16951,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17154,7 +17154,7 @@ PART
 	part = proceduralAvionics_4278563252
 	partName = Part
 	persistentId = 1391039025
-	pos = 1.60178752E-05,33.220089,-6.42352188E-06
+	pos = 1.60178752E-05,33.2068329,-6.42352188E-06
 	attPos = 0,0.192585945,0
 	attPos0 = 0,-3.86086035,0
 	rot = 0,0,4.37113883E-08,1
@@ -17204,7 +17204,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.00000012, 0.654998779, 1)
+		tempColliderSize = (1, 0.654998779, 1)
 		forceLegacyTextures = False
 		textureSet = GreySide
 		capTextureIndex = 1
@@ -18577,7 +18577,7 @@ PART
 	part = SSTUHollowRing.Interstage_4278563090
 	partName = Part
 	persistentId = 2126658900
-	pos = 1.31568513E-05,30.2925816,-6.90035904E-06
+	pos = 1.31568513E-05,30.2793255,-6.90035904E-06
 	attPos = -2.19026219E-09,-0.0121364594,0
 	attPos0 = 0,-2.92749977,0
 	rot = -1.67276273E-08,0.382683545,4.03840588E-08,0.923879564
@@ -18813,7 +18813,7 @@ PART
 	part = proceduralAvionics_4278562930
 	partName = Part
 	persistentId = 936450262
-	pos = 1.31568513E-05,30.1432304,-7.73482407E-06
+	pos = 1.31568513E-05,30.1299744,-7.73482407E-06
 	attPos = 6.23944713E-15,-0.498958588,3.28625948E-14
 	attPos0 = -5.92299562E-15,0.472137451,-1.77635667E-14
 	rot = 2.08891674E-14,-1.78813934E-07,-4.37113847E-08,-1.00000012
@@ -18862,7 +18862,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.40000117, 0.694000244, 1.400002)
+		tempColliderSize = (1.40000153, 0.694000244, 1.40000248)
 		forceLegacyTextures = False
 		textureSet = GreySide
 		capTextureIndex = 1
@@ -20235,10 +20235,10 @@ PART
 	part = ROT-GenericTank-Integral_4278562754
 	partName = Part
 	persistentId = 3178660294
-	pos = 1.31568513E-05,29.2675591,-7.73482407E-06
+	pos = 1.31568513E-05,29.254303,-7.73482407E-06
 	attPos = 0,0,0
 	attPos0 = 2.05072563E-15,-1.0250001,4.95089064E-15
-	rot = 7.8162032E-15,-1.78813934E-07,-4.37113918E-08,-1.00000012
+	rot = 7.8162015E-15,-1.78813934E-07,-4.37113918E-08,-1.00000012
 	attRot = 0,0,0,1
 	attRot0 = 9.47312119E-16,0.382683516,-9.47312119E-16,-0.923879564
 	mir = 1,1,1
@@ -20585,10 +20585,10 @@ PART
 	part = ROE-LR91_4278562546
 	partName = Part
 	persistentId = 4173317621
-	pos = 1.31568504E-05,26.5695305,-7.73482407E-06
+	pos = 1.31568504E-05,26.5562744,-7.73482407E-06
 	attPos = 0,0,0
 	attPos0 = 1.47941433E-13,-2.6980226,-1.63903816E-13
-	rot = -1.46749983E-15,-1.78813934E-07,-4.37113954E-08,-1.00000012
+	rot = -1.46750491E-15,-1.78813934E-07,-4.37113954E-08,-1.00000012
 	attRot = 0,0,0,1
 	attRot0 = 6.90444931E-15,-5.96046377E-08,-1.89855955E-15,1
 	mir = 1,1,1
@@ -21012,7 +21012,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -21215,7 +21215,7 @@ PART
 	part = ROSmallSpinMotor_4278561846
 	partName = Part
 	persistentId = 22603657
-	pos = 1.13511296E-05,30.4936924,-1.43006206
+	pos = 1.12915259E-05,30.4804363,-1.43006217
 	attPos = 1.1920929E-07,-0.0855026245,-0.0119297504
 	attPos0 = -1.54972076E-06,1.31163597,-1.41812253
 	rot = -0.994443536,-1.73914749E-08,5.50030279E-08,-0.105272725
@@ -21486,7 +21486,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -21653,7 +21653,7 @@ PART
 	part = ROSmallSpinMotor_4278561748
 	partName = Part
 	persistentId = 2563321923
-	pos = -1.4300406,30.4936924,-5.85727776E-06
+	pos = -1.43004119,30.4804363,-6.00628937E-06
 	attPos = -0.0119305849,-0.0855026245,1.63912773E-06
 	attPos0 = -1.41812181,1.31163597,-2.98023224E-07
 	rot = -0.703177869,-0.0744391084,0.703177691,-0.0744391084
@@ -21916,7 +21916,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -22083,7 +22083,7 @@ PART
 	part = ROSmallSpinMotor_4278561650
 	partName = Part
 	persistentId = 3633754415
-	pos = 1.40333386E-05,30.4936924,1.43004668
+	pos = 1.40333395E-05,30.4804363,1.4300468
 	attPos = 1.84774399E-06,-0.0855026245,0.0119322538
 	attPos0 = -4.76837158E-07,1.31163597,1.41812027
 	rot = 6.42062616E-08,-0.10527274,0.994443595,-6.20949621E-08
@@ -22346,7 +22346,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -22513,7 +22513,7 @@ PART
 	part = ROSmallSpinMotor_4278561552
 	partName = Part
 	persistentId = 3739962260
-	pos = 1.43006587,30.4936924,-9.16533554E-06
+	pos = 1.43006587,30.4804363,-9.07592857E-06
 	attPos = 0.0119321346,-0.0855026245,-1.78813934E-06
 	attPos0 = 1.41812015,1.31163597,2.98023224E-07
 	rot = 0.703177691,-0.0744390488,0.703177869,0.0744390488
@@ -22776,7 +22776,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -22943,10 +22943,10 @@ PART
 	part = SSTUHollowRing.Interstage_4278561454
 	partName = Part
 	persistentId = 2789874707
-	pos = 1.12494999E-05,24.2425251,-9.2845512E-06
+	pos = 1.12495009E-05,24.229269,-9.28454574E-06
 	attPos = 0,0,0
 	attPos0 = 1.33524797E-13,-4.72499847,-1.00514791E-13
-	rot = -1.67276202E-08,0.382683486,4.03840765E-08,0.923879743
+	rot = -1.67276237E-08,0.382683486,4.03840765E-08,0.923879743
 	attRot = -9.47312225E-16,-0.382683545,9.47312225E-16,-0.923879564
 	attRot0 = -7.78520857E-15,-0.382683426,-7.85838713E-15,-0.923879504
 	mir = 1,1,1
@@ -23178,10 +23178,10 @@ PART
 	part = KzProcFairingSide1.TU_4278561294
 	partName = Part
 	persistentId = 3970413604
-	pos = 1.07764316,23.8248158,-1.07764041
+	pos = 1.07764232,23.8115654,-1.07764041
 	attPos = 0,0,0
 	attPos0 = 1.2190001,-0.434173584,0
-	rot = -1.67276202E-08,0.382683486,4.03840836E-08,0.923879743
+	rot = -1.67276237E-08,0.382683516,4.0384073E-08,0.923879743
 	attRot = 0,0,0,1
 	attRot0 = 3.55271326E-15,0.382683426,7.99360493E-15,-0.923879504
 	mir = 1,1,1
@@ -23200,6 +23200,313 @@ PART
 	modMass = 0.131338581
 	modSize = 0,0,0
 	sym = KzProcFairingSide1.TU_4278561232
+	attN = connect,SSTUHollowRing.Interstage_4278561454_0|0.5|0_0|-1|0_0|0.5|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ProceduralFairingSide
+		isEnabled = True
+		numSegs = 12
+		numSideParts = 2
+		baseRad = 1.37160003
+		maxRad = 1.37160003
+		cylStart = 0
+		cylEnd = 4
+		topRad = 1.37160003
+		inlineHeight = 4
+		sideThickness = 0.152400002
+		meshPos = (-1.52400017, 0.417703986, 0)
+		meshRot = (0, 0, 0, 1)
+		baseAutoShape = True
+		baseCurveStartX = 0.300000012
+		baseCurveStartY = 0.300000012
+		baseCurveEndX = 0.699999988
+		baseCurveEndY = 0.699999988
+		baseConeSegments = 7
+		noseAutoShape = True
+		noseCurveStartX = 0.100000001
+		noseCurveStartY = 0
+		noseCurveEndX = 0.699999988
+		noseCurveEndY = 0.699999988
+		noseConeSegments = 11
+		noseHeightRatio = 2
+		shapeLock = False
+		density = 0.0500000007
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralFairingDecoupler
+		isEnabled = True
+		decoupled = False
+		ejectionPower = 0.319999993
+		torqueAmount = 0.00999999978
+		fairingStaged = False
+		stagingEnabled = False
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ActionJettison
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleSeeThroughObject
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModulePartVariants
+		isEnabled = True
+		useVariantMass = True
+		stagingEnabled = True
+		selectedVariant = SNstringerTU
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = TUPartVariant
+		isEnabled = True
+		textureSet = SNstringer_recolor
+		modelShaderSet = 
+		variantName = SNstringerTU
+		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1;0.7176471,0.7176471,0.7176471,0.1254902,0,1
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = SSTURecolorGUI
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToggleCrossfeed
+		isEnabled = True
+		crossfeedStatus = False
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			ToggleAction
+			{
+				actionGroup = None
+				active = False
+			}
+			EnableAction
+			{
+				actionGroup = None
+				active = False
+			}
+			DisableAction
+			{
+				actionGroup = None
+				active = False
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleToolingPFSide
+		isEnabled = True
+		addedCost = 0
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		internalDamage = 0
+		stagingEnabled = True
+		damageCube = 0, 0, 0, 0, 0, 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = KzProcFairingSide1.TU_4278561232
+	partName = Part
+	persistentId = 1884292397
+	pos = -1.07762015,23.8115654,1.07762182
+	attPos = 0,0,0
+	attPos0 = -1.21900022,-0.434173584,-1.1920929E-07
+	rot = -4.03840801E-08,0.923879743,-1.6727622E-08,-0.382683486
+	attRot = 0,0,0,1
+	attRot0 = 7.10542736E-15,-0.923879623,-3.55271368E-15,-0.382683456
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 5
+	resPri = 0
+	dstg = 7
+	sidx = 1
+	sqor = 3
+	sepI = 5
+	attm = 0
+	sameVesselCollision = False
+	modCost = 12.1338577
+	modMass = 0.131338581
+	modSize = 0,0,0
+	sym = KzProcFairingSide1.TU_4278561294
 	attN = connect,SSTUHollowRing.Interstage_4278561454_0|0.5|0_0|-1|0_0|0.5|0_0|-1|0
 	EVENTS
 	{
@@ -23482,320 +23789,13 @@ PART
 }
 PART
 {
-	part = KzProcFairingSide1.TU_4278561232
-	partName = Part
-	persistentId = 1884292397
-	pos = -1.07762086,23.8248158,1.07762158
-	attPos = 0,0,0
-	attPos0 = -1.21900022,-0.434173584,-1.1920929E-07
-	rot = -4.03840801E-08,0.923879743,-1.67276166E-08,-0.382683456
-	attRot = 0,0,0,1
-	attRot0 = 7.10542736E-15,-0.923879623,-3.55271368E-15,-0.382683456
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 5
-	resPri = 0
-	dstg = 7
-	sidx = 1
-	sqor = 3
-	sepI = 5
-	attm = 0
-	sameVesselCollision = False
-	modCost = 12.1338577
-	modMass = 0.131338581
-	modSize = 0,0,0
-	sym = KzProcFairingSide1.TU_4278561294
-	attN = connect,SSTUHollowRing.Interstage_4278561454_0|0.5|0_0|-1|0_0|0.5|0_0|-1|0
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ProceduralFairingSide
-		isEnabled = True
-		numSegs = 12
-		numSideParts = 2
-		baseRad = 1.37160003
-		maxRad = 1.37160003
-		cylStart = 0
-		cylEnd = 4
-		topRad = 1.37160003
-		inlineHeight = 4
-		sideThickness = 0.152400002
-		meshPos = (-1.52400053, 0.417703986, 0)
-		meshRot = (0, 0, 0, 1)
-		baseAutoShape = True
-		baseCurveStartX = 0.300000012
-		baseCurveStartY = 0.300000012
-		baseCurveEndX = 0.699999988
-		baseCurveEndY = 0.699999988
-		baseConeSegments = 7
-		noseAutoShape = True
-		noseCurveStartX = 0.100000001
-		noseCurveStartY = 0
-		noseCurveEndX = 0.699999988
-		noseCurveEndY = 0.699999988
-		noseConeSegments = 11
-		noseHeightRatio = 2
-		shapeLock = False
-		density = 0.0500000007
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ProceduralFairingDecoupler
-		isEnabled = True
-		decoupled = False
-		ejectionPower = 0.319999993
-		torqueAmount = 0.00999999978
-		fairingStaged = False
-		stagingEnabled = False
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ActionJettison
-			{
-				actionGroup = None
-				active = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleSeeThroughObject
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModulePartVariants
-		isEnabled = True
-		useVariantMass = True
-		stagingEnabled = True
-		selectedVariant = SNstringerTU
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = TUPartVariant
-		isEnabled = True
-		textureSet = SNstringer_recolor
-		modelShaderSet = 
-		variantName = SNstringerTU
-		persistentData = 0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1;0.7176471,0.7176471,0.7176471,0.1254902,0,1
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = SSTURecolorGUI
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = GeometryPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToggleCrossfeed
-		isEnabled = True
-		crossfeedStatus = False
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			ToggleAction
-			{
-				actionGroup = None
-				active = False
-			}
-			EnableAction
-			{
-				actionGroup = None
-				active = False
-			}
-			DisableAction
-			{
-				actionGroup = None
-				active = False
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleToolingPFSide
-		isEnabled = True
-		addedCost = 0
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		internalDamage = 0
-		stagingEnabled = True
-		damageCube = 0, 0, 0, 0, 0, 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
 	part = ROT-GenericTank-Integral_4278561170
 	partName = Part
 	persistentId = 3783909926
-	pos = 1.12494954E-05,15.1866131,-1.21455869E-05
+	pos = 1.1249499E-05,15.173357,-1.21455705E-05
 	attPos = 0,0,0
 	attPos0 = -2.37353838E-13,-9.05587959,1.10627307E-13
-	rot = 3.09086268E-08,-0.707106948,-3.09086161E-08,-0.707106829
+	rot = 3.09086268E-08,-0.707106948,-3.09086126E-08,-0.707106829
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 6.2803962E-16,-0.382683516,1.44448459E-14,-0.923879564
 	mir = 1,1,1
@@ -24140,10 +24140,10 @@ PART
 	part = sepMotorSmall_4278560936
 	partName = Part
 	persistentId = 2983730212
-	pos = 1.88218619E-05,5.71846771,-1.47779655
+	pos = 1.88814665E-05,5.70521164,-1.47779739
 	attPos = 7.15255737E-07,-0.194444656,8.94069672E-08
 	attPos0 = 1.47777295,-9.46814346,7.09295546E-06
-	rot = -1.00000012,-4.37113741E-08,-1.96695328E-06,4.53690552E-13
+	rot = -1.00000012,-4.37113741E-08,-1.96695328E-06,4.53690525E-13
 	attRot = 0,0,0.99999994,0
 	attRot0 = 0.707105696,2.61022947E-13,0.707107961,-2.65897086E-13
 	mir = 1,1,1
@@ -24416,7 +24416,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4092.16309
 		initialFlightData = 4092.16309
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -24583,10 +24583,10 @@ PART
 	part = sepMotorSmall_4278560852
 	partName = Part
 	persistentId = 1712702870
-	pos = 6.36449204E-06,5.71846771,1.477772
+	pos = 6.48370133E-06,5.70521164,1.47777283
 	attPos = 0,-0.194444656,-2.26497332E-06
 	attPos0 = -1.47777367,-9.46814346,-5.51343146E-06
-	rot = -1.69873238E-06,3.12155168E-13,1,-4.37113989E-08
+	rot = -1.69873238E-06,3.12155304E-13,1,-4.37113989E-08
 	attRot = 0,0,0.99999994,0
 	attRot0 = 0.707107961,-2.64139296E-13,-0.707105696,-2.60391453E-13
 	mir = 1,1,1
@@ -24859,7 +24859,7 @@ PART
 		lastMET = 0
 		currentFlightData = 4092.16309
 		initialFlightData = 4092.16309
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25026,10 +25026,10 @@ PART
 	part = conformaldecals-text_4278560768
 	partName = Part
 	persistentId = 3998144468
-	pos = 1.12294983E-05,17.5672493,1.60070765
+	pos = 1.13487076E-05,17.5539932,1.6007086
 	attPos = 1.54972076E-06,-1.11140251,-8.64267463E-07
 	attPos0 = -1.60071445,3.49204254,7.74860666E-07
-	rot = -4.37114593E-08,1.00000048,-2.98024716E-08,-1.54972076E-06
+	rot = -4.37114629E-08,1.00000048,-2.98024752E-08,-1.54972076E-06
 	attRot = 0,0,0,1
 	attRot0 = 2.10735234E-08,0.707107782,-2.1073582E-08,0.707105815
 	mir = 1,1,1
@@ -25172,10 +25172,10 @@ PART
 	part = conformaldecals-text_4278560680
 	partName = Part
 	persistentId = 3186650234
-	pos = 1.01566129E-05,17.5672493,-1.60073709
+	pos = 1.02162194E-05,17.5539932,-1.60073781
 	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
 	attPos0 = 1.6007123,3.49204254,-1.19209332E-07
-	rot = 2.98022247E-08,1.54972076E-06,4.37113812E-08,1.00000048
+	rot = 2.98022194E-08,1.54972076E-06,4.37113812E-08,1.00000048
 	attRot = 0,0,0,1
 	attRot0 = -2.1073582E-08,0.707105815,-2.10735216E-08,-0.707107782
 	mir = 1,1,1
@@ -25318,10 +25318,10 @@ PART
 	part = ROE-H1D_4278560592
 	partName = Part
 	persistentId = 1002669304
-	pos = -1.47706115,3.2265892,-1.17879408E-05
+	pos = -1.47706175,3.21333313,-1.17879399E-05
 	attPos = -1.19209346E-07,-2.6833725,0
 	attPos0 = -5.96046675E-07,-11.9600258,-1.47706914
-	rot = 3.864387E-07,-1.00000012,-1.49012251E-08,2.08616257E-07
+	rot = 3.86438671E-07,-1.00000012,-1.49011967E-08,2.08616257E-07
 	attRot = -0.49999994,0.5,0.5,-0.49999994
 	attRot0 = -2.52880994E-07,0.707106888,-2.31807689E-07,0.707106769
 	mir = 1,1,1
@@ -25683,7 +25683,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25882,10 +25882,10 @@ PART
 	part = ROE-H1D_4278560404
 	partName = Part
 	persistentId = 1879566598
-	pos = 1.47709298,3.2265892,-1.33972662E-05
+	pos = 1.47709346,3.21333313,-1.34866723E-05
 	attPos = 5.96046448E-08,-2.6833725,3.57627869E-07
 	attPos0 = 5.36441974E-07,-11.9600258,1.47707081
-	rot = -1.49012251E-08,2.08616257E-07,-2.9901534E-07,1.00000012
+	rot = -1.49011967E-08,2.08616257E-07,-2.99015284E-07,1.00000012
 	attRot = -0.49999994,0.5,0.5,-0.49999994
 	attRot0 = 1.4901139E-08,1,3.42726679E-07,-2.08616214E-07
 	mir = 1,1,1
@@ -26239,7 +26239,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26438,10 +26438,10 @@ PART
 	part = ROE-H1D_4278560216
 	partName = Part
 	persistentId = 2203415116
-	pos = 1.22031697E-05,3.2311821,-1.21455869E-05
+	pos = 1.22031743E-05,3.21792603,-1.21455723E-05
 	attPos = -1.54730744E-14,-0.794288635,6.88828877E-15
 	attPos0 = 2.90699302E-14,-11.1611452,8.82803149E-14
-	rot = 4.37113954E-08,-1.00000012,1.92398452E-15,-1.78813934E-07
+	rot = 4.37113954E-08,-1.00000012,1.92398536E-15,-1.78813934E-07
 	attRot = 0,0.99999994,0,0
 	attRot0 = 3.82126886E-15,0.707106709,-9.95346638E-15,0.707107008
 	mir = 1,1,1
@@ -26794,7 +26794,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 450253368.38347
+		missionStartTime = 450670114.18369091
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26993,10 +26993,10 @@ PART
 	part = AM.MLP.AtlasLaunchStand_4278560028
 	partName = Part
 	persistentId = 3364455422
-	pos = 1.22031706E-05,-0.00379943848,-1.21455869E-05
+	pos = 1.22031734E-05,-0.0170555115,-1.21455714E-05
 	attPos = -7.1150522E-20,-0.229164124,2.71050543E-20
 	attPos0 = 8.13148786E-20,-3.00580788,-2.27373038E-13
-	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707107008
+	rot = 3.09086374E-08,-0.707106948,-3.09086339E-08,-0.707107008
 	attRot = 0,0.707106709,0,0.707106709
 	attRot0 = 0,-0.707106769,-3.9150215E-22,0.707106948
 	mir = 1,1,1
@@ -27053,10 +27053,10 @@ PART
 	{
 		name = LaunchClamp
 		isEnabled = True
-		scaleFactor = 0.995284915
-		height = 0.801204681
+		scaleFactor = 0.978813052
+		height = 0.787944794
 		stagingEnabled = True
-		towerRot = -3.09086303E-08,0.707106829,3.09086232E-08,-0.707106829
+		towerRot = -3.09086339E-08,0.707106829,3.09086232E-08,-0.707106829
 		EVENTS
 		{
 		}
@@ -27368,10 +27368,10 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4278559292
 	partName = Part
 	persistentId = 1994661682
-	pos = 9.3118415E-06,0.640209198,-7.24518681
+	pos = 7.88133093E-06,0.626953125,-7.24519157
 	attPos = 0,0,0
 	attPos0 = 7.24500036,0.644004822,9.53675794E-07
-	rot = 3.09086445E-08,-0.707106948,-3.09086268E-08,-0.707107008
+	rot = 3.09086445E-08,-0.707106948,-3.09086303E-08,-0.707107008
 	attRot = -5.86061884E-15,0.707106829,2.66081255E-15,0.707106769
 	attRot0 = -3.70464047E-15,0,-7.30265474E-15,1
 	mir = 1,1,1
@@ -27626,10 +27626,10 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4278557900
 	partName = Part
 	persistentId = 3400381049
-	pos = 7.14599719E-06,19.9602108,-7.24517441
+	pos = 7.62283435E-06,19.9469547,-7.24518108
 	attPos = 0,0,0
 	attPos0 = 9.53673805E-07,19.3199997,-9.53675453E-07
-	rot = -3.09086374E-08,0.707106948,3.09086303E-08,0.707107008
+	rot = -3.09086374E-08,0.707106948,3.09086339E-08,0.707107008
 	attRot = 0,-0.707106709,0,-0.707106709
 	attRot0 = -3.70464047E-15,3.92244067E-37,-7.30265474E-15,-1
 	mir = 1,1,1
@@ -27886,10 +27886,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4278556508
 	partName = Part
 	persistentId = 495853214
-	pos = 1.24295912E-05,30.4298954,-5.08137178
+	pos = 1.17143354E-05,30.4166393,-5.08137465
 	attPos = -1.43051147E-05,1.29268074,3.81470272E-06
 	attPos0 = -2.16373229,9.17700195,-4.7683784E-07
-	rot = 3.09086339E-08,-0.707106948,-3.09086339E-08,-0.707107008
+	rot = 3.09086339E-08,-0.707106948,-3.09086374E-08,-0.707107008
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -3.14149146E-15,-3.92244067E-37,6.21466221E-16,-1
 	mir = 1,1,1
@@ -28187,10 +28187,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4278556330
 	partName = Part
 	persistentId = 958658561
-	pos = 8.18385161E-06,24.4516621,-5.08137608
+	pos = 8.89910916E-06,24.438406,-5.08137894
 	attPos = -1.57356262E-05,1.75445175,-4.76841535E-07
 	attPos0 = -2.16373229,2.73699951,-4.76837897E-07
-	rot = 3.09086339E-08,-0.707106948,-3.09086339E-08,-0.707107008
+	rot = 3.09086339E-08,-0.707106948,-3.09086374E-08,-0.707107008
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -3.14149146E-15,-3.92244067E-37,6.21466221E-16,-1
 	mir = 1,1,1
@@ -28480,10 +28480,10 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4278556152
 	partName = Part
 	persistentId = 1380680953
-	pos = 5.02323383E-06,36.0602226,-7.24518681
+	pos = 5.02323383E-06,36.0469666,-7.24519348
 	attPos = 0,0,0
 	attPos0 = 9.05990419E-06,16.0999985,-4.76840967E-07
-	rot = -3.09086374E-08,0.707106948,3.09086303E-08,0.707107008
+	rot = -3.09086374E-08,0.707106948,3.09086339E-08,0.707107008
 	attRot = 0,-0.707106709,0,-0.707106709
 	attRot0 = 4.23516373E-22,-7.06073984E-37,0,1
 	mir = 1,1,1
@@ -28739,10 +28739,10 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopB_4278554760
 	partName = Part
 	persistentId = 1657709191
-	pos = 4.69844872E-06,39.7753029,-4.65876961
+	pos = 4.93686912E-06,39.7620468,-4.65877151
 	attPos = 4.29153442E-06,0.97808075,0
 	attPos0 = -2.58635259,2.73699951,-5.68434663E-14
-	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707107008
+	rot = 3.09086374E-08,-0.707106948,-3.09086339E-08,-0.707107008
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -1.27054871E-21,1.19209233E-07,1.23565476E-21,-1
 	mir = 1,1,1
@@ -29048,10 +29048,10 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopB_4278554506
 	partName = Part
 	persistentId = 140466751
-	pos = 4.45278602E-06,42.5853615,-4.65876961
+	pos = 4.69120641E-06,42.5721054,-4.65877151
 	attPos = 4.29153442E-06,-1.04186249,0
 	attPos0 = -2.58635259,7.56700134,-5.68434731E-14
-	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707107008
+	rot = 3.09086374E-08,-0.707106948,-3.09086339E-08,-0.707107008
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -1.27054871E-21,1.19209233E-07,1.23565476E-21,-1
 	mir = 1,1,1
@@ -29357,10 +29357,10 @@ PART
 	part = AM.MLP.CrewElevatorSmallTop_4278554252
 	partName = Part
 	persistentId = 1564902227
-	pos = 5.27229531E-06,46.8472252,-7.24520111
+	pos = 4.31862281E-06,46.8339691,-7.24520779
 	attPos = 0,0,0
 	attPos0 = 9.53675135E-06,14.0070038,4.76838409E-07
-	rot = 1.92399214E-15,1.78813934E-07,-4.37113954E-08,-1.00000012
+	rot = 1.92399045E-15,1.78813934E-07,-4.37113954E-08,-1.00000012
 	attRot = 0,0,0,1
 	attRot0 = -7.59319541E-22,0.707106888,1.24044982E-22,-0.707106709
 	mir = 1,1,1
@@ -29583,10 +29583,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4278554038
 	partName = Part
 	persistentId = 1746741728
-	pos = 7.81345807E-06,34.1428604,-5.08139801
+	pos = 8.52871472E-06,34.1296043,-5.08140087
 	attPos = 6.19888306E-06,0.175643921,4.76838125E-07
 	attPos0 = -2.16372609,14.007,-2.83621043E-12
-	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707107008
+	rot = 3.09086374E-08,-0.707106948,-3.09086339E-08,-0.707107008
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -1.69406509E-21,1.19209233E-07,1.23565476E-21,-1
 	mir = 1,1,1
@@ -29876,10 +29876,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4278553860
 	partName = Part
 	persistentId = 1507387423
-	pos = 1.38468722E-05,14.2180862,-5.08137178
+	pos = 1.31316174E-05,14.2048302,-5.08137465
 	attPos = -2.47955322E-05,2.7908783,-4.76832696E-07
 	attPos0 = -2.1637311,10.7869987,7.99238808E-14
-	rot = 3.09086339E-08,-0.707106948,-3.09086339E-08,-0.707107008
+	rot = 3.09086339E-08,-0.707106948,-3.09086374E-08,-0.707107008
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 6.84613194E-15,2.52435369E-29,6.68118836E-15,1
 	mir = 1,1,1
@@ -30169,7 +30169,7 @@ PART
 	part = conformaldecals-flag_4278553682
 	partName = Part
 	persistentId = 2907760685
-	pos = 1.3124647E-05,29.2973633,-1.57447028
+	pos = 1.30650424E-05,29.2841072,-1.57447028
 	attPos = 0,0,0
 	attPos0 = 1.78813934E-07,0.0298042297,-1.57446063
 	rot = -4.17232428E-07,-1.49011626E-07,4.3711335E-08,1.00000012
@@ -30306,7 +30306,7 @@ PART
 	part = conformaldecals-flag_4278553602
 	partName = Part
 	persistentId = 2975594916
-	pos = 1.20517634E-05,29.2973633,1.57445979
+	pos = 1.20517634E-05,29.2841072,1.57446027
 	attPos = 0,0,0
 	attPos0 = 5.96046448E-08,0.0298042297,1.57446063
 	rot = -4.37114061E-08,1.00000012,4.17232457E-07,1.49011598E-07
@@ -30443,10 +30443,10 @@ PART
 	part = KzProcFairingSide1.TU_4278553522
 	partName = Part
 	persistentId = 1438495474
-	pos = 1.08117998,29.875145,-1.08117366
+	pos = 1.08117926,29.8618927,-1.08117366
 	attPos = 0,0,0
 	attPos0 = 1.52400017,-0.417734146,0
-	rot = -1.67276273E-08,0.382683516,4.03840588E-08,0.923879564
+	rot = -1.67276291E-08,0.382683605,4.03840552E-08,0.923879564
 	attRot = 0,0,0,1
 	attRot0 = 9.47312225E-16,0.382683545,-9.47312225E-16,-0.923879564
 	mir = 1,1,1
@@ -30500,7 +30500,7 @@ PART
 		topRad = 1.37610006
 		inlineHeight = 3.60000014
 		sideThickness = 0.15290001
-		meshPos = (-1.52900028, 0.417434007, 0)
+		meshPos = (-1.52900004, 0.417434007, 0)
 		meshRot = (0, 0, 0, 1)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -30750,10 +30750,10 @@ PART
 	part = KzProcFairingSide1.TU_4278553460
 	partName = Part
 	persistentId = 415476624
-	pos = -1.08115387,29.875145,1.08115971
+	pos = -1.08115327,29.8618927,1.08115983
 	attPos = 0,0,0
 	attPos0 = -1.52400017,-0.417734146,-1.78813934E-07
-	rot = -4.03840588E-08,0.923879564,-1.67276237E-08,-0.382683486
+	rot = -4.03840552E-08,0.923879564,-1.67276273E-08,-0.382683486
 	attRot = 0,0,0,1
 	attRot0 = -9.47312543E-16,-0.923879564,-9.47312437E-16,-0.382683516
 	mir = 1,1,1
@@ -30807,7 +30807,7 @@ PART
 		topRad = 1.37610006
 		inlineHeight = 3.60000014
 		sideThickness = 0.15290001
-		meshPos = (-1.52900028, 0.417434007, 0)
+		meshPos = (-1.52900004, 0.417434007, 0)
 		meshRot = (0, 0, 0, 1)
 		baseAutoShape = True
 		baseCurveStartX = 0.300000012
@@ -31057,7 +31057,7 @@ PART
 	part = RO-RFTank-Integral_4278553398
 	partName = Part
 	persistentId = 3533677520
-	pos = 1.60178752E-05,32.8310013,-0.600607693
+	pos = 1.60178752E-05,32.8177452,-0.600607693
 	attPos = 0,0,0
 	attPos0 = -5.61602178E-08,-4.05735779,-0.600601196
 	rot = -0.600269139,2.67927778E-08,7.47617008E-08,0.799798131
@@ -31108,7 +31108,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.277164429, 0.00100000005, 0.438104957)
+		tempColliderSize = (0.277163863, 0.00100000005, 0.438104928)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -31436,7 +31436,7 @@ PART
 	part = RO-RFTank-Integral_4278553314
 	partName = Part
 	persistentId = 2586610858
-	pos = 1.60178752E-05,32.8310013,0.600595057
+	pos = 1.60178752E-05,32.8177452,0.600595057
 	attPos = 0,0,0
 	attPos0 = 1.08665688E-07,-4.05735779,0.600601435
 	rot = 3.10797219E-08,0.799798131,0.600269139,-1.14230254E-07
@@ -31487,7 +31487,7 @@ PART
 		name = ProceduralPart
 		isEnabled = True
 		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.448689282, 0.233906373)
+		tempColliderSize = (0.00100000005, 0.448689342, 0.233906373)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
