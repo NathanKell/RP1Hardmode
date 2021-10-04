@@ -2,7 +2,7 @@ ship = Comstar G
 version = 1.10.1
 description = 
 type = VAB
-size = 5.18160343,54.4929276,11.4076576
+size = 5.18160343,54.4929276,11.4076633
 steamPublishedFileId = 0
 persistentId = 3014296515
 rot = 0,0,0,0
@@ -108,8 +108,8 @@ PART
 			temperature = 300
 			fillable = True
 			techRequired = 
-			amount = 15.627171597633135
-			maxAmount = 15.627171597633135
+			amount = 15.627171597633133
+			maxAmount = 15.627171597633133
 		}
 		TANK
 		{
@@ -1376,39 +1376,6 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Running
-		status = Waiting
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = False
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
 		expState = Stopped
 		status = Stopped
 		stagingEnabled = True
@@ -1640,8 +1607,41 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Running
-		status = Waiting
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1991,8 +1991,8 @@ PART
 	RESOURCE
 	{
 		name = HTP
-		amount = 15.627171597633135
-		maxAmount = 15.627171597633135
+		amount = 15.627171597633133
+		maxAmount = 15.627171597633133
 		flowState = True
 		isTweakable = True
 		hideFlow = False
@@ -3366,7 +3366,7 @@ PART
 		ignited = False
 		ignitions = 1
 		partSeed = -1
-		calculatedResiduals = 0.013999999999999999
+		calculatedResiduals = 0.016
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -3628,7 +3628,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4100,7 +4100,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -4309,7 +4309,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -4528,7 +4528,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -4737,7 +4737,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6393,7 +6393,7 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 50
+	modCost = 100
 	modMass = 0
 	modSize = 0,0,0
 	sym = ROE-RL10A3_4279700878
@@ -6642,8 +6642,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
-		configuration = RL10A-3-1
-		configurationDisplay = RL10A-3-1
+		configuration = RL10A-3-3
+		configurationDisplay = RL10A-3-3
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -6726,9 +6726,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 467682203.44593769
+		currentFlightData = 1241.74902
+		initialFlightData = 3241.74902
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -6949,7 +6949,7 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 50
+	modCost = 100
 	modMass = 0
 	modSize = 0,0,0
 	sym = ROE-RL10A3_4280400064
@@ -7198,8 +7198,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
-		configuration = RL10A-3-1
-		configurationDisplay = RL10A-3-1
+		configuration = RL10A-3-3
+		configurationDisplay = RL10A-3-3
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -7282,9 +7282,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 467682203.44593769
+		currentFlightData = 1241.74902
+		initialFlightData = 3241.74902
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7536,8 +7536,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.00000012, 0.654998779, 1)
 		forceLegacyTextures = False
 		textureSet = GreySide
 		capTextureIndex = 1
@@ -7647,6 +7645,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -7709,8 +7764,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Metal-Default
-		persistentData = 0.9254902,0.9254902,0.9254902,0.6901961,1,1;0.9254902,0.9254902,0.9254902,0.6901961,1,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1
+		currentTextureSet = Metal
+		persistentData = 0.9254902,0.9254902,0.9254902,0.6901961,1,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -7726,8 +7781,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.6901961,1,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -8037,39 +8092,6 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = True
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
 		isEnabled = False
 		issue = 
 		situationId = 0
@@ -8095,22 +8117,6 @@ PART
 			{
 				actionGroup = None
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Sensor
-		isEnabled = False
-		type = pressure
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -8200,6 +8206,55 @@ PART
 	}
 	MODULE
 	{
+		name = Sensor
+		isEnabled = False
+		type = radiation
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = Experiment
 		isEnabled = False
 		issue = 
@@ -8234,7 +8289,7 @@ PART
 	MODULE
 	{
 		name = Sensor
-		isEnabled = False
+		isEnabled = True
 		type = radiation
 		stagingEnabled = True
 		EVENTS
@@ -9194,8 +9249,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (1.40000153, 0.694000244, 1.4000026)
 		forceLegacyTextures = False
 		textureSet = GreySide
 		capTextureIndex = 1
@@ -9305,6 +9358,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -9384,8 +9494,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.6901961,1,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9695,39 +9805,6 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = True
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
 		isEnabled = False
 		issue = 
 		situationId = 0
@@ -9753,22 +9830,6 @@ PART
 			{
 				actionGroup = None
 			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Sensor
-		isEnabled = False
-		type = pressure
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
 		}
 		UPGRADESAPPLIED
 		{
@@ -9858,6 +9919,55 @@ PART
 	}
 	MODULE
 	{
+		name = Sensor
+		isEnabled = False
+		type = radiation
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = False
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Stopped
+		status = Stopped
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = Experiment
 		isEnabled = False
 		issue = 
@@ -9892,7 +10002,7 @@ PART
 	MODULE
 	{
 		name = Sensor
-		isEnabled = False
+		isEnabled = True
 		type = radiation
 		stagingEnabled = True
 		EVENTS
@@ -10571,7 +10681,7 @@ PART
 	pos = 1.51870445E-05,27.7345314,-6.06589401E-06
 	attPos = 0,0,0
 	attPos0 = 2.05072563E-15,-1.0250001,4.95089064E-15
-	rot = 7.81620404E-15,-1.78813934E-07,-4.37113918E-08,-1.00000012
+	rot = 7.81620235E-15,-1.78813934E-07,-4.37113918E-08,-1.00000012
 	attRot = 0,0,0,1
 	attRot0 = 9.47312119E-16,0.382683516,-9.47312119E-16,-0.923879564
 	mir = 1,1,1
@@ -10921,7 +11031,7 @@ PART
 	pos = 1.54229128E-05,25.0365047,-6.06589401E-06
 	attPos = 0,0,0
 	attPos0 = 1.47941433E-13,-2.6980226,-1.63903816E-13
-	rot = -1.46749898E-15,-1.78813934E-07,-4.37113954E-08,-1.00000012
+	rot = -1.46750237E-15,-1.78813934E-07,-4.37113954E-08,-1.00000012
 	attRot = 0,0,0,1
 	attRot0 = 6.90444931E-15,-5.96046377E-08,-1.89855955E-15,1
 	mir = 1,1,1
@@ -11345,7 +11455,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11548,7 +11658,7 @@ PART
 	part = ROSmallSpinMotor_4280967008
 	partName = Part
 	persistentId = 138316796
-	pos = 1.35601367E-05,28.9606647,-1.43006003
+	pos = 1.37389507E-05,28.9606647,-1.43006039
 	attPos = 1.1920929E-07,-0.0855026245,-0.0119297504
 	attPos0 = -1.54972076E-06,1.31163597,-1.41812253
 	rot = -0.994443536,-1.73914749E-08,5.50030279E-08,-0.105272725
@@ -11602,7 +11712,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -11819,7 +11929,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12040,7 +12150,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -12249,7 +12359,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12470,7 +12580,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -12679,7 +12789,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12846,7 +12956,7 @@ PART
 	part = ROSmallSpinMotor_4280962194
 	partName = Part
 	persistentId = 3062075195
-	pos = 1.43006825,28.9606647,-7.49640549E-06
+	pos = 1.43006873,28.9606647,-7.31759155E-06
 	attPos = 0.0119321346,-0.0855026245,-1.78813934E-06
 	attPos0 = 1.41812015,1.31163597,2.98023224E-07
 	rot = 0.703177691,-0.0744390488,0.703177869,0.0744390488
@@ -12900,7 +13010,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -13109,7 +13219,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 467682203.44593769
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -13279,7 +13389,7 @@ PART
 	pos = 1.55446724E-05,22.7095299,-5.70826614E-06
 	attPos = 0,0,0
 	attPos0 = 1.33524797E-13,-4.72499847,-1.00514791E-13
-	rot = -1.67276184E-08,0.382683486,4.03840765E-08,0.923879743
+	rot = -1.6727622E-08,0.382683486,4.03840765E-08,0.923879743
 	attRot = -9.47312225E-16,-0.382683545,9.47312225E-16,-0.923879564
 	attRot0 = -7.78520857E-15,-0.382683426,-7.85838713E-15,-0.923879504
 	mir = 1,1,1
@@ -14128,7 +14238,7 @@ PART
 	pos = 1.86143116E-05,13.6536446,-6.06589401E-06
 	attPos = 0,0,0
 	attPos0 = -2.37353838E-13,-9.05587959,1.10627307E-13
-	rot = 3.09086303E-08,-0.707107008,-3.09086161E-08,-0.707106769
+	rot = 3.09086303E-08,-0.707107008,-3.09086126E-08,-0.707106769
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 6.2803962E-16,-0.382683516,1.44448459E-14,-0.923879564
 	mir = 1,1,1
@@ -14473,7 +14583,7 @@ PART
 	part = sepMotorSmall_4282005018
 	partName = Part
 	persistentId = 1737858423
-	pos = 2.68721178E-05,4.1855011,-1.47779036
+	pos = 2.7170141E-05,4.1855011,-1.47779107
 	attPos = 7.15255737E-07,-0.194444656,8.94069672E-08
 	attPos0 = 1.47777295,-9.46814346,7.09295546E-06
 	rot = -1.00000036,-4.37113847E-08,-2.02655792E-06,4.56296025E-13
@@ -14525,7 +14635,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -14747,9 +14857,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4291.8418
-		initialFlightData = 4291.8418
-		missionStartTime = 467682203.44593769
+		currentFlightData = 9413.19824
+		initialFlightData = 9413.19824
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14916,10 +15026,10 @@ PART
 	part = sepMotorSmall_4277495352
 	partName = Part
 	persistentId = 2993833110
-	pos = 1.38187006E-05,4.1855011,1.47777784
+	pos = 1.39975145E-05,4.1855011,1.47777843
 	attPos = 0,-0.194444656,-2.26497332E-06
 	attPos0 = -1.47777367,-9.46814346,-5.51343146E-06
-	rot = -1.69873238E-06,3.12155141E-13,1.00000012,-4.37114025E-08
+	rot = -1.69873238E-06,3.1215525E-13,1.00000012,-4.37114025E-08
 	attRot = 0,0,0.99999994,0
 	attRot0 = 0.707107961,-2.64139296E-13,-0.707105696,-2.60391453E-13
 	mir = 1,1,1
@@ -14968,7 +15078,7 @@ PART
 		ignited = False
 		ignitions = -1
 		partSeed = -1
-		calculatedResiduals = 0.017500000000000002
+		calculatedResiduals = 0.035000000000000003
 		independentThrottle = False
 		independentThrottlePercentage = 0
 		staged = False
@@ -15190,9 +15300,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 4291.8418
-		initialFlightData = 4291.8418
-		missionStartTime = 467682203.44593769
+		currentFlightData = 9413.19824
+		initialFlightData = 9413.19824
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15359,7 +15469,7 @@ PART
 	part = conformaldecals-text_4276382958
 	partName = Part
 	persistentId = 1213413008
-	pos = 1.91009403E-05,16.0342827,1.60071266
+	pos = 1.90413357E-05,16.0342827,1.60071349
 	attPos = 1.54972076E-06,-1.11140251,-8.64267463E-07
 	attPos0 = -1.60071445,3.49204254,7.74860666E-07
 	rot = -4.37114593E-08,1.00000048,-2.98024716E-08,-1.54972076E-06
@@ -15505,10 +15615,10 @@ PART
 	part = conformaldecals-text_4273248618
 	partName = Part
 	persistentId = 1942996947
-	pos = 1.84452892E-05,16.0342827,-1.60073054
+	pos = 1.82664753E-05,16.0342827,-1.60073125
 	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
 	attPos0 = 1.6007123,3.49204254,-1.19209332E-07
-	rot = 2.98022282E-08,1.54972076E-06,4.37113812E-08,1.00000048
+	rot = 2.98022229E-08,1.54972076E-06,4.37113812E-08,1.00000048
 	attRot = 0,0,0,1
 	attRot0 = -2.1073582E-08,0.707105815,-2.10735216E-08,-0.707107782
 	mir = 1,1,1
@@ -15654,7 +15764,7 @@ PART
 	pos = -1.47705269,1.69361877,-5.6486615E-06
 	attPos = -1.19209346E-07,-2.6833725,0
 	attPos0 = -5.96046675E-07,-11.9600258,-1.47706914
-	rot = 3.86438728E-07,-1.00000024,-1.49012411E-08,1.49011612E-07
+	rot = 3.864387E-07,-1.00000024,-1.49012056E-08,1.49011612E-07
 	attRot = -0.49999994,0.5,0.5,-0.49999994
 	attRot0 = -2.52880994E-07,0.707106888,-2.31807689E-07,0.707106769
 	mir = 1,1,1
@@ -15669,7 +15779,7 @@ PART
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 10
 	modMass = 0
 	modSize = 0,0,0
 	sym = ROE-H1D_4276476712
@@ -15947,8 +16057,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
-		configuration = H-1-165K
-		configurationDisplay = H-1-165K
+		configuration = H-1-200K
+		configurationDisplay = H-1-200K
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -16014,9 +16124,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 467682203.44593769
+		currentFlightData = 0
+		initialFlightData = 2000
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16215,10 +16325,10 @@ PART
 	part = ROE-H1D_4276476712
 	partName = Part
 	persistentId = 765534437
-	pos = 1.47709978,1.69361877,-7.49640549E-06
+	pos = 1.47710037,1.69361877,-7.31759155E-06
 	attPos = 5.96046448E-08,-2.6833725,3.57627869E-07
 	attPos0 = 5.36441974E-07,-11.9600258,1.47707081
-	rot = -1.49012305E-08,1.49011612E-07,-2.99015369E-07,1.00000024
+	rot = -1.49011949E-08,1.49011612E-07,-2.9901534E-07,1.00000024
 	attRot = -0.49999994,0.5,0.5,-0.49999994
 	attRot0 = 1.4901139E-08,1,3.42726679E-07,-2.08616214E-07
 	mir = 1,1,1
@@ -16233,7 +16343,7 @@ PART
 	sepI = 6
 	attm = 1
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 10
 	modMass = 0
 	modSize = 0,0,0
 	sym = ROE-H1D_4276478030
@@ -16503,8 +16613,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
-		configuration = H-1-165K
-		configurationDisplay = H-1-165K
+		configuration = H-1-200K
+		configurationDisplay = H-1-200K
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -16570,9 +16680,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 467682203.44593769
+		currentFlightData = 0
+		initialFlightData = 2000
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -16774,7 +16884,7 @@ PART
 	pos = 1.96594883E-05,1.69821167,-6.06589401E-06
 	attPos = -1.54730744E-14,-0.794288635,6.88828877E-15
 	attPos0 = 2.90699302E-14,-11.1611452,8.82803149E-14
-	rot = 4.37114025E-08,-1.00000024,1.92398536E-15,-1.78813934E-07
+	rot = 4.37114025E-08,-1.00000024,1.92398452E-15,-1.78813934E-07
 	attRot = 0,0.99999994,0,0
 	attRot0 = 3.82126886E-15,0.707106709,-9.95346638E-15,0.707107008
 	mir = 1,1,1
@@ -16789,7 +16899,7 @@ PART
 	sepI = 6
 	attm = 0
 	sameVesselCollision = False
-	modCost = 0
+	modCost = 10
 	modMass = 0
 	modSize = 0,0,0
 	link = AM.MLP.AtlasLaunchStand_4272827396
@@ -17058,8 +17168,8 @@ PART
 	{
 		name = ModuleEngineConfigs
 		isEnabled = True
-		configuration = H-1-165K
-		configurationDisplay = H-1-165K
+		configuration = H-1-200K
+		configurationDisplay = H-1-200K
 		techLevel = -1
 		thrustRating = maxThrust
 		modded = False
@@ -17125,9 +17235,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 10000
-		initialFlightData = 10000
-		missionStartTime = 467682203.44593769
+		currentFlightData = 0
+		initialFlightData = 2000
+		missionStartTime = 531620015.36972505
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -17329,7 +17439,7 @@ PART
 	pos = 1.99423012E-05,-1.53676224,-6.06589401E-06
 	attPos = -7.1150522E-20,-0.229164124,2.71050543E-20
 	attPos0 = 8.13148786E-20,-3.00580788,-2.27373038E-13
-	rot = 3.09086374E-08,-0.707106948,-3.09086268E-08,-0.707106948
+	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707106948
 	attRot = 0,0.707106709,0,0.707106709
 	attRot0 = 0,-0.707106769,-3.9150215E-22,0.707106948
 	mir = 1,1,1
@@ -17389,7 +17499,7 @@ PART
 		scaleFactor = -0.909020662
 		height = -0.731761932
 		stagingEnabled = True
-		towerRot = -3.09086268E-08,0.707106769,3.09086197E-08,-0.707106769
+		towerRot = -3.09086268E-08,0.707106769,3.09086161E-08,-0.707106769
 		EVENTS
 		{
 		}
@@ -17701,10 +17811,10 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4272264086
 	partName = Part
 	persistentId = 4191181176
-	pos = 1.68852603E-05,-0.892757416,-7.24517393
+	pos = 1.68852603E-05,-0.892757416,-7.24518013
 	attPos = 0,0,0
 	attPos0 = 7.24500036,0.644004822,9.53675794E-07
-	rot = 3.09086445E-08,-0.707106948,-3.09086232E-08,-0.707106948
+	rot = 3.09086445E-08,-0.707106948,-3.09086268E-08,-0.707106948
 	attRot = -5.86061884E-15,0.707106829,2.66081255E-15,0.707106769
 	attRot0 = -3.70464047E-15,0,-7.30265474E-15,1
 	mir = 1,1,1
@@ -17959,10 +18069,10 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4272007580
 	partName = Part
 	persistentId = 2269630128
-	pos = 1.40041602E-05,18.4272442,-7.24516106
+	pos = 1.51962531E-05,18.4272442,-7.24516678
 	attPos = 0,0,0
 	attPos0 = 9.53673805E-07,19.3199997,-9.53675453E-07
-	rot = -3.09086374E-08,0.707106948,3.09086268E-08,0.707106948
+	rot = -3.09086374E-08,0.707106948,3.09086303E-08,0.707106948
 	attRot = 0,-0.707106709,0,-0.707106709
 	attRot0 = -3.70464047E-15,3.92244067E-37,-7.30265474E-15,-1
 	mir = 1,1,1
@@ -18219,10 +18329,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4270997812
 	partName = Part
 	persistentId = 2623295903
-	pos = 1.97645913E-05,28.8969269,-5.08136272
+	pos = 1.90493356E-05,28.8969269,-5.08136559
 	attPos = -1.43051147E-05,1.29268074,3.81470272E-06
 	attPos0 = -2.16373229,9.17700195,-4.7683784E-07
-	rot = 3.09086339E-08,-0.707106948,-3.09086303E-08,-0.707106948
+	rot = 3.09086339E-08,-0.707106948,-3.09086339E-08,-0.707106948
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -3.14149146E-15,-3.92244067E-37,6.21466221E-16,-1
 	mir = 1,1,1
@@ -18520,10 +18630,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4268834174
 	partName = Part
 	persistentId = 3966631841
-	pos = 1.55188536E-05,22.9186954,-5.08136702
+	pos = 1.57572722E-05,22.9186954,-5.08137131
 	attPos = -1.57356262E-05,1.75445175,-4.76841535E-07
 	attPos0 = -2.16373229,2.73699951,-4.76837897E-07
-	rot = 3.09086339E-08,-0.707106948,-3.09086303E-08,-0.707106948
+	rot = 3.09086339E-08,-0.707106948,-3.09086339E-08,-0.707106948
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -3.14149146E-15,-3.92244067E-37,6.21466221E-16,-1
 	mir = 1,1,1
@@ -18813,10 +18923,10 @@ PART
 	part = AM.MLP.LaunchStandServiceTower4_4274275018
 	partName = Part
 	persistentId = 3458929105
-	pos = 1.25966526E-05,34.5272522,-7.24517298
+	pos = 1.25966526E-05,34.5272522,-7.24517918
 	attPos = 0,0,0
 	attPos0 = 9.05990419E-06,16.0999985,-4.76840967E-07
-	rot = -3.09086374E-08,0.707106948,3.09086268E-08,0.707106948
+	rot = -3.09086374E-08,0.707106948,3.09086303E-08,0.707106948
 	attRot = 0,-0.707106709,0,-0.707106709
 	attRot0 = 4.23516373E-22,-7.06073984E-37,0,1
 	mir = 1,1,1
@@ -19072,10 +19182,10 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopB_4274273200
 	partName = Part
 	persistentId = 3076930168
-	pos = 1.2987126E-05,38.2423325,-4.65876055
+	pos = 1.32255445E-05,38.2423325,-4.65876198
 	attPos = 4.29153442E-06,0.97808075,0
 	attPos0 = -2.58635259,2.73699951,-5.68434663E-14
-	rot = 3.09086374E-08,-0.707106948,-3.09086268E-08,-0.707106948
+	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707106948
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -1.27054871E-21,1.19209233E-07,1.23565476E-21,-1
 	mir = 1,1,1
@@ -19381,10 +19491,10 @@ PART
 	part = AM.MLP.GeneralUmbilicalDroopB_4274273450
 	partName = Part
 	persistentId = 1132817423
-	pos = 1.27414623E-05,41.0523911,-4.65876055
+	pos = 1.29798809E-05,41.0523911,-4.65876198
 	attPos = 4.29153442E-06,-1.04186249,0
 	attPos0 = -2.58635259,7.56700134,-5.68434731E-14
-	rot = 3.09086374E-08,-0.707106948,-3.09086268E-08,-0.707106948
+	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707106948
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -1.27054871E-21,1.19209233E-07,1.23565476E-21,-1
 	mir = 1,1,1
@@ -19690,7 +19800,7 @@ PART
 	part = AM.MLP.CrewElevatorSmallTop_4271132816
 	partName = Part
 	persistentId = 3500459023
-	pos = 1.33225531E-05,45.3142548,-7.24518728
+	pos = 1.33225531E-05,45.3142548,-7.24519444
 	attPos = 0,0,0
 	attPos0 = 9.53675135E-06,14.0070038,4.76838409E-07
 	rot = 1.92399299E-15,1.78813934E-07,-4.37114025E-08,-1.00000024
@@ -19916,10 +20026,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4274273626
 	partName = Part
 	persistentId = 2701322432
-	pos = 1.6340553E-05,32.6098938,-5.08138704
+	pos = 1.61021344E-05,32.6098938,-5.0813899
 	attPos = 6.19888306E-06,0.175643921,4.76838125E-07
 	attPos0 = -2.16372609,14.007,-2.83621043E-12
-	rot = 3.09086374E-08,-0.707106948,-3.09086268E-08,-0.707106948
+	rot = 3.09086374E-08,-0.707106948,-3.09086303E-08,-0.707106948
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = -1.69406509E-21,1.19209233E-07,1.23565476E-21,-1
 	mir = 1,1,1
@@ -20209,10 +20319,10 @@ PART
 	part = AM.MLP.SmallTowerSwingArm_4268438462
 	partName = Part
 	persistentId = 941617756
-	pos = 2.11818733E-05,12.6851196,-5.08136272
+	pos = 2.04666176E-05,12.6851196,-5.08136559
 	attPos = -2.47955322E-05,2.7908783,-4.76832696E-07
 	attPos0 = -2.1637311,10.7869987,7.99238808E-14
-	rot = 3.09086339E-08,-0.707106948,-3.09086303E-08,-0.707106948
+	rot = 3.09086339E-08,-0.707106948,-3.09086339E-08,-0.707106948
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 6.84613194E-15,2.52435369E-29,6.68118836E-15,1
 	mir = 1,1,1
@@ -20502,7 +20612,7 @@ PART
 	part = conformaldecals-flag_4273214744
 	partName = Part
 	persistentId = 2734080521
-	pos = 1.52740486E-05,27.7643356,-1.5744679
+	pos = 1.52144439E-05,27.7643356,-1.57446826
 	attPos = 0,0,0
 	attPos0 = 1.78813934E-07,0.0298042297,-1.57446063
 	rot = -4.17232428E-07,-1.49011626E-07,4.3711335E-08,1.00000012
@@ -20639,7 +20749,7 @@ PART
 	part = conformaldecals-flag_4275485610
 	partName = Part
 	persistentId = 2686294113
-	pos = 1.47972114E-05,27.7643356,1.5744611
+	pos = 1.46780021E-05,27.7643356,1.5744617
 	attPos = 0,0,0
 	attPos0 = 5.96046448E-08,0.0298042297,1.57446063
 	rot = -4.37114061E-08,1.00000012,4.17232457E-07,1.49011598E-07
@@ -21440,8 +21550,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.277163863, 0.00100000005, 0.438104928)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -21551,6 +21659,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -21613,8 +21778,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.6901961,1,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -21819,8 +21984,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 0.448689312, 0.233906388)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -21930,6 +22093,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -21992,8 +22212,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Metal
-		persistentData = 0.9254902,0.9254902,0.9254902,0.6901961,1,1;0.1803922,0.1803922,0.1803922,0.6901961,1,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -22202,8 +22422,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.300000012, 2.53299713, 0.300000012)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -22313,6 +22531,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -22392,8 +22667,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Foil-Default
-		persistentData = 0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -22575,8 +22850,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 2.53728509, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -22686,6 +22959,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -22765,8 +23095,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Foil-Default
-		persistentData = 0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -22948,8 +23278,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.150000066, 2.53913903, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -23059,6 +23387,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -23138,8 +23523,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Foil-Default
-		persistentData = 0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -23270,7 +23655,7 @@ PART
 	pos = 0.254839361,43.9074287,-0.147129327
 	attPos = 0,0.619575083,0
 	attPos0 = 0.254824251,-0.0141410828,-0.147123024
-	rot = 0.00309004891,0.499996781,0.00178404024,-0.866019905
+	rot = 0.00309004984,0.499996781,0.00178404071,-0.866019905
 	attRot = 0,0,0,1
 	attRot0 = 0.00309004844,0.499996781,0.00178404001,-0.866019905
 	mir = 1,1,1
@@ -23321,8 +23706,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.57545507, 2.53615022, 0.00100000005)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -23432,6 +23815,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -23511,8 +23951,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Foil-Default
-		persistentData = 0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -23694,8 +24134,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.299999982, 2.5327456, 0.336150706)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -23805,6 +24243,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -23884,8 +24379,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Foil-Default
-		persistentData = 0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -24067,8 +24562,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 2.53089166, 0.595951676)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -24178,6 +24671,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -24257,8 +24807,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Foil-Default
-		persistentData = 0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
@@ -24440,8 +24990,6 @@ PART
 	{
 		name = ProceduralPart
 		isEnabled = True
-		tempColliderCenter = (0, 0, 0)
-		tempColliderSize = (0.00100000005, 2.53388047, 0.17712079)
 		forceLegacyTextures = False
 		textureSet = Original
 		capTextureIndex = 0
@@ -24551,6 +25099,63 @@ PART
 	}
 	MODULE
 	{
+		name = ProceduralShapeHollowCylinder
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowCone
+		isEnabled = False
+		topInnerDiameter = 0.5
+		topOuterDiameter = 1
+		bottomInnerDiameter = 0.5
+		bottomOuterDiameter = 1.25
+		length = 0.5
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ProceduralShapeHollowPill
+		isEnabled = False
+		innerDiameter = 0.5
+		outerDiameter = 1
+		length = 0.75
+		fillet = 0.25
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
 		name = GeometryPartModule
 		isEnabled = True
 		stagingEnabled = True
@@ -24630,8 +25235,8 @@ PART
 	{
 		name = KSPTextureSwitch
 		isEnabled = True
-		currentTextureSet = Foil-Default
-		persistentData = 0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1;0.8313726,0.6862745,0.2156863,0.6901961,1,1
+		currentTextureSet = CustomEnds
+		persistentData = 0.7058824,0.7058824,0.7058824,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1;0.9254902,0.9254902,0.9254902,0.1254902,0,1
 		stagingEnabled = True
 		EVENTS
 		{
