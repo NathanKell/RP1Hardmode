@@ -7137,7 +7137,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 533894188.28579271
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -7565,7 +7565,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 533894188.28579271
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -8944,9 +8944,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1241.74902
-		initialFlightData = 3241.74902
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -9500,9 +9500,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 1241.74902
-		initialFlightData = 3241.74902
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -12055,8 +12055,6 @@ PART
 	modMass = 5.66028309
 	modSize = 0,0,0
 	link = ROE-J2_4276173282
-	link = conformaldecals-text_4276164254
-	link = conformaldecals-text_4276164166
 	link = proceduralAvionics_4276164078
 	link = RV105.2xlateral.1xdown_4276163916
 	link = RV105.2xlateral.1xdown_4276163836
@@ -12068,6 +12066,10 @@ PART
 	link = sepMotorSmall_4276163344
 	link = sepMotorSmall_4276163260
 	link = sepMotorSmall_4276163176
+	link = conformaldecals-text_4276164254
+	link = conformaldecals-text_4285660822
+	link = conformaldecals-text_4285660736
+	link = conformaldecals-text_4285660650
 	attN = top,proceduralAvionics_4276164078_0|7.17247581|0_0|1|0_0|7.17247581|0_0|1|0
 	attN = bottom,ROE-J2_4276173282_0|-7.17247629|0_0|-1|0_0|-7.17247629|0_0|-1|0
 	attN = noseinterstage,SSTUHollowRing.Interstage_4276173788_0|6.12091589|0_0|1|0_0|6.12091589|0_0|1|0
@@ -12154,7 +12156,7 @@ PART
 		currentMountRotation = 0
 		currentVariant = Hydrolox
 		currentNose = Adapter-Dome-B
-		currentCore = 2.5x-Hydrolox
+		currentCore = 6.5x-Hydrolox
 		currentMount = Mount-S-IVB
 		currentNoseTexture = ROT-Dome-Metallic
 		currentCoreTexture = ROT-Kero-Stripes4-Stringers
@@ -12730,9 +12732,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 5379.25
-		initialFlightData = 5379.25
-		missionStartTime = 533894188.28579271
+		currentFlightData = 7954.875
+		initialFlightData = 7954.875
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14399,9 +14401,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -14844,9 +14846,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15013,7 +15015,7 @@ PART
 	part = sepMotor1_4276164422
 	partName = Part
 	persistentId = 770229852
-	pos = -1.59054017,21.8505669,1.59056222
+	pos = -1.59054053,21.8505669,1.59056258
 	attPos = -4.76835169E-07,-0.215553284,6.91413879E-06
 	attPos0 = -1.59049976,6.31938934,-1.59049916
 	rot = -0.382683426,1.13271028E-08,0.923879623,3.81470961E-08
@@ -15289,9 +15291,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15458,7 +15460,7 @@ PART
 	part = sepMotor1_4276164338
 	partName = Part
 	persistentId = 44734187
-	pos = 1.59047377,21.8505669,1.59055495
+	pos = 1.59047413,21.8505669,1.59055507
 	attPos = -4.76835169E-07,-0.215553284,6.91413879E-06
 	attPos0 = -1.59049797,6.31938934,1.59049571
 	rot = 0.382683754,-2.212815E-08,0.923879504,4.26210072E-08
@@ -15734,9 +15736,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -15896,298 +15898,6 @@ PART
 		hideFlow = False
 		isVisible = True
 		flowMode = Both
-	}
-}
-PART
-{
-	part = conformaldecals-text_4276164254
-	partName = Part
-	persistentId = 1352263319
-	pos = -2.32346845,33.2150764,4.99560847E-05
-	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
-	attPos0 = -2.32341671,-0.714069366,4.18627678E-07
-	rot = 4.01456646E-13,0.707107902,-3.87245791E-13,0.707105577
-	attRot = 0,0,0,1
-	attRot0 = 3.49422287E-13,0.707107782,-3.49423236E-13,0.707105875
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4276164166
-	srfN = srfAttach,ROT-GenericTank-Integral_4276173504,SC-TANK-B-2-5-Collider,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = True
-		lineSpacing = -20.0000458
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = True
-		outlineWidth = 0.100000001
-		scale = 0.649999976
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = USA
-		fontName = amarurgt SDF
-		style = 0
-		fillColor = #ff0000ff
-		outlineColor = #000000ff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		internalDamage = 0
-		stagingEnabled = True
-		damageCube = 0, 0, 0, 0, 0, 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-}
-PART
-{
-	part = conformaldecals-text_4276164166
-	partName = Part
-	persistentId = 4222980042
-	pos = 2.32340217,33.2150764,4.87937941E-05
-	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
-	attPos0 = 2.32341671,-0.714069366,-6.21746949E-07
-	rot = -3.26849658E-13,0.707105577,-2.98427949E-13,-0.707107902
-	attRot = 0,0,0,1
-	attRot0 = -3.49423263E-13,0.707105815,-3.4942226E-13,-0.707107842
-	mir = 1,1,1
-	symMethod = Radial
-	autostrutMode = Off
-	rigidAttachment = False
-	istg = 2
-	resPri = 0
-	dstg = 4
-	sidx = -1
-	sqor = -1
-	sepI = 2
-	attm = 1
-	sameVesselCollision = False
-	modCost = 0
-	modMass = 0
-	modSize = 0,0,0
-	sym = conformaldecals-text_4276164254
-	srfN = srfAttach,ROT-GenericTank-Integral_4276173504,SC-TANK-B-2-5-Collider,0|0|0.100000001,0|0|-1,0|0|0.100000001
-	EVENTS
-	{
-	}
-	ACTIONS
-	{
-		ToggleSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		SetSameVesselInteraction
-		{
-			actionGroup = None
-		}
-		RemoveSameVesselInteraction
-		{
-			actionGroup = None
-		}
-	}
-	PARTDATA
-	{
-	}
-	MODULE
-	{
-		name = ModuleConformalText
-		isEnabled = True
-		vertical = True
-		lineSpacing = -20.0000458
-		charSpacing = 0
-		fillEnabled = True
-		outlineEnabled = True
-		outlineWidth = 0.100000001
-		scale = 0.649999976
-		depth = 0.200000003
-		opacity = 1
-		cutoff = 0.5
-		wear = 100
-		projectMultiple = False
-		stagingEnabled = True
-		text = USA
-		fontName = amarurgt SDF
-		style = 0
-		fillColor = #ff0000ff
-		outlineColor = #000000ff
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARAeroPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = FARPartModule
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleAeroReentry
-		isEnabled = True
-		dead = False
-		crashTolerance = 8
-		internalDamage = 0
-		stagingEnabled = True
-		damageCube = 0, 0, 0, 0, 0, 0
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = ModuleShowInfo
-		isEnabled = True
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-		}
-		UPGRADESAPPLIED
-		{
-		}
 	}
 }
 PART
@@ -17675,7 +17385,7 @@ PART
 	persistentId = 111619006
 	pos = -3.19510691E-05,28.5436306,2.22074437
 	attPos = 0,0,0
-	attPos0 = 1.13686838E-13,-5.38550949,2.22068024
+	attPos0 = 4.76837158E-07,-5.3855114,2.22069478
 	rot = -3.1768316E-08,-0.707107008,-3.17683551E-08,-0.70710665
 	attRot = 0,0,0,1
 	attRot0 = -3.17683622E-08,-0.707106769,-3.17683657E-08,-0.707106888
@@ -17918,8 +17628,8 @@ PART
 	persistentId = 1157316312
 	pos = 2.22066283,28.5436306,4.94792475E-05
 	attPos = 0,0,0
-	attPos0 = 2.22068024,-5.38550949,1.32362402E-07
-	rot = -4.49270843E-08,-1,1.88291477E-14,-1.78813934E-07
+	attPos0 = 2.2206955,-5.3855114,-1.1920929E-07
+	rot = -4.49270772E-08,-1,2.06055045E-14,-1.78813934E-07
 	attRot = 0,0,0,1
 	attRot0 = -4.49272441E-08,-1,-1.33970119E-15,-8.42936956E-08
 	mir = 1,1,1
@@ -18161,7 +17871,7 @@ PART
 	persistentId = 1897326763
 	pos = -3.20702784E-05,28.5436306,-2.22064924
 	attPos = 0,0,0
-	attPos0 = -1.94138352E-07,-5.38550949,-2.22068024
+	attPos0 = 3.57627869E-07,-5.3855114,-2.22069883
 	rot = -3.17683337E-08,-0.70710665,3.17683728E-08,0.707107008
 	attRot = 0,0,0,1
 	attRot0 = -3.17683622E-08,-0.707106829,3.17683622E-08,0.707106829
@@ -18404,7 +18114,7 @@ PART
 	persistentId = 552047024
 	pos = -2.22072721,28.5436306,5.04329219E-05
 	attPos = 0,0,0
-	attPos0 = -2.22067976,-5.38550949,1.32362402E-07
+	attPos0 = -2.22069454,-5.3855114,8.04662704E-07
 	rot = -2.06055045E-14,-1.78813934E-07,4.49272086E-08,1
 	attRot = 0,0,0,1
 	attRot0 = -1.33970119E-15,-8.42937027E-08,4.49272548E-08,1
@@ -18647,8 +18357,8 @@ PART
 	persistentId = 41138044
 	pos = -0.887921035,26.9711037,0.887937844
 	attPos = 0,0,0
-	attPos0 = -0.887879848,-6.95803833,0.887879729
-	rot = 0.137248039,-0.862417102,-0.331346035,-0.357224822
+	attPos0 = -0.887888491,-6.95803833,0.887888253
+	rot = 0.137247995,-0.862417102,-0.331346035,-0.357224822
 	attRot = 0,0,0,1
 	attRot0 = 0.137248129,-0.862416983,-0.331346244,-0.357224822
 	mir = 1,1,1
@@ -19106,7 +18816,7 @@ PART
 	persistentId = 3259426371
 	pos = 0.887856364,26.9711037,-0.887839496
 	attPos = 0,0,0
-	attPos0 = 0.887879789,-6.95803833,-0.887879789
+	attPos0 = 0.887888908,-6.95803833,-0.887889028
 	rot = -0.331346363,-0.357225001,-0.137248427,0.862416863
 	attRot = 0,0,0,1
 	attRot0 = -0.331346273,-0.357224822,-0.137248129,0.862416983
@@ -19565,8 +19275,8 @@ PART
 	persistentId = 1600112539
 	pos = 1.5912143,39.8841934,-1.59119725
 	attPos = 0,0,0
-	attPos0 = 1.59123266,5.95505142,-1.5912323
-	rot = -0.923879504,1.53998045E-07,-0.382683456,-3.71783671E-07
+	attPos0 = 1.59124684,5.95505142,-1.59124684
+	rot = -0.923879504,1.53998073E-07,-0.382683456,-3.71783614E-07
 	attRot = 0,0,0.99999994,0
 	attRot0 = -0.923879504,1.53997931E-07,-0.382683396,-3.71783898E-07
 	mir = 1,1,1
@@ -19839,9 +19549,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -20010,7 +19720,7 @@ PART
 	persistentId = 2356826580
 	pos = -1.59127784,39.8841934,-1.59119666
 	attPos = 0,0,0
-	attPos0 = -1.59123206,5.95505142,-1.5912323
+	attPos0 = -1.59124541,5.95505142,-1.59124625
 	rot = -0.923879564,-1.53997803E-07,0.382683307,-3.71783585E-07
 	attRot = 0,0,0.99999994,0
 	attRot0 = -0.923879504,-1.53997931E-07,0.382683396,-3.71783926E-07
@@ -20284,9 +19994,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -20455,8 +20165,8 @@ PART
 	persistentId = 4079751784
 	pos = -1.59127867,39.8841934,1.59129596
 	attPos = 0,0,0
-	attPos0 = -1.59123218,5.95505142,1.5912323
-	rot = -0.382683456,-3.71783614E-07,0.923879504,-1.53997917E-07
+	attPos0 = -1.59124613,5.95505142,1.59124625
+	rot = -0.382683456,-3.71783557E-07,0.923879504,-1.53997945E-07
 	attRot = 0,0,0.99999994,0
 	attRot0 = -0.382683396,-3.71783955E-07,0.923879504,-1.53997931E-07
 	mir = 1,1,1
@@ -20729,9 +20439,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -20900,7 +20610,7 @@ PART
 	persistentId = 2577499567
 	pos = 1.59121501,39.8841934,1.59129584
 	attPos = 0,0,0
-	attPos0 = 1.5912323,5.95505142,1.59123206
+	attPos0 = 1.59124744,5.95505142,1.59124625
 	rot = 0.382683307,-3.71783955E-07,0.923879564,1.53997917E-07
 	attRot = 0,0,0.99999994,0
 	attRot0 = 0.382683396,-3.71783926E-07,0.923879504,1.53997931E-07
@@ -21174,9 +20884,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 9413.19824
-		initialFlightData = 9413.19824
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25088,9 +24798,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25292,7 +25002,7 @@ PART
 	pos = -3.26290174E-05,6.98116684,-1.8000114
 	attPos = -0.630450368,0.877864838,1.87754574E-06
 	attPos0 = 1.80005145,-8.55001068,3.60607964E-06
-	rot = -4.45536585E-07,0.707107008,-1.50509237E-07,0.70710665
+	rot = -4.45536529E-07,0.707107008,-1.50509223E-07,0.70710665
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 2.52327254E-07,3.27825518E-07,4.21468656E-07,-1
 	mir = 1,1,1
@@ -25646,9 +25356,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25847,7 +25557,7 @@ PART
 	part = ROE-H1D_4275187862
 	partName = Part
 	persistentId = 3927135595
-	pos = -1.80009949,6.98116684,4.76017012E-05
+	pos = -1.80009925,6.98116684,4.75122943E-05
 	attPos = 2.38418511E-06,0.877864838,0.630449176
 	attPos0 = 3.57627732E-06,-8.55001068,-1.80005682
 	rot = -3.77757033E-07,0.99999994,2.52327482E-07,-4.17232513E-07
@@ -26204,9 +25914,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26405,10 +26115,10 @@ PART
 	part = ROE-H1D_4275187660
 	partName = Part
 	persistentId = 2274467859
-	pos = -3.32250638E-05,6.98116684,1.80011642
+	pos = -3.32846685E-05,6.98116684,1.80011642
 	attPos = 0.630449533,0.877864838,-3.18884736E-06
 	attPos0 = -1.80005622,-8.55001068,-1.66892949E-06
-	rot = -8.86914506E-08,0.70710665,5.07352922E-07,-0.707107008
+	rot = -8.86913938E-08,0.70710665,5.07352752E-07,-0.707107008
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 4.21468428E-07,-1,-2.52327197E-07,-2.38418522E-07
 	mir = 1,1,1
@@ -26762,9 +26472,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26966,7 +26676,7 @@ PART
 	pos = 1.80003059,6.98116684,4.76911082E-05
 	attPos = -3.09944062E-06,0.877864838,-0.630449891
 	attPos0 = -4.76836988E-07,-8.55001068,1.80005538
-	rot = 2.52327453E-07,-4.17232513E-07,4.65179994E-07,-0.99999994
+	rot = 2.52327453E-07,-4.17232513E-07,4.65179937E-07,-0.99999994
 	attRot = 0,0.707106769,0,0.707106769
 	attRot0 = 1.19600941E-07,-0.707106948,-4.76445706E-07,0.70710659
 	mir = 1,1,1
@@ -27320,9 +27030,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 2000
-		missionStartTime = 533894188.28579271
+		currentFlightData = 10000
+		initialFlightData = 10000
+		missionStartTime = 595541403.30348289
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -27521,10 +27231,10 @@ PART
 	part = conformaldecals-text_4276171204
 	partName = Part
 	persistentId = 284476065
-	pos = -3.86028587E-05,15.997551,-2.30859447
+	pos = -3.84836494E-05,15.997551,-2.30859423
 	attPos = 9.53674316E-07,0.0851402283,-1.78813849E-07
 	attPos0 = 2.308635,0.381233215,-4.17232371E-07
-	rot = 2.08614679E-07,6.55651093E-07,4.37116121E-08,-1.00000012
+	rot = 2.08614637E-07,5.96046448E-07,4.37115837E-08,-0.99999994
 	attRot = 0,0,0,1
 	attRot0 = -1.47512665E-07,-0.707107663,-1.47513049E-07,0.707105994
 	mir = 1,1,1
@@ -27669,10 +27379,10 @@ PART
 	part = conformaldecals-text_4274158174
 	partName = Part
 	persistentId = 4185548080
-	pos = -2.3086803,15.997551,5.20422473E-05
+	pos = -2.30868077,15.997551,5.21018519E-05
 	attPos = 0,0.0851402283,-1.90734863E-06
 	attPos0 = -3.57627755E-07,0.381233215,-2.308635
-	rot = 1.16604376E-07,-0.707106352,-1.16604284E-07,-0.707107127
+	rot = 1.16604376E-07,-0.707106352,-1.16604312E-07,-0.707107127
 	attRot = 0,0,0,1
 	attRot0 = -2.08614651E-07,-1.07288361E-06,-2.38709822E-13,1
 	mir = 1,1,1
@@ -27817,10 +27527,10 @@ PART
 	part = conformaldecals-text_4274158088
 	partName = Part
 	persistentId = 2406189685
-	pos = -3.07350456E-05,15.997551,2.30869865
+	pos = -3.12118827E-05,15.997551,2.30869865
 	attPos = -2.38418579E-06,0.0851402283,7.1525551E-07
 	attPos0 = -2.308635,0.381233215,1.19209247E-07
-	rot = -4.37112924E-08,-0.99999994,-2.08614509E-07,-5.96046448E-07
+	rot = -4.37113066E-08,-1.00000012,-2.08614523E-07,-6.55651093E-07
 	attRot = 0,0,0,1
 	attRot0 = -1.47513035E-07,0.707105994,1.47512694E-07,0.707107663
 	mir = 1,1,1
@@ -28449,7 +28159,7 @@ PART
 	part = AM.MLP.SaturnLaunchStandPedestal_4276169854
 	partName = Part
 	persistentId = 4196939079
-	pos = 13.4436903,-3.81399918,3.7409307E-05
+	pos = 13.4436951,-3.81399918,3.64556327E-05
 	attPos = 9.72747803E-05,-0.544365883,-1.33514332E-05
 	attPos0 = 13.4435062,1.61000252,9.53674203E-07
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -28594,7 +28304,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerMedium_4276169768
 	partName = Part
 	persistentId = 1436097292
-	pos = 13.4437027,6.9729805,3.71708884E-05
+	pos = 13.4437065,6.9729805,3.71708884E-05
 	attPos = 0,0,0
 	attPos0 = 5.72204453E-06,10.7869978,-9.53673975E-07
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -28814,7 +28524,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerMediumSec1_4276169604
 	partName = Part
 	persistentId = 3461181249
-	pos = 13.4437027,24.8439846,4.12240042E-05
+	pos = 13.4437084,24.8439846,4.21776786E-05
 	attPos = 0,0,0
 	attPos0 = 3.81469772E-06,17.8709984,9.53674203E-07
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -29034,7 +28744,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerMediumSec1_4276169170
 	partName = Part
 	persistentId = 997299956
-	pos = 13.4437189,36.9189758,3.78861441E-05
+	pos = 13.4437246,36.9189758,3.81245627E-05
 	attPos = 0,0,0
 	attPos0 = 6.67572067E-06,12.0750046,0
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -29255,7 +28965,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerMediumSec1_4276168736
 	partName = Part
 	persistentId = 173587183
-	pos = 13.4437256,48.9939995,4.12240042E-05
+	pos = 13.4437313,48.9939995,4.05087485E-05
 	attPos = 0,0,0
 	attPos0 = 6.67571703E-06,12.0750046,0
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -29476,7 +29186,7 @@ PART
 	part = AM.MLP.GeneralServiceTowerMediumTop_4276168302
 	partName = Part
 	persistentId = 3571305101
-	pos = 13.4437189,57.0440178,4.09855857E-05
+	pos = 13.4437246,57.0440178,4.21776786E-05
 	attPos = 0,0,0
 	attPos0 = 5.72204317E-06,8.05000305,-1.90734738E-06
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -29685,7 +29395,7 @@ PART
 	part = AM.MLP.GeneralTowerSwingArmMedium_4276168174
 	partName = Part
 	persistentId = 3593151060
-	pos = 10.57442,49.7455063,4.57539572E-05
+	pos = 10.5744228,49.7455063,4.50387015E-05
 	attPos = 5.7220459E-06,0.75151825,9.53673691E-07
 	attPos0 = -2.86923075,0,0
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -30130,7 +29840,7 @@ PART
 	part = AM.MLP.GeneralUmbilicalDropLarge_4276167372
 	partName = Part
 	persistentId = 3604111889
-	pos = 9.83145905,48.3924484,4.40850272E-05
+	pos = 9.83146191,48.3924484,4.40850272E-05
 	attPos = 3.81469727E-06,-2.61404419,0
 	attPos0 = -3.6121788,2.01250458,9.53673691E-07
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -30439,7 +30149,7 @@ PART
 	part = AM.MLP.GeneralTowerSwingArmMedium_4276167184
 	partName = Part
 	persistentId = 742795394
-	pos = 10.5744085,40.1713181,3.93166556E-05
+	pos = 10.5744104,40.1713181,3.86013999E-05
 	attPos = 4.76837158E-06,-0.772666931,0
 	attPos0 = -2.86923003,4.02500153,9.53673805E-07
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -30884,7 +30594,7 @@ PART
 	part = AM.MLP.GeneralUmbilicalDropLarge_4276166382
 	partName = Part
 	persistentId = 1350982520
-	pos = 9.83145046,38.931488,4.76613059E-05
+	pos = 9.83145142,38.931488,4.71844687E-05
 	attPos = 0,0,0
 	attPos0 = -2.41380215,2.01250458,9.53673805E-07
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -31201,7 +30911,7 @@ PART
 	part = AM.MLP.GeneralTowerSwingArmMedium_4276166194
 	partName = Part
 	persistentId = 1731281389
-	pos = 10.574419,28.1853104,3.93166556E-05
+	pos = 10.57442,28.1853104,3.83629813E-05
 	attPos = 4.76837158E-06,-0.683681488,0
 	attPos0 = -2.86923122,4.02500153,9.53674203E-07
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -31646,7 +31356,7 @@ PART
 	part = AM.MLP.GeneralTowerSwingArmMedium_4276165392
 	partName = Part
 	persistentId = 85176866
-	pos = 10.5744019,22.2279472,4.00319113E-05
+	pos = 10.5744038,22.2279472,3.83629813E-05
 	attPos = 3.81469727E-06,1.40896225,9.53674203E-07
 	attPos0 = -2.86923218,13.8460035,0
 	rot = -1.95399252E-14,-8.54117297E-22,-2.84217094E-14,1.00000012
@@ -32902,6 +32612,598 @@ PART
 		name = ModuleB9PartInfo
 		isEnabled = False
 		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4276164254
+	partName = Part
+	persistentId = 1352263319
+	pos = -1.63897085,32.9637375,-1.6388886
+	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
+	attPos0 = -1.63893855,-0.96540451,-1.63893843
+	rot = 9.16576965E-08,-0.382683456,-3.79658722E-08,-0.923879504
+	attRot = 0,0,0,1
+	attRot0 = 9.16576752E-08,-0.382683456,-3.7965858E-08,-0.923879504
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 2
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4285660822
+	sym = conformaldecals-text_4285660736
+	sym = conformaldecals-text_4285660650
+	srfN = srfAttach,ROT-GenericTank-Integral_4276173504,SC-TANK-B-6-5-Collider,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = True
+		lineSpacing = -20.0000458
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = True
+		outlineWidth = 0.100000001
+		scale = 0.649999976
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = USA
+		fontName = amarurgt SDF
+		style = 0
+		fillColor = #ff0000ff
+		outlineColor = #000000ff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		internalDamage = 0
+		stagingEnabled = True
+		damageCube = 0, 0, 0, 0, 0, 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4285660822
+	partName = Part
+	persistentId = 4148018522
+	pos = -1.63897085,32.9637375,1.63898778
+	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
+	attPos0 = -1.63893831,-0.96540451,1.63893819
+	rot = 3.79658687E-08,-0.923879623,-9.16576752E-08,-0.382683426
+	attRot = 0,0,0,1
+	attRot0 = 3.79658509E-08,-0.923879623,-9.16576752E-08,-0.382683426
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 2
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4285660736
+	sym = conformaldecals-text_4285660650
+	sym = conformaldecals-text_4276164254
+	srfN = srfAttach,ROT-GenericTank-Integral_4276173504,SC-TANK-B-6-5-Collider,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = True
+		lineSpacing = -20.0000458
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = True
+		outlineWidth = 0.100000001
+		scale = 0.649999976
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = USA
+		fontName = amarurgt SDF
+		style = 0
+		fillColor = #ff0000ff
+		outlineColor = #000000ff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		internalDamage = 0
+		stagingEnabled = True
+		damageCube = 0, 0, 0, 0, 0, 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4285660736
+	partName = Part
+	persistentId = 2656313158
+	pos = 1.63890624,32.9637375,1.63898778
+	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
+	attPos0 = 1.63893878,-0.96540451,1.63893843
+	rot = -3.79658438E-08,-0.923879504,-9.16576397E-08,0.382683456
+	attRot = 0,0,0,1
+	attRot0 = -3.7965858E-08,-0.923879504,-9.1657661E-08,0.382683456
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 2
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4285660650
+	sym = conformaldecals-text_4276164254
+	sym = conformaldecals-text_4285660822
+	srfN = srfAttach,ROT-GenericTank-Integral_4276173504,SC-TANK-B-6-5-Collider,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = True
+		lineSpacing = -20.0000458
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = True
+		outlineWidth = 0.100000001
+		scale = 0.649999976
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = USA
+		fontName = amarurgt SDF
+		style = 0
+		fillColor = #ff0000ff
+		outlineColor = #000000ff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		internalDamage = 0
+		stagingEnabled = True
+		damageCube = 0, 0, 0, 0, 0, 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = conformaldecals-text_4285660650
+	partName = Part
+	persistentId = 1060735963
+	pos = 1.63890588,32.9637375,-1.63888907
+	attPos = 1.1920929E-07,-1.11140251,1.78813877E-07
+	attPos0 = 1.63893843,-0.96540451,-1.63893867
+	rot = -9.16576823E-08,-0.382683426,-3.79658154E-08,0.923879623
+	attRot = 0,0,0,1
+	attRot0 = -9.16576823E-08,-0.382683426,-3.79658438E-08,0.923879623
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 4
+	sidx = -1
+	sqor = -1
+	sepI = 2
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	sym = conformaldecals-text_4276164254
+	sym = conformaldecals-text_4285660822
+	sym = conformaldecals-text_4285660736
+	srfN = srfAttach,ROT-GenericTank-Integral_4276173504,SC-TANK-B-6-5-Collider,0|0|0.100000001,0|0|-1,0|0|0.100000001
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = ModuleConformalText
+		isEnabled = True
+		vertical = True
+		lineSpacing = -20.0000458
+		charSpacing = 0
+		fillEnabled = True
+		outlineEnabled = True
+		outlineWidth = 0.100000001
+		scale = 0.649999976
+		depth = 0.200000003
+		opacity = 1
+		cutoff = 0.5
+		wear = 100
+		projectMultiple = False
+		stagingEnabled = True
+		text = USA
+		fontName = amarurgt SDF
+		style = 0
+		fillColor = #ff0000ff
+		outlineColor = #000000ff
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		internalDamage = 0
+		stagingEnabled = True
+		damageCube = 0, 0, 0, 0, 0, 0
 		EVENTS
 		{
 		}
