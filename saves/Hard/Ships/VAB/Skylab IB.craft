@@ -1171,7 +1171,7 @@ PART
 		{
 			BoomAction
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 		}
 		UPGRADESAPPLIED
