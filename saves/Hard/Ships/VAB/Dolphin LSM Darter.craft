@@ -1352,7 +1352,7 @@ PART
 		{
 			StartAction
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 			StopAction
 			{
@@ -6721,11 +6721,11 @@ PART
 			}
 			OnTranslatronPlusOneSpeedAction
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 			OnTranslatronMinusOneSpeedAction
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 			OnTranslatronToggleHSAction
 			{
@@ -6878,11 +6878,11 @@ PART
 		{
 			StartAction
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 			StopAction
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 		}
 		UPGRADESAPPLIED
@@ -7125,7 +7125,7 @@ PART
 		{
 			Action
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 		}
 		UPGRADESAPPLIED

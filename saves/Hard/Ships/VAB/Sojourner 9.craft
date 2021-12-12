@@ -436,7 +436,7 @@ PART
 			}
 			OnTranslatronKeepVertAction
 			{
-				actionGroup = Stage
+				actionGroup = None
 			}
 			OnTranslatronZeroSpeedAction
 			{
