@@ -1,9 +1,9 @@
 vesselCount = 44
-UT = 696390903.69827271
+UT = 696391035.49814701
 gameMode = CAREER
 gameNull = False
 gameCompatible = True
-funds = 7307689.2934541022
+funds = 6943329.614821054
 science = 15585
 reputationPercent = 90
 ongoingContracts = 3
@@ -13,4 +13,4 @@ missionIsEnded = False
 missionHistoryId = 00000000-0000-0000-0000-000000000000
 missionExpansionVersion = 
 saveMD5 = 
-lastWriteTime = 637810320475906668
+lastWriteTime = 637811132185899151
