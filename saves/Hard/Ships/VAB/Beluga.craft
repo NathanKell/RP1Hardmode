@@ -36,7 +36,7 @@ PART
 	attm = 0
 	sameVesselCollision = False
 	modCost = 155.276108
-	modMass = 0.0379000008
+	modMass = 0.0398999974
 	modSize = 0,0,0
 	link = ROC-ApolloParachute_4291875268
 	link = ROC-ApolloDrogueParachute_4291881726
@@ -224,7 +224,7 @@ PART
 		isEnabled = True
 		type = ServiceModule
 		utilization = 86
-		mass = 3.12190008
+		mass = 3.12390018
 		_numberOfAddedMLILayers = 0
 		stagingEnabled = True
 		volume = 780
@@ -1298,6 +1298,72 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
+		expState = Running
+		status = Waiting
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = True
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Running
+		status = Waiting
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = True
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
 		expState = Stopped
 		status = Stopped
 		stagingEnabled = True
@@ -1364,74 +1430,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = True
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
-		stagingEnabled = True
-		EVENTS
-		{
-		}
-		ACTIONS
-		{
-			StartAction
-			{
-				actionGroup = None
-			}
-			StopAction
-			{
-				actionGroup = None
-			}
-		}
-		UPGRADESAPPLIED
-		{
-		}
-	}
-	MODULE
-	{
-		name = Experiment
-		isEnabled = True
-		issue = 
-		situationId = 0
-		didPrepare = False
-		shrouded = False
-		remainingSampleMass = 0
-		privateHdId = 0
-		firstStart = True
-		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -1488,8 +1488,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = #<Ion Sensing Altitude Control<Synoptic Terrain Photography<Synoptic Weather Photography
-		prev_cfg = #<Ion Sensing Altitude Control<Synoptic Terrain Photography<Synoptic Weather Photography
+		cfg = #<Ion Sensing Altitude Control;Night Image Intensification<Synoptic Terrain Photography
+		prev_cfg = #<Ion Sensing Altitude Control;Night Image Intensification<Synoptic Terrain Photography
 		stagingEnabled = True
 		EVENTS
 		{
@@ -4330,8 +4330,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 55
-	modMass = -0.00340383966
+	modCost = 60.4290009
+	modMass = -0.00371958409
 	modSize = 0,0,0
 	sym = RCSBlock_4289202050
 	sym = RCSBlock_4289201942
@@ -4454,7 +4454,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -4588,8 +4588,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 55
-	modMass = -0.00340383966
+	modCost = 60.4290009
+	modMass = -0.00371958409
 	modSize = 0,0,0
 	sym = RCSBlock_4289201942
 	sym = RCSBlock_4289201834
@@ -4712,7 +4712,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -4846,8 +4846,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 55
-	modMass = -0.00340383966
+	modCost = 60.4290009
+	modMass = -0.00371958409
 	modSize = 0,0,0
 	sym = RCSBlock_4289201834
 	sym = RCSBlock_4289205090
@@ -4970,7 +4970,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -5104,8 +5104,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 55
-	modMass = -0.00340383966
+	modCost = 60.4290009
+	modMass = -0.00371958409
 	modSize = 0,0,0
 	sym = RCSBlock_4289205090
 	sym = RCSBlock_4289202050
@@ -5228,7 +5228,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -7170,8 +7170,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 159.796005
-	modMass = -0.00320959371
+	modCost = 176.356003
+	modMass = -0.00350731891
 	modSize = 0,0,0
 	sym = RO-2kN-Thruster_4291638622
 	sym = RO-2kN-Thruster_4291638522
@@ -7355,7 +7355,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = maxThrust
 		modded = False
 		stagingEnabled = True
@@ -7489,8 +7489,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 159.796005
-	modMass = -0.00320959371
+	modCost = 176.356003
+	modMass = -0.00350731891
 	modSize = 0,0,0
 	sym = RO-2kN-Thruster_4291638522
 	sym = RO-2kN-Thruster_4291638422
@@ -7666,7 +7666,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = maxThrust
 		modded = False
 		stagingEnabled = True
@@ -7800,8 +7800,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 159.796005
-	modMass = -0.00320959371
+	modCost = 176.356003
+	modMass = -0.00350731891
 	modSize = 0,0,0
 	sym = RO-2kN-Thruster_4291638422
 	sym = RO-2kN-Thruster_4291639444
@@ -7977,7 +7977,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = maxThrust
 		modded = False
 		stagingEnabled = True
@@ -8111,8 +8111,8 @@ PART
 	sepI = 1
 	attm = 1
 	sameVesselCollision = False
-	modCost = 159.796005
-	modMass = -0.00320959371
+	modCost = 176.356003
+	modMass = -0.00350731891
 	modSize = 0,0,0
 	sym = RO-2kN-Thruster_4291639444
 	sym = RO-2kN-Thruster_4291638622
@@ -8288,7 +8288,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = maxThrust
 		modded = False
 		stagingEnabled = True
@@ -8422,8 +8422,8 @@ PART
 	sepI = 1
 	attm = 0
 	sameVesselCollision = False
-	modCost = 1319.49158
-	modMass = -0.729172885
+	modCost = 1652.49158
+	modMass = -0.709672868
 	modSize = 0,0,0
 	link = ROT-OpenInterstage_4289146128
 	attN = top,LFUELM3_4289297204_0|0.0650000051|0_0|1|0_0|0.0650000051|0_0|1|0
@@ -9015,8 +9015,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9714,7 +9714,7 @@ PART
 	MODULE
 	{
 		name = Experiment
-		isEnabled = False
+		isEnabled = True
 		issue = 
 		situationId = 0
 		didPrepare = False
@@ -9723,8 +9723,8 @@ PART
 		privateHdId = 0
 		firstStart = True
 		prodFactor = 0
-		expState = Stopped
-		status = Stopped
+		expState = Running
+		status = Waiting
 		stagingEnabled = True
 		EVENTS
 		{
@@ -9748,8 +9748,8 @@ PART
 	{
 		name = Configure
 		isEnabled = True
-		cfg = $$None&None 2&None 3&None 4
-		prev_cfg = $$None&None 2&None 3&None 4
+		cfg = $7Infrared Spectrometer 3$None&None 3&None 4
+		prev_cfg = $7Infrared Spectrometer 3$None&None 3&None 4
 		stagingEnabled = True
 		EVENTS
 		{
@@ -10185,6 +10185,7 @@ PART
 	link = RO-RFTank-Integral_4290413546
 	link = RO-RFTank-Integral_4290377760
 	link = SSTUHollowRing.Interstage_4287750650
+	link = RO-AdvancedImager_4291836268
 	attN = top,ROT-OpenInterstage_4289146128_0|7.5|0_0|1|0_0|7.5|0_0|1|0
 	attN = bottom,SSTUHollowRing.Interstage_4287750650_0|-7.5|0_0|-1|0_0|-7.5|0_0|-1|0
 	EVENTS
@@ -11033,7 +11034,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -11697,7 +11698,7 @@ PART
 		lastMET = 0
 		currentFlightData = 0
 		initialFlightData = 0
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -18413,8 +18414,8 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 60
-	modMass = -0.0064294748
+	modCost = 66.8570023
+	modMass = -0.00702588074
 	modSize = 0,0,0
 	sym = HeavyRcs_4290415110
 	sym = HeavyRcs_4290415010
@@ -18522,7 +18523,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -18656,8 +18657,8 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 60
-	modMass = -0.0064294748
+	modCost = 66.8570023
+	modMass = -0.00702588074
 	modSize = 0,0,0
 	sym = HeavyRcs_4290415010
 	sym = HeavyRcs_4290414910
@@ -18765,7 +18766,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -18899,8 +18900,8 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 60
-	modMass = -0.0064294748
+	modCost = 66.8570023
+	modMass = -0.00702588074
 	modSize = 0,0,0
 	sym = HeavyRcs_4290414910
 	sym = HeavyRcs_4290455204
@@ -19008,7 +19009,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -19142,8 +19143,8 @@ PART
 	sepI = 2
 	attm = 1
 	sameVesselCollision = False
-	modCost = 60
-	modMass = -0.0064294748
+	modCost = 66.8570023
+	modMass = -0.00702588074
 	modSize = 0,0,0
 	sym = HeavyRcs_4290455204
 	sym = HeavyRcs_4290415110
@@ -19251,7 +19252,7 @@ PART
 		isEnabled = True
 		configuration = MMH+MON3
 		configurationDisplay = MMH+MON3
-		techLevel = 4
+		techLevel = 5
 		thrustRating = thrusterPower
 		modded = False
 		stagingEnabled = True
@@ -25504,7 +25505,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -25949,7 +25950,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26394,7 +26395,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -26839,7 +26840,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -27377,9 +27378,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 699900221.74457717
+		currentFlightData = 3954.94312
+		initialFlightData = 5954.94336
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -32820,9 +32821,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 699900221.74457717
+		currentFlightData = 3954.94312
+		initialFlightData = 5954.94336
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -33408,9 +33409,9 @@ PART
 		isEnabled = True
 		operatingTime = 0
 		lastMET = 0
-		currentFlightData = 0
-		initialFlightData = 0
-		missionStartTime = 699900221.74457717
+		currentFlightData = 3954.94312
+		initialFlightData = 5954.94336
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -34600,7 +34601,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -35179,7 +35180,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -35758,7 +35759,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -36337,7 +36338,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -39562,7 +39563,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -40007,7 +40008,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -40452,7 +40453,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -40897,7 +40898,7 @@ PART
 		lastMET = 0
 		currentFlightData = 10000
 		initialFlightData = 10000
-		missionStartTime = 699900221.74457717
+		missionStartTime = 708314083.63334656
 		activeConfig = 
 		stagingEnabled = True
 		EVENTS
@@ -41276,6 +41277,183 @@ PART
 	MODULE
 	{
 		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleAeroReentry
+		isEnabled = True
+		dead = False
+		crashTolerance = 8
+		internalDamage = 0
+		stagingEnabled = True
+		damageCube = 0, 0, 0, 0, 0, 0
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleShowInfo
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+}
+PART
+{
+	part = RO-AdvancedImager_4291836268
+	partName = Part
+	persistentId = 3314525206
+	pos = 0.000898942351,88.9448242,0.0283815265
+	attPos = -1.45185268,-2.26402283,0.389022678
+	attPos0 = 1.45185268,-5.1359787,-0.389022678
+	rot = 0,0,-1,4.37113918E-08
+	attRot = 0.560297966,-0.430986464,-0.42993179,0.56167239
+	attRot0 = 0,0,-1,4.37113918E-08
+	mir = 1,1,1
+	symMethod = Radial
+	autostrutMode = Off
+	rigidAttachment = False
+	istg = 2
+	resPri = 0
+	dstg = 2
+	sidx = -1
+	sqor = -1
+	sepI = 2
+	attm = 1
+	sameVesselCollision = False
+	modCost = 0
+	modMass = 0
+	modSize = 0,0,0
+	srfN = srfAttach,RO-RFTank-Integral_4290857410,collisionMesh,0|0|0,0|-1|0,0|0|0
+	attN = bottom,Null_0_0|0|0_0|-1|0_0|0|0_0|-1|0
+	EVENTS
+	{
+	}
+	ACTIONS
+	{
+		ToggleSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		SetSameVesselInteraction
+		{
+			actionGroup = None
+		}
+		RemoveSameVesselInteraction
+		{
+			actionGroup = None
+		}
+	}
+	PARTDATA
+	{
+	}
+	MODULE
+	{
+		name = GeometryPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARAeroPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = FARPartModule
+		isEnabled = True
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = Experiment
+		isEnabled = True
+		issue = 
+		situationId = 0
+		didPrepare = False
+		shrouded = False
+		remainingSampleMass = 0
+		privateHdId = 0
+		firstStart = True
+		prodFactor = 0
+		expState = Running
+		status = Waiting
+		stagingEnabled = True
+		EVENTS
+		{
+		}
+		ACTIONS
+		{
+			StartAction
+			{
+				actionGroup = None
+			}
+			StopAction
+			{
+				actionGroup = None
+			}
+		}
+		UPGRADESAPPLIED
+		{
+		}
+	}
+	MODULE
+	{
+		name = ModuleTagList
 		isEnabled = True
 		stagingEnabled = True
 		EVENTS
